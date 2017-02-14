@@ -1,5 +1,5 @@
 .content {
-  margin-top: 50px;
+  margin-top: 110px;
 }
 .undecorated-link:hover {
   text-decoration: none;
@@ -32,4 +32,64 @@ a:hover .header-profile-image {
 .user-header-dropdown-toggle {
   padding-top: 11px !important;
   padding-bottom: 11px !important;
+}
+
+.super-header {
+  background: #999857;
+  height: 34px;
+  width: 100%;
+  font-family: Verdana;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.super-header a {
+  color: #FFF;
+  width: 100%;
+}
+
+.navbar-inverse .navbar-collapse, .nav-main, .navbar-inverse {
+  background: #FFF;
+}
+
+.nav-main {
+  height: 76px;
+}
+
+.navbar-header-menu li {
+  top: 12px;
+}
+
+.navbar-header-menu li .item-menu {
+  font-family: Verdana, sans-serif;
+  color: #83822f !important;
+  font-size: 18px;
+}
+
+.navbar-header-menu li .item-menu:hover {
+  border-top: 3px solid #83822f;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 7px;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navbar-header-menu li .item-menu-especial {
+  font-family: Verdana, sans-serif;
+  color: #fff !important;
+  font-size: 18px;
+  background: #b6b832;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.navbar-header-menu li .item-menu-especial:hover {
+  color: #fff !important;
+  background: #b6b832 !important;
+  margin-left: 5px;
 }

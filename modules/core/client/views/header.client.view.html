@@ -1,12 +1,17 @@
+<div class="super-header">
+  <a href="http://www.regionlima.gob.pe" target="_blank">http://www.regionlima.gob.pe</a>
+</div>
 <div class="container" data-ng-controller="HeaderController">
-  <div class="navbar-header">
+  <div class="navbar-header nav-main">
     <button class="navbar-toggle" type="button" data-ng-click="toggleCollapsibleMenu()">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a data-ui-sref="home" class="navbar-brand">MEAN.JS</a>
+    <a data-ui-sref="home" class="navbar-brand">
+      <img style="max-height: 46px;" src="modules/core/img/brand/logo.png">
+    </a>
   </div>
   <nav class="collapse navbar-collapse" collapse="!isCollapsed" role="navigation">
     <ul class="nav navbar-nav" data-ng-if="menu.shouldRender(authentication.user);">
@@ -20,7 +25,26 @@
         <a ng-switch-default data-ui-sref="{{item.state}}" data-ng-bind="item.title"></a>
       </li>
     </ul>
-    <ul class="nav navbar-nav navbar-right" data-ng-hide="authentication.user">
+    <ul class="nav navbar-nav navbar-header-menu navbar-right">
+      <li data-ui-sref-active="active">
+        <a class="item-menu" data-ui-sref="authentication.signup">Quiénes Somos</a>
+      </li>
+      <li data-ui-sref-active="active">
+        <a class="item-menu" data-ui-sref="authentication.signin">Agenda</a>
+      </li>
+      <li data-ui-sref-active="active">
+        <a class="item-menu" data-ui-sref="authentication.signin">Galería</a>
+      </li>
+      <li data-ui-sref-active="active">
+        <a class="item-menu-especial" data-ui-sref="authentication.signin">SISGEDO</a>
+      </li>
+      <li data-ui-sref-active="active">
+        <a class="item-menu-especial" data-ui-sref="authentication.signin">CORREO</a>
+      </li>
+      <li class="divider-vertical"></li>
+    </ul>
+    <!--
+    <ul class="nav navbar-nav navbar-header-menu navbar-right" data-ng-hide="authentication.user">
       <li data-ui-sref-active="active">
         <a data-ui-sref="authentication.signup">Sign Up</a>
       </li>
@@ -55,5 +79,6 @@
         </ul>
       </li>
     </ul>
+    -->
   </nav>
 </div>
