@@ -14,7 +14,7 @@
     </a>
   </div>
   <nav class="collapse navbar-collapse navbar-static-top" collapse="!isCollapsed" role="navigation">
-    <ul class="nav navbar-nav" data-ng-if="menu.shouldRender(authentication.user);">
+    <ul class="nav navbar-nav navbar-header-menu navbar-right">
       <li data-ng-repeat="item in menu.items | orderBy: 'position'" data-ng-if="item.shouldRender(authentication.user);" ng-switch="item.type" data-ng-class="{ active: $state.includes(item.state), dropdown: item.type === 'dropdown' }" class="{{item.class}}" dropdown="item.type === 'dropdown'">
         <a ng-switch-when="dropdown" class="dropdown-toggle" dropdown-toggle role="button">{{::item.title}}&nbsp;<span class="caret"></span></a>
         <ul ng-switch-when="dropdown" class="dropdown-menu">
@@ -22,30 +22,33 @@
             <a data-ui-sref="{{subitem.state}}" data-ng-bind="subitem.title"></a>
           </li>
         </ul>
+        <a ng-switch-when="item" class="item-menu" data-ui-sref="{{item.state}}" data-ng-bind="item.title"></a>
         <a ng-switch-default data-ui-sref="{{item.state}}" data-ng-bind="item.title"></a>
       </li>
+    <!--
     </ul>
     <ul class="nav navbar-nav navbar-header-menu navbar-right">
-      <li data-ui-sref-active="active">
-        <a class="item-menu" data-ui-sref="authentication.signup">Quiénes Somos</a>
+      <li>
+        <a class="item-menu" ng-class='class' ng-href="/quienes-somos">¿Quiénes Somos?</a>
       </li>
-      <li data-ui-sref-active="active">
+      <li>
         <a class="item-menu" data-ui-sref="authentication.signin">Agenda</a>
       </li>
-      <li data-ui-sref-active="active">
+      <li>
         <a class="item-menu" data-ui-sref="authentication.signin">Galería</a>
       </li>
-      <li data-ui-sref-active="active">
+      <li>
         <a class="item-menu" data-ui-sref="authentication.signin">Transparencia</a>
       </li>
-      <li data-ui-sref-active="active">
+      <li>
         <a class="item-menu-especial" data-ui-sref="authentication.signin">SISGEDO</a>
       </li>
-      <li data-ui-sref-active="active">
+      <li>
         <a class="item-menu-especial" data-ui-sref="authentication.signin">CORREO</a>
       </li>
       <li class="divider-vertical"></li>
     </ul>
+    -->
     <!--
     <ul class="nav navbar-nav navbar-header-menu navbar-right" data-ng-hide="authentication.user">
       <li data-ui-sref-active="active">

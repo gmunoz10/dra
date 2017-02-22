@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('somos')
+    .module('agenda')
     .run(menuConfig);
 
   menuConfig.$inject = ['Menus'];
@@ -10,8 +10,8 @@
   function menuConfig(menuService) {
     // Set top bar menu items
     menuService.addMenuItem('topbar', {
-      title: '¿Quiénes somos?',
-      state: 'somos',
+      title: 'Agenda',
+      state: 'agenda',
       type: 'item',
       isPublic: true
     });
