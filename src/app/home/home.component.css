@@ -1,0 +1,93 @@
+.search-main {
+	background: rgba(255, 255, 255, 0.6);
+	color: black;
+	border: 1px solid white;
+}
+
+.btn-orange {
+	background: #eabf21;
+	color: white;
+}
+
+.box-menu-side {
+	color: white;
+	margin-left: 50px;
+	padding: 20px;
+	padding-top: 15px;
+	text-align: left;
+	background: rgba(0, 0, 0, 0.6);
+	border-top: 7px solid #eabf21;
+	border-bottom: 7px solid #eabf21;
+}
+
+.box-menu-side:after {
+	content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -30px;
+    width: 0;
+    height: 0;
+    border-top: solid 25px #eabf21;
+    border-left: solid 25px transparent;
+    border-right: solid 25px transparent;
+}
+
+.btn-sisgedo, .btn-sisgedo:hover, .btn-sisgedo:focus, .btn-sisgedo:active {
+  background: #85b037;
+  font-weight: bold;
+  color: white;
+}
+
+.form-correo label, .form-correo button {
+	font-weight: bold;
+}
+
+.form-correo input {
+  background: #85b037;
+  color: white;
+  border: none;
+}
+
+.btn-youtube {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	background: #c92d27;
+	color: white;
+	font-size: 28px;
+}
+
+.btn-twitter {
+	position: absolute;
+	top: 215px;
+	left: 60px;
+	background: #00b6f1;
+	color: white;
+	font-size: 28px;
+}
+
+.btn-facebook {
+	position: absolute;
+	top: 295px;
+	left: 60px;
+	background: #3e5c99;
+	color: white;
+	font-size: 28px;
+}
+
+.btn-facebook i {
+	padding-left: 10px;
+}
+
+.box-noticias h3, .box-eventos h3 {
+	color: white;
+}
+
+.box-noticias-eventos {
+	margin-top: 80px;
+}
+
+.carousel-more {
+	background: white;
+}
