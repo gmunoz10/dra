@@ -49,7 +49,7 @@
   border: none;
 }
 
-.btn-youtube {
+.btn-youtube-home {
 	position: absolute;
 	top: 140px;
 	left: 60px;
@@ -58,7 +58,7 @@
 	font-size: 28px;
 }
 
-.btn-twitter {
+.btn-twitter-home {
 	position: absolute;
 	top: 215px;
 	left: 60px;
@@ -67,7 +67,7 @@
 	font-size: 28px;
 }
 
-.btn-facebook {
+.btn-facebook-home {
 	position: absolute;
 	top: 295px;
 	left: 60px;
@@ -76,7 +76,7 @@
 	font-size: 28px;
 }
 
-.btn-facebook i {
+.btn-facebook-home i {
 	padding-left: 10px;
 }
 
