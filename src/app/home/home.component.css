@@ -49,43 +49,13 @@
   border: none;
 }
 
-.btn-youtube-home {
-	position: absolute;
-	top: 140px;
-	left: 60px;
-	background: #c92d27;
-	color: white;
-	font-size: 28px;
-}
-
-.btn-twitter-home {
-	position: absolute;
-	top: 215px;
-	left: 60px;
-	background: #00b6f1;
-	color: white;
-	font-size: 28px;
-}
-
-.btn-facebook-home {
-	position: absolute;
-	top: 295px;
-	left: 60px;
-	background: #3e5c99;
-	color: white;
-	font-size: 28px;
-}
-
-.btn-facebook-home i {
-	padding-left: 10px;
-}
-
 .box-noticias h3, .box-eventos h3 {
 	color: white;
 }
 
 .box-noticias-eventos {
 	margin-top: 80px;
+	margin-bottom: 40px;
 }
 
 .carousel-more {

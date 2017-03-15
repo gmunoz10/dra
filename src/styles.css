@@ -322,6 +322,7 @@ a:hover .header-profile-image {
 }
 
 .main-background {
+  line-height: 0px;
   background-size: cover;
   /*background-position-y: -125px;*/
 }
@@ -422,4 +423,53 @@ a:hover .header-profile-image {
 
 .navbar-inverse .navbar-toggle:focus .icon-bar, .navbar-inverse .navbar-toggle:hover .icon-bar {
     background-color: #fff;
+}
+
+.btn-youtube-home {
+  position: absolute;
+  top: 140px;
+  left: 60px;
+  background: #c92d27;
+  color: white;
+  font-size: 28px;
+}
+
+.btn-twitter-home {
+  position: absolute;
+  top: 215px;
+  left: 60px;
+  background: #00b6f1;
+  color: white;
+  font-size: 28px;
+}
+
+.btn-facebook-home {
+  position: absolute;
+  top: 295px;
+  left: 60px;
+  background: #3e5c99;
+  color: white;
+  font-size: 28px;
+}
+
+.btn-facebook-home i {
+  padding-left: 10px;
+}
+
+.btn-facebook-home:hover, .btn-twitter-home:hover, .btn-youtube-home:hover {
+    color: #fff;
+}
+
+.container-page-header {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.container-page-inner {
+  background: white;
+  margin: 0px;
+  width: 100%;
 }

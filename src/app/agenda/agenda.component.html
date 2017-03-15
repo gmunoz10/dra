@@ -1,31 +1,52 @@
-<section class="container">
+<div class="container-page-header" style="background-image: url('assets/img/background/agenda.jpg');">
+    <button class="btn btn-youtube-home"><i class="fa fa-youtube" aria-hidden="true"></i></button>
+    <button class="btn btn-twitter-home"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+    <button class="btn btn-facebook-home"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+</div>
+<section class="container container-page-inner">
     <section>
-      <div class="page-header page-header-agenda">
-	    <a routerLink="">Inicio</a> / Agenda
-      </div>
-      <div class="col-lg-12 no-padding box-top-agenda">
-          <div class="col-lg-5 col-md-offset-3 no-padding">
-            <h2 class="box-top-title-agenda">Agenda</h2>
-            <button type="button" class="btn btn-twitter btn-circle">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </button>
-            <button type="button" class="btn btn-facebook btn-circle">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </button>
-            <button type="button" class="btn btn-document btn-circle">
-              <i class="fa fa-file" aria-hidden="true"></i>
-            </button>
-            <button type="button" class="btn btn-feed btn-circle">
-              <i class="fa fa-rss" aria-hidden="true"></i>
-            </button>
-            <hr class="box-top-hr-somos">
-            <p>Entérate de la agenda</p>
-          </div>
-      </div>
       <div class="col-lg-8 col-md-offset-2 box-shadow-agenda box-filtro-agenda">
           <div class="col-lg-8 col-md-offset-2 no-padding">
-            <div class="input-group">
+            <div class="input-group box-dependencia">
                 <span class="input-group-addon label-dependencia-agenda">Dependencia:</span>
+                <select class="form-control filter-dependencia">
+                  <option>Presidencia regional</option>
+                  <option>Vicepresidencia</option>
+                  <option>Director general</option>
+                </select>
+            </div>
+            <div class="input-group box-time">
+                <span class="input-group-addon label-mes-agenda">Mes:</span>
+                <select class="form-control filter-mes">
+                  <option selected="true" disabled="true">Seleccionar</option>
+                  <option>Enero</option>
+                  <option>Febrero</option>
+                  <option>Marzo</option>
+                  <option>Abril</option>
+                  <option>Mayo</option>
+                  <option>Junio</option>
+                  <option>Julio</option>
+                  <option>Agosto</option>
+                  <option>Septiembre</option>
+                  <option>Octubre</option>
+                  <option>Noviembre</option>
+                  <option>Diciembre</option>
+                </select>
+                <span class="input-group-addon label-year-agenda">Año:</span>
+                <select class="form-control filter-year">
+                  <option selected="true" disabled="true">Seleccionar</option>
+                  <option>2017</option>
+                  <option>2016</option>
+                  <option>2015</option>
+                  <option>2014</option>
+                  <option>2013</option>
+                  <option>2012</option>
+                  <option>2011</option>
+                  <option>2010</option>
+                </select>
+                <span class="input-group-btn box-search-dependencia">
+                  <button class="btn btn-success">Buscar</button>
+                </span>
             </div>
           </div>
       </div>

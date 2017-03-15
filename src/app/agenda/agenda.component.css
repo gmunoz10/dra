@@ -39,7 +39,10 @@
 }
 
 .box-filtro-agenda {
+  margin-top: 25px;
   padding: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-align: justify;
 }
 
@@ -47,4 +50,50 @@
     background: transparent;
     border: none;
     font-weight: bold;
+}
+
+.filter-dependencia {
+  background: #7a7a7a;
+  color: #d2d0d0;
+}
+
+.label-mes-agenda {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.filter-mes {
+  background: #7a7a7a;
+  color: #d2d0d0;
+}
+
+.filter-mes option:disabled {
+  color: #d2d0d0;
+}
+
+.label-year-agenda {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.filter-year {
+  background: #7a7a7a;
+  color: #d2d0d0;
+}
+
+.filter-year option:disabled {
+  color: #d2d0d0;
+}
+
+.box-time {
+  margin-top: 10px;
+}
+
+.box-search-dependencia button {
+  background: #b6b832;
+  border-color: #b6b832;
+  margin-left: 10px;
+  border-radius: 0px;
 }
