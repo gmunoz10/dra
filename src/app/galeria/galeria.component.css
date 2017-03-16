@@ -1,0 +1,21 @@
+.img-galeria {
+	height: 250px;
+    width: 250px;
+	margin: 15px;
+    object-fit: cover;
+}
+
+.page-inner {
+	color: white;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+	text-decoration: none;
+}
+
+.page-inner:hover {
+	background: white;
+	color: #9b9b9b;
+    border-radius: 10px;
+}

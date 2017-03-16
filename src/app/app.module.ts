@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SomosComponent } from './somos/somos.component';
 import { AgendaComponent } from './agenda/agenda.component';
+import { GaleriaComponent } from './galeria/galeria.component';
 
 import { DataService } from './services/data.service';
 
@@ -19,7 +20,8 @@ import { StringPipe } from './pipes/string-utils.pipe';
 const routing = RouterModule.forRoot([
     { path: '',      component: HomeComponent },
     { path: 'somos', component: SomosComponent },
-    { path: 'agenda', component: AgendaComponent }
+    { path: 'agenda', component: AgendaComponent },
+    { path: 'galeria', component: GaleriaComponent }
 ]);
 
 @NgModule({
@@ -29,7 +31,8 @@ const routing = RouterModule.forRoot([
     ToastComponent,
     StringPipe,
     SomosComponent,
-    AgendaComponent
+    AgendaComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
