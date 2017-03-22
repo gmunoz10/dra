@@ -23,6 +23,11 @@ export class HomeComponent implements OnInit {
   	$('.carousel').carousel({
  	  interval: 2000 // in milliseconds
  	});
+
+
+ 	$(".form-correo").submit(function(event) {
+ 		return true;
+ 	});
   }
 
 }

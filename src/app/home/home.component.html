@@ -15,19 +15,24 @@
   <div class="box-menu-side col-lg-3" style="line-height: 1.42857143;">
     <h2 class="title-sisgedo">Sistema de Gestión Documentaria</h2>
     <p>Puedes encontrar cualquier expediente pinchando en el siguiente botón</p>
-    <button class="btn btn-sisgedo">SISGEDO</button>
+    <a href="http://sisgedo2.regionlima.gob.pe/sisgedonew/app/main.php?_op=1I&_type=L&_nameop=Login%20de%20Acceso" target="_blank" class="btn btn-sisgedo" >SISGEDO</a>
     <hr>
     <h2 class="title-sisgedo">Correo Insitucional sólo para personal</h2>
-    <form class="form-correo">
+    <form ngNoForm class="form-correo" method="post" action="http://webmail.dral.gob.pe?_task=login" target="_blank">
+      <input type="hidden" name="_token" value="rXu2cbeANBQMmyQT0daFlJqDmNKRRB5l">
+      <input type="hidden" name="_task" value="login">
+      <input type="hidden" name="_action" value="login">
+      <input type="hidden" name="_timezone" id="rcmlogintz" value="America/Bogota">
+      <input type="hidden" name="_url" id="rcmloginurl" value="_task=login">
       <div class="form-group">
         <label>Correo electrónico</label>
-        <input type="text" class="form-control">
+        <input type="email" name="_user" class="form-control" required="">
       </div>
       <div class="form-group">
         <label>Contraseña</label>
-        <input type="password" class="form-control">
+        <input type="password" name="_pass" class="form-control" required="">
       </div>
-      <button type="submit" class="btn btn-orange pull-right">Entrar</button>
+      <input type="submit" class="btn btn-orange pull-right" value="Entrar" />
     </form>
   </div>
 </div>
@@ -177,4 +182,3 @@
     </div>
   </div>
 </div>
-</section>

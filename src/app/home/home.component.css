@@ -4,11 +4,6 @@
 	border: 1px solid white;
 }
 
-.btn-orange {
-	background: #eabf21;
-	color: white;
-}
-
 .box-menu-side {
 	color: white;
 	margin-left: 50px;
@@ -60,4 +55,9 @@
 
 .carousel-more {
 	background: white;
+}
+
+.btn-orange {
+	background: #eabf21 !important;
+	color: white !important;
 }

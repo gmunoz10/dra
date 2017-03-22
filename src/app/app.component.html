@@ -48,9 +48,11 @@
               <li>
                 <a routerLink="temas-agrarios" routerLinkActive="active">Temas agrarios</a>
               </li>
+        <!--
               <li>
                 <a>Estadística regional</a>
               </li>
+        -->
               <li class="dropdown-submenu no-padding">
                 <a tabindex="-1" href="#">Institucional</a>
                 <ul class="dropdown-menu no-padding">
@@ -73,9 +75,12 @@
           <li>
             <a class="item-menu" routerLink="agenda" routerLinkActive="active">Agenda</a>
           </li>
+        <!--
+          
           <li>
             <a class="item-menu">Foro</a>
           </li>
+        -->
           <li>
             <a class="item-menu" routerLink="transparencia" routerLinkActive="active">Transparencia</a>
           </li>
@@ -145,14 +150,17 @@
         <div class="col-lg-12 no-padding">
           <h3>Direccionar a</h3>
           <ul class="links-direcciones">
-            <li><a href="#">Quiénes somos</a></li>
-            <li><a href="#">Que hacemos</a></li>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Transparencia</a></li>
-            <li><a href="#">SISGEDO</a></li>
-            <li><a href="#">Noticias</a></li>
-            <li><a href="#">Eventos</a></li>
-            <li><a href="#">Galería de fotos</a></li>
+            <li><a routerLink="" routerLinkActive="active">Inicio</a></li>
+            <li><a routerLink="vision-mision" routerLinkActive="active">Visión y misión</a></li>
+            <li><a routerLink="temas-agrarios" routerLinkActive="active">Temas agrarios</a></li>
+            <li><a routerLink="direccion-oficina" routerLinkActive="active">Dirección y oficinas</a></li>
+            <li><a routerLink="agencias-agrarias" routerLinkActive="active">Agencias agrarias</a></li>
+            <li><a routerLink="transparencia" routerLinkActive="active">Transparencia</a></li>
+            <li><a href="http://sisgedo2.regionlima.gob.pe/sisgedonew/app/main.php?_op=1I&_type=L&_nameop=Login%20de%20Acceso" target="_blank">SISGEDO</a></li>
+            <li><a href="http://webmail.dral.gob.pe" target="_blank">Webmail</a></li>
+            <li><a  routerLink="agenda" routerLinkActive="active">Agenda</a></li>
+            <li><a  routerLink="galeria" routerLinkActive="active">Galería</a></li>
+            <li><a  routerLink="contacto" routerLinkActive="active">Contáctenos</a></li>
           </ul>
         </div>
       </div>

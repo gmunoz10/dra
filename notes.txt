@@ -1,0 +1,2 @@
+- Always return true in function check_request() of roundcube tokens.
+nano /usr/share/psa-roundcube/program/lib/Roundcube/rcube.php

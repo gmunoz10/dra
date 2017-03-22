@@ -7,6 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
-  constructor() { }
+   edad: String;
+
+  constructor() { 
+  	this.imprimir();
+  	this.edad = "12";
+  }
+
+  imprimir() {
+
+  }
 
 }
