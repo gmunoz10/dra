@@ -1,4 +1,0 @@
-How to run
-***********
-First command: npm run be
-Second Command: npm start 
