@@ -46,3 +46,51 @@ if (!function_exists('days_month')) {
 
 }
 
+if (!function_exists('check_permission')) {
+
+    function check_permission($codi_per) {
+        $CI = & get_instance();
+        
+        if (!$CI->session->userdata("usuario")) {
+            return false;
+        }
+        
+        if ($CI->session->userdata("usuario")->codi_rol == "1") {
+            return true;
+        }
+        
+        $CI->load->model("mod_usuario");
+
+        $permiso_usuario = $CI->mod_usuario->get_permiso_usuario_row(array(
+            "codi_usu" => $CI->session->userdata("usuario")->codi_usu, 
+            "codi_per" => $codi_per,
+            "esta_per" => "1"));
+        if ($permiso_usuario) {
+            if ($permiso_usuario->valo_pus == "1") {
+                return true;
+            } else if ($permiso_usuario->valo_pus == "0") {
+                return false;
+            }
+        } else {
+            $permiso_rol = $CI->mod_usuario->get_permiso_rol_row(array(
+                "codi_rol" => $CI->session->userdata("usuario")->codi_rol, 
+                "codi_per" => $codi_per,
+                "esta_per" => "1"));
+
+            if ($permiso_rol) {
+                if ($permiso_rol->valo_pro == "1") {
+                    return true;
+                } else if ($permiso_rol->valo_pro == "0") {
+                    return false;
+                }
+            } else {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+}
+
+

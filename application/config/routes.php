@@ -15,3 +15,10 @@ $route['contacto'] = "MainController/contacto";
 $route['galeria'] = "MainController/galeria";
 $route['agenda'] = "MainController/agenda";
 $route['transparencia'] = "MainController/transparencia";
+
+$route['login'] = "MainController/login";
+$route['validar_login'] = "SessionController/validar_login";
+$route['logout'] = "SessionController/logout";
+
+$route['usuario'] = "UsuarioController/index";
+$route['usuario/paginate'] = "UsuarioController/paginate";

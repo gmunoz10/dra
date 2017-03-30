@@ -1,0 +1,22 @@
+.box-login {
+	margin-top: 30px;
+	color: white;
+	padding: 20px;
+	padding-top: 15px;
+	text-align: left;
+	background: rgba(0, 0, 0, 0.6);
+	border-top: 7px solid #eabf21;
+	border-bottom: 7px solid #eabf21;
+}
+
+.box-login:after {
+	content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: solid 25px #eabf21;
+    border-left: solid 25px transparent;
+    border-right: solid 25px transparent;
+}

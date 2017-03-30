@@ -93,4 +93,25 @@ class MainController extends CI_Controller {
         $component["content"] = $this->load->view("public/transparencia", $data, true);
         $this->load->view("template/body_main", $component);
     }
+
+    public function login() {
+        if (!$this->session->userdata("usuario")) {
+            $data["username_login"] = $this->session->userdata("username_login");
+            $data["label_login"] = $this->session->userdata("label_login");
+            $data["mensaje_login"] = $this->session->userdata("mensaje_login");
+            $this->session->unset_userdata("username_login");
+            $this->session->unset_userdata("label_login");
+            $this->session->unset_userdata("mensaje_login");
+            
+            $this->styles[] = '<link href="'.asset_url().'css/login.css" rel="stylesheet">';
+            //$this->scripts[] = '<script src="'.asset_url().'js/transparencia.js"></script>';
+            // Imprimir vista con datos
+            $data["styles"] = $this->styles;
+            $data["scripts"] = $this->scripts;
+            $component["content"] = $this->load->view("public/login", $data, true);
+            $this->load->view("template/body_main", $component);
+        } else {
+            header("Location: " . base_url());
+        }
+    }
 }

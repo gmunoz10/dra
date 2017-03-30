@@ -2,6 +2,34 @@
   margin-top: 0px;
 }
 
+.box-content {
+  margin-top: 30px;
+  color: white;
+  padding: 20px;
+  padding-top: 15px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.6);
+  border-top: 7px solid #eabf21;
+  border-bottom: 7px solid #eabf21;
+}
+
+.box-content:after {
+  content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: solid 25px #eabf21;
+    border-left: solid 25px transparent;
+    border-right: solid 25px transparent;
+}
+
+.btn-orange {
+  background: #eabf21 !important;
+  color: white !important;
+}
+
 .navbar-group {
   margin-bottom: 0px;
 }
@@ -474,4 +502,34 @@ a:hover .header-profile-image {
   background: white;
   margin: 0px;
   width: 100%;
+}
+
+#table_search_filter .input-group-addon {
+    background-color: #eabf21;
+    border: 1px solid #eabf21;
+}
+
+.table thead tr {
+    background-color: #eabf21;
+    color: black;
+}
+
+.table-bordered {
+    border: 1px solid #eabf21;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #eabf21;
+}
+
+.table tbody {
+  color: black;
+}
+
+.table tbody tr td {
+  vertical-align: middle;
+}
+
+.table tbody tr td, .table thead tr th {
+  text-align: center;
 }

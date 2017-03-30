@@ -25,6 +25,18 @@
   <body>
     <div class="super-header">
       <a href="http://www.regionlima.gob.pe" target="_blank">http://www.regionlima.gob.pe</a>
+      <?php
+        if ($this->session->userdata("usuario")) {
+      ?>
+      <button class="btb pull-right" style="margin-right: 4px; margin-left: 10px; border: none; padding: 2px 10px; background: #9e9e9e;"><a href="<?= base_url('logout') ?>" style="text-decoration: none;"><i class="fa fa-power-off" aria-hidden="true"></i> Cerrar sesión</a></button>
+          <span class="pull-right" style="border: none; padding: 2px 10px; background: #f60d0d; color: white;"><i class="fa fa-user" aria-hidden="true"></i> Bienvenido, <b><?= $this->session->userdata("usuario")->nomb_usu ?></b></span>
+      <?php
+        } else { 
+      ?>
+          <button class="btb pull-right" style="margin-right: 4px; border: none; padding: 2px 10px; background: #f60d0d;"><a href="<?= base_url('login') ?>" style="text-decoration: none;">Webmaster - Login</a></button>
+      <?php
+        } 
+      ?>
     </div>
     <div class="main-background" style="background-image: url('<?= asset_url() ?>img/background/granjero02.jpg');">
       <div class="box-logo">
@@ -83,6 +95,20 @@
             <li>
               <a class="item-menu" href="<?= base_url('transparencia') ?>">Transparencia</a>
             </li>
+            <?php
+              if ($this->session->userdata("usuario")) {
+            ?>
+            <li class="dropdown">
+              <a class="item-menu dropdown-toggle" data-toggle="dropdown">Operaciones</a>
+              <ul class="dropdown-menu no-padding">
+                <?php if (check_permission(BUSCAR_CUENTA)) { ?>
+                  <li><a href="<?= base_url('usuario') ?>">Cuentas de acceso</a></li>
+                <?php } ?>
+              </ul>
+            </li>
+            <?php
+              }
+            ?>
             <li class="divider-vertical"></li>
           </ul>
         </div>
@@ -155,6 +181,10 @@
       </section>
     </footer>
 
+    <script>
+        // App data
+        var base_url = '<?= base_url() ?>';
+    </script>  
     <script src="<?= asset_url() ?>plugins/jquery/dist/jquery.js"></script>        
     <script src="<?= asset_url() ?>plugins/bootstrap/dist/js/bootstrap.js"></script>        
     <?php 

@@ -1,0 +1,15 @@
+- v_permiso_usuario 
+
+CREATE VIEW v_permiso_usuario 
+AS
+SELECT pu.*, p.codi_per, p.esta_per
+FROM permiso_usuario pu, permiso_rol pr, permiso p
+WHERE pu.cod_pro = pr.codi_pro AND pr.codi_per = p.codi_per
+
+- v_permiso_rol
+
+CREATE VIEW v_permiso_rol 
+AS
+SELECT pr.*, p.esta_per
+FROM permiso_rol pr, permiso p
+WHERE pr.codi_per = p.codi_per
