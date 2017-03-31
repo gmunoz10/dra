@@ -15,9 +15,9 @@ class Mod_usuario extends CI_Model {
 
     function check_login($username, $password) {
 		$this->db->where("nomb_usu", $username);
-		$this->db->where("cont_usu", $password);
-		$this->db->where("esta_usu", 1);
-        $usuario = $this->db->get("usuario")->first_row();
+        $this->db->where("cont_usu", $password);
+		$this->db->where("esta_usu >", "-1");
+        $usuario = $this->db->get("v_usuario")->first_row();
         if (!empty($usuario)) {
         	return $usuario;
         } else {
@@ -45,18 +45,72 @@ class Mod_usuario extends CI_Model {
         }
     }
 
-    public function count_all() {
-        return $this->db->count_all_results('usuario');
+    function count_all() {
+        $this->db->where("esta_usu >", "-1");
+        return $this->db->count_all_results('v_usuario');
     }
 
-    public function get_paginate($limit, $start, $string = "") {
+    function get_paginate($limit, $start, $string = "") {
         $search = $this->db->escape_like_str($string);
+        $this->db->where("esta_usu >", "-1");
         $this->db->where("(`codi_usu` LIKE '%$search%' OR 
                             `nomb_usu` LIKE '%$search%'
                             )");
         $this->db->limit($limit, $start);
-        $query = $this->db->get('usuario');
+        $query = $this->db->get('v_usuario');
         return $query->result();
+    }
+
+    function get_roles() {
+        $this->db->where("esta_rol", "1");
+        $this->db->order_by("desc_rol", "asc");
+        $query = $this->db->get('rol');
+        return $query->result();
+    }
+
+    function check_nomb_usu($nomb_usu) {
+        $this->db->where("esta_usu >", "-1");
+        $this->db->where('nomb_usu', $nomb_usu);
+        $row = $this->db->get("usuario")->first_row();
+        if (!empty($row)) {
+            return 'false';
+        } else {
+            return 'true';
+        }
+    }
+
+    function check_nomb_usu_actualizar($codi_usu, $nomb_usu) {
+        $this->db->where("esta_usu >", "-1");
+        $this->db->where('codi_usu !=', $codi_usu);
+        $this->db->where('nomb_usu', $nomb_usu);
+        $row = $this->db->get("usuario")->first_row();
+        if (!empty($row)) {
+            return 'false';
+        } else {
+            return 'true';
+        }
+    }
+
+    function check_cont_usu($codi_usu, $cont_usu) {
+        $this->db->where("esta_usu >", "-1");
+        $this->db->where('codi_usu', $codi_usu);
+        $this->db->where('cont_usu', $cont_usu);
+        $row = $this->db->get("usuario")->first_row();
+        if (empty($row)) {
+            return 'false';
+        } else {
+            return 'true';
+        }
+    }
+
+    function save($data) {
+        $this->db->insert('usuario', $data); 
+        return $this->db->insert_id();
+    }
+
+    function update($id, $data) {
+        $this->db->where('codi_usu', $id);
+        $this->db->update('usuario', $data);
     }
 
 }

@@ -90,7 +90,12 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 | Permisos
 |--------------------------------------------------------------------------
 */
-defined('BUSCAR_CUENTA')        OR define('BUSCAR_CUENTA', 1);
-defined('LEER_CUENTA')          OR define('LEER_CUENTA', 2);
-defined('REGISTRAR_CUENTA')     OR define('REGISTRAR_CUENTA', 3);
-defined('MODIFICAR_CUENTA')     OR define('MODIFICAR_CUENTA', 4);
+defined('BUSCAR_CUENTA')        		OR define('BUSCAR_CUENTA', 1);
+defined('LEER_CUENTA')          		OR define('LEER_CUENTA', 2);
+defined('REGISTRAR_CUENTA')     		OR define('REGISTRAR_CUENTA', 3);
+defined('MODIFICAR_CUENTA')     		OR define('MODIFICAR_CUENTA', 4);
+defined('HABILITAR_CUENTA')     		OR define('HABILITAR_CUENTA', 5);
+defined('DESHABILITAR_CUENTA')     		OR define('DESHABILITAR_CUENTA', 6);
+defined('ELIMINAR_CUENTA')  	   		OR define('ELIMINAR_CUENTA', 7);
+defined('MODIFICAR_PERMISO_USUARIO')    OR define('MODIFICAR_PERMISO_USUARIO', 8);
+defined('MODIFICAR_PERMISO_ROL')     	OR define('MODIFICAR_PERMISO_ROL', 9);

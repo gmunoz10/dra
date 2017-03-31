@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="<?= asset_url() ?>img/brand/favicon.ico" type="image/x-icon" />
 
     <link href="<?= asset_url() ?>plugins/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="<?= asset_url() ?>plugins/toastr/toastr.min.css" rel="stylesheet">
     <link href="<?= asset_url() ?>plugins/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="<?= asset_url() ?>css/core.css" rel="stylesheet">
 
@@ -115,7 +116,14 @@
       </header>
 
       <section class="content">
+        
+        <?php if ($this->session->userdata('ci_message_system') != '') { ?>
+          <input type="hidden" id="ci_type" value="<?= $this->session->userdata('ci_message_system')["type"] ?>">
+          <input type="hidden" id="ci_message" value="<?= $this->session->userdata('ci_message_system')["message"] ?>">
+        <?php $this->session->set_userdata('ci_message_system', ''); } ?>
+
         <?= $content ?>
+      
       </section>
       <br>
       <br>
@@ -181,12 +189,23 @@
       </section>
     </footer>
 
+    <script src="<?= asset_url() ?>plugins/jquery/dist/jquery.js"></script>        
+    <script src="<?= asset_url() ?>plugins/bootstrap/dist/js/bootstrap.js"></script>        
+    <script src="<?= asset_url() ?>plugins/toastr/toastr.min.js"></script>   
     <script>
         // App data
         var base_url = '<?= base_url() ?>';
-    </script>  
-    <script src="<?= asset_url() ?>plugins/jquery/dist/jquery.js"></script>        
-    <script src="<?= asset_url() ?>plugins/bootstrap/dist/js/bootstrap.js"></script>        
+
+        toastr.options = {
+            closeButton: true,
+            progressBar: false,
+            showMethod: 'slideDown',
+            timeOut: 3000
+        };
+        if ($("#ci_message").length) {
+            toastr[$("#ci_type").val()]($("#ci_message").val());
+        }
+    </script>       
     <?php 
       foreach ($scripts as $script) {
         echo $script; 

@@ -93,4 +93,13 @@ if (!function_exists('check_permission')) {
 
 }
 
+if (!function_exists('set_message_system')) {
+
+    function set_message_system($type, $message) {
+        $CI = & get_instance();
+        $CI->session->set_userdata('ci_message_system', array('type' => $type, "message" => $message));
+    }
+
+}
+
 

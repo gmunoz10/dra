@@ -22,3 +22,11 @@ $route['logout'] = "SessionController/logout";
 
 $route['usuario'] = "UsuarioController/index";
 $route['usuario/paginate'] = "UsuarioController/paginate";
+$route['usuario/check_nomb_usu'] = "UsuarioController/check_nomb_usu";
+$route['usuario/check_nomb_usu_actualizar'] = "UsuarioController/check_nomb_usu_actualizar";
+$route['usuario/check_cont_usu'] = "UsuarioController/check_cont_usu";
+$route['usuario/save'] = "UsuarioController/save";
+$route['usuario/update'] = "UsuarioController/update";
+$route['usuario/habilitar'] = "UsuarioController/habilitar";
+$route['usuario/deshabilitar'] = "UsuarioController/deshabilitar";
+$route['usuario/eliminar'] = "UsuarioController/eliminar";
