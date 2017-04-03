@@ -25,26 +25,6 @@ class Mod_usuario extends CI_Model {
         }
     }
 
-    function get_permiso_usuario_row($where) {
-        $this->db->where($where);
-        $permiso_usuario = $this->db->get("v_permiso_usuario")->first_row();
-        if (!empty($permiso_usuario)) {
-            return $permiso_usuario;
-        } else {
-            return false;
-        }
-    }
-
-    function get_permiso_rol_row($where) {
-        $this->db->where($where);
-        $permiso_rol = $this->db->get("v_permiso_rol")->first_row();
-        if (!empty($permiso_rol)) {
-            return $permiso_rol;
-        } else {
-            return false;
-        }
-    }
-
     function count_all() {
         $this->db->where("esta_usu >", "-1");
         return $this->db->count_all_results('v_usuario');

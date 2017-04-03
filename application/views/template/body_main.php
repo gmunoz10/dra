@@ -102,6 +102,9 @@
             <li class="dropdown">
               <a class="item-menu dropdown-toggle" data-toggle="dropdown">Operaciones</a>
               <ul class="dropdown-menu no-padding">
+                <?php if (check_permission(VER_PERMISO_ROL)) { ?>
+                  <li><a href="<?= base_url('permiso/rol') ?>">Permisos por rol</a></li>
+                <?php } ?>
                 <?php if (check_permission(BUSCAR_CUENTA)) { ?>
                   <li><a href="<?= base_url('usuario') ?>">Cuentas de acceso</a></li>
                 <?php } ?>

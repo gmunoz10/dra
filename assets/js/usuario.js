@@ -24,8 +24,12 @@ $(function() {
 
     var $form_usuario = $('#form_usuario');
 
+    var isDestroyable = false;
+
     $("#btn_usuario").click(function() {
         $("#modal_usuario_lbl").html("Nueva cuenta de acceso");
+
+        $form_usuario.get(0).reset();
 
         $form_usuario.find(':input[name="acon_usu"]').parent().hide();
         $form_usuario.find(':input[name="cont_usu"]').parent().find("label").html("Contraseña");
@@ -42,6 +46,10 @@ $(function() {
                 $("#submit_usuario").prop('disabled', true);
             }
         });
+
+        if (isDestroyable) {
+            validator_usuario.destroy();
+        }
         
         validator_usuario = $form_usuario.validate({
             rules: {
@@ -89,6 +97,12 @@ $(function() {
             }
         });
 
+        $("label.error").hide();
+        $(".error").removeClass("error");
+        $("label.success").hide();
+        $(".success").removeClass("success");
+        isDestroyable = true;
+
         $("#modal_usuario").modal();
     });
 
@@ -97,6 +111,8 @@ $(function() {
         var tr = $(this).parent().closest('tr');
         var row = table_search.row(tr);
         var data = row.data();
+
+        $form_usuario.get(0).reset();
 
         $('#form_usuario select[name="codi_rol"] option[value="'+data.codi_rol+'"]').prop("selected", true);  
         $('#form_usuario :input[name="codi_usu"]').val(data.codi_usu);  
@@ -121,6 +137,10 @@ $(function() {
                 $("#submit_usuario").prop('disabled', true);
             }
         });
+
+        if (isDestroyable) {
+            validator_usuario.destroy();
+        }
         
         validator_usuario = $form_usuario.validate({
             rules: {
@@ -189,6 +209,10 @@ $(function() {
                 $(element).closest('.form-group').append(error);
             }
         });
+
+        $(".has-error").removeClass("has-error");
+        $(".has-success").removeClass("has-success");
+        isDestroyable = true;
 
         $("#modal_usuario").modal();
     });

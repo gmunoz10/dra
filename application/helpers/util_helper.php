@@ -59,9 +59,9 @@ if (!function_exists('check_permission')) {
             return true;
         }
         
-        $CI->load->model("mod_usuario");
+        $CI->load->model("mod_permiso");
 
-        $permiso_usuario = $CI->mod_usuario->get_permiso_usuario_row(array(
+        $permiso_usuario = $CI->mod_permiso->get_permiso_usuario_row(array(
             "codi_usu" => $CI->session->userdata("usuario")->codi_usu, 
             "codi_per" => $codi_per,
             "esta_per" => "1"));
@@ -72,7 +72,7 @@ if (!function_exists('check_permission')) {
                 return false;
             }
         } else {
-            $permiso_rol = $CI->mod_usuario->get_permiso_rol_row(array(
+            $permiso_rol = $CI->mod_permiso->get_permiso_rol_row(array(
                 "codi_rol" => $CI->session->userdata("usuario")->codi_rol, 
                 "codi_per" => $codi_per,
                 "esta_per" => "1"));

@@ -64,7 +64,7 @@ class UsuarioController extends CI_Controller {
                     }
                 }
                 if ($this->session->userdata("usuario") && check_permission(ELIMINAR_CUENTA)) {
-                        $opciones.= '<form method="post" class="eliminar_cuenta" action="'.base_url('usuario/eliminar').'" style="display: inline-block;"><input type="hidden" name="codi_usu" value="'.$row->codi_usu.'"><button type="submit" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fa fa-times" aria-hidden="true"></i></button></form>';
+                        $opciones.= '<form method="post" class="eliminar_cuenta" action="'.base_url('usuario/eliminar').'" style="display: inline-block;"><input type="hidden" name="codi_usu" value="'.$row->codi_usu.'"><button type="submit" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fa fa-times" aria-hidden="true"></i></button></form>';
                 }
                 $opciones .= "<script>$('[data-toggle=\"tooltip\"]').tooltip()</script>";
 

@@ -2,9 +2,9 @@
 
 CREATE VIEW v_permiso_usuario 
 AS
-SELECT pu.*, p.codi_per, p.esta_per
-FROM permiso_usuario pu, permiso_rol pr, permiso p
-WHERE pu.cod_pro = pr.codi_pro AND pr.codi_per = p.codi_per
+SELECT pu.*, p.codi_per, p.esta_per, g.desc_gpr
+FROM permiso_usuario pu, permiso_rol pr, permiso p, grupo_permiso g
+WHERE pu.codi_pro = pr.codi_pro AND pr.codi_per = p.codi_per AND p.codi_gpr = g.codi_gpr
 
 - v_permiso_rol
 
