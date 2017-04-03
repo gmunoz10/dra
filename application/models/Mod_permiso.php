@@ -52,8 +52,8 @@ class Mod_permiso extends CI_Model {
         return $this->db->insert_id();
     }
 
-    function update_permiso_rol($id, $data) {
-        $this->db->where('codi_pro', $id);
+    function update_permiso_rol($codi_pro, $data) {
+        $this->db->where('codi_pro', $codi_pro);
         $this->db->update('permiso_rol', $data);
     }
 

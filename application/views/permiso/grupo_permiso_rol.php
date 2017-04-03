@@ -1,5 +1,4 @@
 <?php foreach ($grupos_permiso as $grupo_permiso) { ?>
-
 <div class="box-bold col-md-5 no-padding" style="margin: 10px; background: transparent;">
     <div class="table-responsive">
         <table class="table table-bordered table-condensed table-permiso no-margin">
@@ -25,7 +24,6 @@
     <?php if($codi_rol != "1" && check_permission(MODIFICAR_PERMISO_ROL)) { ?>
         <button class="btn btn-primary pull-right btn_save_permiso" style="border-radius: 0px;"><i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar</button>
     <?php } ?>
-
 </div>
 
 <?php } ?>
