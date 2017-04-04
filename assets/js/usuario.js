@@ -217,6 +217,81 @@ $(function() {
         $("#modal_usuario").modal();
     });
 
+    var grupos_permiso;
+    var codi_usu;
+
+    $(document).on('click', '#table_search button.btn-permiso', function () {
+        var tr = $(this).parent().closest('tr');
+        var row = table_search.row(tr);
+        var data = row.data();
+
+        var btn = $(this);
+        btn.html('<i class="fa fa-refresh fa-spin" aria-hidden="true"></i>');     
+        btn.prop('disabled', true);     
+        $.ajax({
+            type: 'post',
+            url: base_url + 'permiso/get_permisos_usuario',
+            data: {
+                codi_usu: data.codi_usu
+            },
+            success: function(result) {
+                btn.html('<i class="fa fa-key" aria-hidden="true"></i>');        
+                btn.prop('disabled', false);     
+                var d = $.parseJSON(result);
+                grupos_permiso = d.data;
+                codi_usu = data.codi_usu;
+                $("#modal_permiso .modal-body").html('<div class="box_permisos row no-margin" style="position: relative;">'+d.view+'</div>');
+                $("#modal_permiso .modal-title").html("Permisos de "+data.nomb_usu);
+                $('[data-toggle="toggle"]').bootstrapToggle();
+                $("#modal_permiso").modal("show");
+            }
+        });
+    });
+
+    $(document).on("click", ".btn_save_permiso", function() {
+        var header = $("#modal_permiso .modal-body");
+
+        tbody = $(this).parent().find(".table-permiso tbody");
+        codi_gpr = tbody.data("gpr");
+
+        var target_grupo;
+
+        tbody.find("tr").each(function(index, value) {
+            codi_pro = $(this).data("pro");
+            codi_pus = $(this).data("pus");
+            valo_pus = ($(this).find(".check_permiso").prop("checked")) ? "1" : "0";
+
+            for (var i = 0; i < grupos_permiso.length; i++) {
+                if (grupos_permiso[i].codi_gpr == codi_gpr) {
+                    target_grupo = i;
+                    for (var j = 0; j < grupos_permiso[i].permisos.length; j++) {
+                        if (grupos_permiso[i].permisos[j].codi_pro == codi_pro) {
+                            grupos_permiso[i].permisos[j].valo_pus = valo_pus;
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+        });  
+
+        header.append('<div class="overlay"><i class="fa fa-refresh fa-spin"></i></div>');
+
+        $.ajax({
+            type: 'post',
+            url: base_url + 'permiso/save_permiso_usuario',
+            data: {
+                codi_usu: codi_usu,
+                permisos: JSON.stringify(grupos_permiso[target_grupo])
+            },
+            success: function(result) {
+                var data = $.parseJSON(result);
+                show_toast(data.type, data.message);
+                header.find(".overlay").remove();
+            }
+        });
+    });
+
     $(document).on('submit', '.habilitar_cuenta', function () {
         return confirm("¿Está seguro de que desea habilitar la cuenta?");
     });

@@ -9,20 +9,23 @@ class UsuarioController extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        $this->load->model(array("mod_usuario"));
+        $this->load->model(array("mod_usuario", "mod_permiso"));
         $this->load->helper('cookie');
     }
 
     public function index() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_CUENTA)) {
             $this->styles[] = '<link href="'.asset_url().'plugins/jquery.datatable/dataTables.bootstrap.css" rel="stylesheet">';
+            $this->styles[] = '<link href="'.asset_url().'plugins/bootstrap-toggle/css/bootstrap-toggle.min.css" rel="stylesheet">';
+            $this->styles[] = '<link href="'.asset_url().'css/usuario.css" rel="stylesheet">';
             
             $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.datatable/jquery.dataTables.js"></script>';
             $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.datatable/dataTables.bootstrap.js"></script>';
             $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.validate/jquery.validate.js"></script>';
             $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.validate/additional-methods.js"></script>';
             $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.validate/localization/messages_es_PE.js"></script>';
-            
+            $this->scripts[] = '<script src="'.asset_url().'plugins/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>';
+
             $this->scripts[] = '<script src="'.asset_url().'js/usuario.js"></script>';
 
             $data["roles"] = $this->mod_usuario->get_roles();
@@ -62,6 +65,9 @@ class UsuarioController extends CI_Controller {
                     if ($this->session->userdata("usuario") && check_permission(HABILITAR_CUENTA)) {
                         $opciones.= '<form method="post" class="habilitar_cuenta" action="'.base_url('usuario/habilitar').'" style="display: inline-block;"><input type="hidden" name="codi_usu" value="'.$row->codi_usu.'"><button type="submit" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fa fa-check" aria-hidden="true"></i></button></form>&nbsp;';
                     }
+                }
+                if ($this->session->userdata("usuario") && check_permission(MODIFICAR_PERMISO_USUARIO)) {
+                        $opciones .= '<button type="button" class="btn btn-info btn-permiso" data-toggle="tooltip" data-placement="top" title="Modificar permisos"><i class="fa fa-key" aria-hidden="true"></i></button>&nbsp;';
                 }
                 if ($this->session->userdata("usuario") && check_permission(ELIMINAR_CUENTA)) {
                         $opciones.= '<form method="post" class="eliminar_cuenta" action="'.base_url('usuario/eliminar').'" style="display: inline-block;"><input type="hidden" name="codi_usu" value="'.$row->codi_usu.'"><button type="submit" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fa fa-times" aria-hidden="true"></i></button></form>';
@@ -132,6 +138,12 @@ class UsuarioController extends CI_Controller {
         $codi_usu = $this->input->post('codi_usu');
         $codi_rol = $this->input->post('codi_rol');
         $nomb_usu = $this->input->post('nomb_usu');
+
+        $usuario = $this->mod_usuario->get_usuario_row(array("codi_usu" => $codi_usu));
+
+        if ($codi_rol != $usuario->codi_rol) {
+            $this->mod_permiso->clear_permisos_usuario(array("codi_usu" => $codi_usu));
+        }
 
         $data = array(
             'codi_rol' => $codi_rol,

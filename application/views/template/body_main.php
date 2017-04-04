@@ -102,11 +102,17 @@
             <li class="dropdown">
               <a class="item-menu dropdown-toggle" data-toggle="dropdown">Operaciones</a>
               <ul class="dropdown-menu no-padding">
-                <?php if (check_permission(VER_PERMISO_ROL)) { ?>
-                  <li><a href="<?= base_url('permiso/rol') ?>">Permisos por rol</a></li>
+                <?php if (check_permission(BUSCAR_ROL)) { ?>
+                  <li><a href="<?= base_url('rol') ?>">Roles</a></li>
                 <?php } ?>
                 <?php if (check_permission(BUSCAR_CUENTA)) { ?>
                   <li><a href="<?= base_url('usuario') ?>">Cuentas de acceso</a></li>
+                <?php } ?>
+                <?php if (check_permission(BUSCAR_GRUPO_RESOLUCION)) { ?>
+                  <li><a href="<?= base_url('grupo_resolucion') ?>">Grupos de resolución</a></li>
+                <?php } ?>
+                <?php if (check_permission(BUSCAR_RESOLUCION)) { ?>
+                  <li><a href="<?= base_url('resolucion') ?>">Resoluciones</a></li>
                 <?php } ?>
               </ul>
             </li>
@@ -205,8 +211,13 @@
             showMethod: 'slideDown',
             timeOut: 3000
         };
+
+        function show_toast(type, message) {
+          toastr[type](message);
+        }
+
         if ($("#ci_message").length) {
-            toastr[$("#ci_type").val()]($("#ci_message").val());
+            show_toast($("#ci_type").val(), $("#ci_message").val());
         }
     </script>       
     <?php 

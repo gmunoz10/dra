@@ -1,0 +1,12 @@
+.table-permiso tbody tr td:nth-child(1) {
+	text-align: justify;
+	padding: 15px;
+}
+
+.file-input .btn {
+	font-size: 13px;
+}
+
+.box-date .input-group-addon {
+	font-size: 13px;
+}

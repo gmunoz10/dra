@@ -21,8 +21,18 @@ class SessionController extends CI_Controller {
         if ($usuario) {
 
             if ($usuario->esta_usu == "1") {
-                $this->session->set_userdata("usuario", $usuario);
-                header("Location: " . base_url());
+
+                if ($usuario->esta_rol == "1") {
+                    $this->session->set_userdata("usuario", $usuario);
+                    header("Location: " . base_url());
+                } else {
+                    $this->session->set_userdata("username_login", $username);
+                    $this->session->set_userdata("label_login", "danger");
+                    $this->session->set_userdata("mensaje_login", "El rol de tu cuenta se encuentra bloqueada");
+
+                    header("Location: " . base_url() . "login");
+                }
+                
             } else {
                 $this->session->set_userdata("username_login", $username);
                 $this->session->set_userdata("label_login", "danger");

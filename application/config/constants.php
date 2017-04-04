@@ -90,6 +90,7 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 | Permisos
 |--------------------------------------------------------------------------
 */
+// CUENTAS DE ACCESO
 defined('BUSCAR_CUENTA')        		OR define('BUSCAR_CUENTA', 1);
 defined('LEER_CUENTA')          		OR define('LEER_CUENTA', 2);
 defined('REGISTRAR_CUENTA')     		OR define('REGISTRAR_CUENTA', 3);
@@ -98,5 +99,29 @@ defined('HABILITAR_CUENTA')     		OR define('HABILITAR_CUENTA', 5);
 defined('DESHABILITAR_CUENTA')     		OR define('DESHABILITAR_CUENTA', 6);
 defined('ELIMINAR_CUENTA')  	   		OR define('ELIMINAR_CUENTA', 7);
 defined('MODIFICAR_PERMISO_USUARIO')    OR define('MODIFICAR_PERMISO_USUARIO', 8);
-defined('VER_PERMISO_ROL')     			OR define('VER_PERMISO_ROL', 9);
-defined('MODIFICAR_PERMISO_ROL')     	OR define('MODIFICAR_PERMISO_ROL', 10);
+// ROLES
+defined('BUSCAR_ROL')     				OR define('BUSCAR_ROL', 9);
+defined('LEER_ROL')          			OR define('LEER_ROL', 10);
+defined('REGISTRAR_ROL')     			OR define('REGISTRAR_ROL', 11);
+defined('MODIFICAR_ROL')     			OR define('MODIFICAR_ROL', 12);
+defined('HABILITAR_ROL')     			OR define('HABILITAR_ROL', 13);
+defined('DESHABILITAR_ROL')     		OR define('DESHABILITAR_ROL', 14);
+defined('ELIMINAR_ROL')  	   			OR define('ELIMINAR_ROL', 15);
+defined('MODIFICAR_PERMISO_ROL')     	OR define('MODIFICAR_PERMISO_ROL', 16);
+// RESOLUCIONES
+defined('BUSCAR_RESOLUCION')  			OR define('BUSCAR_RESOLUCION', 17);
+defined('LEER_RESOLUCION')          	OR define('LEER_RESOLUCION', 18);
+defined('REGISTRAR_RESOLUCION')     	OR define('REGISTRAR_RESOLUCION', 19);
+defined('MODIFICAR_RESOLUCION')     	OR define('MODIFICAR_RESOLUCION', 20);
+defined('HABILITAR_RESOLUCION')     	OR define('HABILITAR_RESOLUCION', 21);
+defined('DESHABILITAR_RESOLUCION')     	OR define('DESHABILITAR_RESOLUCION', 22);
+defined('ELIMINAR_RESOLUCION')   		OR define('ELIMINAR_RESOLUCION', 23);
+defined('DESCARGAR_RESOLUCION')   		OR define('DESCARGAR_RESOLUCION', 24);
+// GRUPO DE RESOLUCIONES
+defined('BUSCAR_GRUPO_RESOLUCION')  	OR define('BUSCAR_GRUPO_RESOLUCION', 25);
+defined('LEER_GRUPO_RESOLUCION')        OR define('LEER_GRUPO_RESOLUCION', 26);
+defined('REGISTRAR_GRUPO_RESOLUCION')   OR define('REGISTRAR_GRUPO_RESOLUCION', 27);
+defined('MODIFICAR_GRUPO_RESOLUCION')   OR define('MODIFICAR_GRUPO_RESOLUCION', 28);
+defined('HABILITAR_GRUPO_RESOLUCION')   OR define('HABILITAR_GRUPO_RESOLUCION', 29);
+defined('DESHABILITAR_GRUPO_RESOLUCION')OR define('DESHABILITAR_GRUPO_RESOLUCION', 30);
+defined('ELIMINAR_GRUPO_RESOLUCION')   	OR define('ELIMINAR_GRUPO_RESOLUCION', 31);

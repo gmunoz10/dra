@@ -3,7 +3,9 @@
 		<div class="row">
 			<div class="box-content col-md-8 col-md-offset-2" style="line-height: 1.42857143;">
 			    <h2 class="title-sisgedo">Cuentas de acceso</h2>
-				<button id="btn_usuario" class="btn btn-orange" style="color: black !important; font-weight: bold;">Crear nueva cuenta</button>
+                <?php if(check_permission(REGISTRAR_CUENTA)) { ?>
+				    <button id="btn_usuario" class="btn btn-orange" style="color: black !important; font-weight: bold;">Crear nueva cuenta</button>
+                <?php } ?>
 				<br>
 				<div class="table-responsive" style="margin-top: 30px; padding-bottom: 30px;">
 			        <table id="table_search" class="table table-bordered table-condensed">
@@ -73,6 +75,19 @@
                 <button id="submit_usuario" type="submit" class="btn btn-success" style="margin-top: 20px;">Guardar</button>
             </div>
         </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal_permiso" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog">
+  <div class="modal-dialog" role="document" style="width: 80%;">
+    <div class="modal-content box-content box-bold col-lg-12">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title"></h4>
+          </div>
+          <div class="modal-body">
+          </div>
     </div>
   </div>
 </div>

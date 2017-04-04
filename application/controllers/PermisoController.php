@@ -62,10 +62,70 @@ class PermisoController extends CI_Controller {
             }
         }
 
+        $data["permission"] = MODIFICAR_PERMISO_ROL;
         $data["codi_rol"] = $codi_rol;
         $data["grupos_permiso"] = $grupos_permiso;
 
         $view = $this->load->view("permiso/grupo_permiso_rol", $data, true);
+        echo json_encode(array("data"=>$grupos_permiso, "view"=>$view));
+    }
+
+    public function get_permisos_usuario() {
+        $codi_usu = $this->input->post('codi_usu');
+
+        $usuario = $this->mod_usuario->get_usuario_row(array("codi_usu" => $codi_usu));
+
+        $grupos_permiso = $this->mod_permiso->get_grupos_permiso(array("esta_gpr" => "1"));
+
+        foreach ($grupos_permiso as $key => $grupo_permiso) {
+            $permisos = $this->mod_permiso->get_permisos(array("codi_gpr" => $grupo_permiso->codi_gpr, "esta_per" => "1"));
+
+            foreach ($permisos as $permiso) {
+
+                if ($usuario->codi_rol == "1")  {
+                    $permiso_row = array(
+                        "codi_pro" => -1,
+                        "codi_pus" => -1,
+                        "desc_per" => $permiso->desc_per,
+                        "valo_pus" => "1"
+                    );
+                } else {
+                    $permiso_usuario = $this->mod_permiso->get_permiso_usuario_row(array(
+                                                                        "codi_usu" => $codi_usu, 
+                                                                        "codi_rol" => $usuario->codi_rol,
+                                                                        "codi_per" => $permiso->codi_per,
+                                                                        "esta_pus" => "1"));
+
+                    if ($permiso_usuario) {
+                        $permiso_row = array(
+                            "codi_pro" => $permiso_usuario->codi_pro,
+                            "codi_pus" => $permiso_usuario->codi_pus,
+                            "desc_per" => $permiso->desc_per,
+                            "valo_pus" => $permiso_usuario->valo_pus
+                        );
+                    } else {
+                        $permiso_rol = $this->mod_permiso->get_permiso_rol_row(array(
+                                                                        "codi_rol" => $usuario->codi_rol, 
+                                                                        "codi_per" => $permiso->codi_per,
+                                                                        "esta_pro" => "1"));
+                        $permiso_row = array(
+                            "codi_pro" => $permiso_rol->codi_pro,
+                            "codi_pus" => -1,
+                            "desc_per" => $permiso->desc_per,
+                            "valo_pus" => $permiso_rol->valo_pro
+                        );
+                    }
+                }
+
+                $grupos_permiso[$key]->permisos[] = $permiso_row;
+            }
+        }
+
+        $data["permission"] = MODIFICAR_PERMISO_USUARIO;
+        $data["codi_rol"] = $usuario->codi_rol;
+        $data["grupos_permiso"] = $grupos_permiso;
+
+        $view = $this->load->view("permiso/grupo_permiso_usuario", $data, true);
         echo json_encode(array("data"=>$grupos_permiso, "view"=>$view));
     }
 
@@ -96,6 +156,45 @@ class PermisoController extends CI_Controller {
                 
             }
         }
+
+        $type_system = "success";
+        $message_system = "Permisos de rol actualizados con éxito";
+
+        echo json_encode(array("type" => $type_system, "message" => $message_system));
+    }
+
+    public function save_permiso_usuario() {
+        $codi_usu = $this->input->post('codi_usu');
+        $permisos = json_decode($this->input->post('permisos'))->permisos;
+
+        foreach ($permisos as $permiso) {
+            $data = array(
+                'valo_pus' => $permiso->valo_pus
+            );
+
+            if ($permiso->codi_pus != "-1") {
+                $this->mod_permiso->update_permiso_usuario($permiso->codi_pus, $data);
+            } else {
+                $permiso_usuario = $this->mod_permiso->get_permiso_usuario_row(array(
+                                                                        "codi_usu" => $codi_usu, 
+                                                                        "codi_pro" => $permiso->codi_pro));
+                if (!empty($permiso_usuario)) {
+                    $data["esta_pus"] = "1";
+                    $this->mod_permiso->update_permiso_usuario($permiso_usuario->codi_pus, $data);
+                } else {
+                    $data["codi_usu"] = $codi_usu;
+                    $data["codi_pro"] = $permiso->codi_pro;
+                    $data["esta_pus"] = "1";
+                    $this->mod_permiso->save_permiso_usuario($data);
+                }
+                
+            }
+        }
+
+        $type_system = "success";
+        $message_system = "Permisos de cuenta de acceso actualizados con éxito";
+
+        echo json_encode(array("type" => $type_system, "message" => $message_system));
     }
 
 }

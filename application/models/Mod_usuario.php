@@ -13,6 +13,16 @@ class Mod_usuario extends CI_Model {
         }
     }
 
+    function get_usuario_row($where) {
+        $this->db->where($where);
+        $usuario = $this->db->get("v_usuario")->first_row();
+        if (!empty($usuario)) {
+            return $usuario;
+        } else {
+            return false;
+        }
+    }
+
     function check_login($username, $password) {
 		$this->db->where("nomb_usu", $username);
         $this->db->where("cont_usu", $password);
@@ -88,8 +98,8 @@ class Mod_usuario extends CI_Model {
         return $this->db->insert_id();
     }
 
-    function update($id, $data) {
-        $this->db->where('codi_usu', $id);
+    function update($codi_usu, $data) {
+        $this->db->where('codi_usu', $codi_usu);
         $this->db->update('usuario', $data);
     }
 

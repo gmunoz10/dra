@@ -14,7 +14,7 @@
                             <?= $permiso["desc_per"] ?>
                         </td>
                         <td>
-                            <input type="checkbox" <?= ($permiso["valo_pro"] == "1") ? "checked" : "" ?> <?= ($codi_rol == "1" || !check_permission(MODIFICAR_PERMISO_ROL)) ? "disabled" : "" ?> data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-on='<i class="fa fa-check" aria-hidden="true"></i> Habilitado' data-off='<i class="fa fa-ban" aria-hidden="true"></i> Sin permiso' class="check_permiso">
+                            <input type="checkbox" <?= ($permiso["valo_pro"] == "1") ? "checked" : "" ?> <?= ($codi_rol == "1" || !check_permission(MODIFICAR_PERMISO_ROL)) ? "disabled" : "" ?> data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-on='<i class="fa fa-check" aria-hidden="true"></i>' data-off='<i class="fa fa-ban" aria-hidden="true"></i>' class="check_permiso">
                         </td>
                     </tr>
                 <?php } ?>

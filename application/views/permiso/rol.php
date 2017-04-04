@@ -12,7 +12,7 @@
                             <?php } ?>
                         </select>
                     </div>
-    				<button id="btn_cargar" class="btn btn-orange" style="color: black !important; font-weight: bold;"><i class="fa fa-refresh" aria-hidden="true"></i> Cargar permisos</button>
+                    <button id="btn_cargar" class="btn btn-orange" style="color: black !important; font-weight: bold;"><i class="fa fa-refresh" aria-hidden="true"></i> Cargar permisos</button>
                 </div>
                 <div class="row box-resultado" style="position: relative;">
                 </div>

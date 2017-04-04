@@ -3,13 +3,6 @@ $(function() {
     var grupos_permiso;
     var codi_rol;
 
-    function cargar_permisos2() {
-        $("#btn_cargar").html('<i class="fa fa-refresh fa-spin" aria-hidden="true"></i> Cargar permisos');     
-        $(".box_permisos").append('<div class="overlay"><i class="fa fa-refresh fa-spin"></i></div>')
-        $("#btn_cargar").prop('disabled', true);   
-        return;  
-    }
-
     function cargar_permisos() {
         $("#btn_cargar").html('<i class="fa fa-refresh fa-spin" aria-hidden="true"></i> Cargar permisos');     
         $(".box_permisos").append('<div class="overlay"><i class="fa fa-refresh fa-spin"></i></div>')
@@ -26,8 +19,8 @@ $(function() {
                 var d = $.parseJSON(result);
                 grupos_permiso = d.data;
                 codi_rol = $("#codi_rol").val();
-                $(".box-resultado").html('<hr><h3 class="title-sisgedo">'+$("#codi_rol option:selected").html()+'</h3>')
-                $(".box-resultado").append('<div class="box_permisos row">'+d.view+'</div>');
+                $(".box-resultado").html('<hr>')
+                $(".box-resultado").append('<div class="box_permisos row no-margin" style="padding: 0px 30px; position: relative;"><h3 class="title-sisgedo">'+$("#codi_rol option:selected").html()+'</h3>'+d.view+'</div>');
                 $('[data-toggle="toggle"]').bootstrapToggle();
             }
         });
@@ -36,7 +29,7 @@ $(function() {
     cargar_permisos();
 
     $("#btn_cargar").click(function() {
-        cargar_permisos2();
+        cargar_permisos();
     });
 
     $(document).on("click", ".btn_save_permiso", function() {
@@ -76,7 +69,6 @@ $(function() {
                 permisos: JSON.stringify(grupos_permiso[target_grupo])
             },
             success: function(result) {
-                cargar_permisos();
                 header.find(".overlay").remove();
             }
         });
