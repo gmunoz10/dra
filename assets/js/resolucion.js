@@ -23,6 +23,10 @@ $(function() {
         "displayLength": 10
     });
 
+    function validar_fecha(value, element) {
+        return moment(value,"YYYY-MM-DD").isValid();
+    }
+
     jQuery.validator.addMethod("validDate", function(value, element) {
         return this.optional(element) || moment(value,"YYYY-MM-DD").isValid();
     }, "Por favor, ingrese una fecha válida en el formato YYYY-MM-DD");
@@ -43,48 +47,29 @@ $(function() {
     var isDestroyable = false;
 
     function agregar_fila() {
-        var create = false;
+        var create = true;
 
-        if ($("#table_multi tbody tr").length == 0) {
-            create = true;
-        } else {
-            $("#table_multi tbody tr").each(function(e, v) {
-                if ($(this).find('[name="nume_res"]').val() == "") {
-                    console.log("nume_res: SI");
-                } else {
-                    console.log("nume_res: NO");
-                }
-                if ($(this).find('[name="desc_res"]').html() == "") {
-                    console.log("desc_res: SI");
-                } else {
-                    console.log("desc_res: NO");
-                }
-                if ($(this).find('[name="fech_res"]').val() == "") {
-                    console.log("fech_res: SI");
-                } else {
-                    console.log("fech_res: NO");
-                }
-                if ($(this).find('[name="docu_res"]').get(0).files.length === 0) {
-                    console.log("docu_res: SI");
-                } else {
-                    console.log("docu_res: NO");
-                }
-                if ($(this).find('[name="nume_res"]').val() == "" && $(this).find('[name="desc_res"]').html() == "" && $(this).find('[name="fech_res"]').val() == "" && $(this).find('[name="docu_res"]').get(0).files.length === 0) {
-                    create = true;
-                    return;
-                }
-            });
-        }
+        $("#table_multi tbody tr").each(function(e, v) {
+            if ($(this).find('.nume_res').val() == "" && $(this).find('.desc_res').val() == "" && $(this).find('.fech_res').val() == "" && $(this).find('.docu_res').get(0).files.length === 0) {
+                create = false;
+                return;
+            }
+        });
 
         if (create) {
-            $("#table_multi tbody").append('<tr> <td> ' + $("#select_view").html() + ' </td> <td> <input class="form-control" name="nume_res"> </td> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="fech_res" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-calendar"> </span> </span> </div> </td> <td> <textarea class="form-control" rows="1" id="desc_res" name="desc_res"></textarea> </td> <td> <input name="docu_res" type="file" class="file-loading" data-allowed-file-extensions=\'["pdf", "doc", "docx"]\' data-show-preview="false"> </td> </tr>');
+            var num = $("#table_multi tbody tr").length;
+            select_view = $("<div>"+$("#select_view").html()+"</div>");
+            select_view.find(".codi_gre").attr("name", "codi_gre_"+num);
+            $("#table_multi tbody").append('<tr> <td> ' + select_view.html() + ' </td> <td> <input class="form-control nume_res" name="nume_res_'+num+'"> </td> <td> <div class="input-group date box-date"> <input type="text" class="form-control fech_res" name="fech_res_'+num+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-calendar"> </span> </span> </div> </td> <td> <textarea class="form-control desc_res" rows="1" name="desc_res_'+num+'"></textarea> </td> <td> <input name="docu_res_'+num+'" type="file" class="file-loading docu_res" data-allowed-file-extensions=\'["pdf", "doc", "docx"]\' data-show-preview="false"> </td> </tr>');
 
-            $('input[name="docu_res"]').fileinput({
+            $('#form_resolucion_multi [name="count_rows"]').val($("#table_multi tbody tr").length);
+
+            $('.docu_res').fileinput({
                 language: "dral",
                 showUpload: false
             });
 
-            $('input[name="fech_res"]').parent().datetimepicker({
+            $('.fech_res').parent().datetimepicker({
                 viewMode: 'years',
                 locale: 'es',
                 format: 'YYYY-MM-DD'
@@ -100,11 +85,120 @@ $(function() {
         $("#modal_resolucion").modal();
     });
 
-    $(document).on('change, keyup', '[name="codi_gre"], [name="nume_res"], [name="fech_res"], [name="desc_res"], [name="docu_res"]', function () {
+    $(document).on('change, keyup', '.codi_gre, .nume_res, .fech_res, .desc_res, .docu_res', function () {
         var fila = $(this).closest("tr");
 
-        if (fila.find('[name="nume_res"]').val() != "") {
+        if (fila.find('.nume_res').val() != "") {
             agregar_fila();
+        }
+    });
+
+    $("#submit_multi_resolucion").click(function() {
+        valid = true;
+        var history_nume = [];
+        $("#table_multi tbody tr").each(function(e, v) {
+            tr = $(this);
+            if (tr.find('.nume_res').val() == "" && tr.find('.desc_res').val() == "" && tr.find('.fech_res').val() == "" && tr.find('.docu_res').get(0).files.length === 0) {
+                return true;
+            }
+            codi_gre = tr.find('.codi_gre').val();
+            nume_res = tr.find('.nume_res').val();
+            fech_res = tr.find('.fech_res').val();
+            desc_res = tr.find('.desc_res').val();
+            docu_res = tr.find('.docu_res').get(0).files.length;
+
+            if (codi_gre === "") {
+                tr.find('.codi_gre').parent().removeClass('has-success').addClass('has-error');
+                tr.find('.codi_gre').parent().find('.error').remove();
+                tr.find('.codi_gre').parent().append('<label class="error">Este campo es obligatorio.</label>');
+                valid = false;
+            } else {
+                tr.find('.codi_gre').parent().removeClass('has-error').addClass('has-success');
+                tr.find('.codi_gre').parent().find('.error').remove();
+            }
+
+            if (nume_res === "") {
+                tr.find('.nume_res').parent().removeClass('has-success').addClass('has-error');
+                tr.find('.nume_res').parent().find(".error").remove();
+                tr.find('.nume_res').parent().append('<label class="error">Este campo es obligatorio.</label>');
+                valid = false;
+            } else {
+                $.ajax({
+                    type: 'post',
+                    url: base_url + 'resolucion/check_nume_res',
+                    async: false,
+                    data: {
+                        nume_res: nume_res
+                    },
+                    success: function(result) {
+                        if (result == "false") {
+                            tr.find('.nume_res').parent().removeClass('has-success').addClass('has-error');
+                            tr.find('.nume_res').parent().find(".error").remove();
+                            tr.find('.nume_res').parent().append('<label class="error">El número de resolución ya existe.</label>');
+                            valid = false;
+                        } else {
+                            check = false;
+                            for (var i = 0; i < history_nume.length; i++) {
+                                if (history_nume[i] == nume_res) {
+                                    check = true;
+                                    break;
+                                }
+                            }
+                            if (check) {
+                                tr.find('.nume_res').parent().removeClass('has-success').addClass('has-error');
+                                tr.find('.nume_res').parent().find(".error").remove();
+                                tr.find('.nume_res').parent().append('<label class="error">Ya has agregado el mismo número de resolución.</label>');
+                                valid = false;
+                            } else {
+                                tr.find('.nume_res').parent().removeClass('has-error').addClass('has-success');
+                                tr.find('.nume_res').parent().find('.error').remove();
+                                history_nume.push(nume_res);
+                            }
+                        }
+                    }
+                });
+            }
+
+            if (fech_res === "") {
+                tr.find('.fech_res').parent().removeClass('has-success').addClass('has-error');
+                tr.find('.fech_res').parent().parent().find('.error').remove();
+                tr.find('.fech_res').parent().parent().append('<label class="error">Este campo es obligatorio.</label>');
+                valid = false;
+            } else {
+                if (!validar_fecha(fech_res, tr.find('.fech_res'))) {
+                    tr.find('.fech_res').parent().removeClass('has-success').addClass('has-error');
+                    tr.find('.fech_res').parent().parent().find('.error').remove();
+                    tr.find('.fech_res').parent().parent().append('<label class="error">Por favor, ingrese una fecha válida en el formato YYYY-MM-DD.</label>');
+                    valid = false;
+                } else {
+                    tr.find('.fech_res').parent().removeClass('has-error').addClass('has-success');
+                    tr.find('.fech_res').parent().parent().find('.error').remove();
+                }
+            }
+
+            if (desc_res === "") {
+                tr.find('.desc_res').parent().removeClass('has-success').addClass('has-error');
+                tr.find('.desc_res').parent().find('.error').remove();
+                tr.find('.desc_res').parent().append('<label class="error">Este campo es obligatorio.</label>');
+                valid = false;
+            } else {
+                tr.find('.desc_res').parent().removeClass('has-error').addClass('has-success');
+                tr.find('.desc_res').parent().find('.error').remove();
+            }
+            
+            if (docu_res === 0) {
+                tr.find('.docu_res').parent().parent().parent().removeClass('has-success').addClass('has-error');
+                tr.find('.docu_res').parent().parent().parent().parent().parent().find('.error').remove();
+                tr.find('.docu_res').parent().parent().parent().parent().parent().append('<label class="error">Este campo es obligatorio.</label>');
+                valid = false;
+            } else {
+                tr.find('.docu_res').parent().parent().parent().removeClass('has-error').addClass('has-success');
+                tr.find('.docu_res').parent().parent().parent().parent().parent().find('.error').remove();
+            }
+        });
+
+        if (valid) {
+            $('#form_resolucion_multi').submit();
         }
     });
 

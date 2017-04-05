@@ -31,6 +31,8 @@
 <div class="modal fade" id="modal_resolucion" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog">
   <div class="modal-dialog" role="document" style="width: 90%">
     <div class="modal-content box-content box-bold">
+        <form id="form_resolucion_multi" method="post" action="resolucion/save_multi" enctype="multipart/form-data" accept-charset="utf-8">
+          <input type="hidden" name="count_rows">
         	<div class="modal-header">
                 <h4 class="modal-title" id="modal_resolucion_lbl"></h4>
             </div>
@@ -56,14 +58,15 @@
                 <br>
                 <br>
                 <button type="button" class="btn btn-default" data-dismiss="modal" style="margin-top: 20px;">Volver</button>
-                <button id="submit_resolucion" type="button" class="btn btn-success" style="margin-top: 20px;">Guardar</button>
+                <button id="submit_multi_resolucion" type="button" class="btn btn-success" style="margin-top: 20px;">Guardar</button>
             </div>
+        </form>
     </div>
   </div>
 </div>
 
 <div id="select_view">
-      <select name="codi_gre" class="form-control">
+      <select class="form-control codi_gre" class="form-control">
         <?php foreach ($grupos_resolucion as $grupo_resolucion) { ?>
                 <option value="<?= $grupo_resolucion->codi_gre ?>"><?= $grupo_resolucion->nomb_gre ?></option>
         <?php } ?>

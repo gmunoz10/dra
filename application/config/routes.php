@@ -52,6 +52,7 @@ $route['resolucion/paginate'] = "ResolucionController/paginate";
 $route['resolucion/check_nume_res'] = "ResolucionController/check_nume_res";
 $route['resolucion/check_nume_res_actualizar'] = "ResolucionController/check_nume_res_actualizar";
 $route['resolucion/save'] = "ResolucionController/save";
+$route['resolucion/save_multi'] = "ResolucionController/save_multi";
 $route['resolucion/update'] = "ResolucionController/update";
 $route['resolucion/habilitar'] = "ResolucionController/habilitar";
 $route['resolucion/deshabilitar'] = "ResolucionController/deshabilitar";
