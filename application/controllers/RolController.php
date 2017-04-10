@@ -144,8 +144,7 @@ class RolController extends CI_Controller {
         $desc_rol = $this->input->post('desc_rol');
 
         $data = array(
-            'desc_rol' => $desc_rol,
-            'esta_rol' => '1'
+            'desc_rol' => $desc_rol
         );
 
         if ($this->mod_rol->check_desc_rol_actualizar($codi_rol, $desc_rol) == "true") {

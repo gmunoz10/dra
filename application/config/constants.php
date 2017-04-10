@@ -85,6 +85,17 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 
+
+/*
+|--------------------------------------------------------------------------
+| Facebook API
+|--------------------------------------------------------------------------
+*/
+defined('APP_ID_FB')   				OR define('APP_ID_FB', '1327135627399921');
+defined('APP_SECRET_FB')   			OR define('APP_SECRET_FB', '7b7732eb917c72e8a51a54dcc8a0dd44');
+defined('ACCESS_TOKEN_FB')   		OR define('ACCESS_TOKEN_FB', 'EAAS3Bdej0vEBAIrcalLZChojkOey6DRQNKe3dD2NztSiCANFVaTfLqBAbZBpOWNKaV8r7WEldvz4r590JYvcWP93fgIcUU7lBWVSeR9B3JzaFldK7x2CceQxPQyKHuXeZA6H1bSVQnEtmvlGOUJm3UKu5rucZApxWXBjgauMDwZDZD');
+
+
 /*
 |--------------------------------------------------------------------------
 | Permisos
@@ -125,3 +136,28 @@ defined('MODIFICAR_GRUPO_RESOLUCION')   OR define('MODIFICAR_GRUPO_RESOLUCION', 
 defined('HABILITAR_GRUPO_RESOLUCION')   OR define('HABILITAR_GRUPO_RESOLUCION', 29);
 defined('DESHABILITAR_GRUPO_RESOLUCION')OR define('DESHABILITAR_GRUPO_RESOLUCION', 30);
 defined('ELIMINAR_GRUPO_RESOLUCION')   	OR define('ELIMINAR_GRUPO_RESOLUCION', 31);
+// DEPENDENCIA
+defined('BUSCAR_DEPENDENCIA')			OR define('BUSCAR_DEPENDENCIA', 32);
+defined('LEER_DEPENDENCIA')        		OR define('LEER_DEPENDENCIA', 33);
+defined('REGISTRAR_DEPENDENCIA')   		OR define('REGISTRAR_DEPENDENCIA', 34);
+defined('MODIFICAR_DEPENDENCIA')   		OR define('MODIFICAR_DEPENDENCIA', 35);
+defined('HABILITAR_DEPENDENCIA')   		OR define('HABILITAR_DEPENDENCIA', 36);
+defined('DESHABILITAR_DEPENDENCIA')		OR define('DESHABILITAR_DEPENDENCIA', 37);
+defined('ELIMINAR_DEPENDENCIA')   		OR define('ELIMINAR_DEPENDENCIA', 38);
+// AGENDA
+defined('BUSCAR_AGENDA')  				OR define('BUSCAR_AGENDA', 39);
+defined('LEER_AGENDA')        			OR define('LEER_AGENDA', 40);
+defined('REGISTRAR_AGENDA')  			OR define('REGISTRAR_AGENDA', 41);
+defined('MODIFICAR_AGENDA')   			OR define('MODIFICAR_AGENDA', 42);
+defined('HABILITAR_AGENDA')   			OR define('HABILITAR_AGENDA', 43);
+defined('DESHABILITAR_AGENDA')			OR define('DESHABILITAR_AGENDA', 44);
+defined('ELIMINAR_AGENDA')   			OR define('ELIMINAR_AGENDA', 45);
+// NOTICIA
+defined('BUSCAR_NOTICIA')  				OR define('BUSCAR_NOTICIA', 46);
+defined('LEER_NOTICIA')        			OR define('LEER_NOTICIA', 47);
+defined('REGISTRAR_NOTICIA')   			OR define('REGISTRAR_NOTICIA', 48);
+defined('MODIFICAR_NOTICIA')   			OR define('MODIFICAR_NOTICIA', 49);
+defined('HABILITAR_NOTICIA')   			OR define('HABILITAR_NOTICIA', 50);
+defined('DESHABILITAR_NOTICIA')			OR define('DESHABILITAR_NOTICIA', 51);
+defined('ELIMINAR_NOTICIA')   			OR define('ELIMINAR_NOTICIA', 52);
+

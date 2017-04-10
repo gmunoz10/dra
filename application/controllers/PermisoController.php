@@ -93,8 +93,7 @@ class PermisoController extends CI_Controller {
                     $permiso_usuario = $this->mod_permiso->get_permiso_usuario_row(array(
                                                                         "codi_usu" => $codi_usu, 
                                                                         "codi_rol" => $usuario->codi_rol,
-                                                                        "codi_per" => $permiso->codi_per,
-                                                                        "esta_pus" => "1"));
+                                                                        "codi_per" => $permiso->codi_per));
 
                     if ($permiso_usuario) {
                         $permiso_row = array(
@@ -106,14 +105,34 @@ class PermisoController extends CI_Controller {
                     } else {
                         $permiso_rol = $this->mod_permiso->get_permiso_rol_row(array(
                                                                         "codi_rol" => $usuario->codi_rol, 
-                                                                        "codi_per" => $permiso->codi_per,
-                                                                        "esta_pro" => "1"));
-                        $permiso_row = array(
-                            "codi_pro" => $permiso_rol->codi_pro,
-                            "codi_pus" => -1,
-                            "desc_per" => $permiso->desc_per,
-                            "valo_pus" => $permiso_rol->valo_pro
-                        );
+                                                                        "codi_per" => $permiso->codi_per));
+
+
+                        if ($permiso_rol) {
+                            $permiso_row = array(
+                                "codi_pro" => $permiso_rol->codi_pro,
+                                "codi_pus" => -1,
+                                "desc_per" => $permiso->desc_per,
+                                "valo_pus" => $permiso_rol->valo_pro
+                            );
+                        } else {
+                            $data = array(
+                                'valo_pro' => "0",
+                                'codi_rol' => $usuario->codi_rol,
+                                'codi_per' => $permiso->codi_per,
+                                'esta_pro' => "1"
+                            );
+                            $codi_pro = $this->mod_permiso->save_permiso_rol($data);
+
+                            $permiso_row = array(
+                                "codi_pro" => $codi_pro,
+                                "codi_pus" => -1,
+                                "desc_per" => $permiso->desc_per,
+                                "valo_pus" => "0"
+                            );
+                        }
+
+                        
                     }
                 }
 

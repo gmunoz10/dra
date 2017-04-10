@@ -55,3 +55,32 @@
     </div>
   </div>
 </div>
+
+<div class="modal fade" id="modal_link" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content box-content box-bold col-lg-10 col-md-offset-2">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="modal_link_lbl"></h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <label id="reso_label"></label>
+                        <div class="input-group">
+                            <input class="form-control" name="link" id="enlace_gre" readonly="">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default btn-copiar" type="button" data-clipboard-target="#enlace_gre" data-toggle="tooltip" data-placement="top" title="Copiar"><i class="fa fa-clipboard" aria-hidden="true"></i></button>
+                              </span>
+                          <span class="input-group-btn">
+                            <button class="btn btn-primary btn-enlace" type="button" data-toggle="tooltip" data-placement="top" title="Ir al enlace"><i class="fa fa-external-link" aria-hidden="true"></i></button>
+                          </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>

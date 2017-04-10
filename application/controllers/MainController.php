@@ -17,6 +17,10 @@ class MainController extends CI_Controller {
         $this->styles[] = '<link href="'.asset_url().'css/home.css" rel="stylesheet">';
         $this->scripts[] = '<script src="'.asset_url().'js/home.js"></script>';
 
+        $this->load->model("mod_prensa");
+
+        $data["noticias"] = $this->mod_prensa->get_noticias();
+
         // Imprimir vista con datos
         $data['label'] = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.';
 
@@ -77,7 +81,14 @@ class MainController extends CI_Controller {
     }
 
     public function agenda() {
-        $this->styles[] = '<link href="'.asset_url().'css/agenda.css" rel="stylesheet">';
+        $this->styles[] = '<link href="'.asset_url().'css/agenda_publico.css" rel="stylesheet">';
+        $this->scripts[] = '<script src="'.asset_url().'js/agenda_public.js"></script>';
+
+        $this->load->model("mod_agenda");
+
+        $data["dependencias"] = $this->mod_agenda->get_dependencias();
+        $data["years"] = $this->mod_agenda->get_years_agenda();
+
         // Imprimir vista con datos
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;

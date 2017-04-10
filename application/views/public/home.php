@@ -44,50 +44,22 @@
     <div id="carousel-noticias" class="carousel slide carousel-noticias" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#carousel-noticias" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-noticias" data-slide-to="1"></li>
-        <li data-target="#carousel-noticias" data-slide-to="2"></li>
-        <li data-target="#carousel-noticias" data-slide-to="3"></li>
-        <li data-target="#carousel-noticias" data-slide-to="4"></li>
+        <?php foreach ($noticias as $key => $noticia) { ?>
+          <li data-target="#carousel-noticias" data-slide-to="<?= $key ?>" class="<?= ($key == 0) ? "active" : "" ?>"></li>
+        <?php } ?>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="<?= asset_url() ?>img/carousel/agricultura01.jpg" alt="...">
-          <div class="carousel-caption">
-            <h4>NOTICIA 1</h4>
-            <?= limit_to($label, 120) ?>...
+        <?php foreach ($noticias as $key => $noticia) { ?>
+          <div class="item <?= ($key == 0) ? "active" : "" ?>">
+            <img src="<?= asset_url() ?>noticia/<?= $noticia->imag_not ?>" alt="...">
+            <div class="carousel-caption">
+              <h4><?= $noticia->titu_not ?></h4>
+              <?= limit_to($label, 120) ?>...
+            </div>
           </div>
-        </div>
-        <div class="item">
-          <img src="<?= asset_url() ?>img/carousel/agricultura02.jpg" alt="...">
-          <div class="carousel-caption">
-            <h4>NOTICIA 2</h4>
-            <?= limit_to($label, 120) ?>...
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?= asset_url() ?>img/carousel/agricultura03.jpg" alt="...">
-          <div class="carousel-caption">
-            <h4>NOTICIA 3</h4>
-            <?= limit_to($label, 120) ?>...
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?= asset_url() ?>img/carousel/agricultura04.jpg" alt="...">
-          <div class="carousel-caption">
-            <h4>NOTICIA 4</h4>
-            <?= limit_to($label, 120) ?>...
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?= asset_url() ?>img/carousel/agricultura05.jpg" alt="...">
-          <div class="carousel-caption">
-            <h4>NOTICIA 5</h4>
-            <?= limit_to($label, 120) ?>...
-          </div>
-        </div>
+        <?php } ?>
       </div>
       <div class="carousel-more">
       <p class="carousel-share">
@@ -179,6 +151,24 @@
         <a href="#" class="carousel-link"><b>Ver mas</b></a>
       </p>
       </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="modal_aviso" tabindex="-1" data-backdrop="false" data-keyboard="true" role="dialog">
+  <div class="modal-dialog" role="document" style="width: 60%; margin-top: 10px;">
+    <div class="modal-content box-content box-bold" style="margin-top: 0px;">
+            <div class="modal-header" style="padding: 0px;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="modal_aviso_lbl">Aviso</h4>
+            </div>
+            <div class="modal-body">
+              <img src="<?= asset_url() ?>avisos/06-04-2017.jpg" style="width: 100%;">
+            </div>
+            <div class="modal-footer">
+                <span class="pull-left" style="font-style: italic;">Fecha de publicación: 7 de Marzo del 2017.</span>
+            </div>
     </div>
   </div>
 </div>

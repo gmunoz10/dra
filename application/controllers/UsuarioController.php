@@ -147,8 +147,7 @@ class UsuarioController extends CI_Controller {
 
         $data = array(
             'codi_rol' => $codi_rol,
-            'nomb_usu' => $nomb_usu,
-            'esta_usu' => '1'
+            'nomb_usu' => $nomb_usu
         );
 
         if ($this->input->post('cont_usu') != "") {

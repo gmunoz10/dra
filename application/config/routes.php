@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = "MainController";
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-
+$route['test/index'] = "TestController/index";
 
 $route['vision-mision'] = "MainController/vision_mision";
 $route['temas-agrarios'] = "MainController/temas_agrarios";
@@ -13,8 +13,10 @@ $route['direccion-oficina'] = "MainController/direccion_oficina";
 $route['agencias-agrarias'] = "MainController/agencias_agrarias";
 $route['contacto'] = "MainController/contacto";
 $route['galeria'] = "MainController/galeria";
-$route['agenda'] = "MainController/agenda";
+$route['agenda/publico'] = "MainController/agenda";
 $route['transparencia'] = "MainController/transparencia";
+$route['resolucion/(:num)'] = "ResolucionController/resolucion/$1";
+$route['resolucion/paginate_portal'] = "ResolucionController/paginate_portal";
 
 $route['login'] = "MainController/login";
 $route['validar_login'] = "SessionController/validar_login";
@@ -67,3 +69,33 @@ $route['grupo_resolucion/update'] = "ResolucionController/update_grupo";
 $route['grupo_resolucion/habilitar'] = "ResolucionController/habilitar_grupo";
 $route['grupo_resolucion/deshabilitar'] = "ResolucionController/deshabilitar_grupo";
 $route['grupo_resolucion/eliminar'] = "ResolucionController/eliminar_grupo";
+
+$route['dependencia'] = "AgendaController/dependencia";
+$route['dependencia/paginate'] = "AgendaController/paginate_dependencia";
+$route['dependencia/check_nomb_dpe'] = "AgendaController/check_nomb_dpe";
+$route['dependencia/check_nomb_dpe_actualizar'] = "AgendaController/check_nomb_dpe_actualizar";
+$route['dependencia/save'] = "AgendaController/save_dependencia";
+$route['dependencia/update'] = "AgendaController/update_dependencia";
+$route['dependencia/habilitar'] = "AgendaController/habilitar_dependencia";
+$route['dependencia/deshabilitar'] = "AgendaController/deshabilitar_dependencia";
+$route['dependencia/eliminar'] = "AgendaController/eliminar_dependencia";
+
+$route['agenda'] = "AgendaController/index";
+$route['agenda/paginate'] = "AgendaController/paginate";
+$route['agenda/save'] = "AgendaController/save";
+$route['agenda/update'] = "AgendaController/update";
+$route['agenda/habilitar'] = "AgendaController/habilitar";
+$route['agenda/deshabilitar'] = "AgendaController/deshabilitar";
+$route['agenda/eliminar'] = "AgendaController/eliminar";
+$route['agenda/paginate_public'] = "AgendaController/paginate_public";
+
+$route['noticia'] = "PrensaController/index";
+$route['noticia/paginate'] = "PrensaController/paginate";
+$route['noticia/check_nume_not'] = "PrensaController/check_nume_not";
+$route['noticia/check_nume_not_actualizar'] = "PrensaController/check_nume_not_actualizar";
+$route['noticia/save'] = "PrensaController/save";
+$route['noticia/update'] = "PrensaController/update";
+$route['noticia/habilitar'] = "PrensaController/habilitar";
+$route['noticia/deshabilitar'] = "PrensaController/deshabilitar";
+$route['noticia/eliminar'] = "PrensaController/eliminar";
+

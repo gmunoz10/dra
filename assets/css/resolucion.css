@@ -10,3 +10,7 @@
 .box-date .input-group-addon {
 	font-size: 13px;
 }
+
+.bootstrap-datetimepicker-widget {
+	color: black;
+}

@@ -1,4 +1,9 @@
-<?php foreach ($grupos_permiso as $grupo_permiso) { ?>
+<?php 
+    foreach ($grupos_permiso as $key => $grupo_permiso) { 
+        if ($key%2==0){
+            echo '<div class="col-lg-12">';
+        }
+?>
 <div class="box-bold col-md-5 no-padding" style="margin: 10px; background: transparent;">
     <div class="table-responsive">
         <table class="table table-bordered table-condensed table-permiso no-margin">
@@ -26,4 +31,9 @@
     <?php } ?>
 </div>
 
-<?php } ?>
+<?php 
+        if ($key%2!=0 || $key == count($grupos_permiso)){
+            echo '</div>';
+        }
+    } 
+?>

@@ -13869,6 +13869,10 @@
 		simple: function ( page, pages ) {
 			return [ 'previous', 'next' ];
 		},
+
+		numbers: function ( page, pages ) {
+			return [ _numbers(page, pages) ];
+		},
 	
 		full: function ( page, pages ) {
 			return [  'first', 'previous', 'next', 'last' ];

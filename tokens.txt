@@ -1,0 +1,65 @@
+{
+  "access_token": "EAAS3Bdej0vEBAE0Jptjro1YRoz5emgCPU3LI4ETIUZAeOgHDum0rLeabxqgcqisisiMTcfqZAkCJeLE7oNjYSpcmCIJBR6zbI1IXCNCWKJSf0QDZBTQbY1xjaB5A9hDYFIqieigqgZAU46nSOL4HNkD54Ud7FQoZD",
+  "token_type": "bearer",
+  "expires_in": 5184000
+}
+
+{
+  "name": "Gerardo Munoz Asca",
+  "id": "283856845373725"
+}
+
+{
+  "data": [
+    {
+      "access_token": "EAAS3Bdej0vEBABDmhHMovDfhUizG19g9bzzvDOvfwG2EyPcwNZAHm0GsE99MnZAchhdNvM28v3AWoqb7nEQd0GZAg5nzEr7mnxCadiA49pqBBphJNOSDnB5I0LcD9vdbZB3vREoVREjXABCfaBavG9PqN6KMGDRQWclv5jSZAm5xw6xnYCErP41uJ1p9nEU8ZD",
+      "category": "Non-Governmental Organization (NGO)",
+      "category_list": [
+        {
+          "id": "2235",
+          "name": "Non-Governmental Organization (NGO)"
+        }
+      ],
+      "name": "SanaMundo",
+      "id": "225328911230625",
+      "perms": [
+        "MODERATE_CONTENT",
+        "CREATE_ADS",
+        "BASIC_ADMIN"
+      ]
+    },
+    {
+      "access_token": "EAAS3Bdej0vEBAJ8IlJyilbYuU940ZBwuqCVi5JO2GNV6MgDb6dkIh3mQZBpPSz3oa7ajAEmwqCX1uZCL86K3kENj4OIW6rigiDXTHfUWMooBzC9pZAedW9kUTpNV5r3sRcbVjFp3IbcmAZBJJEYpYm5D4v5RQYincd1ZCZAer4Ki4pK00g9JkjzVmgv9CUP108ZD",
+      "category": "Internet Company",
+      "name": "STinfoConsulting SAC",
+      "id": "595355943948749",
+      "perms": [
+        "EDIT_PROFILE",
+        "CREATE_CONTENT",
+        "MODERATE_CONTENT",
+        "CREATE_ADS",
+        "BASIC_ADMIN"
+      ]
+    },
+    {
+      "access_token": "EAAS3Bdej0vEBACZAWdC8xcJfnxbnmjmQZATiFKBgAOzuHMrXZAWZBc0dEwHAbGu2OGsEr3svRDulC3fPwY4fyDOir20uFg5mUdVPhWq1jgZAp4VQxyvWqr2U6HMODLMez3c6XHs83UlePZBbgw7ZBKiqX6d3ukX86NXgg7uknjngX7fmRLZCSNcZAmJ1dW0mIFGEZD",
+      "category": "Government Organization",
+      "name": "DRAL oficial",
+      "id": "182498662244220",
+      "perms": [
+        "ADMINISTER",
+        "EDIT_PROFILE",
+        "CREATE_CONTENT",
+        "MODERATE_CONTENT",
+        "CREATE_ADS",
+        "BASIC_ADMIN"
+      ]
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "MjI1MzI4OTExMjMwNjI1",
+      "after": "MTgyNDk4NjYyMjQ0MjIw"
+    }
+  }
+}

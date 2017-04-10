@@ -1,0 +1,130 @@
+.box-shadow-agenda {
+  /*
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+  border-radius: 5px;
+  */
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 2px;
+
+  box-shadow: 0 0px 1px rgba(0,0,0,0.19), 0px 0px 30px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+
+.box-shadow-agenda:hover {
+  box-shadow: 0 0px 90px rgba(0,0,0,0.19), 0px 0px 30px rgba(0,0,0,0.23);
+}
+
+.page-header-agenda {
+  margin-top: 15px;
+}
+
+.box-top-agenda {
+  margin-bottom: 50px;
+}
+
+.box-top-title-agenda {
+  color: #6c6c6c; 
+  margin-bottom: 15px; 
+  font-weight: bold;
+}
+
+.box-top-hr-agenda {
+  border: 1px solid #696969;
+}
+
+.box-filtro-agenda {
+  margin-top: 25px;
+  padding: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: justify;
+}
+
+.label-dependencia-agenda {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.filter-dependencia {
+  background: #7a7a7a;
+  color: #d2d0d0;
+}
+
+.label-mes-agenda {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.filter-mes {
+  background: #7a7a7a;
+  color: #d2d0d0;
+}
+
+.filter-mes option:disabled {
+  color: #d2d0d0;
+}
+
+.label-year-agenda {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.filter-year {
+  background: #7a7a7a;
+  color: #d2d0d0;
+}
+
+.filter-year option:disabled {
+  color: #d2d0d0;
+}
+
+.box-time {
+  margin-top: 10px;
+}
+
+.box-search-dependencia button {
+  background: #b6b832;
+  border-color: #b6b832;
+  margin-left: 10px;
+  border-radius: 0px;
+}
+
+.box-resultado-agenda {
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  text-align: justify;
+}
+
+.table-resultado-agenda thead tr th {
+  background: #7a7a7a;
+  color: #d2d0d0;
+  text-align: center;
+}
+
+.table-resultado-agenda tbody tr td {
+  background-color: #f9f9f9;
+}
+
+.table-resultado-agenda tbody tr td {
+  vertical-align: middle;
+}
+
+
+.table-resultado-agenda tbody tr td:nth-child(2),
+.table-resultado-agenda tbody tr td:nth-child(3),
+.table-resultado-agenda tbody tr td:nth-child(4),
+.table-resultado-agenda tbody tr td:nth-child(5),
+.table-resultado-agenda tbody tr td:nth-child(6)
+{
+  text-align: center;
+}

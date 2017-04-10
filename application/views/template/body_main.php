@@ -9,6 +9,8 @@
     <meta name="description" content="DESCRIPTION">
     <meta name="fragment" content="!">
 
+    <meta property="fb:pages" content="182498662244220" />
+
     <link rel="icon" type="image/x-icon" href="<?= asset_url() ?>img/brand/favicon.ico">
     <link rel="shortcut icon" href="<?= asset_url() ?>img/brand/favicon.ico" type="image/x-icon" />
 
@@ -29,12 +31,12 @@
       <?php
         if ($this->session->userdata("usuario")) {
       ?>
-      <button class="btb pull-right" style="margin-right: 4px; margin-left: 10px; border: none; padding: 2px 10px; background: #9e9e9e;"><a href="<?= base_url('logout') ?>" style="text-decoration: none;"><i class="fa fa-power-off" aria-hidden="true"></i> Cerrar sesión</a></button>
-          <span class="pull-right" style="border: none; padding: 2px 10px; background: #f60d0d; color: white;"><i class="fa fa-user" aria-hidden="true"></i> Bienvenido, <b><?= $this->session->userdata("usuario")->nomb_usu ?></b></span>
+      <button class="btb pull-right" style="margin-right: 4px; margin-left: 10px; border: none; padding: 2px 10px; background: #9e9e9e; font-family: Verdana, sans-serif;"><a href="<?= base_url('logout') ?>" style="text-decoration: none;"><i class="fa fa-power-off" aria-hidden="true"></i> Cerrar sesión</a></button>
+          <span class="pull-right" style="border: none; padding: 2px 10px; background: rgba(14,130,64, 1); color: white; font-family: Verdana, sans-serif;"><i class="fa fa-user" aria-hidden="true"></i> Bienvenido, <b><?= $this->session->userdata("usuario")->nomb_usu ?></b></span>
       <?php
         } else { 
       ?>
-          <button class="btb pull-right" style="margin-right: 4px; border: none; padding: 2px 10px; background: #f60d0d;"><a href="<?= base_url('login') ?>" style="text-decoration: none;">Webmaster - Login</a></button>
+          <button class="btb pull-right" style="margin-right: 4px; border: none; padding: 2px 10px; background: rgba(14,130,64, 1); font-family: Verdana, sans-serif;"><a href="<?= base_url('login') ?>" style="text-decoration: none;"><i class="fa fa-user" aria-hidden="true"></i> Intranet - Login</a></button>
       <?php
         } 
       ?>
@@ -91,10 +93,13 @@
               <a class="item-menu" href="<?= base_url('galeria') ?>">Galería</a>
             </li>
             <li>
-              <a class="item-menu" href="<?= base_url('agenda') ?>">Agenda</a>
+              <a class="item-menu" href="<?= base_url('agenda/publico') ?>">Agenda</a>
             </li>
             <li>
               <a class="item-menu" href="<?= base_url('transparencia') ?>">Transparencia</a>
+            </li>
+            <li>
+              <a class="item-menu" href="http://corepo.dral.gob.pe/">COREPO</a>
             </li>
             <?php
               if ($this->session->userdata("usuario")) {
@@ -113,6 +118,15 @@
                 <?php } ?>
                 <?php if (check_permission(BUSCAR_RESOLUCION)) { ?>
                   <li><a href="<?= base_url('resolucion') ?>">Resoluciones</a></li>
+                <?php } ?>
+                <?php if (check_permission(BUSCAR_DEPENDENCIA)) { ?>
+                  <li><a href="<?= base_url('dependencia') ?>">Dependencias</a></li>
+                <?php } ?>
+                <?php if (check_permission(BUSCAR_AGENDA)) { ?>
+                  <li><a href="<?= base_url('agenda') ?>">Agenda</a></li>
+                <?php } ?>
+                <?php if (check_permission(BUSCAR_NOTICIA)) { ?>
+                  <li><a href="<?= base_url('noticia') ?>">Noticia</a></li>
                 <?php } ?>
               </ul>
             </li>

@@ -87,6 +87,32 @@ $(function() {
         $("#modal_grupo_resolucion").modal();
     });
 
+    $(document).on('click', '#table_search button.btn-preview', function () {
+        var tr = $(this).parent().closest('tr');
+        var row = table_search.row(tr);
+        var data = row.data();
+
+        $("#modal_link_lbl").html(data.nomb_gre);
+        $('[name="link"]').val(data.link_res);
+        $("#reso_label").html("Enlace de "+data.nomb_gre+" para portal de transparencia: ");
+
+        var clipboard = new Clipboard('.btn-copiar');
+
+
+        $("#modal_link").modal();
+    });
+
+    $(document).on('click', '.btn-enlace', function () {
+        window.open($(this).parent().parent().find('[name="link"]').val(), "Resolución DRAL", "width=490,height=500");
+    });
+
+    /*
+    $(document).on('click', '.btn-copiar', function () {
+        window.prompt("Copy to clipboard: Ctrl+C, Enter", $(this).parent().parent().find('[name="link"]').val());
+    });
+    */
+
+
     $(document).on('click', '#table_search button.btn-modificar', function () {
 
         var tr = $(this).parent().closest('tr');
