@@ -40,7 +40,7 @@
 <section class="container box-noticias-eventos">
 <div class="col-lg-12 no-padding">
   <div class="col-lg-5 box-noticias">
-    <h3>Noticias</h3>
+    <h3><a href="<?= base_url() . 'noticia/page' ?>" style="color: #fff;">Noticias</a></h3>
     <div id="carousel-noticias" class="carousel slide carousel-noticias" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -52,11 +52,11 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <?php foreach ($noticias as $key => $noticia) { ?>
-          <div class="item <?= ($key == 0) ? "active" : "" ?>">
+          <div data-codi="<?= $noticia->codi_not ?>" class="item <?= ($key == 0) ? "active" : "" ?>">
             <img src="<?= asset_url() ?>noticia/<?= $noticia->imag_not ?>" alt="...">
             <div class="carousel-caption">
               <h4><?= $noticia->titu_not ?></h4>
-              <?= limit_to($label, 120) ?>...
+              <?= limit_to(strip_tags($noticia->cont_not), 120) ?>...
             </div>
           </div>
         <?php } ?>
@@ -77,7 +77,7 @@
           <i class="fa fa-rss" aria-hidden="true"></i>
         </button>
 
-        <a href="#" class="carousel-link"><b>Ver mas</b></a>
+        <span id="noticia_link" href="#" class="carousel-link" style="cursor: pointer;"><b>Ver mas</b></span>
       </p>
       </div>
     </div>

@@ -15,7 +15,7 @@ class Mod_prensa extends CI_Model {
 
     function get_noticia_row($where) {
         $this->db->where($where);
-        $noticia = $this->db->get("noticia")->first_row();
+        $noticia = $this->db->get("v_noticia")->first_row();
         if (!empty($noticia)) {
             return $noticia;
         } else {
@@ -36,6 +36,19 @@ class Mod_prensa extends CI_Model {
                             `cont_not` LIKE '%$search%' OR
                             `fech_not` LIKE '%$search%'
                             )");
+        $this->db->limit($limit, $start);
+        $this->db->order_by("fech_not", "desc");
+        $query = $this->db->get('v_noticia');
+        return $query->result();
+    }
+
+    function count_noticias() {
+        $this->db->where("esta_not", "1");
+        return $this->db->count_all_results('noticia');
+    }
+
+    function get_list_noticias($start, $limit) {
+        $this->db->where("esta_not", "1");
         $this->db->limit($limit, $start);
         $this->db->order_by("fech_not", "desc");
         $query = $this->db->get('v_noticia');

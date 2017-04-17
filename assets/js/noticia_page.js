@@ -17,22 +17,13 @@ FB.AppEvents.logPageView();
 
 $(function() {
 
-	$('.carousel').carousel({
- 	  interval: 2000 // in milliseconds
- 	});
-
- 	$("#noticia_link").click(function() {
- 		var codi_not = $("#carousel-noticias .carousel-inner .item.active").data("codi");
- 		window.location.href = base_url+"noticia/"+codi_not;
- 	});
-
- 	$('#carousel-noticias .btn-facebook').click(function (e) {
+ 	$('.btn-facebook').click(function (e) {
+ 		var href = $(this).data("href");
 		FB.ui({
 		    method: 'share',
 		    display: 'popup',
-		    href: base_url+"noticia/"+$("#carousel-noticias .carousel-inner .item.active").data("codi"),
+		    href: href,
 		  }, function(response){});
 	});
 
- 	$("#modal_aviso").modal("show");
 });

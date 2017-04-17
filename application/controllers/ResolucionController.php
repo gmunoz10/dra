@@ -132,7 +132,7 @@ class ResolucionController extends CI_Controller {
             $config['max_width'] = 0;
             $config['max_height'] = 0;
             $config['max_size'] = 20000;
-            $config['file_name'] = urlencode($nume_res);
+            $config['file_name'] = date("Y", strtotime($fech_res)) . "_" . urlencode($nume_res);
 
             $this->load->library('upload', $config);
             if ( ! $this->upload->do_upload('docu_res')) {
@@ -187,7 +187,7 @@ class ResolucionController extends CI_Controller {
                     $config['max_width'] = 0;
                     $config['max_height'] = 0;
                     $config['max_size'] = 20000;
-                    $config['file_name'] = urlencode($nume_res);
+                    $config['file_name'] = date("Y", strtotime($fech_res)) . "_" . urlencode($nume_res);
 
                     $this->load->library('upload', $config);
                     if ( ! $this->upload->do_upload($docu_res)) {
@@ -260,7 +260,7 @@ class ResolucionController extends CI_Controller {
                 $config['max_width'] = 0;
                 $config['max_height'] = 0;
                 $config['max_size'] = 20000;
-                $config['file_name'] = $nume_res;
+                $config['file_name'] = date("Y", strtotime($fech_res)) . "_" . urlencode($nume_res);
 
                 $this->load->library('upload', $config);
 

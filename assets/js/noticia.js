@@ -23,6 +23,45 @@ $(function() {
         "displayLength": 10
     });
 
+    var width_file = -1;
+    var height_file = -1;
+
+
+    $('#cont_not').summernote({
+        height: 200,
+        lang: 'es-ES',
+        callbacks : {
+            onImageUpload: function(image) {
+                uploadImage(image[0]);
+            }
+        }
+    });
+
+    function uploadImage(image) {
+        var data = new FormData();
+        data.append("image",image);
+        $.ajax ({
+            data: data,
+            type: "POST",
+            url: base_url+"noticia/uploadImage",
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function(response) {
+                var data = $.parseJSON(response);
+                if (data.status == "error") {
+                    show_toast("error", data.result);
+                } else {    
+                    var image = base_url + "/assets/noticia/imagenes_noticia/" + data.result;
+                    $('#cont_not').summernote('insertImage', image);
+                }
+            },
+            error: function(data) {
+                console.log(data);
+            }
+        });
+    }
+
     function printPreview(input, preview, default_img) {
         var fileExtension = ['jpeg', 'jpg', 'png', 'gif', 'bmp'];
         if ($.inArray(input.val().split('.').pop().toLowerCase(), fileExtension) != -1) {
@@ -31,6 +70,13 @@ $(function() {
                     var reader_img = new FileReader();
                     reader_img.onload = function (e) {
                         preview.attr('src', e.target.result);
+
+                        var image = new Image();
+                        image.src = e.target.result;
+                        image.onload = function () {
+                            height_file = this.height;
+                            width_file = this.width;
+                        };
                     };
                     reader_img.readAsDataURL(input[0].files[0]);
                 } else {
@@ -39,6 +85,8 @@ $(function() {
             }
         } else {
             preview.attr('src', default_img);
+            height_file = -1;
+            width_file = -1;
         }
     }
 
@@ -53,14 +101,18 @@ $(function() {
         return this.optional(element) || moment(value,"YYYY-MM-DD").isValid();
     }, "Por favor, ingrese una fecha válida en el formato YYYY-MM-DD");
 
+    jQuery.validator.addMethod("check200", function(value, element) {
+        if (height_file != -1 && width_file != -1) {
+            if (height_file < 200 || width_file < 200) {
+                return false;
+            }
+        }
+        return true;
+    }, "La imagen debe tener un tamaño mayor a 200 píxeles de altura y 200 píxeles de anchura");
+
     $('input[name="fech_not"]').parent().datetimepicker({
         format: 'YYYY-MM-DD HH:mm',
         locale: 'es'
-    });
-
-    $('#cont_not').summernote({
-        height: 200,
-        lang: 'es-ES'
     });
 
     var $form_noticia = $('#form_noticia');
@@ -120,7 +172,8 @@ $(function() {
                 },
                 imag_not: {
                     required: true,
-                    accept: "image/*"
+                    accept: "image/*",
+                    check200: true
                 },
             },
             messages: {
@@ -156,6 +209,11 @@ $(function() {
 
         $form_noticia.get(0).reset();
 
+
+        if (isDestroyable) {
+            $.removeData($form_noticia.get(0),'validator');
+        }
+
         $('#form_noticia :input[name="codi_not"]').val(data.codi_not);  
         $('#form_noticia :input[name="nume_not"]').val(data.nume_not);  
         $('#form_noticia :input[name="titu_not"]').val(data.titu_not);  
@@ -166,8 +224,6 @@ $(function() {
         printPreview($("#file_img"), $('#preview'), imagen_default);
 
         $("#modal_noticia_lbl").html("Modificar noticia");
-
-        $.removeData($form_noticia.get(0),'validator');
 
         $form_noticia.attr("action", base_url+"noticia/update");
 
@@ -215,7 +271,8 @@ $(function() {
                     required: true,
                 },
                 imag_not: {
-                    accept: "image/*"
+                    accept: "image/*",
+                    check200: true
                 },
             },
             messages: {

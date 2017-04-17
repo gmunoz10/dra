@@ -8,7 +8,15 @@
     <title>DRAL</title>
     <meta name="description" content="DESCRIPTION">
     <meta name="fragment" content="!">
+    
+    <meta property="og:title" content="<?= (isset($title) && $title != "") ? $title : "DRAL" ?>" />
+    <meta property="og:description" content="<?= (isset($description) && $description != "") ? $description : "Dirección Regional de Agricultura Lima" ?>" />
+    <meta property="og:url" content="<?= base_url(uri_string()); ?>" />
+    <meta property="og:image" content="<?= (isset($img) && $img != "") ? $img : asset_url() . 'img/brand/logo-200.jpg' ?>" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Dirección Regional de Agricultura Lima" />
 
+    <meta property="fb:app_id" content="1327135627399921" />
     <meta property="fb:pages" content="182498662244220" />
 
     <link rel="icon" type="image/x-icon" href="<?= asset_url() ?>img/brand/favicon.ico">
@@ -118,6 +126,12 @@
                 <?php } ?>
                 <?php if (check_permission(BUSCAR_RESOLUCION)) { ?>
                   <li><a href="<?= base_url('resolucion') ?>">Resoluciones</a></li>
+                <?php } ?>
+                <?php if (check_permission(BUSCAR_GRUPO_DIRECTIVA)) { ?>
+                  <li><a href="<?= base_url('grupo_directiva') ?>">Grupos de directiva</a></li>
+                <?php } ?>
+                <?php if (check_permission(BUSCAR_DIRECTIVA)) { ?>
+                  <li><a href="<?= base_url('directiva') ?>">Directivas</a></li>
                 <?php } ?>
                 <?php if (check_permission(BUSCAR_DEPENDENCIA)) { ?>
                   <li><a href="<?= base_url('dependencia') ?>">Dependencias</a></li>

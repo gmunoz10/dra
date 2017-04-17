@@ -642,3 +642,8 @@ a:hover .header-profile-image {
     opacity: 0;
     filter: alpha(opacity=0);
 }
+
+a, a:hover {
+  color: black;
+  text-decoration: none;
+}

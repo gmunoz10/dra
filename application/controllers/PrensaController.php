@@ -73,6 +73,7 @@ class PrensaController extends CI_Controller {
                         $opciones.= '<form method="post" class="habilitar_noticia" action="'.base_url('noticia/habilitar').'" style="display: inline-block;"><input type="hidden" name="codi_not" value="'.$row->codi_not.'"><button type="submit" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fa fa-check" aria-hidden="true"></i></button></form>&nbsp;';
                     }
                 }
+                $opciones .= '<a href="'.base_url().'noticia/'.$row->codi_not.'" class="btn btn-info btn-preview" data-toggle="tooltip" data-placement="top" title="Ver noticia"><i class="fa fa-eye" aria-hidden="true"></i></a>&nbsp;';
                 if ($this->session->userdata("usuario") && check_permission(ELIMINAR_NOTICIA)) {
                         $opciones.= '<form method="post" class="eliminar_noticia" action="'.base_url('noticia/eliminar').'" style="display: inline-block;"><input type="hidden" name="codi_not" value="'.$row->codi_not.'"><button type="submit" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fa fa-times" aria-hidden="true"></i></button></form>';
                 }
@@ -112,6 +113,46 @@ class PrensaController extends CI_Controller {
         echo $this->mod_prensa->check_nume_not_actualizar($this->input->post('codi_not'), $this->input->post('nume_not'));
     }
 
+    public function uploadImage() {
+        $config['upload_path'] = './assets/noticia/imagenes_noticia/';
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['overwrite'] = false;
+        $config['max_width'] = 20000;
+        $config['max_height'] = 0;
+        $config['max_size'] = 0;
+
+        $this->load->library('upload', $config);
+        if ( ! $this->upload->do_upload('image')) {
+            echo json_encode(array("status" => "error", "result" => $this->upload->display_errors()));
+        } else {
+            echo json_encode(array("status" => "success", "result" => $this->upload->data()["file_name"]));
+        }
+    }
+
+    public function lista_noticia($page = 1) { 
+        $size = 5;
+        $start = (int) $page * $size - $size;
+
+        $data["count"] = $this->mod_prensa->count_noticias();
+        $data["noticias"] = $this->mod_prensa->get_list_noticias($start, $size);
+        $data["page"] = $page;
+        $data["pages"] = ceil($data["count"]/$size);
+        
+
+        $this->scripts[] = '<script src="'.asset_url().'js/noticia_page.js"></script>';
+        // Imprimir vista con datos
+        $data["styles"] = $this->styles;
+        $data["scripts"] = $this->scripts;
+        $component["content"] = $this->load->view("noticia/page", $data, true);
+        $this->load->view("template/body_main", $component, $data);
+
+        /*
+        echo "<pre>";
+        print_r($noticias);
+        echo "</pre>";
+        */
+    }
+
     public function save() {
         $codi_usu = $this->session->userdata("usuario")->codi_usu;
         $fech_not = $this->input->post('fech_not');
@@ -146,42 +187,31 @@ class PrensaController extends CI_Controller {
                 
                 $codi_not = $this->mod_prensa->save($data);
 
-                /*
+                $type_system = "success";
+                $message_system = "La noticia ha sido registrado con éxito";
 
                 $fb = new Facebook\Facebook([
-                  'app_id' => '1327135627399921',
-                  'app_secret' => '7b7732eb917c72e8a51a54dcc8a0dd44',
+                  'app_id' => APP_ID_FB,
+                  'app_secret' => APP_SECRET_FB,
                   'default_graph_version' => 'v2.2',
                   ]);
 
                 $linkData = [
-                  'link' => 'http://www.example.com',
-                  'message' => 'User provided message',
+                  'link' => base_url().'noticia/'.$codi_not,
+                  'message' => $titu_not,
                   ];
 
-                // 182498662244220
-
                 try {
-                  // Returns a `Facebook\FacebookResponse` object
+                  $response = $fb->post('/182498662244220/feed', $linkData, ACCESS_TOKEN_FB);
+                  $graphNode = $response->getGraphNode();
 
-                  $request = new FacebookRequest($session, 'GET', '/me/accounts?fields=name,access_token,perms');
-
-                  $response = $fb->post('/me/feed', $linkData, '{access-token}');
+                  $this->mod_prensa->update($codi_not, array('id_fb' => $graphNode['id']));
+                  $message_system = "La noticia ha sido registrado y publicado en página de Facebook DRAL con éxito";
                 } catch(Facebook\Exceptions\FacebookResponseException $e) {
-                  echo 'Graph returned an error: ' . $e->getMessage();
-                  exit;
+                   $message_system = "La noticia ha sido registrado con éxito pero no se pudo publicar en Facebook";
                 } catch(Facebook\Exceptions\FacebookSDKException $e) {
-                  echo 'Facebook SDK returned an error: ' . $e->getMessage();
-                  exit;
+                   $message_system = "La noticia ha sido registrado con éxito pero no se pudo publicar en Facebook";
                 }
-
-                $graphNode = $response->getGraphNode();
-
-                echo 'Posted with id: ' . $graphNode['id'];
-                */
-
-                $type_system = "success";
-                $message_system = "La noticia ha sido registrado con éxito";
             }
         } else {
             $type_system = "error";
@@ -294,6 +324,34 @@ class PrensaController extends CI_Controller {
         header('Location: ' . base_url('noticia'));
     }
 
-    
+    public function noticia($codi_not) {
+        $noticia = $this->mod_prensa->get_noticia_row(array("codi_not" => $codi_not, "esta_not" => "1"));
+        if ($noticia) {
+            $this->styles[] = '<link href="'.asset_url().'plugins/jquery.datatable/dataTables.bootstrap.css" rel="stylesheet">';
+            $this->styles[] = '<link href="'.asset_url().'plugins/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">';
+            
+            $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.datatable/jquery.dataTables.js"></script>';
+            $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.datatable/dataTables.bootstrap.js"></script>';
+            $this->scripts[] = '<script src="'.asset_url().'plugins/moment/moment.min.js"></script>';
+            $this->scripts[] = '<script src="'.asset_url().'plugins/moment/moment-with-locales.min.js"></script>';
+            $this->scripts[] = '<script src="'.asset_url().'plugins/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>';
+            $this->scripts[] = '<script src="'.asset_url().'js/noticia_public.js"></script>';
+
+
+            $data["pageId"] = "182498662244220";
+            $data["title"] = $noticia->titu_not;
+            $data["description"] = strip_tags($noticia->cont_not);
+            $data["img"] = asset_url() . "noticia/" . $noticia->imag_not;
+
+            // Imprimir vista con datos
+            $data["noticia"] = $noticia;
+            $data["styles"] = $this->styles;
+            $data["scripts"] = $this->scripts;
+            $component["content"] = $this->load->view("noticia/single", $data, true);
+            $this->load->view("template/body_main", $component, $data);
+        } else {
+            echo "Página no encontrada";
+        }
+    }
 
 }
