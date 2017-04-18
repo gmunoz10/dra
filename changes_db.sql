@@ -100,11 +100,32 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 (NULL, 'Modificar directiva', '9', '1'), 
 (NULL, 'Habilitar directiva', '9', '1'), 
 (NULL, 'Deshabilitar directiva', '9', '1'), 
-(NULL, 'Eliminar directiva', '9', '1');
+(NULL, 'Eliminar directiva', '9', '1'),
 (NULL, 'Descargar directiva', '9', '1');
 
-CREATE VIEW v_directiva
-AS
-SELECT d.*, g.nomb_gdi, g.esta_gdi
-FROM directiva d, grupo_directiva g
-WHERE d.codi_gdi = g.codi_gdi
+====================================================================================================================
+
+INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
+(NULL, 'Grupos de declaración jurada', '1');
+
+INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
+(NULL, 'Buscar grupos de declaración jurada', '10', '1'), 
+(NULL, 'Leer grupo de declaración jurada', '10', '1'), 
+(NULL, 'Registrar grupo de declaración jurada', '10', '1'), 
+(NULL, 'Modificar grupo de declaración jurada', '10', '1'), 
+(NULL, 'Habilitar grupo de declaración jurada', '10', '1'), 
+(NULL, 'Deshabilitar grupo de declaración jurada', '10', '1'), 
+(NULL, 'Eliminar grupo de declaración jurada', '10', '1');
+
+INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
+(NULL, 'Declaración jurada', '1');
+
+INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
+(NULL, 'Buscar declaración jurada', '11', '1'), 
+(NULL, 'Leer declaración jurada', '11', '1'), 
+(NULL, 'Registrar declaración jurada', '11', '1'), 
+(NULL, 'Modificar declaración jurada', '11', '1'), 
+(NULL, 'Habilitar declaración jurada', '11', '1'), 
+(NULL, 'Deshabilitar declaración jurada', '11', '1'), 
+(NULL, 'Eliminar declaración jurada', '11', '1'),
+(NULL, 'Descargar declaración jurada', '11', '1');

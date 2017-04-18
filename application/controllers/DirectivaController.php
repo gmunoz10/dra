@@ -132,7 +132,7 @@ class DirectivaController extends CI_Controller {
             $config['max_width'] = 0;
             $config['max_height'] = 0;
             $config['max_size'] = 20000;
-            $config['file_name'] = urlencode($nume_dir);
+            $config['file_name'] = date("Y", strtotime($fech_dir)) . "_" . urlencode($nume_dir);
 
             $this->load->library('upload', $config);
             if ( ! $this->upload->do_upload('docu_dir')) {
@@ -187,7 +187,7 @@ class DirectivaController extends CI_Controller {
                     $config['max_width'] = 0;
                     $config['max_height'] = 0;
                     $config['max_size'] = 20000;
-                    $config['file_name'] = urlencode($nume_dir);
+            		$config['file_name'] = date("Y", strtotime($fech_dir)) . "_" . urlencode($nume_dir);
 
                     $this->load->library('upload', $config);
                     if ( ! $this->upload->do_upload($docu_dir)) {
@@ -215,11 +215,11 @@ class DirectivaController extends CI_Controller {
 
         $type_system = "info";
         if ($count_error != 0 && $count_success != 0) {
-            $message_system = $count_success. " directiva(s) registradas con éxito y " . $count_error . " directiva(s) con error(s).";
+            $message_system = $count_success. " directiva(s) registradas con éxito y " . $count_error . " directiva(s) con error(es).";
         } else if ($count_error == 0 && $count_success != 0) {
             $message_system = $count_success. " directiva(s) registradas con éxito.";
         } else if ($count_error != 0 && $count_success == 0) {
-            $message_system = $count_error . " directiva(s) con error(s).";
+            $message_system = $count_error . " directiva(s) con error(es).";
         }
         
         set_message_system($type_system, $message_system);
@@ -260,7 +260,7 @@ class DirectivaController extends CI_Controller {
                 $config['max_width'] = 0;
                 $config['max_height'] = 0;
                 $config['max_size'] = 20000;
-                $config['file_name'] = $nume_dir;
+            	$config['file_name'] = date("Y", strtotime($fech_dir)) . "_" . urlencode($nume_dir);
 
                 $this->load->library('upload', $config);
 

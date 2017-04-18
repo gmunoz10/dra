@@ -1,6 +1,6 @@
 $(function() {
 
-	var table_search = $('#table_search').DataTable({
+    var table_search = $('#table_search').DataTable({
         "iDisplayLength": 10,
         "aLengthMenu": [10, 25, 50],
         "sPaginationType": "full_numbers",

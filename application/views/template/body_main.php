@@ -133,6 +133,12 @@
                 <?php if (check_permission(BUSCAR_DIRECTIVA)) { ?>
                   <li><a href="<?= base_url('directiva') ?>">Directivas</a></li>
                 <?php } ?>
+                <?php if (check_permission(BUSCAR_GRUPO_DECLARACION_JURADA)) { ?>
+                  <li><a href="<?= base_url('grupo_declaracion_jurada') ?>">Grupos de declaración jurada</a></li>
+                <?php } ?>
+                <?php if (check_permission(BUSCAR_DECLARACION_JURADA)) { ?>
+                  <li><a href="<?= base_url('declaracion_jurada') ?>">Declaraciones juradas</a></li>
+                <?php } ?>
                 <?php if (check_permission(BUSCAR_DEPENDENCIA)) { ?>
                   <li><a href="<?= base_url('dependencia') ?>">Dependencias</a></li>
                 <?php } ?>
