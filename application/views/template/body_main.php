@@ -148,6 +148,9 @@
                 <?php if (check_permission(BUSCAR_NOTICIA)) { ?>
                   <li><a href="<?= base_url('noticia') ?>">Noticia</a></li>
                 <?php } ?>
+                <?php if (check_permission(BUSCAR_ALBUM_IMAGEN)) { ?>
+                  <li><a href="<?= base_url('galeria/admin') ?>">Galería</a></li>
+                <?php } ?>
               </ul>
             </li>
             <?php

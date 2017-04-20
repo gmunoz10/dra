@@ -148,3 +148,8 @@ $route['grupo_declaracion_jurada/update'] = "DeclaracionJuradaController/update_
 $route['grupo_declaracion_jurada/habilitar'] = "DeclaracionJuradaController/habilitar_grupo";
 $route['grupo_declaracion_jurada/deshabilitar'] = "DeclaracionJuradaController/deshabilitar_grupo";
 $route['grupo_declaracion_jurada/eliminar'] = "DeclaracionJuradaController/eliminar_grupo";
+
+$route['galeria/admin'] = "GaleriaController/admin";
+$route['galeria/admin/(:num)'] = "GaleriaController/admin/$1";
+$route['galeria/save_album'] = "GaleriaController/save_album";
+$route['galeria/eliminar_imagen'] = "GaleriaController/eliminar_imagen";

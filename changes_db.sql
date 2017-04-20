@@ -129,3 +129,19 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 (NULL, 'Deshabilitar declaración jurada', '11', '1'), 
 (NULL, 'Eliminar declaración jurada', '11', '1'),
 (NULL, 'Descargar declaración jurada', '11', '1');
+
+
+====================================================================================================================
+
+INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
+(NULL, 'Galería', '1');
+
+INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
+(NULL, 'Buscar álbum de imágenes', '12', '1'), 
+(NULL, 'Ver imágenes de album', '12', '1'), 
+(NULL, 'Crear álbum de imágenes', '12', '1'), 
+(NULL, 'Modificar álbum de imágenes', '12', '1'), 
+(NULL, 'Quitar imagen de álbum', '12', '1'), 
+(NULL, 'Habilitar álbum de imágenes', '12', '1'), 
+(NULL, 'Deshabilitar álbum de imágenes', '12', '1'), 
+(NULL, 'Eliminar álbum de imágenes', '12', '1');
