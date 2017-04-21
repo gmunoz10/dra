@@ -290,7 +290,7 @@ class DirectivaController extends CI_Controller {
         $this->mod_directiva->update($codi_dir, $data);
 
         $type_system = "success";
-        $message_system = "Resolución habilitada con éxito";
+        $message_system = "Directiva habilitada con éxito";
 
         set_message_system($type_system, $message_system);
 
@@ -305,7 +305,7 @@ class DirectivaController extends CI_Controller {
         $this->mod_directiva->update($codi_dir, $data);
 
         $type_system = "success";
-        $message_system = "Resolución deshabilitado con éxito";
+        $message_system = "Directiva deshabilitado con éxito";
 
         set_message_system($type_system, $message_system);
 
@@ -320,7 +320,7 @@ class DirectivaController extends CI_Controller {
         $this->mod_directiva->update($codi_dir, $data);
 
         $type_system = "success";
-        $message_system = "Resolución eliminado con éxito";
+        $message_system = "Directiva eliminado con éxito";
 
         set_message_system($type_system, $message_system);
 

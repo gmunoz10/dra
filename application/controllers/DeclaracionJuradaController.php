@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class DeclaracionJuradaController extends CI_Controller {
+class DeclaracionjuradaController extends CI_Controller {
 
     private $styles = array();
     private $scripts = array();
@@ -290,7 +290,7 @@ class DeclaracionJuradaController extends CI_Controller {
         $this->mod_declaracion_jurada->update($codi_dju, $data);
 
         $type_system = "success";
-        $message_system = "Resolución habilitada con éxito";
+        $message_system = "Declaración jurada habilitada con éxito";
 
         set_message_system($type_system, $message_system);
 
@@ -305,7 +305,7 @@ class DeclaracionJuradaController extends CI_Controller {
         $this->mod_declaracion_jurada->update($codi_dju, $data);
 
         $type_system = "success";
-        $message_system = "Resolución deshabilitado con éxito";
+        $message_system = "Declaración jurada deshabilitado con éxito";
 
         set_message_system($type_system, $message_system);
 
@@ -320,7 +320,7 @@ class DeclaracionJuradaController extends CI_Controller {
         $this->mod_declaracion_jurada->update($codi_dju, $data);
 
         $type_system = "success";
-        $message_system = "Resolución eliminado con éxito";
+        $message_system = "Declaración jurada eliminado con éxito";
 
         set_message_system($type_system, $message_system);
 

@@ -19,3 +19,24 @@
 	color: #9b9b9b;
     border-radius: 10px;
 }
+
+.img-fluid { 
+    width: 100%;
+}
+
+.a-imagen-galeria {
+    position: relative;
+    margin: 0px;
+    padding: 15px;
+}
+
+.box-date .input-group-addon {
+    font-size: 13px;
+}
+
+.bootstrap-datetimepicker-widget {
+    color: black;
+}
+.resultado-galeria {
+    margin-top: 30px;
+}

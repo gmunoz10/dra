@@ -3,37 +3,58 @@
     <button class="btn btn-twitter-home"><i class="fa fa-twitter" aria-hidden="true"></i></button>
     <button class="btn btn-facebook-home"><i class="fa fa-facebook" aria-hidden="true"></i></button>
 </div>
-<section class="container container-page-inner" style="background-color: #9b9b9b;">
+<section class="container container-page-inner" style="background-color: #9b9b9b;line-height: 1.42857143;">
     <section>
       <div class="col-lg-12" style="padding-left: 75px;">
- 			<h3 style="font-weight: bold; color: white;"><span>Fotos</span> / <span style="text-decoration: underline;">Videos</span></h3>
+ 			<h3 style="font-weight: bold; color: white;"><span>Galería</span>
+ 			<div class="form-inline pull-right">
+              <div class="form-group">
+                <input id="txt_search" value="<?= $search ?>" type="text" class="form-control" placeholder="Buscar...">
+              </div>
+              <button id="btn_search" type="submit" class="btn btn-default">Buscar</button>
+            </div>
+            </h3>
  			<div class="resultado-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria01.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria02.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria03.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria02.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria01.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria02.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria03.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria02.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria01.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria02.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria03.jpg" class="img-thumbnail img-galeria">
- 				<img src="<?= asset_url() ?>img/background/galeria02.jpg" class="img-thumbnail img-galeria">
+ 				<?php foreach ($albumes as $key => $album) { ?>
+      				<div class="col-lg-12 box-content-o box-bold" style="margin-top: <?= ($key == 0) ? "0" : "30"; ?>px;">
+	                        <h4 class="title-sisgedo" style="margin-bottom: 5px;">
+	                            <b style="vertical-align: middle;"><?= $album->titu_alb ?></b>
+	                            &nbsp;
+	                        </h4>
+	                        <p style="color: #666"><i>Publicado por <b><?= $album->nomb_usu ?></b></i><span class="pull-right"><i class="fa fa-clock-o" aria-hidden="true"></i> <i>Fecha de publicación: <?= date("d/m/Y h:i A", strtotime($album->fech_alb)) ?></i></span></p>
+	                    <hr style="border-color: #999; margin-top: 10px; margin-bottom: 10px;">
+	                    <div class="col-md-12" style="padding: 0px;">
+	                        <?php $cont = 0; foreach ($album->imagenes as $imagen) { ?>
+	                            <?php if ($cont == 0) { ?>
+	                                <div class="col-md-12">
+	                            <?php } ?>
+	                                <div class="col-sm-4 a-imagen-galeria">
+	                                    <a href="<?= asset_url() ?>galeria/<?= $imagen->imag_ial ?>" data-toggle="lightbox" data-gallery="example-gallery">
+	                                        <img src="<?= asset_url() ?>galeria/<?= $imagen->imag_ial ?>" class="img-thumbnail img-responsive img-fluid">
+	                                    </a>
+	                                </div>
+	                            <?php if ($cont == 2) { $cont = 0; ?>
+	                                </div>
+	                            <?php } else {$cont++;} ?>
+	                        <?php } ?>
+	                        <?php if (count($album->imagenes) == 0) { ?>
+	                            <p class="text-muted text-center well"><i>No se encontró imágenes</i></p>
+	                        <?php } ?>
+	                    </div>
+                	</div>
+                <?php } ?>
+                <?php if (count($albumes) == 0) { ?>
+                    <p class="text-muted text-center well"><i>No se encontró resultados</i></p>
+                <?php } ?>
+                <div class="col-lg-12 text-center">
+                    <ul class="pagination">
+                        <?php for ($i=1; $i <= $pages ; $i++) { ?>
+                          <li class="<?= ((int) $i == (int) $page) ? "active" : "" ?>"><a href="<?= base_url() . 'galeria/' . $i ?>"><?= $i ?></a></li>
+                        <?php } ?>
+                    </ul>
+                </div>
  			</div>
  			<p style="text-align: center; margin-top: 25px; margin-bottom: 25px;">
- 				<a class="page-inner" href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
- 				<a class="page-inner" href="#">1</a>
- 				<a class="page-inner" href="#">2</a>
- 				<a class="page-inner" href="#">3</a>
- 				<a class="page-inner" href="#">4</a>
- 				<a class="page-inner" href="#">5</a>
- 				<a class="page-inner" href="#">6</a>
- 				<a class="page-inner" href="#">7</a>
- 				<a class="page-inner" href="#">8</a>
- 				<a class="page-inner" href="#">9</a>
- 				<a class="page-inner" href="#">10</a>
- 				<a class="page-inner" href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
  			</p>
       </div>
     </section>

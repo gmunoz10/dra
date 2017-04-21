@@ -133,6 +133,12 @@
                 <?php if (check_permission(BUSCAR_DIRECTIVA)) { ?>
                   <li><a href="<?= base_url('directiva') ?>">Directivas</a></li>
                 <?php } ?>
+                <?php if (check_permission(BUSCAR_GRUPO_PAP)) { ?>
+                  <li><a href="<?= base_url('grupo_pap') ?>">Grupos de PAP</a></li>
+                <?php } ?>
+                <?php if (check_permission(BUSCAR_PAP)) { ?>
+                  <li><a href="<?= base_url('pap') ?>">PAP</a></li>
+                <?php } ?>
                 <?php if (check_permission(BUSCAR_GRUPO_DECLARACION_JURADA)) { ?>
                   <li><a href="<?= base_url('grupo_declaracion_jurada') ?>">Grupos de declaración jurada</a></li>
                 <?php } ?>
@@ -147,6 +153,9 @@
                 <?php } ?>
                 <?php if (check_permission(BUSCAR_NOTICIA)) { ?>
                   <li><a href="<?= base_url('noticia') ?>">Noticia</a></li>
+                <?php } ?>
+                <?php if (check_permission(BUSCAR_NOTICIA)) { ?>
+                  <li><a href="<?= base_url('evento') ?>">Evento</a></li>
                 <?php } ?>
                 <?php if (check_permission(BUSCAR_ALBUM_IMAGEN)) { ?>
                   <li><a href="<?= base_url('galeria/admin') ?>">Galería</a></li>
@@ -227,7 +236,7 @@
                 <br>
                 Av. Augusto B. Leguía s/n - Huacho
                 <br>
-                E-mail: dra_lima@minag.gob.pe
+                E-mail: transparencia@dral.gob.pe
               </p>
             </div>
           </div>

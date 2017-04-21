@@ -2,7 +2,7 @@
   margin-top: 0px;
 }
 
-.box-content {
+.box-content, .box-content-o {
   margin-top: 30px;
   color: white;
   padding: 20px;
@@ -20,6 +20,12 @@
     left: 50%;
     width: 0;
     height: 0;
+    border-top: solid 25px #eabf21;
+    border-left: solid 25px transparent;
+    border-right: solid 25px transparent;
+}
+
+.box-content-o:after {
     border-top: solid 25px #eabf21;
     border-left: solid 25px transparent;
     border-right: solid 25px transparent;

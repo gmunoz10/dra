@@ -9,8 +9,18 @@ class MainController extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        $this->load->model(array());
+        $this->load->model(array('mod_galeria'));
+        $this->load->library('email');
         //$this->load->helper('cookie');
+        $config['protocol'] = 'smtp';
+        $config['smtp_host'] = 'smtp.postmarkapp.com';
+        $config['smtp_user'] = '2d77b1e0-2839-48f9-b6f6-99a3fb110bf0';
+        $config['smtp_pass'] = '2d77b1e0-2839-48f9-b6f6-99a3fb110bf0';
+        $config['smtp_port'] = '587';
+        $config['wordwrap'] = TRUE;
+        $config['charset'] = 'utf-8';
+        $config['mailtype'] = 'html';
+        $this->email->initialize($config);
     }
 
     public function index() {
@@ -18,12 +28,12 @@ class MainController extends CI_Controller {
         $this->scripts[] = '<script src="'.asset_url().'js/home.js"></script>';
 
         $this->load->model("mod_prensa");
+        $this->load->model("mod_evento");
 
         $data["noticias"] = $this->mod_prensa->get_noticias();
+        $data["eventos"] = $this->mod_evento->get_eventos();
 
         // Imprimir vista con datos
-        $data['label'] = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.';
-
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;
         $component["content"] = $this->load->view("public/home", $data, true);
@@ -71,8 +81,49 @@ class MainController extends CI_Controller {
         $this->load->view("template/body_main", $component);
     }
 
-    public function galeria() {
+    public function enviar_mensaje() {
+        $name = $this->input->post('name');
+        $email = $this->input->post('email');
+        $asunto = $this->input->post('asunto');
+        $mensaje = $this->input->post('mensaje');
+
+        $this->email->from("webmaster@dral.gob.pe", $name);
+        $this->email->to("info_publica@dral.gob.pe");
+        $this->email->subject($asunto);
+        $this->email->message($mensaje . "<br><br><i>Enviado por ". $name. " (" . $email . ") desde <a href=\"http://dral.gob.pe/contacto\" target=\"_blank\">Formulario de contacto - Sitio Web DRAL</a><br>".date("d/m/Y h:i A") . "</i><br>");
+        $this->email->send();
+
+        $type_system = "success";
+        $message_system = "El mensaje ha sido enviado con éxito";
+        set_message_system($type_system, $message_system);
+        header('Location: ' . base_url('contacto'));
+    }
+
+    public function galeria($page = 1) {
+        $size = 3;
+        $start = (int) $page * $size - $size;
+
+        if (isset($_GET["search"]) && $_GET["search"] != "") {
+            $data['search'] = $_GET["search"];
+        } else {
+            $data['search'] = "";
+        }
+
+        $data["count"] = $this->mod_galeria->count_album($data['search']);
+        $data["albumes"] = $this->mod_galeria->get_list_album($data['search'], $start, $size);
+        foreach ($data["albumes"] as $key => $album) {
+            $data["albumes"][$key]->imagenes = $this->mod_galeria->get_imagenes_album($album->codi_alb);
+        }
+        $data["page"] = $page;
+        $data["pages"] = ceil($data["count"]/$size);
+
+        $this->styles[] = '<link href="'.asset_url().'plugins/lightbox/dist/ekko-lightbox.css" rel="stylesheet">';
         $this->styles[] = '<link href="'.asset_url().'css/galeria.css" rel="stylesheet">';
+        
+        $this->scripts[] = '<script src="'.asset_url().'plugins/lightbox/dist/ekko-lightbox.js"></script>';
+
+        $this->scripts[] = '<script src="'.asset_url().'js/galeria.js"></script>';
+
         // Imprimir vista con datos
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;

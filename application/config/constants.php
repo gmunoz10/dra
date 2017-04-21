@@ -203,3 +203,28 @@ defined('QUITAR_IMAGEN_ALBUM')   			OR define('QUITAR_IMAGEN_ALBUM', 87);
 defined('HABILITAR_ALBUM_IMAGEN')   		OR define('HABILITAR_ALBUM_IMAGEN', 88);
 defined('DESHABILITAR_ALBUM_IMAGEN')		OR define('DESHABILITAR_ALBUM_IMAGEN', 89);
 defined('ELIMINAR_ALBUM_IMAGEN')   			OR define('ELIMINAR_ALBUM_IMAGEN', 90);
+// EVENTOS
+defined('BUSCAR_EVENTO')  				OR define('BUSCAR_EVENTO', 91);
+defined('LEER_EVENTO')        			OR define('LEER_EVENTO', 92);
+defined('REGISTRAR_EVENTO')   			OR define('REGISTRAR_EVENTO', 93);
+defined('MODIFICAR_EVENTO')   			OR define('MODIFICAR_EVENTO', 94);
+defined('HABILITAR_EVENTO')   			OR define('HABILITAR_EVENTO', 95);
+defined('DESHABILITAR_EVENTO')			OR define('DESHABILITAR_EVENTO', 96);
+defined('ELIMINAR_EVENTO')   			OR define('ELIMINAR_EVENTO', 97);
+// GRUPO DE PAP
+defined('BUSCAR_GRUPO_PAP')  		OR define('BUSCAR_GRUPO_PAP', 98);
+defined('LEER_GRUPO_PAP')        	OR define('LEER_GRUPO_PAP', 99);
+defined('REGISTRAR_GRUPO_PAP')   	OR define('REGISTRAR_GRUPO_PAP', 100);
+defined('MODIFICAR_GRUPO_PAP')   	OR define('MODIFICAR_GRUPO_PAP', 101);
+defined('HABILITAR_GRUPO_PAP')   	OR define('HABILITAR_GRUPO_PAP', 102);
+defined('DESHABILITAR_GRUPO_PAP')	OR define('DESHABILITAR_GRUPO_PAP', 103);
+defined('ELIMINAR_GRUPO_PAP')   	OR define('ELIMINAR_GRUPO_PAP', 104);
+// PAP
+defined('BUSCAR_PAP')  			OR define('BUSCAR_PAP', 105);
+defined('LEER_PAP')        		OR define('LEER_PAP', 106);
+defined('REGISTRAR_PAP')   		OR define('REGISTRAR_PAP', 107);
+defined('MODIFICAR_PAP')   		OR define('MODIFICAR_PAP', 108);
+defined('HABILITAR_PAP')   		OR define('HABILITAR_PAP', 109);
+defined('DESHABILITAR_PAP')		OR define('DESHABILITAR_PAP', 110);
+defined('ELIMINAR_PAP')   		OR define('ELIMINAR_PAP', 111);
+defined('DESCARGAR_PAP')   		OR define('DESCARGAR_PAP', 112);

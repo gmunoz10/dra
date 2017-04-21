@@ -13,13 +13,15 @@ class Mod_galeria extends CI_Model {
         }
     }
 
-    function count_album() {
+    function count_album($search) {
         $this->db->where("esta_alb", "1");
+        $this->db->where('titu_alb LIKE "%'.$search.'%"');
         return $this->db->count_all_results('album');
     }
 
-    function get_list_album($start, $limit) {
-        $this->db->where("esta_alb", "1");
+    function get_list_album($search, $start, $limit) {
+        $this->db->where("esta_alb >", "-1");
+        $this->db->where('titu_alb LIKE "%'.$search.'%"');
         $this->db->limit($limit, $start);
         $this->db->order_by("fech_alb", "desc");
         $query = $this->db->get('v_album');

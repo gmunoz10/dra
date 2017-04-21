@@ -34,5 +34,18 @@ $(function() {
 		  }, function(response){});
 	});
 
+	$("#evento_link").click(function() {
+ 		var codi_eve = $("#carousel-eventos .carousel-inner .item.active").data("codi");
+ 		window.location.href = base_url+"evento/"+codi_eve;
+ 	});
+
+ 	$('#carousel-eventos .btn-facebook').click(function (e) {
+		FB.ui({
+		    method: 'share',
+		    display: 'popup',
+		    href: base_url+"evento/"+$("#carousel-eventos .carousel-inner .item.active").data("codi"),
+		  }, function(response){});
+	});
+
  	$("#modal_aviso").modal("show");
 });

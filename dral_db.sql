@@ -2,10 +2,10 @@
 -- version 4.5.1
 -- http://www.phpmyadmin.net
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 20-04-2017 a las 08:04:53
--- Versión del servidor: 10.1.9-MariaDB
--- Versión de PHP: 5.6.15
+-- Host: 127.0.0.1
+-- Generation Time: Apr 22, 2017 at 01:48 AM
+-- Server version: 10.1.19-MariaDB
+-- PHP Version: 7.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `dral_db`
+-- Database: `dral_db`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `agenda`
+-- Table structure for table `agenda`
 --
 
 CREATE TABLE `agenda` (
@@ -36,7 +36,7 @@ CREATE TABLE `agenda` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `agenda`
+-- Dumping data for table `agenda`
 --
 
 INSERT INTO `agenda` (`codi_age`, `fech_age`, `luga_age`, `desc_age`, `codi_dpe`, `esta_age`) VALUES
@@ -46,7 +46,7 @@ INSERT INTO `agenda` (`codi_age`, `fech_age`, `luga_age`, `desc_age`, `codi_dpe`
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `album`
+-- Table structure for table `album`
 --
 
 CREATE TABLE `album` (
@@ -58,17 +58,10 @@ CREATE TABLE `album` (
   `desc_alb` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `album`
---
-
-INSERT INTO `album` (`codi_alb`, `titu_alb`, `fech_alb`, `codi_usu`, `esta_alb`, `desc_alb`) VALUES
-(1, 'Nueva galeria', '2017-04-20 07:43:00', 1, 1, '');
-
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `declaracion_jurada`
+-- Table structure for table `declaracion_jurada`
 --
 
 CREATE TABLE `declaracion_jurada` (
@@ -84,7 +77,7 @@ CREATE TABLE `declaracion_jurada` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `declaracion_jurada`
+-- Dumping data for table `declaracion_jurada`
 --
 
 INSERT INTO `declaracion_jurada` (`codi_dju`, `codi_usu`, `codi_gdj`, `nume_dju`, `fech_dju`, `desc_dju`, `docu_dju`, `exte_dju`, `esta_dju`) VALUES
@@ -93,7 +86,7 @@ INSERT INTO `declaracion_jurada` (`codi_dju`, `codi_usu`, `codi_gdj`, `nume_dju`
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `dependencia`
+-- Table structure for table `dependencia`
 --
 
 CREATE TABLE `dependencia` (
@@ -103,7 +96,7 @@ CREATE TABLE `dependencia` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `dependencia`
+-- Dumping data for table `dependencia`
 --
 
 INSERT INTO `dependencia` (`codi_dpe`, `nomb_dpe`, `esta_dpe`) VALUES
@@ -112,7 +105,7 @@ INSERT INTO `dependencia` (`codi_dpe`, `nomb_dpe`, `esta_dpe`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `directiva`
+-- Table structure for table `directiva`
 --
 
 CREATE TABLE `directiva` (
@@ -130,7 +123,26 @@ CREATE TABLE `directiva` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `grupo_declaracion_jurada`
+-- Table structure for table `evento`
+--
+
+CREATE TABLE `evento` (
+  `codi_eve` int(11) NOT NULL,
+  `titu_eve` text NOT NULL,
+  `nume_eve` text NOT NULL,
+  `fech_eve` datetime NOT NULL,
+  `codi_usu` int(11) NOT NULL,
+  `cont_eve` text NOT NULL,
+  `imag_eve` text NOT NULL,
+  `exte_eve` text NOT NULL,
+  `esta_eve` int(11) NOT NULL,
+  `id_fb` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `grupo_declaracion_jurada`
 --
 
 CREATE TABLE `grupo_declaracion_jurada` (
@@ -140,7 +152,7 @@ CREATE TABLE `grupo_declaracion_jurada` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `grupo_declaracion_jurada`
+-- Dumping data for table `grupo_declaracion_jurada`
 --
 
 INSERT INTO `grupo_declaracion_jurada` (`codi_gdj`, `nomb_gdj`, `esta_gdj`) VALUES
@@ -149,7 +161,7 @@ INSERT INTO `grupo_declaracion_jurada` (`codi_gdj`, `nomb_gdj`, `esta_gdj`) VALU
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `grupo_directiva`
+-- Table structure for table `grupo_directiva`
 --
 
 CREATE TABLE `grupo_directiva` (
@@ -159,7 +171,7 @@ CREATE TABLE `grupo_directiva` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `grupo_directiva`
+-- Dumping data for table `grupo_directiva`
 --
 
 INSERT INTO `grupo_directiva` (`codi_gdi`, `nomb_gdi`, `esta_gdi`) VALUES
@@ -168,7 +180,19 @@ INSERT INTO `grupo_directiva` (`codi_gdi`, `nomb_gdi`, `esta_gdi`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `grupo_permiso`
+-- Table structure for table `grupo_pap`
+--
+
+CREATE TABLE `grupo_pap` (
+  `codi_gpa` int(11) NOT NULL,
+  `nomb_gpa` text NOT NULL,
+  `esta_gpa` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `grupo_permiso`
 --
 
 CREATE TABLE `grupo_permiso` (
@@ -178,7 +202,7 @@ CREATE TABLE `grupo_permiso` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `grupo_permiso`
+-- Dumping data for table `grupo_permiso`
 --
 
 INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES
@@ -193,12 +217,15 @@ INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES
 (9, 'Directiva', 1),
 (10, 'Grupos de declaración jurada', 1),
 (11, 'Declaración jurada', 1),
-(12, 'Galería', 1);
+(12, 'Galería', 1),
+(13, 'Eventos', 1),
+(14, 'Grupos de PAP', 1),
+(15, 'PAP', 1);
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `grupo_resolucion`
+-- Table structure for table `grupo_resolucion`
 --
 
 CREATE TABLE `grupo_resolucion` (
@@ -208,7 +235,7 @@ CREATE TABLE `grupo_resolucion` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `grupo_resolucion`
+-- Dumping data for table `grupo_resolucion`
 --
 
 INSERT INTO `grupo_resolucion` (`codi_gre`, `nomb_gre`, `esta_gre`) VALUES
@@ -217,7 +244,7 @@ INSERT INTO `grupo_resolucion` (`codi_gre`, `nomb_gre`, `esta_gre`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `imagen_album`
+-- Table structure for table `imagen_album`
 --
 
 CREATE TABLE `imagen_album` (
@@ -230,18 +257,10 @@ CREATE TABLE `imagen_album` (
   `fech_ial` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `imagen_album`
---
-
-INSERT INTO `imagen_album` (`codi_ial`, `desc_ial`, `imag_ial`, `esta_ial`, `codi_usu`, `codi_alb`, `fech_ial`) VALUES
-(1, '', '5LW5nuH1.png', 1, 1, 1, '2017-04-20 07:43:00'),
-(2, '', '1309100448388056751.jpg', 0, 1, 1, '2017-04-20 07:43:00');
-
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `noticia`
+-- Table structure for table `noticia`
 --
 
 CREATE TABLE `noticia` (
@@ -258,7 +277,7 @@ CREATE TABLE `noticia` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `noticia`
+-- Dumping data for table `noticia`
 --
 
 INSERT INTO `noticia` (`codi_not`, `titu_not`, `nume_not`, `fech_not`, `codi_usu`, `cont_not`, `imag_not`, `exte_not`, `esta_not`, `id_fb`) VALUES
@@ -268,7 +287,25 @@ INSERT INTO `noticia` (`codi_not`, `titu_not`, `nume_not`, `fech_not`, `codi_usu
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `permiso`
+-- Table structure for table `pap`
+--
+
+CREATE TABLE `pap` (
+  `codi_pap` int(11) NOT NULL,
+  `codi_usu` int(11) NOT NULL,
+  `codi_gpa` int(11) NOT NULL,
+  `nume_pap` text NOT NULL,
+  `fech_pap` date NOT NULL,
+  `desc_pap` text NOT NULL,
+  `docu_pap` text NOT NULL,
+  `exte_pap` text NOT NULL,
+  `esta_pap` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `permiso`
 --
 
 CREATE TABLE `permiso` (
@@ -279,7 +316,7 @@ CREATE TABLE `permiso` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `permiso`
+-- Dumping data for table `permiso`
 --
 
 INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
@@ -372,12 +409,34 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 (87, 'Quitar imagen de álbum', 12, 1),
 (88, 'Habilitar álbum de imágenes', 12, 1),
 (89, 'Deshabilitar álbum de imágenes', 12, 1),
-(90, 'Eliminar álbum de imágenes', 12, 1);
+(90, 'Eliminar álbum de imágenes', 12, 1),
+(91, 'Buscar evento', 13, 1),
+(92, 'Leer evento', 13, 1),
+(93, 'Registrar evento', 13, 1),
+(94, 'Modificar evento', 13, 1),
+(95, 'Habilitar evento', 13, 1),
+(96, 'Deshabilitar evento', 13, 1),
+(97, 'Eliminar evento', 13, 1),
+(98, 'Buscar grupos de PAP', 14, 1),
+(99, 'Leer grupo de PAP', 14, 1),
+(100, 'Registrar grupo de PAP', 14, 1),
+(101, 'Modificar grupo de PAP', 14, 1),
+(102, 'Habilitar grupo de PAP', 14, 1),
+(103, 'Deshabilitar grupo de PAP', 14, 1),
+(104, 'Eliminar grupo de PAP', 14, 1),
+(105, 'Buscar PAP', 15, 1),
+(106, 'Leer PAP', 15, 1),
+(107, 'Registrar PAP', 15, 1),
+(108, 'Modificar PAP', 15, 1),
+(109, 'Habilitar PAP', 15, 1),
+(110, 'Deshabilitar PAP', 15, 1),
+(111, 'Eliminar PAP', 15, 1),
+(112, 'Descargar PAP', 15, 1);
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `permiso_rol`
+-- Table structure for table `permiso_rol`
 --
 
 CREATE TABLE `permiso_rol` (
@@ -389,7 +448,7 @@ CREATE TABLE `permiso_rol` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `permiso_rol`
+-- Dumping data for table `permiso_rol`
 --
 
 INSERT INTO `permiso_rol` (`codi_pro`, `codi_rol`, `codi_per`, `valo_pro`, `esta_pro`) VALUES
@@ -413,7 +472,7 @@ INSERT INTO `permiso_rol` (`codi_pro`, `codi_rol`, `codi_per`, `valo_pro`, `esta
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `permiso_usuario`
+-- Table structure for table `permiso_usuario`
 --
 
 CREATE TABLE `permiso_usuario` (
@@ -427,7 +486,7 @@ CREATE TABLE `permiso_usuario` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `resolucion`
+-- Table structure for table `resolucion`
 --
 
 CREATE TABLE `resolucion` (
@@ -443,7 +502,7 @@ CREATE TABLE `resolucion` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `resolucion`
+-- Dumping data for table `resolucion`
 --
 
 INSERT INTO `resolucion` (`codi_res`, `codi_usu`, `codi_gre`, `nume_res`, `fech_res`, `desc_res`, `docu_res`, `exte_res`, `esta_res`) VALUES
@@ -454,7 +513,7 @@ INSERT INTO `resolucion` (`codi_res`, `codi_usu`, `codi_gre`, `nume_res`, `fech_
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `rol`
+-- Table structure for table `rol`
 --
 
 CREATE TABLE `rol` (
@@ -464,7 +523,7 @@ CREATE TABLE `rol` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `rol`
+-- Dumping data for table `rol`
 --
 
 INSERT INTO `rol` (`codi_rol`, `desc_rol`, `esta_rol`) VALUES
@@ -473,7 +532,7 @@ INSERT INTO `rol` (`codi_rol`, `desc_rol`, `esta_rol`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `usuario`
+-- Table structure for table `usuario`
 --
 
 CREATE TABLE `usuario` (
@@ -485,7 +544,7 @@ CREATE TABLE `usuario` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `usuario`
+-- Dumping data for table `usuario`
 --
 
 INSERT INTO `usuario` (`codi_usu`, `nomb_usu`, `cont_usu`, `esta_usu`, `codi_rol`) VALUES
@@ -494,7 +553,7 @@ INSERT INTO `usuario` (`codi_usu`, `nomb_usu`, `cont_usu`, `esta_usu`, `codi_rol
 -- --------------------------------------------------------
 
 --
--- Estructura Stand-in para la vista `v_agenda`
+-- Stand-in structure for view `v_agenda`
 --
 CREATE TABLE `v_agenda` (
 `codi_age` int(11)
@@ -510,7 +569,7 @@ CREATE TABLE `v_agenda` (
 -- --------------------------------------------------------
 
 --
--- Estructura Stand-in para la vista `v_album`
+-- Stand-in structure for view `v_album`
 --
 CREATE TABLE `v_album` (
 `codi_alb` int(11)
@@ -526,7 +585,7 @@ CREATE TABLE `v_album` (
 -- --------------------------------------------------------
 
 --
--- Estructura Stand-in para la vista `v_declaracion_jurada`
+-- Stand-in structure for view `v_declaracion_jurada`
 --
 CREATE TABLE `v_declaracion_jurada` (
 `codi_dju` int(11)
@@ -545,7 +604,7 @@ CREATE TABLE `v_declaracion_jurada` (
 -- --------------------------------------------------------
 
 --
--- Estructura Stand-in para la vista `v_directiva`
+-- Stand-in structure for view `v_directiva`
 --
 CREATE TABLE `v_directiva` (
 `codi_dir` int(11)
@@ -564,7 +623,27 @@ CREATE TABLE `v_directiva` (
 -- --------------------------------------------------------
 
 --
--- Estructura Stand-in para la vista `v_imagen_album`
+-- Stand-in structure for view `v_evento`
+--
+CREATE TABLE `v_evento` (
+`codi_eve` int(11)
+,`titu_eve` text
+,`nume_eve` text
+,`fech_eve` datetime
+,`codi_usu` int(11)
+,`cont_eve` text
+,`imag_eve` text
+,`exte_eve` text
+,`esta_eve` int(11)
+,`id_fb` text
+,`nomb_usu` text
+,`esta_usu` int(11)
+);
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `v_imagen_album`
 --
 CREATE TABLE `v_imagen_album` (
 `codi_ial` int(11)
@@ -584,7 +663,7 @@ CREATE TABLE `v_imagen_album` (
 -- --------------------------------------------------------
 
 --
--- Estructura Stand-in para la vista `v_noticia`
+-- Stand-in structure for view `v_noticia`
 --
 CREATE TABLE `v_noticia` (
 `codi_not` int(11)
@@ -604,7 +683,26 @@ CREATE TABLE `v_noticia` (
 -- --------------------------------------------------------
 
 --
--- Estructura Stand-in para la vista `v_permiso_rol`
+-- Stand-in structure for view `v_pap`
+--
+CREATE TABLE `v_pap` (
+`codi_pap` int(11)
+,`codi_usu` int(11)
+,`codi_gpa` int(11)
+,`nume_pap` text
+,`fech_pap` date
+,`desc_pap` text
+,`docu_pap` text
+,`exte_pap` text
+,`esta_pap` int(11)
+,`nomb_gpa` text
+,`esta_gpa` int(11)
+);
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `v_permiso_rol`
 --
 CREATE TABLE `v_permiso_rol` (
 `codi_pro` int(11)
@@ -620,7 +718,7 @@ CREATE TABLE `v_permiso_rol` (
 -- --------------------------------------------------------
 
 --
--- Estructura Stand-in para la vista `v_permiso_usuario`
+-- Stand-in structure for view `v_permiso_usuario`
 --
 CREATE TABLE `v_permiso_usuario` (
 `codi_pus` int(11)
@@ -637,7 +735,7 @@ CREATE TABLE `v_permiso_usuario` (
 -- --------------------------------------------------------
 
 --
--- Estructura Stand-in para la vista `v_resolucion`
+-- Stand-in structure for view `v_resolucion`
 --
 CREATE TABLE `v_resolucion` (
 `codi_res` int(11)
@@ -655,7 +753,7 @@ CREATE TABLE `v_resolucion` (
 -- --------------------------------------------------------
 
 --
--- Estructura Stand-in para la vista `v_usuario`
+-- Stand-in structure for view `v_usuario`
 --
 CREATE TABLE `v_usuario` (
 `codi_usu` int(11)
@@ -670,7 +768,7 @@ CREATE TABLE `v_usuario` (
 -- --------------------------------------------------------
 
 --
--- Estructura para la vista `v_agenda`
+-- Structure for view `v_agenda`
 --
 DROP TABLE IF EXISTS `v_agenda`;
 
@@ -679,7 +777,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 -- --------------------------------------------------------
 
 --
--- Estructura para la vista `v_album`
+-- Structure for view `v_album`
 --
 DROP TABLE IF EXISTS `v_album`;
 
@@ -688,7 +786,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 -- --------------------------------------------------------
 
 --
--- Estructura para la vista `v_declaracion_jurada`
+-- Structure for view `v_declaracion_jurada`
 --
 DROP TABLE IF EXISTS `v_declaracion_jurada`;
 
@@ -697,7 +795,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 -- --------------------------------------------------------
 
 --
--- Estructura para la vista `v_directiva`
+-- Structure for view `v_directiva`
 --
 DROP TABLE IF EXISTS `v_directiva`;
 
@@ -706,7 +804,16 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 -- --------------------------------------------------------
 
 --
--- Estructura para la vista `v_imagen_album`
+-- Structure for view `v_evento`
+--
+DROP TABLE IF EXISTS `v_evento`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_evento`  AS  select `e`.`codi_eve` AS `codi_eve`,`e`.`titu_eve` AS `titu_eve`,`e`.`nume_eve` AS `nume_eve`,`e`.`fech_eve` AS `fech_eve`,`e`.`codi_usu` AS `codi_usu`,`e`.`cont_eve` AS `cont_eve`,`e`.`imag_eve` AS `imag_eve`,`e`.`exte_eve` AS `exte_eve`,`e`.`esta_eve` AS `esta_eve`,`e`.`id_fb` AS `id_fb`,`u`.`nomb_usu` AS `nomb_usu`,`u`.`esta_usu` AS `esta_usu` from (`evento` `e` join `usuario` `u`) where (`e`.`codi_usu` = `u`.`codi_usu`) ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure for view `v_imagen_album`
 --
 DROP TABLE IF EXISTS `v_imagen_album`;
 
@@ -715,7 +822,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 -- --------------------------------------------------------
 
 --
--- Estructura para la vista `v_noticia`
+-- Structure for view `v_noticia`
 --
 DROP TABLE IF EXISTS `v_noticia`;
 
@@ -724,7 +831,16 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 -- --------------------------------------------------------
 
 --
--- Estructura para la vista `v_permiso_rol`
+-- Structure for view `v_pap`
+--
+DROP TABLE IF EXISTS `v_pap`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_pap`  AS  select `p`.`codi_pap` AS `codi_pap`,`p`.`codi_usu` AS `codi_usu`,`p`.`codi_gpa` AS `codi_gpa`,`p`.`nume_pap` AS `nume_pap`,`p`.`fech_pap` AS `fech_pap`,`p`.`desc_pap` AS `desc_pap`,`p`.`docu_pap` AS `docu_pap`,`p`.`exte_pap` AS `exte_pap`,`p`.`esta_pap` AS `esta_pap`,`g`.`nomb_gpa` AS `nomb_gpa`,`g`.`esta_gpa` AS `esta_gpa` from (`pap` `p` join `grupo_pap` `g`) where (`p`.`codi_gpa` = `g`.`codi_gpa`) ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure for view `v_permiso_rol`
 --
 DROP TABLE IF EXISTS `v_permiso_rol`;
 
@@ -733,7 +849,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 -- --------------------------------------------------------
 
 --
--- Estructura para la vista `v_permiso_usuario`
+-- Structure for view `v_permiso_usuario`
 --
 DROP TABLE IF EXISTS `v_permiso_usuario`;
 
@@ -742,7 +858,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 -- --------------------------------------------------------
 
 --
--- Estructura para la vista `v_resolucion`
+-- Structure for view `v_resolucion`
 --
 DROP TABLE IF EXISTS `v_resolucion`;
 
@@ -751,204 +867,237 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 -- --------------------------------------------------------
 
 --
--- Estructura para la vista `v_usuario`
+-- Structure for view `v_usuario`
 --
 DROP TABLE IF EXISTS `v_usuario`;
 
 CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_usuario`  AS  select `u`.`codi_usu` AS `codi_usu`,`u`.`nomb_usu` AS `nomb_usu`,`u`.`cont_usu` AS `cont_usu`,`u`.`esta_usu` AS `esta_usu`,`u`.`codi_rol` AS `codi_rol`,`r`.`desc_rol` AS `desc_rol`,`r`.`esta_rol` AS `esta_rol` from (`usuario` `u` join `rol` `r`) where (`u`.`codi_rol` = `r`.`codi_rol`) ;
 
 --
--- Índices para tablas volcadas
+-- Indexes for dumped tables
 --
 
 --
--- Indices de la tabla `agenda`
+-- Indexes for table `agenda`
 --
 ALTER TABLE `agenda`
   ADD PRIMARY KEY (`codi_age`);
 
 --
--- Indices de la tabla `album`
+-- Indexes for table `album`
 --
 ALTER TABLE `album`
   ADD PRIMARY KEY (`codi_alb`);
 
 --
--- Indices de la tabla `declaracion_jurada`
+-- Indexes for table `declaracion_jurada`
 --
 ALTER TABLE `declaracion_jurada`
   ADD PRIMARY KEY (`codi_dju`);
 
 --
--- Indices de la tabla `dependencia`
+-- Indexes for table `dependencia`
 --
 ALTER TABLE `dependencia`
   ADD PRIMARY KEY (`codi_dpe`);
 
 --
--- Indices de la tabla `directiva`
+-- Indexes for table `directiva`
 --
 ALTER TABLE `directiva`
   ADD PRIMARY KEY (`codi_dir`);
 
 --
--- Indices de la tabla `grupo_declaracion_jurada`
+-- Indexes for table `evento`
+--
+ALTER TABLE `evento`
+  ADD PRIMARY KEY (`codi_eve`);
+
+--
+-- Indexes for table `grupo_declaracion_jurada`
 --
 ALTER TABLE `grupo_declaracion_jurada`
   ADD PRIMARY KEY (`codi_gdj`);
 
 --
--- Indices de la tabla `grupo_directiva`
+-- Indexes for table `grupo_directiva`
 --
 ALTER TABLE `grupo_directiva`
   ADD PRIMARY KEY (`codi_gdi`);
 
 --
--- Indices de la tabla `grupo_permiso`
+-- Indexes for table `grupo_pap`
+--
+ALTER TABLE `grupo_pap`
+  ADD PRIMARY KEY (`codi_gpa`);
+
+--
+-- Indexes for table `grupo_permiso`
 --
 ALTER TABLE `grupo_permiso`
   ADD PRIMARY KEY (`codi_gpr`);
 
 --
--- Indices de la tabla `grupo_resolucion`
+-- Indexes for table `grupo_resolucion`
 --
 ALTER TABLE `grupo_resolucion`
   ADD PRIMARY KEY (`codi_gre`);
 
 --
--- Indices de la tabla `imagen_album`
+-- Indexes for table `imagen_album`
 --
 ALTER TABLE `imagen_album`
   ADD PRIMARY KEY (`codi_ial`);
 
 --
--- Indices de la tabla `noticia`
+-- Indexes for table `noticia`
 --
 ALTER TABLE `noticia`
   ADD PRIMARY KEY (`codi_not`);
 
 --
--- Indices de la tabla `permiso`
+-- Indexes for table `pap`
+--
+ALTER TABLE `pap`
+  ADD PRIMARY KEY (`codi_pap`);
+
+--
+-- Indexes for table `permiso`
 --
 ALTER TABLE `permiso`
   ADD PRIMARY KEY (`codi_per`);
 
 --
--- Indices de la tabla `permiso_rol`
+-- Indexes for table `permiso_rol`
 --
 ALTER TABLE `permiso_rol`
   ADD PRIMARY KEY (`codi_pro`);
 
 --
--- Indices de la tabla `permiso_usuario`
+-- Indexes for table `permiso_usuario`
 --
 ALTER TABLE `permiso_usuario`
   ADD PRIMARY KEY (`codi_pus`);
 
 --
--- Indices de la tabla `resolucion`
+-- Indexes for table `resolucion`
 --
 ALTER TABLE `resolucion`
   ADD PRIMARY KEY (`codi_res`);
 
 --
--- Indices de la tabla `rol`
+-- Indexes for table `rol`
 --
 ALTER TABLE `rol`
   ADD PRIMARY KEY (`codi_rol`);
 
 --
--- Indices de la tabla `usuario`
+-- Indexes for table `usuario`
 --
 ALTER TABLE `usuario`
   ADD PRIMARY KEY (`codi_usu`);
 
 --
--- AUTO_INCREMENT de las tablas volcadas
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT de la tabla `agenda`
+-- AUTO_INCREMENT for table `agenda`
 --
 ALTER TABLE `agenda`
   MODIFY `codi_age` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
--- AUTO_INCREMENT de la tabla `album`
+-- AUTO_INCREMENT for table `album`
 --
 ALTER TABLE `album`
-  MODIFY `codi_alb` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `codi_alb` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `declaracion_jurada`
+-- AUTO_INCREMENT for table `declaracion_jurada`
 --
 ALTER TABLE `declaracion_jurada`
   MODIFY `codi_dju` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT de la tabla `dependencia`
+-- AUTO_INCREMENT for table `dependencia`
 --
 ALTER TABLE `dependencia`
   MODIFY `codi_dpe` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT de la tabla `directiva`
+-- AUTO_INCREMENT for table `directiva`
 --
 ALTER TABLE `directiva`
   MODIFY `codi_dir` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `grupo_declaracion_jurada`
+-- AUTO_INCREMENT for table `evento`
+--
+ALTER TABLE `evento`
+  MODIFY `codi_eve` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `grupo_declaracion_jurada`
 --
 ALTER TABLE `grupo_declaracion_jurada`
   MODIFY `codi_gdj` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT de la tabla `grupo_directiva`
+-- AUTO_INCREMENT for table `grupo_directiva`
 --
 ALTER TABLE `grupo_directiva`
   MODIFY `codi_gdi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT de la tabla `grupo_permiso`
+-- AUTO_INCREMENT for table `grupo_pap`
+--
+ALTER TABLE `grupo_pap`
+  MODIFY `codi_gpa` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `grupo_permiso`
 --
 ALTER TABLE `grupo_permiso`
-  MODIFY `codi_gpr` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `codi_gpr` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
--- AUTO_INCREMENT de la tabla `grupo_resolucion`
+-- AUTO_INCREMENT for table `grupo_resolucion`
 --
 ALTER TABLE `grupo_resolucion`
   MODIFY `codi_gre` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT de la tabla `imagen_album`
+-- AUTO_INCREMENT for table `imagen_album`
 --
 ALTER TABLE `imagen_album`
-  MODIFY `codi_ial` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `codi_ial` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `noticia`
+-- AUTO_INCREMENT for table `noticia`
 --
 ALTER TABLE `noticia`
   MODIFY `codi_not` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
--- AUTO_INCREMENT de la tabla `permiso`
+-- AUTO_INCREMENT for table `pap`
+--
+ALTER TABLE `pap`
+  MODIFY `codi_pap` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `permiso`
 --
 ALTER TABLE `permiso`
-  MODIFY `codi_per` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
+  MODIFY `codi_per` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=113;
 --
--- AUTO_INCREMENT de la tabla `permiso_rol`
+-- AUTO_INCREMENT for table `permiso_rol`
 --
 ALTER TABLE `permiso_rol`
   MODIFY `codi_pro` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 --
--- AUTO_INCREMENT de la tabla `permiso_usuario`
+-- AUTO_INCREMENT for table `permiso_usuario`
 --
 ALTER TABLE `permiso_usuario`
   MODIFY `codi_pus` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `resolucion`
+-- AUTO_INCREMENT for table `resolucion`
 --
 ALTER TABLE `resolucion`
   MODIFY `codi_res` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
--- AUTO_INCREMENT de la tabla `rol`
+-- AUTO_INCREMENT for table `rol`
 --
 ALTER TABLE `rol`
   MODIFY `codi_rol` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT de la tabla `usuario`
+-- AUTO_INCREMENT for table `usuario`
 --
 ALTER TABLE `usuario`
   MODIFY `codi_usu` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;

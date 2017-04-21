@@ -145,3 +145,45 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 (NULL, 'Habilitar álbum de imágenes', '12', '1'), 
 (NULL, 'Deshabilitar álbum de imágenes', '12', '1'), 
 (NULL, 'Eliminar álbum de imágenes', '12', '1');
+
+
+====================================================================================================================
+
+INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
+(NULL, 'Eventos', '1');
+
+INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
+(NULL, 'Buscar evento', '13', '1'), 
+(NULL, 'Leer evento', '13', '1'), 
+(NULL, 'Registrar evento', '13', '1'), 
+(NULL, 'Modificar evento', '13', '1'), 
+(NULL, 'Habilitar evento', '13', '1'), 
+(NULL, 'Deshabilitar evento', '13', '1'), 
+(NULL, 'Eliminar evento', '13', '1');
+
+====================================================================================================================
+
+INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
+(NULL, 'Grupos de PAP', '1');
+
+INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
+(NULL, 'Buscar grupos de PAP', '14', '1'), 
+(NULL, 'Leer grupo de PAP', '14', '1'), 
+(NULL, 'Registrar grupo de PAP', '14', '1'), 
+(NULL, 'Modificar grupo de PAP', '14', '1'), 
+(NULL, 'Habilitar grupo de PAP', '14', '1'), 
+(NULL, 'Deshabilitar grupo de PAP', '14', '1'), 
+(NULL, 'Eliminar grupo de PAP', '14', '1');
+
+INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
+(NULL, 'PAP', '1');
+
+INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
+(NULL, 'Buscar PAP', '15', '1'), 
+(NULL, 'Leer PAP', '15', '1'), 
+(NULL, 'Registrar PAP', '15', '1'), 
+(NULL, 'Modificar PAP', '15', '1'), 
+(NULL, 'Habilitar PAP', '15', '1'), 
+(NULL, 'Deshabilitar PAP', '15', '1'), 
+(NULL, 'Eliminar PAP', '15', '1'),
+(NULL, 'Descargar PAP', '15', '1');

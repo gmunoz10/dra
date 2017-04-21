@@ -6,7 +6,8 @@
 <section class="container container-page-inner">
     <section>
       <div class="col-lg-11" style="padding-left: 75px; line-height: 1.42857143;">
-      	<h3 style="font-weight: bold; color: #0e8240;">Acceso a la información</h3>
+      	<h3 style="font-weight: bold; color: #0e8240;">Portal de Transparencia y Acceso a la información pública</h3>
+      	<p><i class="fa fa-envelope" aria-hidden="true"></i> transparencia@dral.gob.pe</p>
       	<br>
       	<div style="
 	      		text-align: center;
@@ -34,7 +35,6 @@
 
 				style="display:block;" 
 		    >
-		    	Cargando Portal de Transparencia...
 	        </iframe>
  			<!--
  			<table>

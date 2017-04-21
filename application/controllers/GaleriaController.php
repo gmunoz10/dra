@@ -14,11 +14,17 @@ class GaleriaController extends CI_Controller {
     }
 
     public function admin($page = 1) {
-        $size = 5;
+        $size = 3;
         $start = (int) $page * $size - $size;
 
-        $data["count"] = $this->mod_galeria->count_album();
-        $data["albumes"] = $this->mod_galeria->get_list_album($start, $size);
+        if (isset($_GET["search"]) && $_GET["search"] != "") {
+            $data['search'] = $_GET["search"];
+        } else {
+            $data['search'] = "";
+        }
+
+        $data["count"] = $this->mod_galeria->count_album($data['search']);
+        $data["albumes"] = $this->mod_galeria->get_list_album($data['search'], $start, $size);
         foreach ($data["albumes"] as $key => $album) {
             $data["albumes"][$key]->imagenes = $this->mod_galeria->get_imagenes_album($album->codi_alb);
         }
@@ -52,63 +58,179 @@ class GaleriaController extends CI_Controller {
     }
 
     public function save_album() {
+        if ($this->session->userdata("usuario") && check_permission(REGISTRAR_ALBUM_IMAGEN)) {
+            $titu_alb = $this->input->post('titu_alb');
+            $codi_usu = $this->session->userdata("usuario")->codi_usu;
 
-        $titu_alb = $this->input->post('titu_alb');
-        $codi_usu = $this->session->userdata("usuario")->codi_usu;
+            $data = array(
+                'titu_alb' => $titu_alb,
+                'codi_usu' => $codi_usu,
+                'fech_alb' => date("Y-m-d H:i"),
+                'esta_alb' => "1"
+            );
+            $codi_alb = $this->mod_galeria->save_album($data);
 
-        $data = array(
-            'titu_alb' => $titu_alb,
-            'codi_usu' => $codi_usu,
-            'fech_alb' => date("Y-m-d H:i"),
-            'esta_alb' => "1"
-        );
-        $codi_alb = $this->mod_galeria->save_album($data);
+            $config['upload_path'] = './assets/galeria/';
+            $config['allowed_types'] = 'png|jpg';
+            $config['max_size'] = 20000;
+            $config['overwrite'] = false;
 
-        $config['upload_path'] = './assets/galeria/';
-        $config['allowed_types'] = 'png|jpg';
-        $config['max_size'] = 20000;
-        $config['overwrite'] = false;
+            $this->load->library('upload', $config);
 
-        $this->load->library('upload', $config);
+            $filesCount = count($_FILES['imag_ial']['name']);
+            for($i = 0; $i < $filesCount; $i++){
+                $_FILES['imagen']['name'] = $_FILES['imag_ial']['name'][$i];
+                $_FILES['imagen']['type'] = $_FILES['imag_ial']['type'][$i];
+                $_FILES['imagen']['tmp_name'] = $_FILES['imag_ial']['tmp_name'][$i];
+                $_FILES['imagen']['error'] = $_FILES['imag_ial']['error'][$i];
+                $_FILES['imagen']['size'] = $_FILES['imag_ial']['size'][$i];
 
-        $filesCount = count($_FILES['imag_ial']['name']);
-        for($i = 0; $i < $filesCount; $i++){
-            $_FILES['imagen']['name'] = $_FILES['imag_ial']['name'][$i];
-            $_FILES['imagen']['type'] = $_FILES['imag_ial']['type'][$i];
-            $_FILES['imagen']['tmp_name'] = $_FILES['imag_ial']['tmp_name'][$i];
-            $_FILES['imagen']['error'] = $_FILES['imag_ial']['error'][$i];
-            $_FILES['imagen']['size'] = $_FILES['imag_ial']['size'][$i];
-
-            if($this->upload->do_upload('imagen')){
-                $fileData = $this->upload->data();
-                $data_img = array(
-                    'imag_ial' => $fileData['file_name'],
-                    'codi_usu' => $codi_usu,
-                    'codi_alb' => $codi_alb,
-                    'fech_ial' => date("Y-m-d H:i"),
-                    'esta_ial' => "1"
-                );
-                $this->mod_galeria->save($data_img);
+                if($this->upload->do_upload('imagen')){
+                    $fileData = $this->upload->data();
+                    $data_img = array(
+                        'imag_ial' => $fileData['file_name'],
+                        'codi_usu' => $codi_usu,
+                        'codi_alb' => $codi_alb,
+                        'fech_ial' => date("Y-m-d H:i"),
+                        'esta_ial' => "1"
+                    );
+                    $this->mod_galeria->save($data_img);
+                }
             }
+
+            $type_system = "success";
+            $message_system = "Álbum registrado con éxito";
+            
+            set_message_system($type_system, $message_system);
+
+            header('Location: ' . base_url('galeria/admin'));
+        } else {
+            header("Location: " . base_url());
         }
-
-        $type_system = "success";
-        $message_system = "Álbum registrado con éxito";
-        
-        set_message_system($type_system, $message_system);
-
-        header('Location: ' . base_url('galeria/admin'));
     }
 
     public function eliminar_imagen() {
-        $codi_ial = $this->input->post('codi_ial');
-        $this->mod_galeria->update($codi_ial, array("esta_ial" => "0"));
+        if ($this->session->userdata("usuario") && check_permission(QUITAR_IMAGEN_ALBUM)) {
+            $codi_ial = $this->input->post('codigo');
+            $this->mod_galeria->update($codi_ial, array("esta_ial" => "0"));
 
-        $type_system = "success";
-        $message_system = "Imagen eliminado con éxito";
-        
-        set_message_system($type_system, $message_system);
+            $type_system = "success";
+            $message_system = "Imagen eliminado con éxito";
+            
+            set_message_system($type_system, $message_system);
 
-        header('Location: ' . base_url('galeria/admin'));
+            header('Location: ' . base_url('galeria/admin'));
+        } else {
+            header("Location: " . base_url());
+        }
+    }
+
+    public function update_title_album() {
+        if ($this->session->userdata("usuario") && check_permission(MODIFICAR_ALBUM_IMAGEN)) {
+            $codi_alb = $this->input->post('codi_alb');
+            $titu_alb = $this->input->post('titu_alb');
+            $this->mod_galeria->update_album($codi_alb, array("titu_alb" => $titu_alb));
+
+            $type_system = "success";
+            $message_system = "Título de álbum actualizado con éxito";
+            
+            set_message_system($type_system, $message_system);
+
+            header('Location: ' . base_url('galeria/admin'));
+        } else {
+            header("Location: " . base_url());
+        }
+    }
+
+    public function upload_album() {
+        if ($this->session->userdata("usuario") && check_permission(MODIFICAR_ALBUM_IMAGEN)) {
+            $codi_alb = $this->input->post('codi_alb');
+            $codi_usu = $this->session->userdata("usuario")->codi_usu;
+
+            $config['upload_path'] = './assets/galeria/';
+            $config['allowed_types'] = 'png|jpg';
+            $config['max_size'] = 20000;
+            $config['overwrite'] = false;
+
+            $this->load->library('upload', $config);
+
+            $filesCount = count($_FILES['imag_ial']['name']);
+            for($i = 0; $i < $filesCount; $i++){
+                $_FILES['imagen']['name'] = $_FILES['imag_ial']['name'][$i];
+                $_FILES['imagen']['type'] = $_FILES['imag_ial']['type'][$i];
+                $_FILES['imagen']['tmp_name'] = $_FILES['imag_ial']['tmp_name'][$i];
+                $_FILES['imagen']['error'] = $_FILES['imag_ial']['error'][$i];
+                $_FILES['imagen']['size'] = $_FILES['imag_ial']['size'][$i];
+
+                if($this->upload->do_upload('imagen')){
+                    $fileData = $this->upload->data();
+                    $data_img = array(
+                        'imag_ial' => $fileData['file_name'],
+                        'codi_usu' => $codi_usu,
+                        'codi_alb' => $codi_alb,
+                        'fech_ial' => date("Y-m-d H:i"),
+                        'esta_ial' => "1"
+                    );
+                    $this->mod_galeria->save($data_img);
+                }
+            }
+
+            $type_system = "success";
+            $message_system = "Imágenes subidas con éxito";
+            
+            set_message_system($type_system, $message_system);
+
+            header('Location: ' . base_url('galeria/admin'));
+        } else {
+            header("Location: " . base_url());
+        }
+    }
+
+    public function habilitar() {
+        if ($this->session->userdata("usuario") && check_permission(HABILITAR_ALBUM_IMAGEN)) {
+            $codi_alb = $this->input->post('codigo');
+            $this->mod_galeria->update_album($codi_alb, array("esta_alb" => "1"));
+
+            $type_system = "success";
+            $message_system = "Álbum habilitado con éxito";
+            
+            set_message_system($type_system, $message_system);
+
+            header('Location: ' . base_url('galeria/admin'));
+        } else {
+            header("Location: " . base_url());
+        }
+    }
+
+    public function deshabilitar() {
+        if ($this->session->userdata("usuario") && check_permission(DESHABILITAR_ALBUM_IMAGEN)) {
+            $codi_alb = $this->input->post('codigo');
+            $this->mod_galeria->update_album($codi_alb, array("esta_alb" => "0"));
+
+            $type_system = "success";
+            $message_system = "Álbum deshabilitado con éxito";
+            
+            set_message_system($type_system, $message_system);
+
+            header('Location: ' . base_url('galeria/admin'));
+        } else {
+            header("Location: " . base_url());
+        }
+    }
+
+    public function eliminar() {
+        if ($this->session->userdata("usuario") && check_permission(ELIMINAR_ALBUM_IMAGEN)) {
+            $codi_alb = $this->input->post('codigo');
+            $this->mod_galeria->update_album($codi_alb, array("esta_alb" => "-1"));
+
+            $type_system = "success";
+            $message_system = "Álbum eliminado con éxito";
+            
+            set_message_system($type_system, $message_system);
+
+            header('Location: ' . base_url('galeria/admin'));
+        } else {
+            header("Location: " . base_url());
+        }
     }
 }
