@@ -104,7 +104,7 @@ class UsuarioController extends CI_Controller {
     }
 
     public function check_cont_usu() {
-        echo $this->mod_usuario->check_cont_usu($this->input->post('codi_usu'), md5($this->input->post('acon_usu')));
+        echo $this->mod_usuario->check_cont_usu($this->session->userdata("usuario")->codi_usu, md5($this->input->post('acon_usu')));
     }
 
     public function save() {
@@ -157,6 +157,11 @@ class UsuarioController extends CI_Controller {
         if ($this->mod_usuario->check_nomb_usu_actualizar($codi_usu, $nomb_usu) == "true") {
             $this->mod_usuario->update($codi_usu, $data);
 
+            if ($this->session->userdata("usuario")->codi_usu == $codi_usu) {
+                $usuario = $this->mod_usuario->get_usuario_row(array("codi_usu" => $codi_usu));
+                $this->session->set_userdata("usuario", $usuario);
+            }
+
             $type_system = "success";
             $message_system = "El usuario $nomb_usu ha sido actualizado con éxito";
         } else {
@@ -167,6 +172,27 @@ class UsuarioController extends CI_Controller {
         set_message_system($type_system, $message_system);
 
         header('Location: ' . base_url('usuario'));
+    }
+
+    public function update_cont() {
+        if ($this->session->userdata("usuario")) {
+            $codi_usu = $this->session->userdata("usuario")->codi_usu;
+            $cont_usu = md5($this->input->post('cont_usu'));
+
+            $this->mod_usuario->update($codi_usu, array("cont_usu" => $cont_usu));
+
+            $usuario = $this->mod_usuario->get_usuario_row(array("codi_usu" => $codi_usu));
+            $this->session->set_userdata("usuario", $usuario);
+
+            $type_system = "success";
+            $message_system = "Contraseña actualizada con éxito";
+
+            set_message_system($type_system, $message_system);
+            
+            header('Location: ' . base_url('cambiar_clave'));
+        } else {
+            header("Location: " . base_url());
+        }
     }
 
     public function habilitar() {
@@ -213,5 +239,7 @@ class UsuarioController extends CI_Controller {
 
         header('Location: ' . base_url('usuario'));
     }
+
+
 
 }

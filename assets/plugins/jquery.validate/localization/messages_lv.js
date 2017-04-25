@@ -23,7 +23,7 @@ $.extend( $.validator.messages, {
 	digits: "Lūdzu, ievadiet tikai ciparus.",
 	creditcard: "Lūdzu, ievadiet derīgu kredītkartes numuru.",
 	equalTo: "Lūdzu, ievadiet to pašu vēlreiz.",
-	extension: "Lūdzu, ievadiet vērtību ar derīgu paplašinājumu.",
+	extension: "Lūdzu, ievadiet vērtību ar derīgu paclašinājumu.",
 	maxlength: $.validator.format( "Lūdzu, ievadiet ne vairāk kā {0} rakstzīmes." ),
 	minlength: $.validator.format( "Lūdzu, ievadiet vismaz {0} rakstzīmes." ),
 	rangelength: $.validator.format( "Lūdzu ievadiet {0} līdz {1} rakstzīmes." ),

@@ -83,7 +83,7 @@ a:hover .header-profile-image {
   padding-top: 5px;
 }
 
-.super-header a {
+.super-header a, .super-header a:hover {
   color: #FFF;
   width: 100%;
 }

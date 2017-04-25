@@ -211,20 +211,20 @@ defined('MODIFICAR_EVENTO')   			OR define('MODIFICAR_EVENTO', 94);
 defined('HABILITAR_EVENTO')   			OR define('HABILITAR_EVENTO', 95);
 defined('DESHABILITAR_EVENTO')			OR define('DESHABILITAR_EVENTO', 96);
 defined('ELIMINAR_EVENTO')   			OR define('ELIMINAR_EVENTO', 97);
-// GRUPO DE PAP
-defined('BUSCAR_GRUPO_PAP')  		OR define('BUSCAR_GRUPO_PAP', 98);
-defined('LEER_GRUPO_PAP')        	OR define('LEER_GRUPO_PAP', 99);
-defined('REGISTRAR_GRUPO_PAP')   	OR define('REGISTRAR_GRUPO_PAP', 100);
-defined('MODIFICAR_GRUPO_PAP')   	OR define('MODIFICAR_GRUPO_PAP', 101);
-defined('HABILITAR_GRUPO_PAP')   	OR define('HABILITAR_GRUPO_PAP', 102);
-defined('DESHABILITAR_GRUPO_PAP')	OR define('DESHABILITAR_GRUPO_PAP', 103);
-defined('ELIMINAR_GRUPO_PAP')   	OR define('ELIMINAR_GRUPO_PAP', 104);
-// PAP
-defined('BUSCAR_PAP')  			OR define('BUSCAR_PAP', 105);
-defined('LEER_PAP')        		OR define('LEER_PAP', 106);
-defined('REGISTRAR_PAP')   		OR define('REGISTRAR_PAP', 107);
-defined('MODIFICAR_PAP')   		OR define('MODIFICAR_PAP', 108);
-defined('HABILITAR_PAP')   		OR define('HABILITAR_PAP', 109);
-defined('DESHABILITAR_PAP')		OR define('DESHABILITAR_PAP', 110);
-defined('ELIMINAR_PAP')   		OR define('ELIMINAR_PAP', 111);
-defined('DESCARGAR_PAP')   		OR define('DESCARGAR_PAP', 112);
+// GRUPO DE PAC
+defined('BUSCAR_GRUPO_PAC')  		OR define('BUSCAR_GRUPO_PAC', 98);
+defined('LEER_GRUPO_PAC')        	OR define('LEER_GRUPO_PAC', 99);
+defined('REGISTRAR_GRUPO_PAC')   	OR define('REGISTRAR_GRUPO_PAC', 100);
+defined('MODIFICAR_GRUPO_PAC')   	OR define('MODIFICAR_GRUPO_PAC', 101);
+defined('HABILITAR_GRUPO_PAC')   	OR define('HABILITAR_GRUPO_PAC', 102);
+defined('DESHABILITAR_GRUPO_PAC')	OR define('DESHABILITAR_GRUPO_PAC', 103);
+defined('ELIMINAR_GRUPO_PAC')   	OR define('ELIMINAR_GRUPO_PAC', 104);
+// PAC
+defined('BUSCAR_PAC')  			OR define('BUSCAR_PAC', 105);
+defined('LEER_PAC')        		OR define('LEER_PAC', 106);
+defined('REGISTRAR_PAC')   		OR define('REGISTRAR_PAC', 107);
+defined('MODIFICAR_PAC')   		OR define('MODIFICAR_PAC', 108);
+defined('HABILITAR_PAC')   		OR define('HABILITAR_PAC', 109);
+defined('DESHABILITAR_PAC')		OR define('DESHABILITAR_PAC', 110);
+defined('ELIMINAR_PAC')   		OR define('ELIMINAR_PAC', 111);
+defined('DESCARGAR_PAC')   		OR define('DESCARGAR_PAC', 112);

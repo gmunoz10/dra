@@ -682,7 +682,7 @@ INFO - 2017-04-21 22:47:48 --> Model Class Initialized
 INFO - 2017-04-21 22:47:48 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:47:48 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:47:48 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:47:48 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search_grupo.php
+INFO - 2017-04-21 22:47:48 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search_grupo.php
 INFO - 2017-04-21 22:47:48 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:47:49 --> Final output sent to browser
 DEBUG - 2017-04-21 22:47:49 --> Total execution time: 2.2290
@@ -737,7 +737,7 @@ INFO - 2017-04-21 22:47:59 --> Model Class Initialized
 INFO - 2017-04-21 22:47:59 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:47:59 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:47:59 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:47:59 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search.php
+INFO - 2017-04-21 22:47:59 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search.php
 INFO - 2017-04-21 22:47:59 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:47:59 --> Final output sent to browser
 DEBUG - 2017-04-21 22:47:59 --> Total execution time: 1.3626
@@ -809,7 +809,7 @@ INFO - 2017-04-21 22:49:52 --> Model Class Initialized
 INFO - 2017-04-21 22:49:52 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:49:52 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:49:52 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:49:52 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search.php
+INFO - 2017-04-21 22:49:52 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search.php
 INFO - 2017-04-21 22:49:52 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:49:52 --> Final output sent to browser
 DEBUG - 2017-04-21 22:49:52 --> Total execution time: 0.0904
@@ -869,7 +869,7 @@ INFO - 2017-04-21 22:49:56 --> Model Class Initialized
 INFO - 2017-04-21 22:49:56 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:49:56 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:49:56 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:49:56 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search_grupo.php
+INFO - 2017-04-21 22:49:56 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search_grupo.php
 INFO - 2017-04-21 22:49:56 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:49:56 --> Final output sent to browser
 DEBUG - 2017-04-21 22:49:56 --> Total execution time: 0.0892
@@ -956,7 +956,7 @@ INFO - 2017-04-21 22:50:54 --> Model Class Initialized
 INFO - 2017-04-21 22:50:54 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:50:54 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:50:54 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:50:54 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search_grupo.php
+INFO - 2017-04-21 22:50:54 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search_grupo.php
 INFO - 2017-04-21 22:50:54 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:50:54 --> Final output sent to browser
 DEBUG - 2017-04-21 22:50:54 --> Total execution time: 0.0891
@@ -1016,7 +1016,7 @@ INFO - 2017-04-21 22:50:56 --> Model Class Initialized
 INFO - 2017-04-21 22:50:56 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:50:56 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:50:56 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:50:56 --> File loaded: C:\xampp\htdocs\dra\application\views\portal/pap.php
+INFO - 2017-04-21 22:50:56 --> File loaded: C:\xampp\htdocs\dra\application\views\portal/pac.php
 INFO - 2017-04-21 22:50:56 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_portal.php
 INFO - 2017-04-21 22:50:56 --> Final output sent to browser
 DEBUG - 2017-04-21 22:50:56 --> Total execution time: 0.1270
@@ -1047,7 +1047,7 @@ INFO - 2017-04-21 22:50:57 --> Model Class Initialized
 INFO - 2017-04-21 22:50:57 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:50:57 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:50:57 --> Session class already loaded. Second attempt ignored.
-ERROR - 2017-04-21 22:50:57 --> Severity: Notice --> Undefined index: year_pap C:\xampp\htdocs\dra\application\controllers\PapController.php 541
+ERROR - 2017-04-21 22:50:57 --> Severity: Notice --> Undefined index: year_pac C:\xampp\htdocs\dra\application\controllers\PapController.php 541
 INFO - 2017-04-21 22:50:57 --> Final output sent to browser
 DEBUG - 2017-04-21 22:50:57 --> Total execution time: 0.0913
 INFO - 2017-04-21 22:51:05 --> Config Class Initialized
@@ -1077,7 +1077,7 @@ INFO - 2017-04-21 22:51:05 --> Model Class Initialized
 INFO - 2017-04-21 22:51:05 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:51:05 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:51:05 --> Session class already loaded. Second attempt ignored.
-ERROR - 2017-04-21 22:51:05 --> Severity: Notice --> Undefined index: year_pap C:\xampp\htdocs\dra\application\controllers\PapController.php 541
+ERROR - 2017-04-21 22:51:05 --> Severity: Notice --> Undefined index: year_pac C:\xampp\htdocs\dra\application\controllers\PapController.php 541
 INFO - 2017-04-21 22:51:05 --> Final output sent to browser
 DEBUG - 2017-04-21 22:51:05 --> Total execution time: 0.0729
 INFO - 2017-04-21 22:51:13 --> Config Class Initialized
@@ -1107,7 +1107,7 @@ INFO - 2017-04-21 22:51:14 --> Model Class Initialized
 INFO - 2017-04-21 22:51:14 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:51:14 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:51:14 --> Session class already loaded. Second attempt ignored.
-ERROR - 2017-04-21 22:51:14 --> Severity: Notice --> Undefined index: year_pap C:\xampp\htdocs\dra\application\controllers\PapController.php 541
+ERROR - 2017-04-21 22:51:14 --> Severity: Notice --> Undefined index: year_pac C:\xampp\htdocs\dra\application\controllers\PapController.php 541
 INFO - 2017-04-21 22:51:14 --> Final output sent to browser
 DEBUG - 2017-04-21 22:51:14 --> Total execution time: 0.1324
 INFO - 2017-04-21 22:52:21 --> Config Class Initialized
@@ -1137,7 +1137,7 @@ INFO - 2017-04-21 22:52:21 --> Model Class Initialized
 INFO - 2017-04-21 22:52:21 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:52:21 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:52:21 --> Session class already loaded. Second attempt ignored.
-ERROR - 2017-04-21 22:52:21 --> Severity: Notice --> Undefined index: year_pap C:\xampp\htdocs\dra\application\controllers\PapController.php 541
+ERROR - 2017-04-21 22:52:21 --> Severity: Notice --> Undefined index: year_pac C:\xampp\htdocs\dra\application\controllers\PapController.php 541
 INFO - 2017-04-21 22:52:21 --> Final output sent to browser
 DEBUG - 2017-04-21 22:52:21 --> Total execution time: 0.0998
 INFO - 2017-04-21 22:53:08 --> Config Class Initialized
@@ -1167,7 +1167,7 @@ INFO - 2017-04-21 22:53:08 --> Model Class Initialized
 INFO - 2017-04-21 22:53:08 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:53:08 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:53:08 --> Session class already loaded. Second attempt ignored.
-ERROR - 2017-04-21 22:53:08 --> Severity: Notice --> Undefined index: year_pap C:\xampp\htdocs\dra\application\controllers\PapController.php 541
+ERROR - 2017-04-21 22:53:08 --> Severity: Notice --> Undefined index: year_pac C:\xampp\htdocs\dra\application\controllers\PapController.php 541
 INFO - 2017-04-21 22:53:09 --> Final output sent to browser
 DEBUG - 2017-04-21 22:53:09 --> Total execution time: 0.0859
 INFO - 2017-04-21 22:53:14 --> Config Class Initialized
@@ -1197,7 +1197,7 @@ INFO - 2017-04-21 22:53:14 --> Model Class Initialized
 INFO - 2017-04-21 22:53:14 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:53:14 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:53:14 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:53:14 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search_grupo.php
+INFO - 2017-04-21 22:53:14 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search_grupo.php
 INFO - 2017-04-21 22:53:14 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:53:14 --> Final output sent to browser
 DEBUG - 2017-04-21 22:53:14 --> Total execution time: 0.0877
@@ -1257,7 +1257,7 @@ INFO - 2017-04-21 22:53:17 --> Model Class Initialized
 INFO - 2017-04-21 22:53:17 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:53:17 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:53:17 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:53:17 --> File loaded: C:\xampp\htdocs\dra\application\views\portal/pap.php
+INFO - 2017-04-21 22:53:17 --> File loaded: C:\xampp\htdocs\dra\application\views\portal/pac.php
 INFO - 2017-04-21 22:53:17 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_portal.php
 INFO - 2017-04-21 22:53:17 --> Final output sent to browser
 DEBUG - 2017-04-21 22:53:17 --> Total execution time: 0.1235
@@ -1375,7 +1375,7 @@ INFO - 2017-04-21 22:53:30 --> Model Class Initialized
 INFO - 2017-04-21 22:53:30 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:53:30 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:53:30 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:53:30 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search_grupo.php
+INFO - 2017-04-21 22:53:30 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search_grupo.php
 INFO - 2017-04-21 22:53:30 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:53:30 --> Final output sent to browser
 DEBUG - 2017-04-21 22:53:30 --> Total execution time: 0.0751
@@ -1462,7 +1462,7 @@ INFO - 2017-04-21 22:53:51 --> Model Class Initialized
 INFO - 2017-04-21 22:53:51 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:53:51 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:53:51 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:53:51 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/empty_gpa.php
+INFO - 2017-04-21 22:53:51 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/empty_gpa.php
 INFO - 2017-04-21 22:53:51 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:53:51 --> Final output sent to browser
 DEBUG - 2017-04-21 22:53:51 --> Total execution time: 0.0988
@@ -1493,7 +1493,7 @@ INFO - 2017-04-21 22:53:53 --> Model Class Initialized
 INFO - 2017-04-21 22:53:53 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:53:53 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:53:53 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:53:53 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search_grupo.php
+INFO - 2017-04-21 22:53:53 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search_grupo.php
 INFO - 2017-04-21 22:53:53 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:53:53 --> Final output sent to browser
 DEBUG - 2017-04-21 22:53:53 --> Total execution time: 0.0908
@@ -1611,7 +1611,7 @@ INFO - 2017-04-21 22:53:58 --> Model Class Initialized
 INFO - 2017-04-21 22:53:58 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:53:58 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:53:58 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:53:58 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search_grupo.php
+INFO - 2017-04-21 22:53:58 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search_grupo.php
 INFO - 2017-04-21 22:53:58 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:53:58 --> Final output sent to browser
 DEBUG - 2017-04-21 22:53:58 --> Total execution time: 0.0842
@@ -1671,7 +1671,7 @@ INFO - 2017-04-21 22:54:01 --> Model Class Initialized
 INFO - 2017-04-21 22:54:01 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:54:01 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:54:01 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:54:01 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search.php
+INFO - 2017-04-21 22:54:01 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search.php
 INFO - 2017-04-21 22:54:01 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:54:01 --> Final output sent to browser
 DEBUG - 2017-04-21 22:54:01 --> Total execution time: 0.1140
@@ -1821,7 +1821,7 @@ INFO - 2017-04-21 22:54:27 --> Model Class Initialized
 INFO - 2017-04-21 22:54:27 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:54:27 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:54:27 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:54:27 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search.php
+INFO - 2017-04-21 22:54:27 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search.php
 INFO - 2017-04-21 22:54:27 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:54:27 --> Final output sent to browser
 DEBUG - 2017-04-21 22:54:27 --> Total execution time: 0.1050
@@ -1969,7 +1969,7 @@ INFO - 2017-04-21 22:55:43 --> Model Class Initialized
 INFO - 2017-04-21 22:55:43 --> Database Driver Class Initialized
 INFO - 2017-04-21 22:55:43 --> Helper loaded: cookie_helper
 DEBUG - 2017-04-21 22:55:43 --> Session class already loaded. Second attempt ignored.
-INFO - 2017-04-21 22:55:43 --> File loaded: C:\xampp\htdocs\dra\application\views\pap/search.php
+INFO - 2017-04-21 22:55:43 --> File loaded: C:\xampp\htdocs\dra\application\views\pac/search.php
 INFO - 2017-04-21 22:55:43 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
 INFO - 2017-04-21 22:55:43 --> Final output sent to browser
 DEBUG - 2017-04-21 22:55:43 --> Total execution time: 0.0752

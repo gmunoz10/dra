@@ -2,9 +2,9 @@
 	<section>
 		<div class="row">
 			<div class="box-content col-md-8 col-md-offset-2" style="line-height: 1.42857143;">
-			    <h2 class="title-sisgedo">Grupos de PAP</h2>
-                <?php if(check_permission(REGISTRAR_GRUPO_PAP)) { ?>
-				    <button id="btn_grupo_pap" class="btn btn-orange" style="color: black !important; font-weight: bold;">Crear nuevo grupo</button>
+			    <h2 class="title-sisgedo">Grupos de PAC</h2>
+                <?php if(check_permission(REGISTRAR_GRUPO_PAC)) { ?>
+				    <button id="btn_grupo_pac" class="btn btn-orange" style="color: black !important; font-weight: bold;">Crear nuevo grupo</button>
                 <?php } ?>
 				<br>
 				<div class="table-responsive" style="margin-top: 30px; padding-bottom: 30px;">
@@ -26,13 +26,13 @@
 	</section>
 </div>
 
-<div class="modal fade" id="modal_grupo_pap" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog">
+<div class="modal fade" id="modal_grupo_pac" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content box-content box-bold col-lg-10 col-md-offset-2">
-        <form id="form_grupo_pap" method="post" action="">
+        <form id="form_grupo_pac" method="post" action="">
 			<input type="hidden" name="codi_gpa">
         	<div class="modal-header">
-                <h4 class="modal-title" id="modal_grupo_pap_lbl"></h4>
+                <h4 class="modal-title" id="modal_grupo_pac_lbl"></h4>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -49,7 +49,7 @@
                 <br>
                 <br>
                 <button type="button" class="btn btn-default" data-dismiss="modal" style="margin-top: 20px;">Volver</button>
-                <button id="submit_grupo_pap" type="submit" class="btn btn-success" style="margin-top: 20px;">Guardar</button>
+                <button id="submit_grupo_pac" type="submit" class="btn btn-success" style="margin-top: 20px;">Guardar</button>
             </div>
         </form>
     </div>

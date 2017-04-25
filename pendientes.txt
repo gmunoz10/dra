@@ -1,0 +1,8 @@
+- 7 Script facebook de fanpage DRAL en Noticias
+- 2 Cabecera de busqueda de PAC
+- 3 Algoritmo para redimensionar tamaño de imagen en PHP
+- 5 Auspiciadores en pie de pagina
+- 4 Directorio de contactos
+- 1 Logo de Portal de transaprencia en cabecera
+- 2 Mostrar 3 imagenes en línea en Galería
+- Ajustar pagina a responsive

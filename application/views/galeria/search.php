@@ -21,7 +21,8 @@
                             &nbsp;
                             <?php if(check_permission(MODIFICAR_ALBUM_IMAGEN)) { ?>
                                 <button class="btn btn-primary btn-xs btn-change-album" data-toggle="tooltip" data-placement="top" title="Cambiar título" data-codi="<?= $album->codi_alb ?>" data-titu="<?= $album->titu_alb ?>"><i class="fa fa-edit" aria-hidden="true"></i></button>
-                                <button class="btn btn-info btn-xs btn-upload-album" data-toggle="tooltip" data-placement="top" title="Subir imágenes" data-codi="<?= $album->codi_alb ?>"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                                <button class="btn btn-primary btn-xs btn-upload-album" data-toggle="tooltip" data-placement="top" title="Subir imágenes" data-codi="<?= $album->codi_alb ?>"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                                <button class="btn btn-primary btn-xs btn-fecha-album" data-toggle="tooltip" data-placement="top" title="Cambiar fecha de publicación" data-codi="<?= $album->codi_alb ?>" data-fech="<?= $album->fech_alb ?>"><i class="fa fa-calendar" aria-hidden="true"></i></button>
                             <?php } ?>
                             <?php if (check_permission(DESHABILITAR_ALBUM_IMAGEN) && $album->esta_alb == "1") { ?>
                                 <button class="btn btn-warning btn-xs btn-deshabilitar-album" data-toggle="tooltip" data-placement="top" title="Deshabilitar" data-codi="<?= $album->codi_alb ?>"><i class="fa fa-ban" aria-hidden="true"></i></button>
@@ -89,6 +90,16 @@
                         <div class="form-group box-titulo-album">
                             <label>Título*: </label>
                             <input class="form-control" name="titu_alb">
+                        </div>
+                        <div class="form-group box-fecha-album">
+                            <label>Fecha de publicación*: </label>
+                            <div class='input-group date box-date'>
+                                <input type='text' class="form-control" name="fech_alb" />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar">
+                                    </span>
+                                </span>
+                            </div>
                         </div>
                         <div class="form-group box-imagen-upload">
                             <label>Imágenes: </label>

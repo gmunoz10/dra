@@ -33,6 +33,7 @@ class GaleriaController extends CI_Controller {
 
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_ALBUM_IMAGEN)) {
             $this->styles[] = '<link href="'.asset_url().'plugins/lightbox/dist/ekko-lightbox.css" rel="stylesheet">';
+            $this->styles[] = '<link href="'.asset_url().'plugins/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">';
             $this->styles[] = '<link href="'.asset_url().'plugins/bootstrap-fileinput/css/fileinput.css" rel="stylesheet">';
             $this->styles[] = '<link href="'.asset_url().'plugins/bootstrap-fileinput/themes/explorer/theme.css" rel="stylesheet">';
             $this->styles[] = '<link href="'.asset_url().'css/galeria_admin.css" rel="stylesheet">';
@@ -44,6 +45,9 @@ class GaleriaController extends CI_Controller {
             $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.validate/additional-methods.js"></script>';
             $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.validate/localization/messages_es_PE.js"></script>';
             $this->scripts[] = '<script src="'.asset_url().'plugins/lightbox/dist/ekko-lightbox.js"></script>';
+            $this->scripts[] = '<script src="'.asset_url().'plugins/moment/moment.min.js"></script>';
+            $this->scripts[] = '<script src="'.asset_url().'plugins/moment/moment-with-locales.min.js"></script>';
+            $this->scripts[] = '<script src="'.asset_url().'plugins/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>';
 
             $this->scripts[] = '<script src="'.asset_url().'js/galeria_admin.js"></script>';
 
@@ -60,12 +64,13 @@ class GaleriaController extends CI_Controller {
     public function save_album() {
         if ($this->session->userdata("usuario") && check_permission(REGISTRAR_ALBUM_IMAGEN)) {
             $titu_alb = $this->input->post('titu_alb');
+            $fech_alb = $this->input->post('fech_alb');
             $codi_usu = $this->session->userdata("usuario")->codi_usu;
 
             $data = array(
                 'titu_alb' => $titu_alb,
                 'codi_usu' => $codi_usu,
-                'fech_alb' => date("Y-m-d H:i"),
+                'fech_alb' => $fech_alb,
                 'esta_alb' => "1"
             );
             $codi_alb = $this->mod_galeria->save_album($data);
@@ -116,6 +121,23 @@ class GaleriaController extends CI_Controller {
 
             $type_system = "success";
             $message_system = "Imagen eliminado con éxito";
+            
+            set_message_system($type_system, $message_system);
+
+            header('Location: ' . base_url('galeria/admin'));
+        } else {
+            header("Location: " . base_url());
+        }
+    }
+
+    public function upload_fecha() {
+        if ($this->session->userdata("usuario") && check_permission(MODIFICAR_ALBUM_IMAGEN)) {
+            $codi_alb = $this->input->post('codi_alb');
+            $fech_alb = $this->input->post('fech_alb');
+            $this->mod_galeria->update_album($codi_alb, array("fech_alb" => $fech_alb));
+
+            $type_system = "success";
+            $message_system = "Fecha de publicación actualizada con éxito";
             
             set_message_system($type_system, $message_system);
 

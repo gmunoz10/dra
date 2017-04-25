@@ -8,7 +8,7 @@
 				<div style="width: 280px;">
 					<div class="form-group">
 			            <div class='input-group date box-date'>
-			                <input type='text' class="form-control" id='year_pap' value="<?= date("Y") ?>"/>
+			                <input type='text' class="form-control" id='year_pac' value="<?= date("Y") ?>"/>
 			                <span class="input-group-addon">
 			                    <span class="glyphicon glyphicon-calendar">
 			                    </span>

@@ -720,7 +720,7 @@
 .fa-files-o:before {
   content: "\f0c5";
 }
-.fa-paperclip:before {
+.fa-pacerclip:before {
   content: "\f0c6";
 }
 .fa-save:before,
@@ -1539,11 +1539,11 @@
   content: "\f1d7";
 }
 .fa-send:before,
-.fa-paper-plane:before {
+.fa-pacer-plane:before {
   content: "\f1d8";
 }
 .fa-send-o:before,
-.fa-paper-plane-o:before {
+.fa-pacer-plane-o:before {
   content: "\f1d9";
 }
 .fa-history:before {
@@ -1592,7 +1592,7 @@
 .fa-yelp:before {
   content: "\f1e9";
 }
-.fa-newspaper-o:before {
+.fa-newspacer-o:before {
   content: "\f1ea";
 }
 .fa-wifi:before {
@@ -1905,7 +1905,7 @@
   content: "\f255";
 }
 .fa-hand-stop-o:before,
-.fa-hand-paper-o:before {
+.fa-hand-pacer-o:before {
   content: "\f256";
 }
 .fa-hand-scissors-o:before {

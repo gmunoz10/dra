@@ -5,7 +5,7 @@
         <div class="alert alert-danger" role="alert">
           <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
           <span class="sr-only">Error:</span>
-            Por favor, habilite un grupo de PAP en <a href="<?= base_url("grupo_pap") ?>"><b>Grupos de PAP</b></a>.
+            Por favor, habilite un grupo de PAC en <a href="<?= base_url("grupo_pac") ?>"><b>Grupos de PAC</b></a>.
         </div>
 			</div>
 		</div>

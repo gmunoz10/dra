@@ -60,4 +60,24 @@ class SessionController extends CI_Controller {
         header("Location: " . base_url() . "login");
     }
 
+    public function cambiar_clave() {
+        if ($this->session->userdata("usuario")) {
+            $this->styles[] = '<link href="'.asset_url().'css/usuario.css" rel="stylesheet">';
+            
+            $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.validate/jquery.validate.js"></script>';
+            $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.validate/additional-methods.js"></script>';
+            $this->scripts[] = '<script src="'.asset_url().'plugins/jquery.validate/localization/messages_es_PE.js"></script>';
+
+            $this->scripts[] = '<script src="'.asset_url().'js/cambiar_clave.js"></script>';
+
+            // Imprimir vista con datos
+            $data["styles"] = $this->styles;
+            $data["scripts"] = $this->scripts;
+            $component["content"] = $this->load->view("usuario/cambiar_clave", $data, true);
+            $this->load->view("template/body_main", $component);
+        } else {
+            header("Location: " . base_url());
+        }
+    }
+
 }

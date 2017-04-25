@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 22, 2017 at 01:48 AM
+-- Generation Time: Apr 26, 2017 at 12:58 AM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 7.0.13
 
@@ -180,14 +180,21 @@ INSERT INTO `grupo_directiva` (`codi_gdi`, `nomb_gdi`, `esta_gdi`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `grupo_pap`
+-- Table structure for table `grupo_pac`
 --
 
-CREATE TABLE `grupo_pap` (
+CREATE TABLE `grupo_pac` (
   `codi_gpa` int(11) NOT NULL,
   `nomb_gpa` text NOT NULL,
   `esta_gpa` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `grupo_pac`
+--
+
+INSERT INTO `grupo_pac` (`codi_gpa`, `nomb_gpa`, `esta_gpa`) VALUES
+(1, '123', 1);
 
 -- --------------------------------------------------------
 
@@ -219,8 +226,8 @@ INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES
 (11, 'Declaración jurada', 1),
 (12, 'Galería', 1),
 (13, 'Eventos', 1),
-(14, 'Grupos de PAP', 1),
-(15, 'PAP', 1);
+(14, 'Grupos de PAC', 1),
+(15, 'PAC', 1);
 
 -- --------------------------------------------------------
 
@@ -287,19 +294,19 @@ INSERT INTO `noticia` (`codi_not`, `titu_not`, `nume_not`, `fech_not`, `codi_usu
 -- --------------------------------------------------------
 
 --
--- Table structure for table `pap`
+-- Table structure for table `pac`
 --
 
-CREATE TABLE `pap` (
-  `codi_pap` int(11) NOT NULL,
+CREATE TABLE `pac` (
+  `codi_pac` int(11) NOT NULL,
   `codi_usu` int(11) NOT NULL,
   `codi_gpa` int(11) NOT NULL,
-  `nume_pap` text NOT NULL,
-  `fech_pap` date NOT NULL,
-  `desc_pap` text NOT NULL,
-  `docu_pap` text NOT NULL,
-  `exte_pap` text NOT NULL,
-  `esta_pap` int(11) NOT NULL
+  `nume_pac` text NOT NULL,
+  `fech_pac` date NOT NULL,
+  `desc_pac` text NOT NULL,
+  `docu_pac` text NOT NULL,
+  `exte_pac` text NOT NULL,
+  `esta_pac` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -417,21 +424,21 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 (95, 'Habilitar evento', 13, 1),
 (96, 'Deshabilitar evento', 13, 1),
 (97, 'Eliminar evento', 13, 1),
-(98, 'Buscar grupos de PAP', 14, 1),
-(99, 'Leer grupo de PAP', 14, 1),
-(100, 'Registrar grupo de PAP', 14, 1),
-(101, 'Modificar grupo de PAP', 14, 1),
-(102, 'Habilitar grupo de PAP', 14, 1),
-(103, 'Deshabilitar grupo de PAP', 14, 1),
-(104, 'Eliminar grupo de PAP', 14, 1),
-(105, 'Buscar PAP', 15, 1),
-(106, 'Leer PAP', 15, 1),
-(107, 'Registrar PAP', 15, 1),
-(108, 'Modificar PAP', 15, 1),
-(109, 'Habilitar PAP', 15, 1),
-(110, 'Deshabilitar PAP', 15, 1),
-(111, 'Eliminar PAP', 15, 1),
-(112, 'Descargar PAP', 15, 1);
+(98, 'Buscar grupos de PAC', 14, 1),
+(99, 'Leer grupo de PAC', 14, 1),
+(100, 'Registrar grupo de PAC', 14, 1),
+(101, 'Modificar grupo de PAC', 14, 1),
+(102, 'Habilitar grupo de PAC', 14, 1),
+(103, 'Deshabilitar grupo de PAC', 14, 1),
+(104, 'Eliminar grupo de PAC', 14, 1),
+(105, 'Buscar PAC', 15, 1),
+(106, 'Leer PAC', 15, 1),
+(107, 'Registrar PAC', 15, 1),
+(108, 'Modificar PAC', 15, 1),
+(109, 'Habilitar PAC', 15, 1),
+(110, 'Deshabilitar PAC', 15, 1),
+(111, 'Eliminar PAC', 15, 1),
+(112, 'Descargar PAC', 15, 1);
 
 -- --------------------------------------------------------
 
@@ -683,18 +690,18 @@ CREATE TABLE `v_noticia` (
 -- --------------------------------------------------------
 
 --
--- Stand-in structure for view `v_pap`
+-- Stand-in structure for view `v_pac`
 --
-CREATE TABLE `v_pap` (
-`codi_pap` int(11)
+CREATE TABLE `v_pac` (
+`codi_pac` int(11)
 ,`codi_usu` int(11)
 ,`codi_gpa` int(11)
-,`nume_pap` text
-,`fech_pap` date
-,`desc_pap` text
-,`docu_pap` text
-,`exte_pap` text
-,`esta_pap` int(11)
+,`nume_pac` text
+,`fech_pac` date
+,`desc_pac` text
+,`docu_pac` text
+,`exte_pac` text
+,`esta_pac` int(11)
 ,`nomb_gpa` text
 ,`esta_gpa` int(11)
 );
@@ -831,11 +838,11 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 -- --------------------------------------------------------
 
 --
--- Structure for view `v_pap`
+-- Structure for view `v_pac`
 --
-DROP TABLE IF EXISTS `v_pap`;
+DROP TABLE IF EXISTS `v_pac`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_pap`  AS  select `p`.`codi_pap` AS `codi_pap`,`p`.`codi_usu` AS `codi_usu`,`p`.`codi_gpa` AS `codi_gpa`,`p`.`nume_pap` AS `nume_pap`,`p`.`fech_pap` AS `fech_pap`,`p`.`desc_pap` AS `desc_pap`,`p`.`docu_pap` AS `docu_pap`,`p`.`exte_pap` AS `exte_pap`,`p`.`esta_pap` AS `esta_pap`,`g`.`nomb_gpa` AS `nomb_gpa`,`g`.`esta_gpa` AS `esta_gpa` from (`pap` `p` join `grupo_pap` `g`) where (`p`.`codi_gpa` = `g`.`codi_gpa`) ;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_pac`  AS  select `p`.`codi_pac` AS `codi_pac`,`p`.`codi_usu` AS `codi_usu`,`p`.`codi_gpa` AS `codi_gpa`,`p`.`nume_pac` AS `nume_pac`,`p`.`fech_pac` AS `fech_pac`,`p`.`desc_pac` AS `desc_pac`,`p`.`docu_pac` AS `docu_pac`,`p`.`exte_pac` AS `exte_pac`,`p`.`esta_pac` AS `esta_pac`,`g`.`nomb_gpa` AS `nomb_gpa`,`g`.`esta_gpa` AS `esta_gpa` from (`pac` `p` join `grupo_pac` `g`) where (`p`.`codi_gpa` = `g`.`codi_gpa`) ;
 
 -- --------------------------------------------------------
 
@@ -926,9 +933,9 @@ ALTER TABLE `grupo_directiva`
   ADD PRIMARY KEY (`codi_gdi`);
 
 --
--- Indexes for table `grupo_pap`
+-- Indexes for table `grupo_pac`
 --
-ALTER TABLE `grupo_pap`
+ALTER TABLE `grupo_pac`
   ADD PRIMARY KEY (`codi_gpa`);
 
 --
@@ -956,10 +963,10 @@ ALTER TABLE `noticia`
   ADD PRIMARY KEY (`codi_not`);
 
 --
--- Indexes for table `pap`
+-- Indexes for table `pac`
 --
-ALTER TABLE `pap`
-  ADD PRIMARY KEY (`codi_pap`);
+ALTER TABLE `pac`
+  ADD PRIMARY KEY (`codi_pac`);
 
 --
 -- Indexes for table `permiso`
@@ -1042,10 +1049,10 @@ ALTER TABLE `grupo_declaracion_jurada`
 ALTER TABLE `grupo_directiva`
   MODIFY `codi_gdi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT for table `grupo_pap`
+-- AUTO_INCREMENT for table `grupo_pac`
 --
-ALTER TABLE `grupo_pap`
-  MODIFY `codi_gpa` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `grupo_pac`
+  MODIFY `codi_gpa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `grupo_permiso`
 --
@@ -1067,10 +1074,10 @@ ALTER TABLE `imagen_album`
 ALTER TABLE `noticia`
   MODIFY `codi_not` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
--- AUTO_INCREMENT for table `pap`
+-- AUTO_INCREMENT for table `pac`
 --
-ALTER TABLE `pap`
-  MODIFY `codi_pap` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `pac`
+  MODIFY `codi_pac` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `permiso`
 --

@@ -40,7 +40,7 @@
         if ($this->session->userdata("usuario")) {
       ?>
       <button class="btb pull-right" style="margin-right: 4px; margin-left: 10px; border: none; padding: 2px 10px; background: #9e9e9e; font-family: Verdana, sans-serif;"><a href="<?= base_url('logout') ?>" style="text-decoration: none;"><i class="fa fa-power-off" aria-hidden="true"></i> Cerrar sesión</a></button>
-          <span class="pull-right" style="border: none; padding: 2px 10px; background: rgba(14,130,64, 1); color: white; font-family: Verdana, sans-serif;"><i class="fa fa-user" aria-hidden="true"></i> Bienvenido, <b><?= $this->session->userdata("usuario")->nomb_usu ?></b></span>
+          <span class="pull-right" style="border: none; padding: 2px 10px; background: rgba(14,130,64, 1); color: white; font-family: Verdana, sans-serif;"><i class="fa fa-user" aria-hidden="true"></i> Bienvenido, <b><a href="<?= base_url() . 'cambiar_clave' ?>"><?= $this->session->userdata("usuario")->nomb_usu ?></b></a></span>
       <?php
         } else { 
       ?>
@@ -133,11 +133,11 @@
                 <?php if (check_permission(BUSCAR_DIRECTIVA)) { ?>
                   <li><a href="<?= base_url('directiva') ?>">Directivas</a></li>
                 <?php } ?>
-                <?php if (check_permission(BUSCAR_GRUPO_PAP)) { ?>
-                  <li><a href="<?= base_url('grupo_pap') ?>">Grupos de PAP</a></li>
+                <?php if (check_permission(BUSCAR_GRUPO_PAC)) { ?>
+                  <li><a href="<?= base_url('grupo_pac') ?>">Grupos de PAC</a></li>
                 <?php } ?>
-                <?php if (check_permission(BUSCAR_PAP)) { ?>
-                  <li><a href="<?= base_url('pap') ?>">PAP</a></li>
+                <?php if (check_permission(BUSCAR_PAC)) { ?>
+                  <li><a href="<?= base_url('pac') ?>">PAC</a></li>
                 <?php } ?>
                 <?php if (check_permission(BUSCAR_GRUPO_DECLARACION_JURADA)) { ?>
                   <li><a href="<?= base_url('grupo_declaracion_jurada') ?>">Grupos de declaración jurada</a></li>
@@ -236,7 +236,7 @@
                 <br>
                 Av. Augusto B. Leguía s/n - Huacho
                 <br>
-                E-mail: transparencia@dral.gob.pe
+                E-mail: info_publica@dral.gob.pe
               </p>
             </div>
           </div>

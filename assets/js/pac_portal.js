@@ -8,17 +8,17 @@ $(function() {
         "bProcessing": true,
         "bDestroy": true,
         "bServerSide": true,
-        "sAjaxSource": base_url + "pap/paginate_portal",
+        "sAjaxSource": base_url + "pac/paginate_portal",
         "sServerMethod": "POST",
         "fnServerParams": function(aoData) {
             aoData.push({"name": "codi_gpa", "value": $("#codi_gpa").val()});
-            aoData.push({"name": "year_pap", "value": $("#year_pap").val()});
+            aoData.push({"name": "year_pac", "value": $("#year_pac").val()});
         },
         "columns": [
-            { "data": "nume_pap" },
-            { "data": "fech_pap_d" },
-            { "data": "desc_pap" },
-            { "data": "docu_pap" }
+            { "data": "nume_pac" },
+            { "data": "fech_pac_d" },
+            { "data": "desc_pac" },
+            { "data": "docu_pac" }
         ],
         "bPaginate": true,
         "bFilter": true,
@@ -27,7 +27,7 @@ $(function() {
         "order": [[ 0, "asc" ]]
     });
 
-    $('#year_pap').datetimepicker({
+    $('#year_pac').datetimepicker({
         viewMode: 'years',
         format: 'YYYY'
     });

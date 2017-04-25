@@ -7,6 +7,11 @@ $(function() {
         showUpload: false
     });
 
+    $('input[name="fech_alb"]').parent().datetimepicker({
+        format: 'YYYY-MM-DD HH:mm',
+        locale: 'es'
+    });
+
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
         event.preventDefault();
         $(this).ekkoLightbox();
@@ -29,11 +34,14 @@ $(function() {
         $("#modal_galeria_lbl").html("Nuevo álbum de imágenes");
 
         $('.box-titulo-album').show();
+        $('.box-fecha-album').show();
         $('.box-imagen-upload').show();
 
         $form_galeria.get(0).reset();
 
         $form_galeria.attr("action", base_url+"galeria/save_album");
+
+        $('#form_galeria :input[name="fech_alb"]').val(moment().format("YYYY-MM-DD HH:mm"));  
 
         $form_galeria.submit(function(e) {
             if (!validator_galeria.form()) {
@@ -78,6 +86,7 @@ $(function() {
         $("#modal_galeria_lbl").html("Cambiar título");
 
         $('.box-titulo-album').show();
+        $('.box-fecha-album').hide();
         $('.box-imagen-upload').hide();
 
         $form_galeria.get(0).reset();
@@ -127,10 +136,47 @@ $(function() {
 
     });
 
+    $(document).on('click', '.btn-fecha-album', function(event) {
+        $("#modal_galeria_lbl").html("Cambiar fecha de publicación");
+
+        $('.box-titulo-album').hide();
+        $('.box-fecha-album').show();
+        $('.box-imagen-upload').hide();
+
+        $form_galeria.get(0).reset();
+
+        $form_galeria.find('[name="codi_alb"]').val($(this).data("codi"));
+        $form_galeria.find('[name="fech_alb"]').val($(this).data("fech"));
+
+        $form_galeria.attr("action", base_url+"galeria/upload_fecha");
+
+        $form_galeria.submit(function(e) {
+            if (!validator_galeria.form()) {
+                return;
+            } else {
+                $("#submit_galeria").html('<i class="fa fa-spinner fa-spin" aria-hidden="true"></i> Verificando...');
+                $("#submit_galeria").prop('disabled', true);
+            }
+        });
+
+        if (isDestroyable) {
+            validator_galeria.destroy();
+        }
+        
+        $("label.error").hide();
+        $(".error").removeClass("error");
+        $("label.success").hide();
+        $(".success").removeClass("success");
+
+        $("#modal_galeria").modal();
+
+    });
+
     $(document).on('click', '.btn-upload-album', function(event) {
         $("#modal_galeria_lbl").html("Subir imágenes");
 
         $('.box-titulo-album').hide();
+        $('.box-fecha-album').hide();
         $('.box-imagen-upload').show();
 
         $form_galeria.get(0).reset();
@@ -156,7 +202,6 @@ $(function() {
         $(".error").removeClass("error");
         $("label.success").hide();
         $(".success").removeClass("success");
-        isDestroyable = true;
 
         $("#modal_galeria").modal();
 

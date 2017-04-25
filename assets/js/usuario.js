@@ -31,7 +31,6 @@ $(function() {
 
         $form_usuario.get(0).reset();
 
-        $form_usuario.find(':input[name="acon_usu"]').parent().hide();
         $form_usuario.find(':input[name="cont_usu"]').parent().find("label").html("Contraseña");
         $form_usuario.find(':input[name="cont_usu"]').parent().show();
         $form_usuario.find(':input[name="ccon_usu"]').parent().show();
@@ -120,7 +119,6 @@ $(function() {
 
         $("#modal_usuario_lbl").html("Modificar cuenta de acceso");
 
-        $form_usuario.find(':input[name="acon_usu"]').parent().show();
         $form_usuario.find(':input[name="cont_usu"]').parent().find("label").html("Nueva contraseña");
         $form_usuario.find(':input[name="cont_usu"]').parent().show();
         $form_usuario.find(':input[name="ccon_usu"]').parent().show();
@@ -166,23 +164,6 @@ $(function() {
                         }
                     }         
                 },
-                acon_usu: {
-                    remote: {
-                        url: base_url+"usuario/check_cont_usu",
-                        type: "post",
-                        data:
-                        {
-                            codi_usu: function()
-                            {
-                                return $('#form_usuario :input[name="codi_usu"]').val();
-                            },
-                            acon_usu: function()
-                            {
-                                return $('#form_usuario :input[name="acon_usu"]').val();
-                            }
-                        }
-                    }         
-                },
                 cont_usu: {
                     minlength: 6, 
                 },
@@ -194,9 +175,6 @@ $(function() {
             messages: {
                 nomb_usu: { 
                     remote: "El nombre de usuario ya existe"
-                },
-                acon_usu: { 
-                    remote: "Contraseña incorrecta"
                 },
             },
             highlight: function(element) {

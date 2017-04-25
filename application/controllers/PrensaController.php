@@ -30,8 +30,6 @@ class PrensaController extends CI_Controller {
             $this->scripts[] = '<script src="'.asset_url().'plugins/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>';
             $this->scripts[] = '<script src="'.asset_url().'plugins/summernote/dist/summernote.js"></script>';
             $this->scripts[] = '<script src="'.asset_url().'plugins/summernote/dist/lang/summernote-es-ES.js"></script>';
-            $this->scripts[] = '<script src="'.asset_url().'plugins/moment/moment.min.js"></script>';
-            $this->scripts[] = '<script src="'.asset_url().'plugins/moment/moment-with-locales.min.js"></script>';
 
             $this->scripts[] = '<script src="'.asset_url().'js/noticia.js"></script>';
 

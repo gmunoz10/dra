@@ -53,10 +53,6 @@
                   	</div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label>Contraseña actual*: </label>
-                            <input type="password" class="form-control" name="acon_usu">
-                        </div>
-                        <div class="form-group">
                             <label>Contraseña*: </label>
                             <input type="password" class="form-control" name="cont_usu">
                         </div>

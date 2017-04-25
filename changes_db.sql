@@ -164,26 +164,26 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 ====================================================================================================================
 
 INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
-(NULL, 'Grupos de PAP', '1');
+(NULL, 'Grupos de PAC', '1');
 
 INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
-(NULL, 'Buscar grupos de PAP', '14', '1'), 
-(NULL, 'Leer grupo de PAP', '14', '1'), 
-(NULL, 'Registrar grupo de PAP', '14', '1'), 
-(NULL, 'Modificar grupo de PAP', '14', '1'), 
-(NULL, 'Habilitar grupo de PAP', '14', '1'), 
-(NULL, 'Deshabilitar grupo de PAP', '14', '1'), 
-(NULL, 'Eliminar grupo de PAP', '14', '1');
+(NULL, 'Buscar grupos de PAC', '14', '1'), 
+(NULL, 'Leer grupo de PAC', '14', '1'), 
+(NULL, 'Registrar grupo de PAC', '14', '1'), 
+(NULL, 'Modificar grupo de PAC', '14', '1'), 
+(NULL, 'Habilitar grupo de PAC', '14', '1'), 
+(NULL, 'Deshabilitar grupo de PAC', '14', '1'), 
+(NULL, 'Eliminar grupo de PAC', '14', '1');
 
 INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
-(NULL, 'PAP', '1');
+(NULL, 'PAC', '1');
 
 INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
-(NULL, 'Buscar PAP', '15', '1'), 
-(NULL, 'Leer PAP', '15', '1'), 
-(NULL, 'Registrar PAP', '15', '1'), 
-(NULL, 'Modificar PAP', '15', '1'), 
-(NULL, 'Habilitar PAP', '15', '1'), 
-(NULL, 'Deshabilitar PAP', '15', '1'), 
-(NULL, 'Eliminar PAP', '15', '1'),
-(NULL, 'Descargar PAP', '15', '1');
+(NULL, 'Buscar PAC', '15', '1'), 
+(NULL, 'Leer PAC', '15', '1'), 
+(NULL, 'Registrar PAC', '15', '1'), 
+(NULL, 'Modificar PAC', '15', '1'), 
+(NULL, 'Habilitar PAC', '15', '1'), 
+(NULL, 'Deshabilitar PAC', '15', '1'), 
+(NULL, 'Eliminar PAC', '15', '1'),
+(NULL, 'Descargar PAC', '15', '1');

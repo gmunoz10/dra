@@ -7,7 +7,7 @@ $(function() {
         "bProcessing": true,
         "bDestroy": true,
         "bServerSide": true,
-        "sAjaxSource": base_url + "grupo_pap/paginate",
+        "sAjaxSource": base_url + "grupo_pac/paginate",
         "sServerMethod": "POST",
         "columns": [
             { "data": "codi_gpa" },
@@ -21,42 +21,42 @@ $(function() {
         "displayLength": 10
     });
 
-    var $form_grupo_pap = $('#form_grupo_pap');
+    var $form_grupo_pac = $('#form_grupo_pac');
 
     var isDestroyable = false;
 
-    $("#btn_grupo_pap").click(function() {
-        $("#modal_grupo_pap_lbl").html("Nuevo grupo de PAP");
+    $("#btn_grupo_pac").click(function() {
+        $("#modal_grupo_pac_lbl").html("Nuevo grupo de PAC");
 
-        $form_grupo_pap.get(0).reset();
+        $form_grupo_pac.get(0).reset();
 
-        $form_grupo_pap.attr("action", base_url+"grupo_pap/save");
+        $form_grupo_pac.attr("action", base_url+"grupo_pac/save");
 
-        $form_grupo_pap.submit(function(e) {
-            if (!validator_grupo_pap.form()) {
+        $form_grupo_pac.submit(function(e) {
+            if (!validator_grupo_pac.form()) {
                 return;
             } else {
-                $("#submit_grupo_pap").html('<i class="fa fa-spinner fa-spin" aria-hidden="true"></i> Verificando...');
-                $("#submit_grupo_pap").prop('disabled', true);
+                $("#submit_grupo_pac").html('<i class="fa fa-spinner fa-spin" aria-hidden="true"></i> Verificando...');
+                $("#submit_grupo_pac").prop('disabled', true);
             }
         });
 
         if (isDestroyable) {
-            validator_grupo_pap.destroy();
+            validator_grupo_pac.destroy();
         }
         
-        validator_grupo_pap = $form_grupo_pap.validate({
+        validator_grupo_pac = $form_grupo_pac.validate({
             rules: {
                 nomb_gpa: {
                     required: true,
                     remote: {
-                        url: base_url+"grupo_pap/check_nomb_gpa",
+                        url: base_url+"grupo_pac/check_nomb_gpa",
                         type: "post",
                         data:
                         {
                             nomb_gpa: function()
                             {
-                                return $('#form_grupo_pap :input[name="nomb_gpa"]').val();
+                                return $('#form_grupo_pac :input[name="nomb_gpa"]').val();
                             }
                         }
                     }         
@@ -84,7 +84,7 @@ $(function() {
         $(".success").removeClass("success");
         isDestroyable = true;
 
-        $("#modal_grupo_pap").modal();
+        $("#modal_grupo_pac").modal();
     });
 
     $(document).on('click', '#table_search button.btn-preview', function () {
@@ -93,7 +93,7 @@ $(function() {
         var data = row.data();
 
         $("#modal_link_lbl").html(data.nomb_gpa);
-        $('[name="link"]').val(data.link_pap);
+        $('[name="link"]').val(data.link_pac);
         $("#reso_label").html("Enlace de "+data.nomb_gpa+" para portal de transparencia: ");
 
         var clipboard = new Clipboard('.btn-copiar');
@@ -103,7 +103,7 @@ $(function() {
     });
 
     $(document).on('click', '.btn-enlace', function () {
-        window.open($(this).parent().parent().find('[name="link"]').val(), "PAP DRAL", "width=490,height=500");
+        window.open($(this).parent().parent().find('[name="link"]').val(), "PAC DRAL", "width=490,height=500");
     });
 
     /*
@@ -119,46 +119,46 @@ $(function() {
         var row = table_search.row(tr);
         var data = row.data();
 
-        $form_grupo_pap.get(0).reset();
+        $form_grupo_pac.get(0).reset();
 
-        $('#form_grupo_pap :input[name="codi_gpa"]').val(data.codi_gpa);  
-        $('#form_grupo_pap :input[name="nomb_gpa"]').val(data.nomb_gpa);  
+        $('#form_grupo_pac :input[name="codi_gpa"]').val(data.codi_gpa);  
+        $('#form_grupo_pac :input[name="nomb_gpa"]').val(data.nomb_gpa);  
 
-        $("#modal_grupo_pap_lbl").html("Modificar grupo");
+        $("#modal_grupo_pac_lbl").html("Modificar grupo");
 
-        $.removeData($form_grupo_pap.get(0),'validator');
+        $.removeData($form_grupo_pac.get(0),'validator');
 
-        $form_grupo_pap.attr("action", base_url+"grupo_pap/update");
+        $form_grupo_pac.attr("action", base_url+"grupo_pac/update");
 
-        $form_grupo_pap.submit(function(e) {
-            if (!validator_grupo_pap.form()) {
+        $form_grupo_pac.submit(function(e) {
+            if (!validator_grupo_pac.form()) {
                 return;
             } else {
-                $("#submit_grupo_pap").html('<i class="fa fa-spinner fa-spin" aria-hidden="true"></i> Verificando...');
-                $("#submit_grupo_pap").prop('disabled', true);
+                $("#submit_grupo_pac").html('<i class="fa fa-spinner fa-spin" aria-hidden="true"></i> Verificando...');
+                $("#submit_grupo_pac").prop('disabled', true);
             }
         });
 
         if (isDestroyable) {
-            validator_grupo_pap.destroy();
+            validator_grupo_pac.destroy();
         }
         
-        validator_grupo_pap = $form_grupo_pap.validate({
+        validator_grupo_pac = $form_grupo_pac.validate({
             rules: {
                 nomb_gpa: {
                     required: true,
                     remote: {
-                        url: base_url+"grupo_pap/check_nomb_gpa_actualizar",
+                        url: base_url+"grupo_pac/check_nomb_gpa_actualizar",
                         type: "post",
                         data:
                         {
                             codi_gpa: function()
                             {
-                                return $('#form_grupo_pap :input[name="codi_gpa"]').val();
+                                return $('#form_grupo_pac :input[name="codi_gpa"]').val();
                             },
                             nomb_gpa: function()
                             {
-                                return $('#form_grupo_pap :input[name="nomb_gpa"]').val();
+                                return $('#form_grupo_pac :input[name="nomb_gpa"]').val();
                             }
                         }
                     }         
@@ -184,19 +184,19 @@ $(function() {
         $(".has-success").removeClass("has-success");
         isDestroyable = true;
 
-        $("#modal_grupo_pap").modal();
+        $("#modal_grupo_pac").modal();
     });
 
-    $(document).on('submit', '.habilitar_grupo_pap', function () {
-        return confirm("¿Está seguro de que desea habilitar el grupo de PAP?");
+    $(document).on('submit', '.habilitar_grupo_pac', function () {
+        return confirm("¿Está seguro de que desea habilitar el grupo de PAC?");
     });
 
-    $(document).on('submit', '.deshabilitar_grupo_pap', function () {
-        return confirm("¿Está seguro de que desea deshabilitar el grupo de PAP?");
+    $(document).on('submit', '.deshabilitar_grupo_pac', function () {
+        return confirm("¿Está seguro de que desea deshabilitar el grupo de PAC?");
     });
 
-    $(document).on('submit', '.eliminar_grupo_pap', function () {
-        return confirm("¿Está seguro de que desea eliminar el grupo de PAP?");
+    $(document).on('submit', '.eliminar_grupo_pac', function () {
+        return confirm("¿Está seguro de que desea eliminar el grupo de PAC?");
     });
 
 });
