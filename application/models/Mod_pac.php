@@ -146,6 +146,16 @@ class Mod_pac extends CI_Model {
         $this->db->update('grupo_pac', $data);
     }
 
+    function get_years() {
+        $this->db->where("esta_pac", "1");
+        $this->db->where("esta_gpa", "1");
+        $this->db->select('EXTRACT(YEAR FROM `fech_pac`) AS `year_pac`');
+        $this->db->group_by('`year_pac`'); 
+        $this->db->order_by("`year_pac`", "desc");
+        $query = $this->db->get('v_pac');
+        return $query->result();
+    }
+
     function count_all_portal($codi_gpa) {
         $this->db->where("codi_gpa", $codi_gpa);
         $this->db->where("esta_pac", "1");

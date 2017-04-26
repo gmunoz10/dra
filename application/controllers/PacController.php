@@ -523,6 +523,8 @@ class PacController extends CI_Controller {
             $this->scripts[] = '<script src="'.asset_url().'plugins/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>';
             $this->scripts[] = '<script src="'.asset_url().'js/pac_portal.js"></script>';
 
+            $data["years"] = $this->mod_pac->get_years();
+
             // Imprimir vista con datos
             $data["codi_gpa"] = $codi_gpa;
             $data["nomb_gpa"] = $pac->nomb_gpa;

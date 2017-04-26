@@ -5,28 +5,20 @@
 			<div class="box-content box-bold col-md-8 col-md-offset-2" style="line-height: 1.42857143;">
 			    <h2 class="title-sisgedo"><?= $nomb_gpa ?></h2>
 				<br>
-				<div style="width: 280px;">
-					<div class="form-group">
-			            <div class='input-group date box-date'>
-			                <input type='text' class="form-control" id='year_pac' value="<?= date("Y") ?>"/>
-			                <span class="input-group-addon">
-			                    <span class="glyphicon glyphicon-calendar">
-			                    </span>
-			                </span>
-			                <span class="input-group-btn">
-						        <button id="btn_search_year" class="btn btn-orange" style="color: black !important; font-weight: bold;">Buscar documento</button>
-						    </span>
-			            </div>
-			        </div>
-		        </div>
+				<div class="btn-group" data-toggle="buttons">
+				  <?php foreach ($years as $key => $row) { ?>
+				  	<label class="btn btn-default btn-year <?= ($key == "0") ? "active" : "" ?>">
+				    	<input type="radio" name="year_pac" value="<?= $row->year_pac ?>" autocomplete="off" <?= ($key == "0") ? "checked" : "" ?>> <?= $row->year_pac ?>
+				  	</label>
+				  <?php } ?>
+				</div>
 				<div class="col-md-12">
-					<div class="table-responsive" style="margin-top: 30px; padding-bottom: 30px; border: none !important;">
+					<div class="table-responsive" style="padding-bottom: 30px; border: none !important;">
 				        <table id="table_search" class="table table-bordered table-condensed">
 				            <thead>
 				                <tr>
-	                          		<th>N°</th>
-				                    <th>Fecha</th>
 				                    <th>Descripción</th>
+				                    <th>Fecha</th>
 				                    <th>Acción</th>
 				                </tr>
 				            </thead>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <base href="/">
     <title>DRAL</title>
-    <meta name="description" content="DESCRIPTION">
+    <meta name="description" content="Dirección Regional de Agricultura Lima">
     <meta name="fragment" content="!">
 
     <meta property="og:title" content="<?= (isset($title) && $title != "") ? $title : "DRAL" ?>" />

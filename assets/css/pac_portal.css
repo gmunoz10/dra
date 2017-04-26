@@ -15,3 +15,8 @@
 	color: black;
 }
 
+.btn-default.active, .btn-default:active, .btn-default:focus, .btn-default.active.focus, .btn-default.focus,
+.btn-default.active:hover, .btn-default:hover {
+    background-color: #eabf21;
+    border-color: #eabf21;
+}

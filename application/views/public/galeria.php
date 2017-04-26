@@ -24,7 +24,7 @@
              <p style="color: #666"><i>Publicado por <b><?= $album->nomb_usu ?></b></i><span class="pull-right"><i class="fa fa-clock-o" aria-hidden="true"></i> <i>Fecha de publicación: <?= date("d/m/Y h:i A", strtotime($album->fech_alb)) ?></i></span></p>
              <hr style="border-color: #999; margin-top: 10px; margin-bottom: 10px;">
              <div class="col-md-12" style="padding: 0px;">
-               <?php $cont = 0; foreach ($album->imagenes as $imagen) { ?>
+               <?php $cont = 0; foreach ($album->imagenes as $key => $imagen) { ?>
                  <?php if ($cont == 0) { ?>
                    <div class="col-md-12">
                  <?php } ?>
@@ -33,7 +33,7 @@
                      <img src="<?= asset_url() ?>galeria/<?= $imagen->imag_ial ?>" class="img-thumbnail img-responsive img-fluid">
                    </a>
                  </div>
-                 <?php if ($cont == 2 || $cont == count($album)) { $cont = 0; ?>
+                 <?php if ($cont == 2 || $key == count($album->imagenes)-1) { $cont = 0; ?>
                     </div>
                  <?php } else {$cont++;} ?>
                <?php } ?>

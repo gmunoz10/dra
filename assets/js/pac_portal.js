@@ -12,12 +12,11 @@ $(function() {
         "sServerMethod": "POST",
         "fnServerParams": function(aoData) {
             aoData.push({"name": "codi_gpa", "value": $("#codi_gpa").val()});
-            aoData.push({"name": "year_pac", "value": $("#year_pac").val()});
+            aoData.push({"name": "year_pac", "value": ($('[name="year_pac"]').length) ? $('[name="year_pac"]').val() : "false" });
         },
         "columns": [
-            { "data": "nume_pac" },
-            { "data": "fech_pac_d" },
             { "data": "desc_pac" },
+            { "data": "fech_pac_d" },
             { "data": "docu_pac" }
         ],
         "bPaginate": true,
@@ -27,13 +26,7 @@ $(function() {
         "order": [[ 0, "asc" ]]
     });
 
-    $('#year_pac').datetimepicker({
-        viewMode: 'years',
-        format: 'YYYY'
-    });
-
-
-    $(document).on('click', '#btn_search_year', function () {
+    $(document).on('click', '.btn-year', function () {
         table_search.ajax.reload();
     });
     

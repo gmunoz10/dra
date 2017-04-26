@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <base href="/">
     <title>DRAL</title>
-    <meta name="description" content="DESCRIPTION">
+    <meta name="description" content="Dirección Regional de Agricultura Lima">
     <meta name="fragment" content="!">
     
     <meta property="og:title" content="<?= (isset($title) && $title != "") ? $title : "DRAL" ?>" />
@@ -57,6 +57,9 @@
         <a href="http://www.regionlima.gob.pe" target="_blank" class="navbar-brand-header">
           <img src="<?= asset_url() ?>img/brand/logo4.png">
         </a>
+        <a href="<?= base_url() . 'transparencia' ?>" class="navbar-brand-header pull-right" style="padding-top: 0px; position: absolute; right: 15px;">
+          <img src="<?= asset_url() ?>img/brand/ptes.jpg">
+        </a>
       </div>
       <header class="navbar navbar-inverse navbar-group navbar-main-group">
         <div class="container no-margin">
@@ -102,9 +105,6 @@
             </li>
             <li>
               <a class="item-menu" href="<?= base_url('agenda/publico') ?>">Agenda</a>
-            </li>
-            <li>
-              <a class="item-menu" href="<?= base_url('transparencia') ?>">Transparencia</a>
             </li>
             <li>
               <a class="item-menu" href="http://corepo.dral.gob.pe/">COREPO</a>
