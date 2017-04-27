@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <base href="/">
-    <title>DRAL</title>
+    <title>DRAL - Dirección Regional de Agricultura Lima</title>
     <meta name="description" content="Dirección Regional de Agricultura Lima">
     <meta name="fragment" content="!">
     
@@ -51,7 +51,7 @@
     </div>
     <div class="main-background" style="background-image: url('<?= asset_url() ?>img/background/granjero02.jpg');">
       <div class="box-logo">
-        <a href="<?= base_url() ?>" class="navbar-brand-header">
+        <a id="b" href="<?= base_url() ?>" class="navbar-brand-header">
           <img src="<?= asset_url() ?>img/brand/logo.png">
         </a>
         <a href="http://www.regionlima.gob.pe" target="_blank" class="navbar-brand-header">
@@ -183,7 +183,36 @@
       <br>
       <br>
     </div>
-    <footer class="well box-footer">
+    <footer class="well box-footer" style="padding: 0px;">
+      <div class="col-lg-12 no-padding">
+        <div class="col-lg-2 no-padding" style="height: 120px; background-color: #f5f5f5; z-index: 1;">
+        </div>
+        <div id="box_move" class="col-lg-8 no-padding" style="padding: 15px; height: 120px; position: relative;">
+          <a class="img-aus-01" href="http://www.peru.gob.pe/" target="_blank" style="position: absolute; left: 0px;">
+            <img src="<?= asset_url() ?>img/externas/01.png">
+          </a>
+          <a class="img-aus-02" href="http://spij.minjus.gob.pe/" target="_blank" style="position: absolute; left: 140px;">
+            <img src="<?= asset_url() ?>img/externas/02.png">
+          </a>
+          <a class="img-aus-03" href="http://www.pcm.gob.pe/" target="_blank" style="position: absolute; left: 280px;">
+            <img src="<?= asset_url() ?>img/externas/03.png">
+          </a>
+          <a class="img-aus-04" href="http://www.ongei.gob.pe/" target="_blank" style="position: absolute; left: 420px;">
+            <img src="<?= asset_url() ?>img/externas/04.png">
+          </a>
+          <a class="img-aus-05" href="http://www.mef.gob.pe/DGPM/snipnet.php" target="_blank" style="position: absolute; left: 560px;">
+            <img src="<?= asset_url() ?>img/externas/05.png">
+          </a>
+          <a class="img-aus-06" href="http://www.comprasestatales.org/index2.php?Itemid=66" target="_blank" style="position: absolute; left: 700px;">
+            <img src="<?= asset_url() ?>img/externas/06.png">
+          </a>
+          <a class="img-aus-07" href="http://dntdt.pcm.gob.pe/" target="_blank" style="position: absolute; left: 840px;">
+            <img src="<?= asset_url() ?>img/externas/07.png">
+          </a>
+        </div>
+        <div class="col-lg-2 no-padding" style="height: 120px; background-color: #f5f5f5; z-index: 1;">
+        </div>
+      </div>
       <section class="container">
         <div class="row">
           <div class="col-lg-4 no-padding">
@@ -265,6 +294,32 @@
         if ($("#ci_message").length) {
             show_toast($("#ci_type").val(), $("#ci_message").val());
         }
+
+        function toMove(element) {
+          var left = element.position().left;
+          if (left === -124) {
+            left = parseInt($("#box_move").width()+30);
+          }
+          left--;
+          var _element = element;
+          element.animate({"left": left+"px"}, 1, function() {
+            toMove(_element);
+          });
+        }
+
+
+        $(function() {
+
+            toMove($(".img-aus-01"));
+            toMove($(".img-aus-02"));
+            toMove($(".img-aus-03"));
+            toMove($(".img-aus-04"));
+            toMove($(".img-aus-05"));
+            toMove($(".img-aus-06"));
+            toMove($(".img-aus-07"));
+
+        });
+
     </script>       
     <?php 
       foreach ($scripts as $script) {

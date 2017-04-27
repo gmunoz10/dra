@@ -1,7 +1,7 @@
 <div class="container-page-header" style="background-image: url('<?= asset_url() ?>img/background/galeria.jpg');">
     <button class="btn btn-youtube-home"><i class="fa fa-youtube" aria-hidden="true"></i></button>
     <button class="btn btn-twitter-home"><i class="fa fa-twitter" aria-hidden="true"></i></button>
-    <button class="btn btn-facebook-home"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+    <a class="btn btn-facebook-home" href="https://www.facebook.com/DRALoficial/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 </div>
 <section class="container container-page-inner" style="background-color: #9b9b9b;line-height: 1.42857143;">
     <section>

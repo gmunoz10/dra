@@ -11,6 +11,7 @@ class GaleriaController extends CI_Controller {
         parent::__construct();
         $this->load->model(array("mod_galeria", "mod_permiso"));
         $this->load->helper('cookie');
+        $this->load->library('image_lib');
     }
 
     public function admin($page = 1) {
@@ -92,6 +93,18 @@ class GaleriaController extends CI_Controller {
 
                 if($this->upload->do_upload('imagen')){
                     $fileData = $this->upload->data();
+
+                    $configer =  array(
+                      'image_library'   => 'gd2',
+                      'source_image'    =>  $fileData['full_path'],
+                      'maintain_ratio'  =>  TRUE,
+                      'width'           =>  400,
+                      'height'          =>  400,
+                    );
+                    $this->image_lib->clear();
+                    $this->image_lib->initialize($configer);
+                    $this->image_lib->resize();
+
                     $data_img = array(
                         'imag_ial' => $fileData['file_name'],
                         'codi_usu' => $codi_usu,
@@ -186,6 +199,18 @@ class GaleriaController extends CI_Controller {
 
                 if($this->upload->do_upload('imagen')){
                     $fileData = $this->upload->data();
+
+                    $configer =  array(
+                      'image_library'   => 'gd2',
+                      'source_image'    =>  $fileData['full_path'],
+                      'maintain_ratio'  =>  TRUE,
+                      'width'           =>  800,
+                      'height'          =>  800,
+                    );
+                    $this->image_lib->clear();
+                    $this->image_lib->initialize($configer);
+                    $this->image_lib->resize();
+
                     $data_img = array(
                         'imag_ial' => $fileData['file_name'],
                         'codi_usu' => $codi_usu,

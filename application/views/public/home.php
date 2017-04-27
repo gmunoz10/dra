@@ -1,7 +1,7 @@
 <div class="text-center box-search vcenter">
   <button class="btn btn-youtube-home"><i class="fa fa-youtube" aria-hidden="true"></i></button>
   <button class="btn btn-twitter-home"><i class="fa fa-twitter" aria-hidden="true"></i></button>
-  <button class="btn btn-facebook-home"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+  <a class="btn btn-facebook-home" href="https://www.facebook.com/DRALoficial/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
   <div class="col-lg-6 col-md-offset-2">
     <div class="input-group">
       <input type="text" class="form-control input-lg search-main">
@@ -136,8 +136,9 @@
         <div class="no-margin" style="padding: 10px; padding-left: 15px; padding-right: 15px; text-align: center; font-weight: bold; background: #eabf21; color: white;">Imagen Institucional</div>
         <br>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>Responsable: </b>Lic. Paola Yuvigsa Vega Muñoz</p>
-        <p class="text-center no-margin" style="padding: 0px 15px;"><b>R.P.C.: </b> 980542856</p>
-        <p class="text-center no-margin" style="padding: 0px 15px;">pvega@dral.gob.pe</p>
+        <p class="text-center no-margin" style="padding: 0px 15px;"><b>R.P.C.: </b>980542856</p>
+        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Teléfono: </b>239-3869</p>
+        <p class="text-center no-margin" style="padding: 0px 15px;"><b>E-mail: </b>pvega@dral.gob.pe</p>
         <br>
       </dir>
     </div>
@@ -170,16 +171,16 @@
 <div class="modal fade" id="modal_aviso" tabindex="-1" data-backdrop="false" data-keyboard="true" role="dialog">
   <div class="modal-dialog" role="document" style="width: 60%; margin-top: 10px;">
     <div class="modal-content box-content box-bold" style="margin-top: 0px;">
-            <div class="modal-header" style="padding: 0px;">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="modal_aviso_lbl">Aviso</h4>
-            </div>
-            <div class="modal-body">
-              <img src="<?= asset_url() ?>avisos/06-04-2017.jpg" style="width: 100%;">
-            </div>
-            <div class="modal-footer">
-                <span class="pull-left" style="font-style: italic;">Fecha de publicación: 7 de Marzo del 2017.</span>
-            </div>
+      <div class="modal-header" style="padding: 0px;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="modal_aviso_lbl">Aviso</h4>
+      </div>
+      <div class="modal-body">
+        <img src="<?= asset_url() ?>avisos/06-04-2017.jpg" style="width: 100%;">
+      </div>
+      <div class="modal-footer">
+          <span class="pull-left" style="font-style: italic;">Fecha de publicación: 7 de Marzo del 2017.</span>
+      </div>
     </div>
   </div>
 </div>
