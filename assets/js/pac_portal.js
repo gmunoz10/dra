@@ -1,5 +1,7 @@
 $(function() {
 
+    var year = ($('[name="year_pac"]').length) ? $('[name="year_pac"]').val() : "false";
+
 	var table_search = $('#table_search').DataTable({
         "iDisplayLength": 10,
         "bLengthChange": false,
@@ -12,7 +14,7 @@ $(function() {
         "sServerMethod": "POST",
         "fnServerParams": function(aoData) {
             aoData.push({"name": "codi_gpa", "value": $("#codi_gpa").val()});
-            aoData.push({"name": "year_pac", "value": ($('[name="year_pac"]').length) ? $('[name="year_pac"]').val() : "false" });
+            aoData.push({"name": "year_pac", "value": year });
         },
         "columns": [
             { "data": "desc_pac" },
@@ -27,6 +29,7 @@ $(function() {
     });
 
     $(document).on('click', '.btn-year', function () {
+        year = $(this).find('input').val();
         table_search.ajax.reload();
     });
     

@@ -506,12 +506,14 @@ class PacController extends CI_Controller {
 
     public function paginate_portal() {
 
-        $codi_gpa = $_POST['codi_gpa'];
-        $year_pac = $_POST['year_pac'];
+        $codi_gpa = $this->input->post('codi_gpa');
+        $year_pac = $this->input->post('year_pac');
 
-        $nTotal = $this->mod_pac->count_all_portal($codi_gpa);
+        $nTotal = $this->mod_pac->count_all_portal($codi_gpa, $year_pac);
 
         $data = $this->mod_pac->get_paginate_portal($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch'], $codi_gpa, $year_pac, $_POST);
+
+        //echo $this->db->last_query();
 
         $aaData = array();
 

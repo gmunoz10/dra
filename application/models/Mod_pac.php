@@ -130,8 +130,9 @@ class Mod_pac extends CI_Model {
         return $query->result();
     }
 
-    function count_all_portal($codi_gpa) {
+    function count_all_portal($codi_gpa, $year_pac) {
         $this->db->where("codi_gpa", $codi_gpa);
+        $this->db->where("EXTRACT(YEAR FROM `fech_pac`) = " . $year_pac);
         $this->db->where("esta_pac", "1");
         $this->db->where("esta_gpa", "1");
         return $this->db->count_all_results('v_pac');
