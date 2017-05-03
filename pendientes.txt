@@ -1,9 +1,7 @@
-- 2 Directorio de contactos
-- 5 Ajustar pagina a responsive
 - Busqueda en inicio
+- Ajustar pagina a responsive
 
-- Telefono en pie: 239-3869
-- 1 Algoritmo para redimensionar tamaño de imagen en PHP
-- 4 Script facebook de fanpage DRAL en Noticias
-- 3 Auspiciadores en pie de pagina
-- URLs de redes sociales - Falta link de Twitter y Youtube
+- Publicar galeria de fotos en facebook
+- Información agraria de Agencia de Huacho
+- Información de pie de página
+- Ajustes de texto en Título de página y título de contacto con correo de info pública.

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <base href="/">
-    <title>DRAL - Dirección Regional de Agricultura Lima</title>
+    <title>Dirección Regional de Agricultura Lima - DRAL</title>
     <meta name="description" content="Dirección Regional de Agricultura Lima">
     <meta name="fragment" content="!">
     
@@ -84,16 +84,11 @@
                 <li>
                   <a href="<?= base_url('temas-agrarios') ?>">Temas agrarios</a>
                 </li>
-                <li class="dropdown-submenu no-padding">
-                  <a tabindex="-1">Institucional</a>
-                  <ul class="dropdown-menu no-padding">
-                    <li>
-                      <a href="<?= base_url('direccion-oficina') ?>">Dirección y oficinas</a>
-                    </li>
-                    <li>
-                      <a href="<?= base_url('agencias-agrarias') ?>">Agencias agrarias</a>
-                    </li>
-                  </ul>
+                <li>
+                  <a href="<?= base_url('informacion-agraria') ?>">Información agraria</a>
+                </li>
+                <li>
+                  <a href="<?= base_url('institucional') ?>">Directorio Institucional</a>
                 </li>
               </ul>
             </li>
@@ -188,26 +183,44 @@
         <div class="col-lg-2 no-padding" style="height: 120px; background-color: #f5f5f5; z-index: 1;">
         </div>
         <div id="box_move" class="col-lg-8 no-padding" style="padding: 15px; height: 120px; position: relative;">
-          <a class="img-aus-01" href="http://www.peru.gob.pe/" target="_blank" style="position: absolute; left: 0px;">
+          <a class="img-aus-01" data-pos="0" href="http://www.peru.gob.pe/" target="_blank" style="position: absolute; left: 0px;">
             <img src="<?= asset_url() ?>img/externas/01.png">
           </a>
-          <a class="img-aus-02" href="http://spij.minjus.gob.pe/" target="_blank" style="position: absolute; left: 140px;">
+          <a class="img-aus-02" data-pos="140" href="http://spij.minjus.gob.pe/" target="_blank" style="position: absolute; left: 140px;">
             <img src="<?= asset_url() ?>img/externas/02.png">
           </a>
-          <a class="img-aus-03" href="http://www.pcm.gob.pe/" target="_blank" style="position: absolute; left: 280px;">
+          <a class="img-aus-03" data-pos="280" href="http://www.pcm.gob.pe/" target="_blank" style="position: absolute; left: 280px;">
             <img src="<?= asset_url() ?>img/externas/03.png">
           </a>
-          <a class="img-aus-04" href="http://www.ongei.gob.pe/" target="_blank" style="position: absolute; left: 420px;">
+          <a class="img-aus-04" data-pos="420" href="http://www.ongei.gob.pe/" target="_blank" style="position: absolute; left: 420px;">
             <img src="<?= asset_url() ?>img/externas/04.png">
           </a>
-          <a class="img-aus-05" href="http://www.mef.gob.pe/DGPM/snipnet.php" target="_blank" style="position: absolute; left: 560px;">
+          <a class="img-aus-05" data-pos="560" href="http://www.mef.gob.pe/DGPM/snipnet.php" target="_blank" style="position: absolute; left: 560px;">
             <img src="<?= asset_url() ?>img/externas/05.png">
           </a>
-          <a class="img-aus-06" href="http://www.comprasestatales.org/index2.php?Itemid=66" target="_blank" style="position: absolute; left: 700px;">
+          <a class="img-aus-06" data-pos="700" href="http://www.comprasestatales.org/index2.php?Itemid=66" target="_blank" style="position: absolute; left: 700px;">
             <img src="<?= asset_url() ?>img/externas/06.png">
           </a>
-          <a class="img-aus-07" href="http://dntdt.pcm.gob.pe/" target="_blank" style="position: absolute; left: 840px;">
+          <a class="img-aus-07" data-pos="840" href="http://dntdt.pcm.gob.pe/" target="_blank" style="position: absolute; left: 840px;">
             <img src="<?= asset_url() ?>img/externas/07.png">
+          </a>
+          <a class="img-aus-08" data-pos="980" href="https://www.senasa.gob.pe/senasa/" target="_blank" style="position: absolute; left: 980px;">
+            <img src="<?= asset_url() ?>img/externas/08.png">
+          </a>
+          <a class="img-aus-09" data-pos="1120" href="http://www.agrorural.gob.pe/" target="_blank" style="position: absolute; left: 1120px;">
+            <img src="<?= asset_url() ?>img/externas/09.png">
+          </a>
+          <a class="img-aus-10" data-pos="1260" href="http://www.minagri.gob.pe/" target="_blank" style="position: absolute; left: 1260px;">
+            <img src="<?= asset_url() ?>img/externas/10.png">
+          </a>
+          <a class="img-aus-11" data-pos="1400" href="http://www.lamolina.edu.pe/" target="_blank" style="position: absolute; left: 1400px;">
+            <img src="<?= asset_url() ?>img/externas/11.png">
+          </a>
+          <a class="img-aus-12" data-pos="1540" href="http://www.caritas.org.pe/" target="_blank" style="position: absolute; left: 1540px;">
+            <img src="<?= asset_url() ?>img/externas/12.png">
+          </a>
+          <a class="img-aus-13" data-pos="1680" href="http://www.minam.gob.pe/" target="_blank" style="position: absolute; left: 1680px;">
+            <img src="<?= asset_url() ?>img/externas/13.png">
           </a>
         </div>
         <div class="col-lg-2 no-padding" style="height: 120px; background-color: #f5f5f5; z-index: 1;">
@@ -257,17 +270,24 @@
           </div>
           <div class="col-lg-4">
              <h3 class="contacto" class="no-margin">Contacto</h3>
-            <div class="box-contacto-footer">
-              <p>
-                Gobierno Regional de Lima
-                <br>
-                Dirección Regional de Agricultura
-                <br>
-                Av. Augusto B. Leguía s/n - Huacho
-                <br>
-                E-mail: info_publica@dral.gob.pe
-              </p>
-            </div>
+              <div class="box-contacto-footer">
+                <p>
+                  Gobierno Regional de Lima
+                  <br>
+                  Dirección Regional de Agricultura
+                  <br>
+                  Av. Augusto B. Leguía s/n - Huacho
+                  <br>
+                  E-mail: info_publica@dral.gob.pe
+                </p>
+              </div>
+          </div>
+          <div class="col-lg-12 text-center" style="padding-bottom: 30px;">
+            <hr>
+            <p>© 2017 - Dirección Regional de Agricultura de Lima</p>
+            <p><b>Dirección: </b>Av. Augusto B. Leguía 3° Cuadra S/N Huacho</p>
+            <p><b>Teléfono: </b> 2323402 / 2323869</p>
+            <p><b>E-mail: </b> webmaster@dral.gob.pe</p>
           </div>
         </div>
       </section>
@@ -296,11 +316,17 @@
         }
 
         function toMove(element) {
-          var left = element.position().left;
+          var left = parseInt(element.data("pos"));
           if (left === -124) {
-            left = parseInt($("#box_move").width()+30);
+            left = parseInt($("#box_move").width()+870);
           }
           left--;
+          if (left > parseInt($("#box_move").width())+30) {
+            element.hide();
+          } else {
+            element.show();
+          }
+          element.data("pos", left);
           var _element = element;
           element.animate({"left": left+"px"}, 1, function() {
             toMove(_element);
@@ -317,6 +343,12 @@
             toMove($(".img-aus-05"));
             toMove($(".img-aus-06"));
             toMove($(".img-aus-07"));
+            toMove($(".img-aus-08"));
+            toMove($(".img-aus-09"));
+            toMove($(".img-aus-10"));
+            toMove($(".img-aus-11"));
+            toMove($(".img-aus-12"));
+            toMove($(".img-aus-13"));
 
         });
 

@@ -137,8 +137,8 @@
         <br>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>Responsable: </b>Lic. Paola Yuvigsa Vega Muñoz</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>R.P.C.: </b>980542856</p>
-        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Teléfono: </b>239-3869</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>E-mail: </b>pvega@dral.gob.pe</p>
+        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Teléfono: </b>239-3869</p>
         <br>
       </dir>
     </div>

@@ -13,7 +13,6 @@
 			                <tr>
 			                    <th>Código</th>
                           <th>Grupo</th>
-                          <th>Número</th>
 			                    <th>Fecha</th>
 			                    <th>Estado</th>
 			                    <th>Acciones</th>
@@ -52,7 +51,6 @@
                         <thead>
                             <tr>
                                 <th>Grupo</th>
-                                <th>Número</th>
                                 <th>Fecha</th>
                                 <th>Descripción</th>
                                 <th>Documento</th>
@@ -71,10 +69,6 @@
                                 <option value="<?= $grupo_pac->codi_gpa ?>"><?= $grupo_pac->nomb_gpa ?></option>
                         <?php } ?>
                           </select>
-                      </div>
-                      <div class="form-group">
-                        <label>Número*: </label>
-                        <input class="form-control" name="nume_pac">
                       </div>
                       <div class="form-group">
                         <label>Fecha de pac*: </label>

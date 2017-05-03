@@ -57,23 +57,25 @@ class MainController extends CI_Controller {
         $this->load->view("template/body_main", $component);
     }
 
-    public function direccion_oficina() {
+    public function institucional() {
+        $this->scripts[] = '<script src="'.asset_url().'js/institucional.js"></script>';
         // Imprimir vista con datos
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;
-        $component["content"] = $this->load->view("public/direccion_oficina", $data, true);
+        $component["content"] = $this->load->view("public/institucional", $data, true);
         $this->load->view("template/body_main", $component);
     }
 
-    public function agencias_agrarias() {
+    public function informacion_agraria() {
         // Imprimir vista con datos
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;
-        $component["content"] = $this->load->view("public/agencias_agrarias", $data, true);
+        $component["content"] = $this->load->view("public/informacion_agraria", $data, true);
         $this->load->view("template/body_main", $component);
     }
 
     public function contacto() {
+        $this->scripts[] = '<script src="'.asset_url().'js/contacto.js"></script>';
         // Imprimir vista con datos
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;

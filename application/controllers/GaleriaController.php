@@ -84,6 +84,7 @@ class GaleriaController extends CI_Controller {
             $this->load->library('upload', $config);
 
             $filesCount = count($_FILES['imag_ial']['name']);
+            $images_posted = [];
             for($i = 0; $i < $filesCount; $i++){
                 $_FILES['imagen']['name'] = $_FILES['imag_ial']['name'][$i];
                 $_FILES['imagen']['type'] = $_FILES['imag_ial']['type'][$i];
@@ -113,6 +114,34 @@ class GaleriaController extends CI_Controller {
                         'esta_ial' => "1"
                     );
                     $this->mod_galeria->save($data_img);
+
+                    $fb = new Facebook\Facebook([
+                      'app_id' => APP_ID_FB,
+                      'app_secret' => APP_SECRET_FB,
+                      'default_graph_version' => 'v2.2',
+                      ]);
+
+                    try {
+                        $response = $fb->post('/182498662244220/photos', ['published' => 'false', 'url' => asset_url() . 'galeria/'. $fileData['file_name']], ACCESS_TOKEN_FB);
+                        $images_posted[] = $response->getGraphNode()->asArray()['id'];
+                    } catch(Facebook\Exceptions\FacebookResponseException $e) {
+                    } catch(Facebook\Exceptions\FacebookSDKException $e) {
+                    }
+                }
+            }
+
+            if (count($images_posted) > 0) {
+                $linkData = [];
+
+                foreach ($images_posted as $key => $val) {
+                    $linkData['attached_media['.$key.']'] = '{"media_fbid":"'.$val.'"}';
+                }
+                $linkData['message'] = $titu_alb;
+
+                try {
+                    $response = $fb->post('/182498662244220/feed', $linkData, ACCESS_TOKEN_FB);
+                } catch(Facebook\Exceptions\FacebookResponseException $e) {
+                } catch(Facebook\Exceptions\FacebookSDKException $e) {
                 }
             }
 

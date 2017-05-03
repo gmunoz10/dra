@@ -35,8 +35,8 @@
                 <span class="input-group-addon label-year-agenda">Año:</span>
                 <select class="form-control filter-year" id="year_search">
                   <option selected="true" disabled="true">Seleccionar</option>
-                  <?php foreach ($years as $row) { ?>
-                    <option value="<?= $row->year ?>"><?= $row->year ?></option>
+                  <?php foreach ($years as $key => $row) { ?>
+                    <option value="<?= $row->year ?>" <?= ($key == "0") ? "selected" : "" ?>><?= $row->year ?></option>
                   <?php } ?>
                 </select>
                 <span class="input-group-btn box-search-dependencia">

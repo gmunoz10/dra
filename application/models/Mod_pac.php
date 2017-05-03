@@ -36,38 +36,12 @@ class Mod_pac extends CI_Model {
         $this->db->where("(`codi_pac` LIKE '%$search%' OR 
                             `codi_gpa` LIKE '%$search%' OR
                             `nomb_gpa` LIKE '%$search%' OR
-                            `nume_pac` LIKE '%$search%' OR
                             `fech_pac` LIKE '%$search%' OR
                             `desc_pac` LIKE '%$search%'
                             )");
         $this->db->limit($limit, $start);
         $query = $this->db->get('v_pac');
         return $query->result();
-    }
-
-    function check_nume_pac($nume_pac, $year_pac) {
-        $this->db->where("esta_pac >", "-1");
-        $this->db->where('nume_pac', $nume_pac);
-        $this->db->where("EXTRACT(YEAR FROM `fech_pac`) = '" . $year_pac."'");
-        $row = $this->db->get("pac")->first_row();
-        if (!empty($row)) {
-            return 'false';
-        } else {
-            return 'true';
-        }
-    }
-
-    function check_nume_pac_actualizar($codi_pac, $nume_pac, $year_pac) {
-        $this->db->where("esta_pac >", "-1");
-        $this->db->where('codi_pac !=', $codi_pac);
-        $this->db->where('nume_pac', $nume_pac);
-        $this->db->where("EXTRACT(YEAR FROM `fech_pac`) = '" . $year_pac."'");
-        $row = $this->db->get("pac")->first_row();
-        if (!empty($row)) {
-            return 'false';
-        } else {
-            return 'true';
-        }
     }
 
     function save($data) {
@@ -169,8 +143,7 @@ class Mod_pac extends CI_Model {
         $this->db->where("EXTRACT(YEAR FROM `fech_pac`) = " . $year_pac);
         $this->db->where("esta_pac", "1");
         $this->db->where("esta_gpa", "1");
-        $this->db->where("(`nume_pac` LIKE '%$search%' OR
-                            `fech_pac` LIKE '%$search%' OR
+        $this->db->where("(`fech_pac` LIKE '%$search%' OR
                             `desc_pac` LIKE '%$search%'
                             )");
 
@@ -178,21 +151,18 @@ class Mod_pac extends CI_Model {
             for ($i=0; $i < (int) $data["iSortingCols"]; $i++) {
                 switch ((int) $data["iSortCol_".$i]) {
                     case 0:
-                        $this->db->order_by("CAST(`nume_pac` AS INT)", $data["sSortDir_".$i]);
-                        break;
-                    case 2:
-                        $this->db->order_by("fech_pac", $data["sSortDir_".$i]);
-                        break;
-                    case 3:
                         $this->db->order_by("desc_pac", $data["sSortDir_".$i]);
                         break;
-                    case 4:
+                    case 1:
+                        $this->db->order_by("fech_pac", $data["sSortDir_".$i]);
+                        break;
+                    case 2:
                         $this->db->order_by("docu_pac", $data["sSortDir_".$i]);
                         break;
                 }
             }
         } else {
-            $this->db->order_by("CAST(`nume_pac` AS INT)", "asc");
+            $this->db->order_by("CAST(`codi_pac` AS INT)", "asc");
         }
 
         $this->db->limit($limit, $start);

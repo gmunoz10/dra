@@ -92,7 +92,6 @@ class PacController extends CI_Controller {
                     "codi_pac" => $row->codi_pac,
                     "codi_gpa" => $row->codi_gpa,
                     "nomb_gpa" => $row->nomb_gpa,
-                    "nume_pac" => $row->nume_pac,
                     "fech_pac" => $row->fech_pac,
                     "fech_pac_d" => date("d/m/Y", strtotime($row->fech_pac)),
                     "desc_pac" => $row->desc_pac,
@@ -113,52 +112,37 @@ class PacController extends CI_Controller {
         }
     }
 
-    public function check_nume_pac() {
-        echo $this->mod_pac->check_nume_pac($this->input->post('nume_pac'), date("Y", strtotime($this->input->post('fech_pac'))));
-    }
-
-    public function check_nume_pac_actualizar() {
-        echo $this->mod_pac->check_nume_pac_actualizar($this->input->post('codi_pac'), $this->input->post('nume_pac'), date("Y", strtotime($this->input->post('fech_pac'))));
-    }
-
     public function save() {
 
-        $nume_pac = $this->input->post('nume_pac');
         $fech_pac = $this->input->post('fech_pac');
-        if ($this->mod_pac->check_nume_pac($nume_pac, date("Y", strtotime($fech_pac))) == "true") {
-            $config['upload_path'] = './assets/pacs/';
-            $config['allowed_types'] = 'pdf|doc|docx';
-            $config['overwrite'] = true;
-            $config['max_width'] = 0;
-            $config['max_height'] = 0;
-            $config['max_size'] = 20000;
-            $config['file_name'] = date("Y", strtotime($fech_pac)) . "_" . urlencode($nume_pac);
+        $config['upload_path'] = './assets/pacs/';
+        $config['allowed_types'] = 'pdf|doc|docx';
+        $config['overwrite'] = FALSE;
+        $config['max_width'] = 0;
+        $config['max_height'] = 0;
+        $config['max_size'] = 20000;
+        $config['file_name'] = $fech_pac;
 
-            $this->load->library('upload', $config);
-            if ( ! $this->upload->do_upload('docu_pac')) {
-                $type_system = "error";
-                $message_system = $this->upload->display_errors();
-            } else {
-                $desc_pac = $this->input->post('desc_pac');
-                $codi_gpa = $this->input->post('codi_gpa');
-
-                $data = array(
-                    'nume_pac' => $nume_pac,
-                    'fech_pac' => $fech_pac,
-                    'desc_pac' => $desc_pac,
-                    'docu_pac' => $this->upload->data()["file_name"],
-                    'exte_pac' => $this->upload->data()["file_ext"],
-                    'codi_gpa' => $codi_gpa,
-                    'esta_pac' => '1'
-                );
-                $codi_pac = $this->mod_pac->save($data);
-
-                $type_system = "success";
-                $message_system = "PAC $nume_pac ha sido registrado con éxito";
-            }
-        } else {
+        $this->load->library('upload', $config);
+        if ( ! $this->upload->do_upload('docu_pac')) {
             $type_system = "error";
-            $message_system = "El número de PAC $nume_pac ya existe";
+            $message_system = $this->upload->display_errors();
+        } else {
+            $desc_pac = $this->input->post('desc_pac');
+            $codi_gpa = $this->input->post('codi_gpa');
+
+            $data = array(
+                'fech_pac' => $fech_pac,
+                'desc_pac' => $desc_pac,
+                'docu_pac' => $this->upload->data()["file_name"],
+                'exte_pac' => $this->upload->data()["file_ext"],
+                'codi_gpa' => $codi_gpa,
+                'esta_pac' => '1'
+            );
+            $codi_pac = $this->mod_pac->save($data);
+
+            $type_system = "success";
+            $message_system = "PAC ha sido registrado con éxito";
         }
         set_message_system($type_system, $message_system);
 
@@ -173,41 +157,35 @@ class PacController extends CI_Controller {
 
         for ($i=0; $i < (int) $count_rows; $i++) { 
             $codi_gpa = $this->input->post('codi_gpa_'.$i);
-            $nume_pac = $this->input->post('nume_pac_'.$i);
             $fech_pac = $this->input->post('fech_pac_'.$i);
             $desc_pac = $this->input->post('desc_pac_'.$i);
             $docu_pac = 'docu_pac_'.$i;
-            if ($nume_pac != "" && $fech_pac != "" && $desc_pac != "" 
+            if ($fech_pac != "" && $desc_pac != "" 
                 && isset($_FILES[$docu_pac]['name']) && !empty($_FILES[$docu_pac]['name'])) {
 
-                if ($this->mod_pac->check_nume_pac($nume_pac, date("Y", strtotime($fech_pac))) == "true") {
-                    $config['upload_path'] = './assets/pacs/';
-                    $config['allowed_types'] = 'pdf|doc|docx';
-                    $config['overwrite'] = true;
-                    $config['max_width'] = 0;
-                    $config['max_height'] = 0;
-                    $config['max_size'] = 20000;
-            		$config['file_name'] = date("Y", strtotime($fech_pac)) . "_" . urlencode($nume_pac);
+                $config['upload_path'] = './assets/pacs/';
+                $config['allowed_types'] = 'pdf|doc|docx';
+                $config['overwrite'] = FALSE;
+                $config['max_width'] = 0;
+                $config['max_height'] = 0;
+                $config['max_size'] = 20000;
+        		$config['file_name'] = $fech_pac;
 
-                    $this->load->library('upload', $config);
-                    if ( ! $this->upload->do_upload($docu_pac)) {
-                        $count_error++;
-                    } else {
-                        $data = array(
-                            'nume_pac' => $nume_pac,
-                            'fech_pac' => $fech_pac,
-                            'desc_pac' => $desc_pac,
-                            'docu_pac' => $this->upload->data()["file_name"],
-                            'exte_pac' => $this->upload->data()["file_ext"],
-                            'codi_gpa' => $codi_gpa,
-                            'esta_pac' => '1'
-                        );
-                        $codi_pac = $this->mod_pac->save($data);
-
-                        $count_success++;
-                    }
-                } else {
+                $this->load->library('upload', $config);
+                if ( ! $this->upload->do_upload($docu_pac)) {
                     $count_error++;
+                } else {
+                    $data = array(
+                        'fech_pac' => $fech_pac,
+                        'desc_pac' => $desc_pac,
+                        'docu_pac' => $this->upload->data()["file_name"],
+                        'exte_pac' => $this->upload->data()["file_ext"],
+                        'codi_gpa' => $codi_gpa,
+                        'esta_pac' => '1'
+                    );
+                    $codi_pac = $this->mod_pac->save($data);
+
+                    $count_success++;
                 }
 
             }
@@ -229,54 +207,43 @@ class PacController extends CI_Controller {
 
     public function update() {
         $codi_pac = $this->input->post('codi_pac');
-        $nume_pac = $this->input->post('nume_pac');
         $fech_pac = $this->input->post('fech_pac');
-        if ($this->mod_pac->check_nume_pac_actualizar($codi_pac, $nume_pac, date("Y", strtotime($fech_pac))) == "true") {
-            $pac = $this->mod_pac->get_pac_row(array("codi_pac" => $codi_pac));
 
-            $desc_pac = $this->input->post('desc_pac');
-            $codi_gpa = $this->input->post('codi_gpa');
+        $pac = $this->mod_pac->get_pac_row(array("codi_pac" => $codi_pac));
 
-            $data = array(
-                'nume_pac' => $nume_pac,
-                'fech_pac' => $fech_pac,
-                'desc_pac' => $desc_pac,
-                'codi_gpa' => $codi_gpa
-            );
+        $desc_pac = $this->input->post('desc_pac');
+        $codi_gpa = $this->input->post('codi_gpa');
 
-            if ($pac->nume_pac != $nume_pac) {
-                $new_url = urlencode($nume_pac.$pac->exte_pac);
-                rename("./assets/pacs/".$pac->docu_pac, "./assets/pacs/".$new_url);
-                $data["docu_pac"] = $new_url;
+        $data = array(
+            'fech_pac' => $fech_pac,
+            'desc_pac' => $desc_pac,
+            'codi_gpa' => $codi_gpa
+        );
+
+        $type_system = "success";
+        $message_system = "PAC ha sido actualizado con éxito";
+
+        if (file_exists($_FILES['docu_pac']['tmp_name']) && is_uploaded_file($_FILES['docu_pac']['tmp_name'])) {
+            $config['upload_path'] = './assets/pacs/';
+            $config['allowed_types'] = 'pdf|doc|docx';
+            $config['overwrite'] = FALSE;
+            $config['max_width'] = 0;
+            $config['max_height'] = 0;
+            $config['max_size'] = 20000;
+        	$config['file_name'] = $fech_pac;
+
+            $this->load->library('upload', $config);
+
+            if ( ! $this->upload->do_upload('docu_pac')) {
+                $type_system = "error";
+                $message_system = $this->upload->display_errors();
+            } else {
+                $data["docu_pac"] = $this->upload->data()["file_name"];
             }
-
-            $type_system = "success";
-            $message_system = "PAC $nume_pac ha sido actualizado con éxito";
-
-            if (file_exists($_FILES['docu_pac']['tmp_name']) && is_uploaded_file($_FILES['docu_pac']['tmp_name'])) {
-                $config['upload_path'] = './assets/pacs/';
-                $config['allowed_types'] = 'pdf|doc|docx';
-                $config['overwrite'] = true;
-                $config['max_width'] = 0;
-                $config['max_height'] = 0;
-                $config['max_size'] = 20000;
-            	$config['file_name'] = date("Y", strtotime($fech_pac)) . "_" . urlencode($nume_pac);
-
-                $this->load->library('upload', $config);
-
-                if ( ! $this->upload->do_upload('docu_pac')) {
-                    $type_system = "error";
-                    $message_system = $this->upload->display_errors();
-                } else {
-                    $data["docu_pac"] = $this->upload->data()["file_name"];
-                }
-            }
-
-            $this->mod_pac->update($codi_pac, $data);
-        } else {
-            $type_system = "error";
-            $message_system = "El número de PAC $nume_pac ya existe";
         }
+
+        $this->mod_pac->update($codi_pac, $data);
+
         set_message_system($type_system, $message_system);
 
         header('Location: ' . base_url('pac'));
@@ -555,7 +522,6 @@ class PacController extends CI_Controller {
 
 
             $aaData[] = array(
-                "nume_pac" => $row->nume_pac,
                 "fech_pac_d" => date("d/m/Y", strtotime($row->fech_pac)),
                 "desc_pac" => '<div style="text-align: left; font-size: 11px; height: 50px; overflow-y: scroll;">'.$row->desc_pac."</div>",
                 "docu_pac" => $docu_pac

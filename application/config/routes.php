@@ -9,8 +9,8 @@ $route['test/index'] = "TestController/index";
 
 $route['vision-mision'] = "MainController/vision_mision";
 $route['temas-agrarios'] = "MainController/temas_agrarios";
-$route['direccion-oficina'] = "MainController/direccion_oficina";
-$route['agencias-agrarias'] = "MainController/agencias_agrarias";
+$route['informacion-agraria'] = "MainController/informacion_agraria";
+$route['institucional'] = "MainController/institucional";
 $route['contacto'] = "MainController/contacto";
 $route['enviar_mensaje'] = "MainController/enviar_mensaje";
 $route['galeria'] = "MainController/galeria";
@@ -182,8 +182,6 @@ $route['evento/uploadImage'] = "EventoController/uploadImage";
 
 $route['pac'] = "PacController/index";
 $route['pac/paginate'] = "PacController/paginate";
-$route['pac/check_nume_pac'] = "PacController/check_nume_pac";
-$route['pac/check_nume_pac_actualizar'] = "PacController/check_nume_pac_actualizar";
 $route['pac/save'] = "PacController/save";
 $route['pac/save_multi'] = "PacController/save_multi";
 $route['pac/update'] = "PacController/update";
