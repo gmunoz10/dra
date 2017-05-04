@@ -47,6 +47,22 @@ class MainController extends CI_Controller {
         $component["content"] = $this->load->view("public/vision_mision", $data, true);
         $this->load->view("template/body_main", $component);
     }
+   
+    public function direccion_oficina() {
+        // Imprimir vista con datos
+        $data["styles"] = $this->styles;
+        $data["scripts"] = $this->scripts;
+        $component["content"] = $this->load->view("public/direccion_oficina", $data, true);
+        $this->load->view("template/body_main", $component);
+    }
+   
+    public function agencias_agrarias() {
+        // Imprimir vista con datos
+        $data["styles"] = $this->styles;
+        $data["scripts"] = $this->scripts;
+        $component["content"] = $this->load->view("public/agencias_agrarias", $data, true);
+        $this->load->view("template/body_main", $component);
+    }
 
     public function temas_agrarios() {
         $this->styles[] = '<link href="'.asset_url().'css/temas_agrarios.css" rel="stylesheet">';

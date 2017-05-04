@@ -88,6 +88,12 @@
                   <a href="<?= base_url('informacion-agraria') ?>">Información agraria</a>
                 </li>
                 <li>
+                  <a href="<?= base_url('direccion-oficina') ?>">Dirección y Oficinas</a>
+                </li>
+                <li>
+                  <a href="<?= base_url('agencias-agrarias') ?>">Agencias agrarias</a>
+                </li>
+                <li>
                   <a href="<?= base_url('institucional') ?>">Directorio Institucional</a>
                 </li>
               </ul>
