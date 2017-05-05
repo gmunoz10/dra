@@ -85,12 +85,6 @@
                   <a href="<?= base_url('temas-agrarios') ?>">Temas agrarios</a>
                 </li>
                 <li>
-                  <a href="<?= base_url('informacion-agraria') ?>">Información agraria</a>
-                </li>
-                <li>
-                  <a href="<?= base_url('promocion-agraria') ?>">Promoción agraria</a>
-                </li>
-                <li>
                   <a href="<?= base_url('direccion-oficina') ?>">Dirección y Oficinas</a>
                 </li>
                 <li>
@@ -235,6 +229,7 @@
       <section class="container">
         <div class="row">
           <div class="col-lg-4 no-padding">
+            <!--
             <div class="col-lg-9 no-padding">
               <div class="input-group">
                 <input type="text" class="form-control input-gray-search field-flat" placeholder="Buscar">
@@ -245,6 +240,7 @@
                 </span>
               </div>
             </div>
+            -->
             <div class="col-lg-12 no-padding">
               <h3>Direccionar a</h3>
               <ul class="links-direcciones">
@@ -252,7 +248,6 @@
                 <li><a href="<?= base_url('noticia/page') ?>">Noticias</a></li>
                 <li><a href="<?= base_url('evento/page') ?>">Eventos</a></li>
                 <li><a href="<?= base_url('vision-mision') ?>">Visión y misión</a></li>
-                <li><a href="<?= base_url('temas-agrarios') ?>">Temas agrarios</a></li>
                 <li><a href="<?= base_url('direccion-oficina') ?>">Dirección y oficinas</a></li>
                 <li><a href="<?= base_url('agencias-agrarias') ?>">Agencias agrarias</a></li>
                 <li><a href="<?= base_url('transparencia') ?>">Transparencia</a></li>
@@ -268,8 +263,9 @@
           <div class="col-lg-4">
               <h3 class="ayuda" class="no-margin">Informaciones</h3>
               <ul class="links-direcciones">
+                <li><a href="<?= base_url('temas-agrarios') ?>">Temas agrarios</a></li>
                 <li><a href="<?= base_url('informacion-agraria') ?>">Información agraria</a></li>
-                <li><a href="<?= base_url('promocion-agraria') ?>">Promoción agraria</a></li>
+                <li><a href="<?= base_url('competitividad-negocios') ?>">Competividad y Negocios Agrarios</a></li>
               </ul>
               <h3 class="web-recomendadas" class="no-margin">Webs recomendadas</h3>
               <ul class="links-direcciones">
@@ -283,7 +279,9 @@
              <button class="btn btn-danger"><a href="https://www.youtube.com/channel/UCzW1r6IO7r8C2RPLZrD5lwA/videos" style="color: white;" target="_blank">Ver más videos</a></button>
           </div>
           <hr>
-          <div class="col-lg-12 text-center" style="margin-top: 15px; padding-bottom: 30px;padding-top: 75px;color: white;padding-left: 0px;background-repeat: no-repeat !important;background-position-x: center !important;background-size: cover !important;background: url(http://localhost/dra/assets/img/background/piepagina.png);">
+        </div>
+      </section>
+          <div class="col-lg-12 text-center" style="margin-top: 0px; padding-bottom: 30px;padding-top: 7%;color: white;padding-left: 0px;background-repeat: no-repeat !important;background-position-x: center !important;background-size: cover !important;background: url(<?= asset_url() ?>img/background/piepagina.jpg);">
             <br>
             <br>
             <p class="text-center"><img src="<?= asset_url() ?>img/brand/logo-icon-blank.png"></p>
@@ -292,8 +290,6 @@
             <p><b>Teléfono: </b> 2323402 / 2323869</p>
             <p><b>E-mail: </b> webmaster@dral.gob.pe</p>
           </div>
-        </div>
-      </section>
     </footer>
 
     <script>

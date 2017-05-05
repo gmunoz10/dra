@@ -3,6 +3,28 @@
   <button class="btn btn-twitter-home"><i class="fa fa-twitter" aria-hidden="true"></i></button>
   <a class="btn btn-facebook-home" href="https://www.facebook.com/DRALoficial/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
   <div class="col-lg-6 col-md-offset-2">
+    <script>
+      (function() {
+        var cx = '013980864906967710135:ytegr_r5yni';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = false;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <div class="input-group" style="width: 100%;">
+      <gcse:search></gcse:search>
+      <!--
+      <span class="input-group-btn">
+        <button class="btn btn-secondary btn-orange btn-lg" type="button">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </button>
+      </span>
+      -->
+    </div>
+      <!--
     <div class="input-group">
       <input type="text" class="form-control input-lg search-main">
       <span class="input-group-btn">
@@ -11,6 +33,7 @@
         </button>
       </span>
     </div>
+      -->
   </div>
   <div class="box-menu-side col-lg-3" style="line-height: 1.42857143;">
     <h2 class="title-sisgedo">Sistema de Gestión Documentaria</h2>
@@ -135,7 +158,7 @@
       <dir class="box-content-o box-bold no-padding" style="margin: 5px;">
         <div class="no-margin" style="padding: 10px; padding-left: 15px; padding-right: 15px; text-align: center; font-weight: bold; background: #eabf21; color: white;">Imagen Institucional</div>
         <br>
-        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Responsable: </b>Lic. Paola Yuvigsa Vega Muñoz</p>
+        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Res.: </b>Lic. Paola Yuvigsa Vega Muñoz</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>R.P.C.: </b>980542856</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>E-mail: </b>pvega@dral.gob.pe</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>Teléfono: </b>239-3869</p>
@@ -146,8 +169,8 @@
       <dir class="box-content-o box-bold no-padding" style="margin: 5px;">
         <div class="no-margin" style="padding: 10px; padding-left: 15px; padding-right: 15px; text-align: center; font-weight: bold; background: #eabf21; color: white;">Información Pública</div>
         <br>
-        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Responsable: </b>Bach. Rosanna Gaspar Ormeño</p>
-        <p class="text-center no-margin" style="padding: 0px 15px;">RDS N° 0072-2011-GRL-DRA</p>
+        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Res.: </b>Sr. Miguel Ángel Cuadros Huertas</p>
+        <p class="text-center no-margin" style="padding: 0px 15px;">RDS N° 0077-2017-GRDE-DRA</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>E-mail:</b> info_publica@dral.gob.pe</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>Teléfono: </b> 239 6421</p>
         <br>
@@ -157,8 +180,8 @@
       <dir class="box-content-o box-bold no-padding" style="margin: 5px;">
         <div class="no-margin" style="padding: 10px; padding-left: 15px; padding-right: 15px; text-align: center; font-weight: bold; background: #eabf21; color: white;">Portal de Transparencia</div>
         <br>
-        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Responsable: </b>Bach. Rosanna Gaspar Ormeño</p>
-        <p class="text-center no-margin">RDS N° 0034-2015-GRL-DRA</p>
+        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Res.: </b>Ing. Milagros Angely Cruz Balarezo</p>
+        <p class="text-center no-margin">RDS N° 0077-2017-GRDE-DRA</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>E-mail:</b> transparencia@dral.gob.pe</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>Teléfono: </b> 239 6421</p>
         <br>

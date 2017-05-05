@@ -57,3 +57,51 @@
 .carousel-more {
 	background: white;
 }
+
+.gsc-results-wrapper-overlay.gsc-results-wrapper-visible {
+	line-height: 1.42857143 !important;
+}
+
+
+input.gsc-input {
+	height: 40px !important;
+    padding: 10px 16px !important;
+    font-size: 18px !important;
+    line-height: 1.3333333 !important;
+    border-radius: 6px !important;
+}
+
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+    padding-right: 0px !important;
+}
+
+table.gsc-search-box td {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.gsc-control-cse {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    width: 100% !important;
+}
+
+
+.gsc-control-wrapper-cse, .gsc-input-box {
+    height: 46px !important;
+ 	border-radius: 6px !important;
+ 	border-top-right-radius: 0px !important;
+ 	border-bottom-right-radius: 0px !important;
+}
+
+.gsst_a {
+    padding-top: 20% !important;
+}
+
+.gsc-control-cse .gs-result .gs-title, .gsc-control-cse .gs-result .gs-title * {
+    text-align: left !important;
+}
+
+.gsc-search-box-tools .gsc-search-box input.gsc-input {
+    padding-top: 17px !important;
+}

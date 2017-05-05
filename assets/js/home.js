@@ -18,8 +18,27 @@ FB.AppEvents.logPageView();
 $(function() {
 
 
+	var checked_google = false;
+    function checkGoogle(){
+    	if (!checked_google && $(".gsc-search-button").length > 0) {
+    		checked_google = true;
+    		$(".gsc-search-button input").removeAttr("src");
+    		$(".gsc-search-button input").attr("type", "button");
+    		$(".gsc-search-button input").attr("value", "Buscar");
+    		$(".gsc-search-button input").attr("class","btn btn-secondary btn-orange btn-lg");
+    		$(".gsc-search-button input").css("position", "relative");
+    		$(".gsc-search-button input").css("border-radius", "6px");
+    		$(".gsc-search-button input").css("border-top-left-radius", "0px");
+    		$(".gsc-search-button input").css("border-bottom-left-radius", "0px");
+
+    	}
+	}
+	setInterval(checkGoogle, 1);
+
+
+
 	$('.carousel').carousel({
- 	  interval: 2000 // in milliseconds
+ 		interval: 2000
  	});
 
  	$("#noticia_link").click(function() {

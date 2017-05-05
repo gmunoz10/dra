@@ -6,7 +6,7 @@
 <section class="container container-page-inner" style="padding-bottom: 30px;">
     <section>
       <div class="col-lg-11" style="padding-left: 75px; line-height: 1.42857143;">
-      	<h3 style="font-weight: bold; color: #0e8240;">Información agraria</h3>
+      	<h3 style="font-weight: bold; color: #0e8240;">Dirección de Información Agraria</h3>
       	<br>
       	<div style="padding-left: 75px;">
  			<p>Para el seguimiento de las principales variables agroeconómicas, elaborados en el Plan de Estadística Agropecuaria Anual de estadísticas continuas de la Dirección Regional de Agricultura se ha Implementado estrategias estadísticas en base a la metodología diseñada por la Dirección General de Información Agraria del MINISTERIO DE AGRICULTURA, para la producción de información confiable sobre las principales variables agroeconómicas. En esta sección se muestra estadístca detallada y actualizada de los informes mensuales recogidos por nuestros técnicos en campo.</p>

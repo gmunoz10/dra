@@ -9090,3 +9090,6866 @@ INFO - 2017-05-05 07:43:58 --> Model Class Initialized
 INFO - 2017-05-05 07:43:58 --> Model Class Initialized
 INFO - 2017-05-05 07:43:58 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
 ERROR - 2017-05-05 07:44:41 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\xampp\htdocs\dra\system\core\Common.php 599
+INFO - 2017-05-05 19:35:53 --> Config Class Initialized
+INFO - 2017-05-05 19:35:53 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:35:54 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:35:54 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:35:54 --> URI Class Initialized
+DEBUG - 2017-05-05 19:35:54 --> No URI present. Default controller set.
+INFO - 2017-05-05 19:35:54 --> Router Class Initialized
+INFO - 2017-05-05 19:35:54 --> Output Class Initialized
+INFO - 2017-05-05 19:35:54 --> Security Class Initialized
+DEBUG - 2017-05-05 19:35:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:35:54 --> Input Class Initialized
+INFO - 2017-05-05 19:35:54 --> Language Class Initialized
+INFO - 2017-05-05 19:35:54 --> Loader Class Initialized
+INFO - 2017-05-05 19:35:54 --> Helper loaded: language_helper
+INFO - 2017-05-05 19:35:54 --> Helper loaded: url_helper
+INFO - 2017-05-05 19:35:54 --> Helper loaded: form_helper
+INFO - 2017-05-05 19:35:54 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 19:35:54 --> Helper loaded: util_helper
+INFO - 2017-05-05 19:35:54 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 19:35:54 --> User Agent Class Initialized
+INFO - 2017-05-05 19:35:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 19:35:54 --> Pagination Class Initialized
+INFO - 2017-05-05 19:35:54 --> Form Validation Class Initialized
+INFO - 2017-05-05 19:35:54 --> Controller Class Initialized
+INFO - 2017-05-05 19:35:54 --> Model Class Initialized
+INFO - 2017-05-05 19:35:55 --> Database Driver Class Initialized
+INFO - 2017-05-05 19:35:55 --> Email Class Initialized
+DEBUG - 2017-05-05 19:35:55 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 19:35:55 --> Model Class Initialized
+INFO - 2017-05-05 19:35:55 --> Model Class Initialized
+INFO - 2017-05-05 19:35:55 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 19:35:57 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 19:35:57 --> Final output sent to browser
+DEBUG - 2017-05-05 19:35:57 --> Total execution time: 3.9394
+INFO - 2017-05-05 19:35:58 --> Config Class Initialized
+INFO - 2017-05-05 19:35:58 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:35:58 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:35:58 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:35:58 --> URI Class Initialized
+INFO - 2017-05-05 19:35:59 --> Router Class Initialized
+INFO - 2017-05-05 19:35:59 --> Config Class Initialized
+INFO - 2017-05-05 19:35:59 --> Hooks Class Initialized
+INFO - 2017-05-05 19:35:59 --> Output Class Initialized
+INFO - 2017-05-05 19:35:59 --> Security Class Initialized
+DEBUG - 2017-05-05 19:35:59 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:35:59 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 19:35:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:35:59 --> Input Class Initialized
+INFO - 2017-05-05 19:35:59 --> Language Class Initialized
+ERROR - 2017-05-05 19:35:59 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 19:35:59 --> URI Class Initialized
+INFO - 2017-05-05 19:36:00 --> Router Class Initialized
+INFO - 2017-05-05 19:36:00 --> Output Class Initialized
+INFO - 2017-05-05 19:36:00 --> Security Class Initialized
+DEBUG - 2017-05-05 19:36:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:36:00 --> Input Class Initialized
+INFO - 2017-05-05 19:36:00 --> Language Class Initialized
+ERROR - 2017-05-05 19:36:00 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 19:37:48 --> Config Class Initialized
+INFO - 2017-05-05 19:37:48 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:37:48 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:37:48 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:37:48 --> URI Class Initialized
+INFO - 2017-05-05 19:37:48 --> Router Class Initialized
+INFO - 2017-05-05 19:37:48 --> Output Class Initialized
+INFO - 2017-05-05 19:37:48 --> Security Class Initialized
+DEBUG - 2017-05-05 19:37:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:37:48 --> Input Class Initialized
+INFO - 2017-05-05 19:37:48 --> Language Class Initialized
+INFO - 2017-05-05 19:37:48 --> Loader Class Initialized
+INFO - 2017-05-05 19:37:48 --> Helper loaded: language_helper
+INFO - 2017-05-05 19:37:48 --> Helper loaded: url_helper
+INFO - 2017-05-05 19:37:48 --> Helper loaded: form_helper
+INFO - 2017-05-05 19:37:48 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 19:37:48 --> Helper loaded: util_helper
+INFO - 2017-05-05 19:37:49 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 19:37:49 --> User Agent Class Initialized
+INFO - 2017-05-05 19:37:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 19:37:49 --> Pagination Class Initialized
+INFO - 2017-05-05 19:37:49 --> Form Validation Class Initialized
+INFO - 2017-05-05 19:37:49 --> Controller Class Initialized
+INFO - 2017-05-05 19:37:49 --> Model Class Initialized
+INFO - 2017-05-05 19:37:49 --> Database Driver Class Initialized
+INFO - 2017-05-05 19:37:49 --> Email Class Initialized
+DEBUG - 2017-05-05 19:37:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 19:37:49 --> File loaded: C:\xampp\htdocs\dra\application\views\public/agencias_agrarias.php
+INFO - 2017-05-05 19:37:50 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 19:37:50 --> Final output sent to browser
+DEBUG - 2017-05-05 19:37:50 --> Total execution time: 1.2823
+INFO - 2017-05-05 19:49:46 --> Config Class Initialized
+INFO - 2017-05-05 19:49:46 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:49:46 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:49:46 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:49:46 --> URI Class Initialized
+DEBUG - 2017-05-05 19:49:46 --> No URI present. Default controller set.
+INFO - 2017-05-05 19:49:46 --> Router Class Initialized
+INFO - 2017-05-05 19:49:46 --> Output Class Initialized
+INFO - 2017-05-05 19:49:46 --> Security Class Initialized
+DEBUG - 2017-05-05 19:49:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:49:46 --> Input Class Initialized
+INFO - 2017-05-05 19:49:46 --> Language Class Initialized
+INFO - 2017-05-05 19:49:46 --> Loader Class Initialized
+INFO - 2017-05-05 19:49:46 --> Helper loaded: language_helper
+INFO - 2017-05-05 19:49:46 --> Helper loaded: url_helper
+INFO - 2017-05-05 19:49:46 --> Helper loaded: form_helper
+INFO - 2017-05-05 19:49:46 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 19:49:46 --> Helper loaded: util_helper
+INFO - 2017-05-05 19:49:46 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 19:49:46 --> User Agent Class Initialized
+INFO - 2017-05-05 19:49:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 19:49:46 --> Pagination Class Initialized
+INFO - 2017-05-05 19:49:46 --> Form Validation Class Initialized
+INFO - 2017-05-05 19:49:46 --> Controller Class Initialized
+INFO - 2017-05-05 19:49:46 --> Model Class Initialized
+INFO - 2017-05-05 19:49:46 --> Database Driver Class Initialized
+INFO - 2017-05-05 19:49:46 --> Email Class Initialized
+DEBUG - 2017-05-05 19:49:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 19:49:46 --> Model Class Initialized
+INFO - 2017-05-05 19:49:46 --> Model Class Initialized
+INFO - 2017-05-05 19:49:46 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 19:49:47 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 19:49:47 --> Final output sent to browser
+DEBUG - 2017-05-05 19:49:47 --> Total execution time: 1.2052
+INFO - 2017-05-05 19:49:47 --> Config Class Initialized
+INFO - 2017-05-05 19:49:47 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:49:47 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:49:47 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:49:47 --> URI Class Initialized
+INFO - 2017-05-05 19:49:48 --> Config Class Initialized
+INFO - 2017-05-05 19:49:48 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:49:48 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:49:48 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:49:48 --> URI Class Initialized
+INFO - 2017-05-05 19:49:48 --> Router Class Initialized
+INFO - 2017-05-05 19:49:48 --> Output Class Initialized
+INFO - 2017-05-05 19:49:48 --> Security Class Initialized
+DEBUG - 2017-05-05 19:49:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:49:48 --> Input Class Initialized
+INFO - 2017-05-05 19:49:48 --> Language Class Initialized
+ERROR - 2017-05-05 19:49:48 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 19:49:48 --> Router Class Initialized
+INFO - 2017-05-05 19:49:48 --> Output Class Initialized
+INFO - 2017-05-05 19:49:48 --> Security Class Initialized
+DEBUG - 2017-05-05 19:49:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:49:48 --> Input Class Initialized
+INFO - 2017-05-05 19:49:48 --> Language Class Initialized
+ERROR - 2017-05-05 19:49:48 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 19:50:37 --> Config Class Initialized
+INFO - 2017-05-05 19:50:37 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:50:37 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:50:37 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:50:37 --> URI Class Initialized
+DEBUG - 2017-05-05 19:50:37 --> No URI present. Default controller set.
+INFO - 2017-05-05 19:50:37 --> Router Class Initialized
+INFO - 2017-05-05 19:50:37 --> Output Class Initialized
+INFO - 2017-05-05 19:50:37 --> Security Class Initialized
+DEBUG - 2017-05-05 19:50:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:50:37 --> Input Class Initialized
+INFO - 2017-05-05 19:50:37 --> Language Class Initialized
+INFO - 2017-05-05 19:50:37 --> Loader Class Initialized
+INFO - 2017-05-05 19:50:37 --> Helper loaded: language_helper
+INFO - 2017-05-05 19:50:37 --> Helper loaded: url_helper
+INFO - 2017-05-05 19:50:37 --> Helper loaded: form_helper
+INFO - 2017-05-05 19:50:37 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 19:50:37 --> Helper loaded: util_helper
+INFO - 2017-05-05 19:50:37 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 19:50:37 --> User Agent Class Initialized
+INFO - 2017-05-05 19:50:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 19:50:37 --> Pagination Class Initialized
+INFO - 2017-05-05 19:50:37 --> Form Validation Class Initialized
+INFO - 2017-05-05 19:50:37 --> Controller Class Initialized
+INFO - 2017-05-05 19:50:37 --> Model Class Initialized
+INFO - 2017-05-05 19:50:37 --> Database Driver Class Initialized
+INFO - 2017-05-05 19:50:37 --> Email Class Initialized
+DEBUG - 2017-05-05 19:50:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 19:50:37 --> Model Class Initialized
+INFO - 2017-05-05 19:50:37 --> Model Class Initialized
+INFO - 2017-05-05 19:50:37 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 19:50:38 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 19:50:38 --> Final output sent to browser
+DEBUG - 2017-05-05 19:50:38 --> Total execution time: 0.8296
+INFO - 2017-05-05 19:50:38 --> Config Class Initialized
+INFO - 2017-05-05 19:50:38 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:50:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:50:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:50:38 --> URI Class Initialized
+INFO - 2017-05-05 19:50:38 --> Router Class Initialized
+INFO - 2017-05-05 19:50:38 --> Output Class Initialized
+INFO - 2017-05-05 19:50:38 --> Security Class Initialized
+DEBUG - 2017-05-05 19:50:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:50:38 --> Input Class Initialized
+INFO - 2017-05-05 19:50:38 --> Language Class Initialized
+ERROR - 2017-05-05 19:50:38 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 19:50:38 --> Config Class Initialized
+INFO - 2017-05-05 19:50:38 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:50:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:50:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:50:38 --> URI Class Initialized
+INFO - 2017-05-05 19:50:38 --> Router Class Initialized
+INFO - 2017-05-05 19:50:38 --> Output Class Initialized
+INFO - 2017-05-05 19:50:38 --> Security Class Initialized
+DEBUG - 2017-05-05 19:50:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:50:38 --> Input Class Initialized
+INFO - 2017-05-05 19:50:38 --> Language Class Initialized
+ERROR - 2017-05-05 19:50:38 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 19:50:38 --> Config Class Initialized
+INFO - 2017-05-05 19:50:38 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:50:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:50:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:50:38 --> URI Class Initialized
+INFO - 2017-05-05 19:50:38 --> Router Class Initialized
+INFO - 2017-05-05 19:50:38 --> Output Class Initialized
+INFO - 2017-05-05 19:50:38 --> Security Class Initialized
+INFO - 2017-05-05 19:50:38 --> Config Class Initialized
+INFO - 2017-05-05 19:50:38 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:50:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:50:38 --> Input Class Initialized
+INFO - 2017-05-05 19:50:38 --> Language Class Initialized
+ERROR - 2017-05-05 19:50:38 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 19:50:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:50:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:50:38 --> URI Class Initialized
+INFO - 2017-05-05 19:50:38 --> Router Class Initialized
+INFO - 2017-05-05 19:50:38 --> Output Class Initialized
+INFO - 2017-05-05 19:50:38 --> Security Class Initialized
+DEBUG - 2017-05-05 19:50:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:50:38 --> Input Class Initialized
+INFO - 2017-05-05 19:50:38 --> Language Class Initialized
+ERROR - 2017-05-05 19:50:38 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 19:51:23 --> Config Class Initialized
+INFO - 2017-05-05 19:51:23 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:51:23 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:51:23 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:51:23 --> URI Class Initialized
+DEBUG - 2017-05-05 19:51:23 --> No URI present. Default controller set.
+INFO - 2017-05-05 19:51:23 --> Router Class Initialized
+INFO - 2017-05-05 19:51:23 --> Output Class Initialized
+INFO - 2017-05-05 19:51:24 --> Security Class Initialized
+DEBUG - 2017-05-05 19:51:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:51:24 --> Input Class Initialized
+INFO - 2017-05-05 19:51:24 --> Language Class Initialized
+INFO - 2017-05-05 19:51:24 --> Loader Class Initialized
+INFO - 2017-05-05 19:51:24 --> Helper loaded: language_helper
+INFO - 2017-05-05 19:51:24 --> Helper loaded: url_helper
+INFO - 2017-05-05 19:51:24 --> Helper loaded: form_helper
+INFO - 2017-05-05 19:51:24 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 19:51:24 --> Helper loaded: util_helper
+INFO - 2017-05-05 19:51:24 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 19:51:24 --> User Agent Class Initialized
+INFO - 2017-05-05 19:51:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 19:51:24 --> Pagination Class Initialized
+INFO - 2017-05-05 19:51:24 --> Form Validation Class Initialized
+INFO - 2017-05-05 19:51:24 --> Controller Class Initialized
+INFO - 2017-05-05 19:51:24 --> Model Class Initialized
+INFO - 2017-05-05 19:51:24 --> Database Driver Class Initialized
+INFO - 2017-05-05 19:51:24 --> Email Class Initialized
+DEBUG - 2017-05-05 19:51:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 19:51:24 --> Model Class Initialized
+INFO - 2017-05-05 19:51:24 --> Model Class Initialized
+INFO - 2017-05-05 19:51:24 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 19:51:25 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 19:51:25 --> Final output sent to browser
+DEBUG - 2017-05-05 19:51:25 --> Total execution time: 1.0485
+INFO - 2017-05-05 19:51:25 --> Config Class Initialized
+INFO - 2017-05-05 19:51:25 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:51:25 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:51:25 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:51:25 --> URI Class Initialized
+INFO - 2017-05-05 19:51:25 --> Router Class Initialized
+INFO - 2017-05-05 19:51:25 --> Output Class Initialized
+INFO - 2017-05-05 19:51:25 --> Security Class Initialized
+DEBUG - 2017-05-05 19:51:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:51:25 --> Input Class Initialized
+INFO - 2017-05-05 19:51:25 --> Language Class Initialized
+ERROR - 2017-05-05 19:51:25 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 19:51:25 --> Config Class Initialized
+INFO - 2017-05-05 19:51:25 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:51:25 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:51:25 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:51:25 --> URI Class Initialized
+INFO - 2017-05-05 19:51:25 --> Router Class Initialized
+INFO - 2017-05-05 19:51:25 --> Output Class Initialized
+INFO - 2017-05-05 19:51:25 --> Security Class Initialized
+DEBUG - 2017-05-05 19:51:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:51:25 --> Input Class Initialized
+INFO - 2017-05-05 19:51:25 --> Language Class Initialized
+ERROR - 2017-05-05 19:51:25 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 19:51:25 --> Config Class Initialized
+INFO - 2017-05-05 19:51:25 --> Hooks Class Initialized
+DEBUG - 2017-05-05 19:51:25 --> UTF-8 Support Enabled
+INFO - 2017-05-05 19:51:25 --> Utf8 Class Initialized
+INFO - 2017-05-05 19:51:25 --> URI Class Initialized
+INFO - 2017-05-05 19:51:25 --> Router Class Initialized
+INFO - 2017-05-05 19:51:25 --> Output Class Initialized
+INFO - 2017-05-05 19:51:25 --> Security Class Initialized
+DEBUG - 2017-05-05 19:51:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 19:51:25 --> Input Class Initialized
+INFO - 2017-05-05 19:51:25 --> Language Class Initialized
+ERROR - 2017-05-05 19:51:25 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:01:18 --> Config Class Initialized
+INFO - 2017-05-05 21:01:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:01:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:01:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:01:18 --> URI Class Initialized
+DEBUG - 2017-05-05 21:01:18 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:01:18 --> Router Class Initialized
+INFO - 2017-05-05 21:01:18 --> Output Class Initialized
+INFO - 2017-05-05 21:01:18 --> Security Class Initialized
+DEBUG - 2017-05-05 21:01:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:01:18 --> Input Class Initialized
+INFO - 2017-05-05 21:01:18 --> Language Class Initialized
+INFO - 2017-05-05 21:01:18 --> Loader Class Initialized
+INFO - 2017-05-05 21:01:18 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:01:18 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:01:18 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:01:18 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:01:18 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:01:18 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:01:18 --> User Agent Class Initialized
+INFO - 2017-05-05 21:01:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:01:18 --> Pagination Class Initialized
+INFO - 2017-05-05 21:01:18 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:01:18 --> Controller Class Initialized
+INFO - 2017-05-05 21:01:18 --> Model Class Initialized
+INFO - 2017-05-05 21:01:18 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:01:18 --> Email Class Initialized
+DEBUG - 2017-05-05 21:01:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:01:18 --> Model Class Initialized
+INFO - 2017-05-05 21:01:18 --> Model Class Initialized
+INFO - 2017-05-05 21:01:18 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:01:19 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:01:19 --> Final output sent to browser
+DEBUG - 2017-05-05 21:01:19 --> Total execution time: 0.8832
+INFO - 2017-05-05 21:01:19 --> Config Class Initialized
+INFO - 2017-05-05 21:01:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:01:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:01:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:01:19 --> URI Class Initialized
+INFO - 2017-05-05 21:01:19 --> Router Class Initialized
+INFO - 2017-05-05 21:01:19 --> Output Class Initialized
+INFO - 2017-05-05 21:01:19 --> Security Class Initialized
+DEBUG - 2017-05-05 21:01:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:01:19 --> Input Class Initialized
+INFO - 2017-05-05 21:01:19 --> Language Class Initialized
+ERROR - 2017-05-05 21:01:19 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:01:20 --> Config Class Initialized
+INFO - 2017-05-05 21:01:20 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:01:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:01:20 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:01:20 --> URI Class Initialized
+INFO - 2017-05-05 21:01:20 --> Router Class Initialized
+INFO - 2017-05-05 21:01:20 --> Output Class Initialized
+INFO - 2017-05-05 21:01:20 --> Security Class Initialized
+DEBUG - 2017-05-05 21:01:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:01:20 --> Input Class Initialized
+INFO - 2017-05-05 21:01:20 --> Language Class Initialized
+ERROR - 2017-05-05 21:01:20 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:02:44 --> Config Class Initialized
+INFO - 2017-05-05 21:02:44 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:02:44 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:02:44 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:02:44 --> URI Class Initialized
+DEBUG - 2017-05-05 21:02:44 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:02:44 --> Router Class Initialized
+INFO - 2017-05-05 21:02:44 --> Output Class Initialized
+INFO - 2017-05-05 21:02:44 --> Security Class Initialized
+DEBUG - 2017-05-05 21:02:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:02:44 --> Input Class Initialized
+INFO - 2017-05-05 21:02:44 --> Language Class Initialized
+INFO - 2017-05-05 21:02:44 --> Loader Class Initialized
+INFO - 2017-05-05 21:02:44 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:02:44 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:02:44 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:02:44 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:02:44 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:02:44 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:02:44 --> User Agent Class Initialized
+INFO - 2017-05-05 21:02:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:02:44 --> Pagination Class Initialized
+INFO - 2017-05-05 21:02:44 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:02:44 --> Controller Class Initialized
+INFO - 2017-05-05 21:02:44 --> Model Class Initialized
+INFO - 2017-05-05 21:02:44 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:02:44 --> Email Class Initialized
+DEBUG - 2017-05-05 21:02:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:02:44 --> Model Class Initialized
+INFO - 2017-05-05 21:02:44 --> Model Class Initialized
+INFO - 2017-05-05 21:02:44 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:02:44 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:02:44 --> Final output sent to browser
+DEBUG - 2017-05-05 21:02:44 --> Total execution time: 0.8153
+INFO - 2017-05-05 21:02:45 --> Config Class Initialized
+INFO - 2017-05-05 21:02:45 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:02:45 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:02:45 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:02:45 --> URI Class Initialized
+INFO - 2017-05-05 21:02:45 --> Router Class Initialized
+INFO - 2017-05-05 21:02:45 --> Output Class Initialized
+INFO - 2017-05-05 21:02:45 --> Security Class Initialized
+DEBUG - 2017-05-05 21:02:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:02:45 --> Input Class Initialized
+INFO - 2017-05-05 21:02:45 --> Language Class Initialized
+ERROR - 2017-05-05 21:02:45 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:02:45 --> Config Class Initialized
+INFO - 2017-05-05 21:02:45 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:02:45 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:02:45 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:02:45 --> URI Class Initialized
+INFO - 2017-05-05 21:02:45 --> Router Class Initialized
+INFO - 2017-05-05 21:02:45 --> Output Class Initialized
+INFO - 2017-05-05 21:02:45 --> Security Class Initialized
+DEBUG - 2017-05-05 21:02:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:02:45 --> Input Class Initialized
+INFO - 2017-05-05 21:02:45 --> Language Class Initialized
+ERROR - 2017-05-05 21:02:45 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:02:45 --> Config Class Initialized
+INFO - 2017-05-05 21:02:45 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:02:45 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:02:45 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:02:45 --> URI Class Initialized
+INFO - 2017-05-05 21:02:45 --> Router Class Initialized
+INFO - 2017-05-05 21:02:45 --> Output Class Initialized
+INFO - 2017-05-05 21:02:45 --> Security Class Initialized
+DEBUG - 2017-05-05 21:02:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:02:45 --> Input Class Initialized
+INFO - 2017-05-05 21:02:45 --> Language Class Initialized
+ERROR - 2017-05-05 21:02:45 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:05:35 --> Config Class Initialized
+INFO - 2017-05-05 21:05:35 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:05:35 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:05:35 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:05:35 --> URI Class Initialized
+DEBUG - 2017-05-05 21:05:35 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:05:35 --> Router Class Initialized
+INFO - 2017-05-05 21:05:35 --> Output Class Initialized
+INFO - 2017-05-05 21:05:35 --> Security Class Initialized
+DEBUG - 2017-05-05 21:05:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:05:35 --> Input Class Initialized
+INFO - 2017-05-05 21:05:35 --> Language Class Initialized
+INFO - 2017-05-05 21:05:35 --> Loader Class Initialized
+INFO - 2017-05-05 21:05:35 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:05:35 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:05:35 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:05:35 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:05:35 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:05:35 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:05:35 --> User Agent Class Initialized
+INFO - 2017-05-05 21:05:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:05:35 --> Pagination Class Initialized
+INFO - 2017-05-05 21:05:35 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:05:35 --> Controller Class Initialized
+INFO - 2017-05-05 21:05:35 --> Model Class Initialized
+INFO - 2017-05-05 21:05:35 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:05:35 --> Email Class Initialized
+DEBUG - 2017-05-05 21:05:35 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:05:35 --> Model Class Initialized
+INFO - 2017-05-05 21:05:35 --> Model Class Initialized
+INFO - 2017-05-05 21:05:35 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:05:36 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:05:36 --> Final output sent to browser
+DEBUG - 2017-05-05 21:05:36 --> Total execution time: 0.8614
+INFO - 2017-05-05 21:05:36 --> Config Class Initialized
+INFO - 2017-05-05 21:05:36 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:05:36 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:05:36 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:05:36 --> URI Class Initialized
+INFO - 2017-05-05 21:05:36 --> Router Class Initialized
+INFO - 2017-05-05 21:05:36 --> Output Class Initialized
+INFO - 2017-05-05 21:05:36 --> Security Class Initialized
+DEBUG - 2017-05-05 21:05:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:05:36 --> Input Class Initialized
+INFO - 2017-05-05 21:05:36 --> Language Class Initialized
+ERROR - 2017-05-05 21:05:36 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:05:36 --> Config Class Initialized
+INFO - 2017-05-05 21:05:36 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:05:36 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:05:36 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:05:36 --> URI Class Initialized
+INFO - 2017-05-05 21:05:36 --> Router Class Initialized
+INFO - 2017-05-05 21:05:36 --> Output Class Initialized
+INFO - 2017-05-05 21:05:36 --> Security Class Initialized
+DEBUG - 2017-05-05 21:05:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:05:36 --> Input Class Initialized
+INFO - 2017-05-05 21:05:36 --> Language Class Initialized
+ERROR - 2017-05-05 21:05:36 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:05:36 --> Config Class Initialized
+INFO - 2017-05-05 21:05:36 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:05:36 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:05:36 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:05:36 --> URI Class Initialized
+INFO - 2017-05-05 21:05:36 --> Router Class Initialized
+INFO - 2017-05-05 21:05:36 --> Output Class Initialized
+INFO - 2017-05-05 21:05:36 --> Security Class Initialized
+DEBUG - 2017-05-05 21:05:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:05:37 --> Input Class Initialized
+INFO - 2017-05-05 21:05:37 --> Language Class Initialized
+ERROR - 2017-05-05 21:05:37 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:06:46 --> Config Class Initialized
+INFO - 2017-05-05 21:06:46 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:06:46 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:06:46 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:06:46 --> URI Class Initialized
+DEBUG - 2017-05-05 21:06:46 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:06:46 --> Router Class Initialized
+INFO - 2017-05-05 21:06:46 --> Output Class Initialized
+INFO - 2017-05-05 21:06:46 --> Security Class Initialized
+DEBUG - 2017-05-05 21:06:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:06:46 --> Input Class Initialized
+INFO - 2017-05-05 21:06:46 --> Language Class Initialized
+INFO - 2017-05-05 21:06:46 --> Loader Class Initialized
+INFO - 2017-05-05 21:06:46 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:06:46 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:06:46 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:06:46 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:06:46 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:06:46 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:06:46 --> User Agent Class Initialized
+INFO - 2017-05-05 21:06:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:06:46 --> Pagination Class Initialized
+INFO - 2017-05-05 21:06:46 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:06:46 --> Controller Class Initialized
+INFO - 2017-05-05 21:06:46 --> Model Class Initialized
+INFO - 2017-05-05 21:06:46 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:06:46 --> Email Class Initialized
+DEBUG - 2017-05-05 21:06:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:06:46 --> Model Class Initialized
+INFO - 2017-05-05 21:06:46 --> Model Class Initialized
+INFO - 2017-05-05 21:06:46 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:06:47 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:06:47 --> Final output sent to browser
+DEBUG - 2017-05-05 21:06:47 --> Total execution time: 1.0508
+INFO - 2017-05-05 21:06:47 --> Config Class Initialized
+INFO - 2017-05-05 21:06:47 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:06:47 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:06:47 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:06:47 --> URI Class Initialized
+INFO - 2017-05-05 21:06:47 --> Router Class Initialized
+INFO - 2017-05-05 21:06:47 --> Output Class Initialized
+INFO - 2017-05-05 21:06:47 --> Security Class Initialized
+DEBUG - 2017-05-05 21:06:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:06:47 --> Input Class Initialized
+INFO - 2017-05-05 21:06:47 --> Language Class Initialized
+ERROR - 2017-05-05 21:06:47 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:06:47 --> Config Class Initialized
+INFO - 2017-05-05 21:06:47 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:06:47 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:06:47 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:06:47 --> URI Class Initialized
+INFO - 2017-05-05 21:06:47 --> Router Class Initialized
+INFO - 2017-05-05 21:06:47 --> Output Class Initialized
+INFO - 2017-05-05 21:06:47 --> Security Class Initialized
+DEBUG - 2017-05-05 21:06:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:06:47 --> Input Class Initialized
+INFO - 2017-05-05 21:06:47 --> Language Class Initialized
+ERROR - 2017-05-05 21:06:47 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:06:48 --> Config Class Initialized
+INFO - 2017-05-05 21:06:48 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:06:48 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:06:48 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:06:48 --> URI Class Initialized
+INFO - 2017-05-05 21:06:48 --> Router Class Initialized
+INFO - 2017-05-05 21:06:48 --> Output Class Initialized
+INFO - 2017-05-05 21:06:48 --> Security Class Initialized
+DEBUG - 2017-05-05 21:06:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:06:48 --> Input Class Initialized
+INFO - 2017-05-05 21:06:48 --> Language Class Initialized
+ERROR - 2017-05-05 21:06:48 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:07:14 --> Config Class Initialized
+INFO - 2017-05-05 21:07:14 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:07:14 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:07:14 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:07:14 --> URI Class Initialized
+DEBUG - 2017-05-05 21:07:14 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:07:14 --> Router Class Initialized
+INFO - 2017-05-05 21:07:14 --> Output Class Initialized
+INFO - 2017-05-05 21:07:14 --> Security Class Initialized
+DEBUG - 2017-05-05 21:07:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:07:14 --> Input Class Initialized
+INFO - 2017-05-05 21:07:14 --> Language Class Initialized
+INFO - 2017-05-05 21:07:14 --> Loader Class Initialized
+INFO - 2017-05-05 21:07:14 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:07:14 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:07:14 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:07:14 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:07:14 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:07:14 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:07:14 --> User Agent Class Initialized
+INFO - 2017-05-05 21:07:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:07:14 --> Pagination Class Initialized
+INFO - 2017-05-05 21:07:14 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:07:14 --> Controller Class Initialized
+INFO - 2017-05-05 21:07:14 --> Model Class Initialized
+INFO - 2017-05-05 21:07:14 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:07:14 --> Email Class Initialized
+DEBUG - 2017-05-05 21:07:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:07:14 --> Model Class Initialized
+INFO - 2017-05-05 21:07:14 --> Model Class Initialized
+INFO - 2017-05-05 21:07:14 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:07:15 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:07:15 --> Final output sent to browser
+DEBUG - 2017-05-05 21:07:15 --> Total execution time: 0.7600
+INFO - 2017-05-05 21:07:15 --> Config Class Initialized
+INFO - 2017-05-05 21:07:15 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:07:15 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:07:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:07:15 --> URI Class Initialized
+INFO - 2017-05-05 21:07:15 --> Router Class Initialized
+INFO - 2017-05-05 21:07:15 --> Output Class Initialized
+INFO - 2017-05-05 21:07:15 --> Security Class Initialized
+DEBUG - 2017-05-05 21:07:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:07:15 --> Input Class Initialized
+INFO - 2017-05-05 21:07:15 --> Language Class Initialized
+ERROR - 2017-05-05 21:07:15 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:07:15 --> Config Class Initialized
+INFO - 2017-05-05 21:07:15 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:07:15 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:07:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:07:15 --> URI Class Initialized
+INFO - 2017-05-05 21:07:15 --> Config Class Initialized
+INFO - 2017-05-05 21:07:15 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:07:15 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:07:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:07:15 --> Router Class Initialized
+INFO - 2017-05-05 21:07:15 --> URI Class Initialized
+INFO - 2017-05-05 21:07:15 --> Router Class Initialized
+INFO - 2017-05-05 21:07:15 --> Output Class Initialized
+INFO - 2017-05-05 21:07:15 --> Security Class Initialized
+INFO - 2017-05-05 21:07:15 --> Output Class Initialized
+DEBUG - 2017-05-05 21:07:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:07:15 --> Input Class Initialized
+INFO - 2017-05-05 21:07:15 --> Language Class Initialized
+INFO - 2017-05-05 21:07:15 --> Security Class Initialized
+ERROR - 2017-05-05 21:07:15 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 21:07:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:07:15 --> Input Class Initialized
+INFO - 2017-05-05 21:07:15 --> Language Class Initialized
+ERROR - 2017-05-05 21:07:15 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:11:22 --> Config Class Initialized
+INFO - 2017-05-05 21:11:22 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:11:22 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:11:22 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:11:22 --> URI Class Initialized
+DEBUG - 2017-05-05 21:11:22 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:11:22 --> Router Class Initialized
+INFO - 2017-05-05 21:11:22 --> Output Class Initialized
+INFO - 2017-05-05 21:11:22 --> Security Class Initialized
+DEBUG - 2017-05-05 21:11:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:11:22 --> Input Class Initialized
+INFO - 2017-05-05 21:11:22 --> Language Class Initialized
+INFO - 2017-05-05 21:11:22 --> Loader Class Initialized
+INFO - 2017-05-05 21:11:22 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:11:22 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:11:22 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:11:22 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:11:22 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:11:22 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:11:22 --> User Agent Class Initialized
+INFO - 2017-05-05 21:11:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:11:22 --> Pagination Class Initialized
+INFO - 2017-05-05 21:11:22 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:11:22 --> Controller Class Initialized
+INFO - 2017-05-05 21:11:22 --> Model Class Initialized
+INFO - 2017-05-05 21:11:22 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:11:22 --> Email Class Initialized
+DEBUG - 2017-05-05 21:11:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:11:23 --> Model Class Initialized
+INFO - 2017-05-05 21:11:23 --> Model Class Initialized
+INFO - 2017-05-05 21:11:23 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:11:23 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:11:23 --> Final output sent to browser
+DEBUG - 2017-05-05 21:11:23 --> Total execution time: 0.9053
+INFO - 2017-05-05 21:11:23 --> Config Class Initialized
+INFO - 2017-05-05 21:11:23 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:11:23 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:11:23 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:11:23 --> URI Class Initialized
+INFO - 2017-05-05 21:11:23 --> Router Class Initialized
+INFO - 2017-05-05 21:11:23 --> Output Class Initialized
+INFO - 2017-05-05 21:11:23 --> Security Class Initialized
+DEBUG - 2017-05-05 21:11:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:11:23 --> Input Class Initialized
+INFO - 2017-05-05 21:11:23 --> Language Class Initialized
+ERROR - 2017-05-05 21:11:23 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:11:23 --> Config Class Initialized
+INFO - 2017-05-05 21:11:23 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:11:23 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:11:23 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:11:23 --> URI Class Initialized
+INFO - 2017-05-05 21:11:23 --> Router Class Initialized
+INFO - 2017-05-05 21:11:23 --> Output Class Initialized
+INFO - 2017-05-05 21:11:23 --> Security Class Initialized
+DEBUG - 2017-05-05 21:11:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:11:23 --> Input Class Initialized
+INFO - 2017-05-05 21:11:23 --> Language Class Initialized
+ERROR - 2017-05-05 21:11:23 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:11:24 --> Config Class Initialized
+INFO - 2017-05-05 21:11:24 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:11:24 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:11:24 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:11:24 --> URI Class Initialized
+INFO - 2017-05-05 21:11:24 --> Router Class Initialized
+INFO - 2017-05-05 21:11:24 --> Output Class Initialized
+INFO - 2017-05-05 21:11:24 --> Security Class Initialized
+DEBUG - 2017-05-05 21:11:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:11:24 --> Input Class Initialized
+INFO - 2017-05-05 21:11:24 --> Language Class Initialized
+ERROR - 2017-05-05 21:11:24 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:11:46 --> Config Class Initialized
+INFO - 2017-05-05 21:11:46 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:11:46 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:11:46 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:11:46 --> URI Class Initialized
+DEBUG - 2017-05-05 21:11:46 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:11:46 --> Router Class Initialized
+INFO - 2017-05-05 21:11:46 --> Output Class Initialized
+INFO - 2017-05-05 21:11:46 --> Security Class Initialized
+DEBUG - 2017-05-05 21:11:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:11:46 --> Input Class Initialized
+INFO - 2017-05-05 21:11:46 --> Language Class Initialized
+INFO - 2017-05-05 21:11:46 --> Loader Class Initialized
+INFO - 2017-05-05 21:11:46 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:11:46 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:11:46 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:11:46 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:11:46 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:11:46 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:11:46 --> User Agent Class Initialized
+INFO - 2017-05-05 21:11:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:11:46 --> Pagination Class Initialized
+INFO - 2017-05-05 21:11:46 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:11:46 --> Controller Class Initialized
+INFO - 2017-05-05 21:11:46 --> Model Class Initialized
+INFO - 2017-05-05 21:11:46 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:11:46 --> Email Class Initialized
+DEBUG - 2017-05-05 21:11:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:11:46 --> Model Class Initialized
+INFO - 2017-05-05 21:11:46 --> Model Class Initialized
+INFO - 2017-05-05 21:11:46 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:11:47 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:11:47 --> Final output sent to browser
+DEBUG - 2017-05-05 21:11:47 --> Total execution time: 0.8550
+INFO - 2017-05-05 21:11:48 --> Config Class Initialized
+INFO - 2017-05-05 21:11:48 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:11:48 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:11:48 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:11:48 --> URI Class Initialized
+INFO - 2017-05-05 21:11:48 --> Router Class Initialized
+INFO - 2017-05-05 21:11:48 --> Output Class Initialized
+INFO - 2017-05-05 21:11:48 --> Security Class Initialized
+DEBUG - 2017-05-05 21:11:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:11:48 --> Input Class Initialized
+INFO - 2017-05-05 21:11:48 --> Language Class Initialized
+ERROR - 2017-05-05 21:11:48 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:11:48 --> Config Class Initialized
+INFO - 2017-05-05 21:11:48 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:11:48 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:11:48 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:11:48 --> URI Class Initialized
+INFO - 2017-05-05 21:11:49 --> Router Class Initialized
+INFO - 2017-05-05 21:11:49 --> Output Class Initialized
+INFO - 2017-05-05 21:11:49 --> Security Class Initialized
+DEBUG - 2017-05-05 21:11:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:11:49 --> Input Class Initialized
+INFO - 2017-05-05 21:11:49 --> Language Class Initialized
+ERROR - 2017-05-05 21:11:49 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:12:18 --> Config Class Initialized
+INFO - 2017-05-05 21:12:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:12:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:12:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:12:18 --> URI Class Initialized
+DEBUG - 2017-05-05 21:12:18 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:12:18 --> Router Class Initialized
+INFO - 2017-05-05 21:12:18 --> Output Class Initialized
+INFO - 2017-05-05 21:12:18 --> Security Class Initialized
+DEBUG - 2017-05-05 21:12:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:12:18 --> Input Class Initialized
+INFO - 2017-05-05 21:12:18 --> Language Class Initialized
+INFO - 2017-05-05 21:12:19 --> Loader Class Initialized
+INFO - 2017-05-05 21:12:19 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:12:19 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:12:19 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:12:19 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:12:19 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:12:19 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:12:19 --> User Agent Class Initialized
+INFO - 2017-05-05 21:12:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:12:19 --> Pagination Class Initialized
+INFO - 2017-05-05 21:12:19 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:12:19 --> Controller Class Initialized
+INFO - 2017-05-05 21:12:19 --> Model Class Initialized
+INFO - 2017-05-05 21:12:19 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:12:19 --> Email Class Initialized
+DEBUG - 2017-05-05 21:12:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:12:19 --> Model Class Initialized
+INFO - 2017-05-05 21:12:19 --> Model Class Initialized
+INFO - 2017-05-05 21:12:19 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:12:19 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:12:19 --> Final output sent to browser
+DEBUG - 2017-05-05 21:12:19 --> Total execution time: 0.7650
+INFO - 2017-05-05 21:12:19 --> Config Class Initialized
+INFO - 2017-05-05 21:12:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:12:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:12:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:12:19 --> URI Class Initialized
+INFO - 2017-05-05 21:12:19 --> Router Class Initialized
+INFO - 2017-05-05 21:12:19 --> Output Class Initialized
+INFO - 2017-05-05 21:12:20 --> Security Class Initialized
+DEBUG - 2017-05-05 21:12:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:12:20 --> Input Class Initialized
+INFO - 2017-05-05 21:12:20 --> Language Class Initialized
+ERROR - 2017-05-05 21:12:20 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:12:20 --> Config Class Initialized
+INFO - 2017-05-05 21:12:20 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:12:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:12:20 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:12:20 --> URI Class Initialized
+INFO - 2017-05-05 21:12:20 --> Router Class Initialized
+INFO - 2017-05-05 21:12:20 --> Output Class Initialized
+INFO - 2017-05-05 21:12:20 --> Security Class Initialized
+DEBUG - 2017-05-05 21:12:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:12:20 --> Input Class Initialized
+INFO - 2017-05-05 21:12:20 --> Language Class Initialized
+ERROR - 2017-05-05 21:12:20 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:12:47 --> Config Class Initialized
+INFO - 2017-05-05 21:12:48 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:12:48 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:12:48 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:12:48 --> URI Class Initialized
+DEBUG - 2017-05-05 21:12:48 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:12:48 --> Router Class Initialized
+INFO - 2017-05-05 21:12:48 --> Output Class Initialized
+INFO - 2017-05-05 21:12:48 --> Security Class Initialized
+DEBUG - 2017-05-05 21:12:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:12:48 --> Input Class Initialized
+INFO - 2017-05-05 21:12:48 --> Language Class Initialized
+INFO - 2017-05-05 21:12:48 --> Loader Class Initialized
+INFO - 2017-05-05 21:12:48 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:12:48 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:12:48 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:12:48 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:12:48 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:12:48 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:12:48 --> User Agent Class Initialized
+INFO - 2017-05-05 21:12:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:12:48 --> Pagination Class Initialized
+INFO - 2017-05-05 21:12:48 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:12:48 --> Controller Class Initialized
+INFO - 2017-05-05 21:12:48 --> Model Class Initialized
+INFO - 2017-05-05 21:12:48 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:12:48 --> Email Class Initialized
+DEBUG - 2017-05-05 21:12:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:12:48 --> Model Class Initialized
+INFO - 2017-05-05 21:12:48 --> Model Class Initialized
+INFO - 2017-05-05 21:12:48 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:12:49 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:12:49 --> Final output sent to browser
+DEBUG - 2017-05-05 21:12:49 --> Total execution time: 1.1048
+INFO - 2017-05-05 21:12:49 --> Config Class Initialized
+INFO - 2017-05-05 21:12:49 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:12:49 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:12:49 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:12:49 --> URI Class Initialized
+INFO - 2017-05-05 21:12:49 --> Router Class Initialized
+INFO - 2017-05-05 21:12:49 --> Output Class Initialized
+INFO - 2017-05-05 21:12:49 --> Config Class Initialized
+INFO - 2017-05-05 21:12:49 --> Hooks Class Initialized
+INFO - 2017-05-05 21:12:49 --> Security Class Initialized
+DEBUG - 2017-05-05 21:12:49 --> UTF-8 Support Enabled
+DEBUG - 2017-05-05 21:12:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:12:49 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:12:49 --> Input Class Initialized
+INFO - 2017-05-05 21:12:49 --> Language Class Initialized
+INFO - 2017-05-05 21:12:49 --> URI Class Initialized
+ERROR - 2017-05-05 21:12:49 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:12:49 --> Router Class Initialized
+INFO - 2017-05-05 21:12:49 --> Output Class Initialized
+INFO - 2017-05-05 21:12:49 --> Security Class Initialized
+DEBUG - 2017-05-05 21:12:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:12:49 --> Input Class Initialized
+INFO - 2017-05-05 21:12:49 --> Language Class Initialized
+ERROR - 2017-05-05 21:12:49 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:13:29 --> Config Class Initialized
+INFO - 2017-05-05 21:13:29 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:13:29 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:13:29 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:13:29 --> URI Class Initialized
+DEBUG - 2017-05-05 21:13:29 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:13:29 --> Router Class Initialized
+INFO - 2017-05-05 21:13:29 --> Output Class Initialized
+INFO - 2017-05-05 21:13:29 --> Security Class Initialized
+DEBUG - 2017-05-05 21:13:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:13:29 --> Input Class Initialized
+INFO - 2017-05-05 21:13:29 --> Language Class Initialized
+INFO - 2017-05-05 21:13:29 --> Loader Class Initialized
+INFO - 2017-05-05 21:13:29 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:13:29 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:13:29 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:13:29 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:13:29 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:13:29 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:13:29 --> User Agent Class Initialized
+INFO - 2017-05-05 21:13:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:13:29 --> Pagination Class Initialized
+INFO - 2017-05-05 21:13:29 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:13:29 --> Controller Class Initialized
+INFO - 2017-05-05 21:13:29 --> Model Class Initialized
+INFO - 2017-05-05 21:13:29 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:13:29 --> Email Class Initialized
+DEBUG - 2017-05-05 21:13:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:13:29 --> Model Class Initialized
+INFO - 2017-05-05 21:13:29 --> Model Class Initialized
+INFO - 2017-05-05 21:13:29 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:13:30 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:13:30 --> Final output sent to browser
+DEBUG - 2017-05-05 21:13:30 --> Total execution time: 0.9548
+INFO - 2017-05-05 21:13:30 --> Config Class Initialized
+INFO - 2017-05-05 21:13:30 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:13:30 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:13:30 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:13:30 --> URI Class Initialized
+INFO - 2017-05-05 21:13:30 --> Router Class Initialized
+INFO - 2017-05-05 21:13:30 --> Output Class Initialized
+INFO - 2017-05-05 21:13:30 --> Security Class Initialized
+DEBUG - 2017-05-05 21:13:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:13:30 --> Input Class Initialized
+INFO - 2017-05-05 21:13:30 --> Language Class Initialized
+ERROR - 2017-05-05 21:13:30 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:13:30 --> Config Class Initialized
+INFO - 2017-05-05 21:13:30 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:13:30 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:13:30 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:13:30 --> URI Class Initialized
+INFO - 2017-05-05 21:13:31 --> Router Class Initialized
+INFO - 2017-05-05 21:13:31 --> Output Class Initialized
+INFO - 2017-05-05 21:13:31 --> Security Class Initialized
+DEBUG - 2017-05-05 21:13:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:13:31 --> Input Class Initialized
+INFO - 2017-05-05 21:13:31 --> Language Class Initialized
+ERROR - 2017-05-05 21:13:31 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:14:00 --> Config Class Initialized
+INFO - 2017-05-05 21:14:00 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:14:00 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:14:00 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:14:00 --> URI Class Initialized
+DEBUG - 2017-05-05 21:14:00 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:14:00 --> Router Class Initialized
+INFO - 2017-05-05 21:14:00 --> Output Class Initialized
+INFO - 2017-05-05 21:14:00 --> Security Class Initialized
+DEBUG - 2017-05-05 21:14:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:14:00 --> Input Class Initialized
+INFO - 2017-05-05 21:14:00 --> Language Class Initialized
+INFO - 2017-05-05 21:14:00 --> Loader Class Initialized
+INFO - 2017-05-05 21:14:00 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:14:00 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:14:00 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:14:00 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:14:00 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:14:00 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:14:01 --> User Agent Class Initialized
+INFO - 2017-05-05 21:14:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:14:01 --> Pagination Class Initialized
+INFO - 2017-05-05 21:14:01 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:14:01 --> Controller Class Initialized
+INFO - 2017-05-05 21:14:01 --> Model Class Initialized
+INFO - 2017-05-05 21:14:01 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:14:01 --> Email Class Initialized
+DEBUG - 2017-05-05 21:14:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:14:01 --> Model Class Initialized
+INFO - 2017-05-05 21:14:01 --> Model Class Initialized
+INFO - 2017-05-05 21:14:01 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:14:01 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:14:01 --> Final output sent to browser
+DEBUG - 2017-05-05 21:14:01 --> Total execution time: 0.9131
+INFO - 2017-05-05 21:14:01 --> Config Class Initialized
+INFO - 2017-05-05 21:14:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:14:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:14:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:14:01 --> URI Class Initialized
+INFO - 2017-05-05 21:14:01 --> Router Class Initialized
+INFO - 2017-05-05 21:14:01 --> Output Class Initialized
+INFO - 2017-05-05 21:14:01 --> Security Class Initialized
+INFO - 2017-05-05 21:14:02 --> Config Class Initialized
+INFO - 2017-05-05 21:14:02 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:14:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:14:02 --> Input Class Initialized
+INFO - 2017-05-05 21:14:02 --> Language Class Initialized
+DEBUG - 2017-05-05 21:14:02 --> UTF-8 Support Enabled
+ERROR - 2017-05-05 21:14:02 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:14:02 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:14:02 --> URI Class Initialized
+INFO - 2017-05-05 21:14:02 --> Router Class Initialized
+INFO - 2017-05-05 21:14:02 --> Output Class Initialized
+INFO - 2017-05-05 21:14:02 --> Security Class Initialized
+DEBUG - 2017-05-05 21:14:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:14:02 --> Input Class Initialized
+INFO - 2017-05-05 21:14:02 --> Language Class Initialized
+ERROR - 2017-05-05 21:14:02 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:15:10 --> Config Class Initialized
+INFO - 2017-05-05 21:15:10 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:15:10 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:15:10 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:15:10 --> URI Class Initialized
+DEBUG - 2017-05-05 21:15:10 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:15:10 --> Router Class Initialized
+INFO - 2017-05-05 21:15:10 --> Output Class Initialized
+INFO - 2017-05-05 21:15:10 --> Security Class Initialized
+DEBUG - 2017-05-05 21:15:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:15:10 --> Input Class Initialized
+INFO - 2017-05-05 21:15:10 --> Language Class Initialized
+INFO - 2017-05-05 21:15:10 --> Loader Class Initialized
+INFO - 2017-05-05 21:15:10 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:15:10 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:15:10 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:15:10 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:15:10 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:15:10 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:15:10 --> User Agent Class Initialized
+INFO - 2017-05-05 21:15:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:15:10 --> Pagination Class Initialized
+INFO - 2017-05-05 21:15:10 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:15:10 --> Controller Class Initialized
+INFO - 2017-05-05 21:15:10 --> Model Class Initialized
+INFO - 2017-05-05 21:15:10 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:15:10 --> Email Class Initialized
+DEBUG - 2017-05-05 21:15:10 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:15:10 --> Model Class Initialized
+INFO - 2017-05-05 21:15:10 --> Model Class Initialized
+INFO - 2017-05-05 21:15:10 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:15:11 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:15:11 --> Final output sent to browser
+DEBUG - 2017-05-05 21:15:11 --> Total execution time: 0.9396
+INFO - 2017-05-05 21:15:11 --> Config Class Initialized
+INFO - 2017-05-05 21:15:11 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:15:11 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:15:11 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:15:11 --> URI Class Initialized
+INFO - 2017-05-05 21:15:11 --> Router Class Initialized
+INFO - 2017-05-05 21:15:11 --> Output Class Initialized
+INFO - 2017-05-05 21:15:11 --> Security Class Initialized
+DEBUG - 2017-05-05 21:15:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:15:11 --> Input Class Initialized
+INFO - 2017-05-05 21:15:11 --> Language Class Initialized
+ERROR - 2017-05-05 21:15:11 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:15:11 --> Config Class Initialized
+INFO - 2017-05-05 21:15:11 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:15:11 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:15:11 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:15:11 --> URI Class Initialized
+INFO - 2017-05-05 21:15:11 --> Router Class Initialized
+INFO - 2017-05-05 21:15:11 --> Output Class Initialized
+INFO - 2017-05-05 21:15:11 --> Security Class Initialized
+DEBUG - 2017-05-05 21:15:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:15:11 --> Input Class Initialized
+INFO - 2017-05-05 21:15:11 --> Language Class Initialized
+ERROR - 2017-05-05 21:15:11 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:16:40 --> Config Class Initialized
+INFO - 2017-05-05 21:16:40 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:16:40 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:16:40 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:16:40 --> URI Class Initialized
+DEBUG - 2017-05-05 21:16:40 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:16:40 --> Router Class Initialized
+INFO - 2017-05-05 21:16:40 --> Output Class Initialized
+INFO - 2017-05-05 21:16:40 --> Security Class Initialized
+DEBUG - 2017-05-05 21:16:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:16:40 --> Input Class Initialized
+INFO - 2017-05-05 21:16:40 --> Language Class Initialized
+INFO - 2017-05-05 21:16:40 --> Loader Class Initialized
+INFO - 2017-05-05 21:16:40 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:16:40 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:16:40 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:16:40 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:16:40 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:16:40 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:16:40 --> User Agent Class Initialized
+INFO - 2017-05-05 21:16:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:16:40 --> Pagination Class Initialized
+INFO - 2017-05-05 21:16:40 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:16:40 --> Controller Class Initialized
+INFO - 2017-05-05 21:16:40 --> Model Class Initialized
+INFO - 2017-05-05 21:16:40 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:16:40 --> Email Class Initialized
+DEBUG - 2017-05-05 21:16:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:16:40 --> Model Class Initialized
+INFO - 2017-05-05 21:16:40 --> Model Class Initialized
+INFO - 2017-05-05 21:16:40 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:16:41 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:16:41 --> Final output sent to browser
+DEBUG - 2017-05-05 21:16:41 --> Total execution time: 1.0291
+INFO - 2017-05-05 21:16:41 --> Config Class Initialized
+INFO - 2017-05-05 21:16:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:16:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:16:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:16:41 --> URI Class Initialized
+INFO - 2017-05-05 21:16:41 --> Router Class Initialized
+INFO - 2017-05-05 21:16:41 --> Output Class Initialized
+INFO - 2017-05-05 21:16:41 --> Config Class Initialized
+INFO - 2017-05-05 21:16:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:16:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:16:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:16:41 --> URI Class Initialized
+INFO - 2017-05-05 21:16:41 --> Router Class Initialized
+INFO - 2017-05-05 21:16:41 --> Output Class Initialized
+INFO - 2017-05-05 21:16:41 --> Security Class Initialized
+DEBUG - 2017-05-05 21:16:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:16:41 --> Input Class Initialized
+INFO - 2017-05-05 21:16:41 --> Language Class Initialized
+ERROR - 2017-05-05 21:16:41 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:16:41 --> Security Class Initialized
+DEBUG - 2017-05-05 21:16:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:16:41 --> Input Class Initialized
+INFO - 2017-05-05 21:16:41 --> Language Class Initialized
+ERROR - 2017-05-05 21:16:41 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:17:00 --> Config Class Initialized
+INFO - 2017-05-05 21:17:00 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:17:00 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:17:00 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:17:00 --> URI Class Initialized
+DEBUG - 2017-05-05 21:17:00 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:17:00 --> Router Class Initialized
+INFO - 2017-05-05 21:17:00 --> Output Class Initialized
+INFO - 2017-05-05 21:17:00 --> Security Class Initialized
+DEBUG - 2017-05-05 21:17:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:17:00 --> Input Class Initialized
+INFO - 2017-05-05 21:17:00 --> Language Class Initialized
+INFO - 2017-05-05 21:17:00 --> Loader Class Initialized
+INFO - 2017-05-05 21:17:00 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:17:00 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:17:00 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:17:00 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:17:00 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:17:00 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:17:00 --> User Agent Class Initialized
+INFO - 2017-05-05 21:17:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:17:00 --> Pagination Class Initialized
+INFO - 2017-05-05 21:17:00 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:17:00 --> Controller Class Initialized
+INFO - 2017-05-05 21:17:00 --> Model Class Initialized
+INFO - 2017-05-05 21:17:00 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:17:00 --> Email Class Initialized
+DEBUG - 2017-05-05 21:17:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:17:00 --> Model Class Initialized
+INFO - 2017-05-05 21:17:00 --> Model Class Initialized
+INFO - 2017-05-05 21:17:00 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:17:01 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:17:01 --> Final output sent to browser
+DEBUG - 2017-05-05 21:17:01 --> Total execution time: 0.7736
+INFO - 2017-05-05 21:17:01 --> Config Class Initialized
+INFO - 2017-05-05 21:17:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:17:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:17:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:17:01 --> URI Class Initialized
+INFO - 2017-05-05 21:17:01 --> Router Class Initialized
+INFO - 2017-05-05 21:17:01 --> Output Class Initialized
+INFO - 2017-05-05 21:17:01 --> Config Class Initialized
+INFO - 2017-05-05 21:17:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:17:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:17:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:17:01 --> URI Class Initialized
+INFO - 2017-05-05 21:17:01 --> Router Class Initialized
+INFO - 2017-05-05 21:17:01 --> Output Class Initialized
+INFO - 2017-05-05 21:17:01 --> Security Class Initialized
+DEBUG - 2017-05-05 21:17:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:17:01 --> Input Class Initialized
+INFO - 2017-05-05 21:17:01 --> Security Class Initialized
+INFO - 2017-05-05 21:17:01 --> Language Class Initialized
+DEBUG - 2017-05-05 21:17:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:17:01 --> Input Class Initialized
+ERROR - 2017-05-05 21:17:01 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:17:01 --> Language Class Initialized
+ERROR - 2017-05-05 21:17:01 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:17:05 --> Config Class Initialized
+INFO - 2017-05-05 21:17:05 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:17:05 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:17:05 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:17:05 --> URI Class Initialized
+DEBUG - 2017-05-05 21:17:05 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:17:05 --> Router Class Initialized
+INFO - 2017-05-05 21:17:05 --> Output Class Initialized
+INFO - 2017-05-05 21:17:05 --> Security Class Initialized
+DEBUG - 2017-05-05 21:17:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:17:05 --> Input Class Initialized
+INFO - 2017-05-05 21:17:05 --> Language Class Initialized
+INFO - 2017-05-05 21:17:05 --> Loader Class Initialized
+INFO - 2017-05-05 21:17:05 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:17:05 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:17:05 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:17:05 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:17:05 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:17:05 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:17:05 --> User Agent Class Initialized
+INFO - 2017-05-05 21:17:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:17:05 --> Pagination Class Initialized
+INFO - 2017-05-05 21:17:05 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:17:05 --> Controller Class Initialized
+INFO - 2017-05-05 21:17:05 --> Model Class Initialized
+INFO - 2017-05-05 21:17:05 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:17:05 --> Email Class Initialized
+DEBUG - 2017-05-05 21:17:05 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:17:05 --> Model Class Initialized
+INFO - 2017-05-05 21:17:05 --> Model Class Initialized
+INFO - 2017-05-05 21:17:05 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:17:06 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:17:06 --> Final output sent to browser
+DEBUG - 2017-05-05 21:17:06 --> Total execution time: 1.0986
+INFO - 2017-05-05 21:17:06 --> Config Class Initialized
+INFO - 2017-05-05 21:17:06 --> Hooks Class Initialized
+INFO - 2017-05-05 21:17:06 --> Config Class Initialized
+INFO - 2017-05-05 21:17:06 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:17:06 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:17:06 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:17:06 --> URI Class Initialized
+DEBUG - 2017-05-05 21:17:06 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:17:06 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:17:06 --> URI Class Initialized
+INFO - 2017-05-05 21:17:06 --> Router Class Initialized
+INFO - 2017-05-05 21:17:06 --> Output Class Initialized
+INFO - 2017-05-05 21:17:06 --> Router Class Initialized
+INFO - 2017-05-05 21:17:06 --> Security Class Initialized
+INFO - 2017-05-05 21:17:06 --> Output Class Initialized
+DEBUG - 2017-05-05 21:17:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:17:06 --> Security Class Initialized
+INFO - 2017-05-05 21:17:06 --> Input Class Initialized
+DEBUG - 2017-05-05 21:17:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:17:06 --> Input Class Initialized
+INFO - 2017-05-05 21:17:06 --> Language Class Initialized
+INFO - 2017-05-05 21:17:06 --> Language Class Initialized
+ERROR - 2017-05-05 21:17:06 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 21:17:07 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:17:35 --> Config Class Initialized
+INFO - 2017-05-05 21:17:35 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:17:35 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:17:35 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:17:35 --> URI Class Initialized
+DEBUG - 2017-05-05 21:17:35 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:17:35 --> Router Class Initialized
+INFO - 2017-05-05 21:17:35 --> Output Class Initialized
+INFO - 2017-05-05 21:17:35 --> Security Class Initialized
+DEBUG - 2017-05-05 21:17:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:17:35 --> Input Class Initialized
+INFO - 2017-05-05 21:17:35 --> Language Class Initialized
+INFO - 2017-05-05 21:17:35 --> Loader Class Initialized
+INFO - 2017-05-05 21:17:35 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:17:35 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:17:35 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:17:35 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:17:35 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:17:35 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:17:35 --> User Agent Class Initialized
+INFO - 2017-05-05 21:17:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:17:35 --> Pagination Class Initialized
+INFO - 2017-05-05 21:17:35 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:17:35 --> Controller Class Initialized
+INFO - 2017-05-05 21:17:35 --> Model Class Initialized
+INFO - 2017-05-05 21:17:35 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:17:36 --> Email Class Initialized
+DEBUG - 2017-05-05 21:17:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:17:36 --> Model Class Initialized
+INFO - 2017-05-05 21:17:36 --> Model Class Initialized
+INFO - 2017-05-05 21:17:36 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:17:36 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:17:36 --> Final output sent to browser
+DEBUG - 2017-05-05 21:17:36 --> Total execution time: 0.8548
+INFO - 2017-05-05 21:17:36 --> Config Class Initialized
+INFO - 2017-05-05 21:17:36 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:17:36 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:17:36 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:17:36 --> URI Class Initialized
+INFO - 2017-05-05 21:17:36 --> Router Class Initialized
+INFO - 2017-05-05 21:17:36 --> Config Class Initialized
+INFO - 2017-05-05 21:17:36 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:17:36 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:17:36 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:17:36 --> URI Class Initialized
+INFO - 2017-05-05 21:17:36 --> Router Class Initialized
+INFO - 2017-05-05 21:17:36 --> Output Class Initialized
+INFO - 2017-05-05 21:17:36 --> Output Class Initialized
+INFO - 2017-05-05 21:17:36 --> Security Class Initialized
+DEBUG - 2017-05-05 21:17:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:17:36 --> Input Class Initialized
+INFO - 2017-05-05 21:17:36 --> Language Class Initialized
+INFO - 2017-05-05 21:17:36 --> Security Class Initialized
+ERROR - 2017-05-05 21:17:36 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 21:17:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:17:36 --> Input Class Initialized
+INFO - 2017-05-05 21:17:36 --> Language Class Initialized
+ERROR - 2017-05-05 21:17:36 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:18:39 --> Config Class Initialized
+INFO - 2017-05-05 21:18:39 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:18:39 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:18:39 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:18:39 --> URI Class Initialized
+DEBUG - 2017-05-05 21:18:39 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:18:39 --> Router Class Initialized
+INFO - 2017-05-05 21:18:39 --> Output Class Initialized
+INFO - 2017-05-05 21:18:39 --> Security Class Initialized
+DEBUG - 2017-05-05 21:18:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:18:39 --> Input Class Initialized
+INFO - 2017-05-05 21:18:39 --> Language Class Initialized
+INFO - 2017-05-05 21:18:39 --> Loader Class Initialized
+INFO - 2017-05-05 21:18:39 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:18:39 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:18:39 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:18:39 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:18:39 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:18:39 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:18:39 --> User Agent Class Initialized
+INFO - 2017-05-05 21:18:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:18:39 --> Pagination Class Initialized
+INFO - 2017-05-05 21:18:39 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:18:39 --> Controller Class Initialized
+INFO - 2017-05-05 21:18:39 --> Model Class Initialized
+INFO - 2017-05-05 21:18:39 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:18:39 --> Email Class Initialized
+DEBUG - 2017-05-05 21:18:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:18:39 --> Model Class Initialized
+INFO - 2017-05-05 21:18:39 --> Model Class Initialized
+INFO - 2017-05-05 21:18:39 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:18:39 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:18:39 --> Final output sent to browser
+DEBUG - 2017-05-05 21:18:39 --> Total execution time: 0.7853
+INFO - 2017-05-05 21:18:40 --> Config Class Initialized
+INFO - 2017-05-05 21:18:40 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:18:40 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:18:40 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:18:40 --> URI Class Initialized
+INFO - 2017-05-05 21:18:40 --> Router Class Initialized
+INFO - 2017-05-05 21:18:40 --> Output Class Initialized
+INFO - 2017-05-05 21:18:40 --> Security Class Initialized
+DEBUG - 2017-05-05 21:18:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:18:40 --> Input Class Initialized
+INFO - 2017-05-05 21:18:40 --> Language Class Initialized
+ERROR - 2017-05-05 21:18:40 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:18:40 --> Config Class Initialized
+INFO - 2017-05-05 21:18:40 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:18:40 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:18:40 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:18:40 --> URI Class Initialized
+INFO - 2017-05-05 21:18:40 --> Router Class Initialized
+INFO - 2017-05-05 21:18:40 --> Output Class Initialized
+INFO - 2017-05-05 21:18:40 --> Security Class Initialized
+DEBUG - 2017-05-05 21:18:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:18:40 --> Input Class Initialized
+INFO - 2017-05-05 21:18:40 --> Language Class Initialized
+ERROR - 2017-05-05 21:18:40 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:19:39 --> Config Class Initialized
+INFO - 2017-05-05 21:19:39 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:19:39 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:19:39 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:19:39 --> URI Class Initialized
+DEBUG - 2017-05-05 21:19:39 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:19:39 --> Router Class Initialized
+INFO - 2017-05-05 21:19:39 --> Output Class Initialized
+INFO - 2017-05-05 21:19:39 --> Security Class Initialized
+DEBUG - 2017-05-05 21:19:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:19:39 --> Input Class Initialized
+INFO - 2017-05-05 21:19:39 --> Language Class Initialized
+INFO - 2017-05-05 21:19:39 --> Loader Class Initialized
+INFO - 2017-05-05 21:19:39 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:19:39 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:19:39 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:19:39 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:19:39 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:19:39 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:19:39 --> User Agent Class Initialized
+INFO - 2017-05-05 21:19:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:19:39 --> Pagination Class Initialized
+INFO - 2017-05-05 21:19:39 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:19:39 --> Controller Class Initialized
+INFO - 2017-05-05 21:19:39 --> Model Class Initialized
+INFO - 2017-05-05 21:19:39 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:19:39 --> Email Class Initialized
+DEBUG - 2017-05-05 21:19:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:19:39 --> Model Class Initialized
+INFO - 2017-05-05 21:19:39 --> Model Class Initialized
+INFO - 2017-05-05 21:19:39 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:19:40 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:19:40 --> Final output sent to browser
+DEBUG - 2017-05-05 21:19:40 --> Total execution time: 0.7945
+INFO - 2017-05-05 21:19:40 --> Config Class Initialized
+INFO - 2017-05-05 21:19:40 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:19:40 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:19:40 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:19:40 --> Config Class Initialized
+INFO - 2017-05-05 21:19:40 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:19:40 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:19:40 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:19:40 --> URI Class Initialized
+INFO - 2017-05-05 21:19:40 --> Router Class Initialized
+INFO - 2017-05-05 21:19:40 --> URI Class Initialized
+INFO - 2017-05-05 21:19:40 --> Output Class Initialized
+INFO - 2017-05-05 21:19:40 --> Router Class Initialized
+INFO - 2017-05-05 21:19:40 --> Security Class Initialized
+DEBUG - 2017-05-05 21:19:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:19:40 --> Output Class Initialized
+INFO - 2017-05-05 21:19:40 --> Input Class Initialized
+INFO - 2017-05-05 21:19:40 --> Language Class Initialized
+INFO - 2017-05-05 21:19:40 --> Security Class Initialized
+ERROR - 2017-05-05 21:19:40 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 21:19:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:19:40 --> Input Class Initialized
+INFO - 2017-05-05 21:19:40 --> Language Class Initialized
+ERROR - 2017-05-05 21:19:40 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:19:40 --> Config Class Initialized
+INFO - 2017-05-05 21:19:40 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:19:40 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:19:40 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:19:40 --> URI Class Initialized
+INFO - 2017-05-05 21:19:40 --> Router Class Initialized
+INFO - 2017-05-05 21:19:40 --> Output Class Initialized
+INFO - 2017-05-05 21:19:40 --> Security Class Initialized
+DEBUG - 2017-05-05 21:19:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:19:40 --> Input Class Initialized
+INFO - 2017-05-05 21:19:40 --> Language Class Initialized
+ERROR - 2017-05-05 21:19:40 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:22:18 --> Config Class Initialized
+INFO - 2017-05-05 21:22:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:22:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:22:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:22:18 --> URI Class Initialized
+DEBUG - 2017-05-05 21:22:18 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:22:18 --> Router Class Initialized
+INFO - 2017-05-05 21:22:18 --> Output Class Initialized
+INFO - 2017-05-05 21:22:18 --> Security Class Initialized
+DEBUG - 2017-05-05 21:22:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:22:18 --> Input Class Initialized
+INFO - 2017-05-05 21:22:18 --> Language Class Initialized
+INFO - 2017-05-05 21:22:18 --> Loader Class Initialized
+INFO - 2017-05-05 21:22:18 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:22:18 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:22:18 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:22:18 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:22:18 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:22:18 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:22:18 --> User Agent Class Initialized
+INFO - 2017-05-05 21:22:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:22:18 --> Pagination Class Initialized
+INFO - 2017-05-05 21:22:18 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:22:18 --> Controller Class Initialized
+INFO - 2017-05-05 21:22:18 --> Model Class Initialized
+INFO - 2017-05-05 21:22:18 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:22:18 --> Email Class Initialized
+DEBUG - 2017-05-05 21:22:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:22:18 --> Model Class Initialized
+INFO - 2017-05-05 21:22:18 --> Model Class Initialized
+INFO - 2017-05-05 21:22:18 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:22:18 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:22:18 --> Final output sent to browser
+DEBUG - 2017-05-05 21:22:18 --> Total execution time: 0.7998
+INFO - 2017-05-05 21:22:19 --> Config Class Initialized
+INFO - 2017-05-05 21:22:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:22:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:22:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:22:19 --> URI Class Initialized
+INFO - 2017-05-05 21:22:19 --> Router Class Initialized
+INFO - 2017-05-05 21:22:19 --> Output Class Initialized
+INFO - 2017-05-05 21:22:19 --> Security Class Initialized
+DEBUG - 2017-05-05 21:22:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:22:19 --> Input Class Initialized
+INFO - 2017-05-05 21:22:19 --> Language Class Initialized
+ERROR - 2017-05-05 21:22:19 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:22:19 --> Config Class Initialized
+INFO - 2017-05-05 21:22:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:22:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:22:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:22:19 --> URI Class Initialized
+INFO - 2017-05-05 21:22:19 --> Router Class Initialized
+INFO - 2017-05-05 21:22:19 --> Output Class Initialized
+INFO - 2017-05-05 21:22:19 --> Security Class Initialized
+DEBUG - 2017-05-05 21:22:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:22:19 --> Input Class Initialized
+INFO - 2017-05-05 21:22:19 --> Language Class Initialized
+ERROR - 2017-05-05 21:22:19 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:22:19 --> Config Class Initialized
+INFO - 2017-05-05 21:22:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:22:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:22:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:22:19 --> URI Class Initialized
+INFO - 2017-05-05 21:22:19 --> Router Class Initialized
+INFO - 2017-05-05 21:22:19 --> Output Class Initialized
+INFO - 2017-05-05 21:22:19 --> Security Class Initialized
+DEBUG - 2017-05-05 21:22:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:22:19 --> Input Class Initialized
+INFO - 2017-05-05 21:22:19 --> Language Class Initialized
+ERROR - 2017-05-05 21:22:19 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:24:18 --> Config Class Initialized
+INFO - 2017-05-05 21:24:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:24:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:24:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:24:18 --> URI Class Initialized
+DEBUG - 2017-05-05 21:24:18 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:24:18 --> Router Class Initialized
+INFO - 2017-05-05 21:24:18 --> Output Class Initialized
+INFO - 2017-05-05 21:24:18 --> Security Class Initialized
+DEBUG - 2017-05-05 21:24:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:24:18 --> Input Class Initialized
+INFO - 2017-05-05 21:24:18 --> Language Class Initialized
+INFO - 2017-05-05 21:24:18 --> Loader Class Initialized
+INFO - 2017-05-05 21:24:18 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:24:18 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:24:18 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:24:18 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:24:18 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:24:18 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:24:18 --> User Agent Class Initialized
+INFO - 2017-05-05 21:24:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:24:18 --> Pagination Class Initialized
+INFO - 2017-05-05 21:24:18 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:24:18 --> Controller Class Initialized
+INFO - 2017-05-05 21:24:18 --> Model Class Initialized
+INFO - 2017-05-05 21:24:18 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:24:18 --> Email Class Initialized
+DEBUG - 2017-05-05 21:24:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:24:18 --> Model Class Initialized
+INFO - 2017-05-05 21:24:18 --> Model Class Initialized
+INFO - 2017-05-05 21:24:18 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:24:20 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:24:20 --> Final output sent to browser
+DEBUG - 2017-05-05 21:24:20 --> Total execution time: 1.2599
+INFO - 2017-05-05 21:24:20 --> Config Class Initialized
+INFO - 2017-05-05 21:24:20 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:24:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:24:20 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:24:20 --> URI Class Initialized
+INFO - 2017-05-05 21:24:20 --> Router Class Initialized
+INFO - 2017-05-05 21:24:20 --> Config Class Initialized
+INFO - 2017-05-05 21:24:20 --> Hooks Class Initialized
+INFO - 2017-05-05 21:24:20 --> Output Class Initialized
+DEBUG - 2017-05-05 21:24:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:24:20 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:24:20 --> URI Class Initialized
+INFO - 2017-05-05 21:24:20 --> Security Class Initialized
+INFO - 2017-05-05 21:24:20 --> Router Class Initialized
+INFO - 2017-05-05 21:24:20 --> Output Class Initialized
+INFO - 2017-05-05 21:24:20 --> Security Class Initialized
+DEBUG - 2017-05-05 21:24:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-05 21:24:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:24:20 --> Input Class Initialized
+INFO - 2017-05-05 21:24:20 --> Input Class Initialized
+INFO - 2017-05-05 21:24:20 --> Language Class Initialized
+INFO - 2017-05-05 21:24:20 --> Language Class Initialized
+ERROR - 2017-05-05 21:24:20 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 21:24:20 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:24:28 --> Config Class Initialized
+INFO - 2017-05-05 21:24:28 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:24:28 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:24:28 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:24:28 --> URI Class Initialized
+DEBUG - 2017-05-05 21:24:28 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:24:28 --> Router Class Initialized
+INFO - 2017-05-05 21:24:28 --> Output Class Initialized
+INFO - 2017-05-05 21:24:28 --> Security Class Initialized
+DEBUG - 2017-05-05 21:24:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:24:28 --> Input Class Initialized
+INFO - 2017-05-05 21:24:28 --> Language Class Initialized
+INFO - 2017-05-05 21:24:28 --> Loader Class Initialized
+INFO - 2017-05-05 21:24:28 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:24:28 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:24:28 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:24:28 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:24:28 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:24:28 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:24:28 --> User Agent Class Initialized
+INFO - 2017-05-05 21:24:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:24:28 --> Pagination Class Initialized
+INFO - 2017-05-05 21:24:28 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:24:28 --> Controller Class Initialized
+INFO - 2017-05-05 21:24:28 --> Model Class Initialized
+INFO - 2017-05-05 21:24:28 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:24:28 --> Email Class Initialized
+DEBUG - 2017-05-05 21:24:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:24:28 --> Model Class Initialized
+INFO - 2017-05-05 21:24:28 --> Model Class Initialized
+INFO - 2017-05-05 21:24:28 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:24:28 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:24:28 --> Final output sent to browser
+DEBUG - 2017-05-05 21:24:28 --> Total execution time: 0.7334
+INFO - 2017-05-05 21:24:28 --> Config Class Initialized
+INFO - 2017-05-05 21:24:28 --> Hooks Class Initialized
+INFO - 2017-05-05 21:24:28 --> Config Class Initialized
+INFO - 2017-05-05 21:24:28 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:24:28 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:24:28 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:24:28 --> URI Class Initialized
+DEBUG - 2017-05-05 21:24:28 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:24:28 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:24:28 --> URI Class Initialized
+INFO - 2017-05-05 21:24:28 --> Router Class Initialized
+INFO - 2017-05-05 21:24:28 --> Router Class Initialized
+INFO - 2017-05-05 21:24:28 --> Output Class Initialized
+INFO - 2017-05-05 21:24:28 --> Output Class Initialized
+INFO - 2017-05-05 21:24:28 --> Security Class Initialized
+INFO - 2017-05-05 21:24:28 --> Security Class Initialized
+DEBUG - 2017-05-05 21:24:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:24:28 --> Input Class Initialized
+DEBUG - 2017-05-05 21:24:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:24:28 --> Input Class Initialized
+INFO - 2017-05-05 21:24:28 --> Language Class Initialized
+INFO - 2017-05-05 21:24:28 --> Language Class Initialized
+ERROR - 2017-05-05 21:24:28 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 21:24:28 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:24:43 --> Config Class Initialized
+INFO - 2017-05-05 21:24:43 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:24:44 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:24:44 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:24:44 --> URI Class Initialized
+DEBUG - 2017-05-05 21:24:44 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:24:44 --> Router Class Initialized
+INFO - 2017-05-05 21:24:44 --> Output Class Initialized
+INFO - 2017-05-05 21:24:44 --> Security Class Initialized
+DEBUG - 2017-05-05 21:24:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:24:44 --> Input Class Initialized
+INFO - 2017-05-05 21:24:44 --> Language Class Initialized
+INFO - 2017-05-05 21:24:44 --> Loader Class Initialized
+INFO - 2017-05-05 21:24:44 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:24:44 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:24:44 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:24:44 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:24:44 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:24:44 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:24:44 --> User Agent Class Initialized
+INFO - 2017-05-05 21:24:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:24:44 --> Pagination Class Initialized
+INFO - 2017-05-05 21:24:44 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:24:44 --> Controller Class Initialized
+INFO - 2017-05-05 21:24:44 --> Model Class Initialized
+INFO - 2017-05-05 21:24:44 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:24:44 --> Email Class Initialized
+DEBUG - 2017-05-05 21:24:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:24:44 --> Model Class Initialized
+INFO - 2017-05-05 21:24:44 --> Model Class Initialized
+INFO - 2017-05-05 21:24:44 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:24:45 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:24:45 --> Final output sent to browser
+DEBUG - 2017-05-05 21:24:45 --> Total execution time: 1.2378
+INFO - 2017-05-05 21:24:45 --> Config Class Initialized
+INFO - 2017-05-05 21:24:45 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:24:45 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:24:45 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:24:45 --> URI Class Initialized
+INFO - 2017-05-05 21:24:45 --> Router Class Initialized
+INFO - 2017-05-05 21:24:45 --> Output Class Initialized
+INFO - 2017-05-05 21:24:45 --> Config Class Initialized
+INFO - 2017-05-05 21:24:45 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:24:45 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:24:45 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:24:45 --> Security Class Initialized
+INFO - 2017-05-05 21:24:45 --> URI Class Initialized
+INFO - 2017-05-05 21:24:45 --> Router Class Initialized
+DEBUG - 2017-05-05 21:24:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:24:45 --> Output Class Initialized
+INFO - 2017-05-05 21:24:45 --> Input Class Initialized
+INFO - 2017-05-05 21:24:45 --> Language Class Initialized
+INFO - 2017-05-05 21:24:45 --> Security Class Initialized
+ERROR - 2017-05-05 21:24:45 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 21:24:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:24:45 --> Input Class Initialized
+INFO - 2017-05-05 21:24:45 --> Language Class Initialized
+ERROR - 2017-05-05 21:24:45 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:25:17 --> Config Class Initialized
+INFO - 2017-05-05 21:25:17 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:25:17 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:25:17 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:25:17 --> URI Class Initialized
+DEBUG - 2017-05-05 21:25:17 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:25:17 --> Router Class Initialized
+INFO - 2017-05-05 21:25:17 --> Output Class Initialized
+INFO - 2017-05-05 21:25:17 --> Security Class Initialized
+DEBUG - 2017-05-05 21:25:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:25:17 --> Input Class Initialized
+INFO - 2017-05-05 21:25:17 --> Language Class Initialized
+INFO - 2017-05-05 21:25:17 --> Loader Class Initialized
+INFO - 2017-05-05 21:25:17 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:25:17 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:25:17 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:25:17 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:25:17 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:25:17 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:25:17 --> User Agent Class Initialized
+INFO - 2017-05-05 21:25:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:25:17 --> Pagination Class Initialized
+INFO - 2017-05-05 21:25:17 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:25:17 --> Controller Class Initialized
+INFO - 2017-05-05 21:25:17 --> Model Class Initialized
+INFO - 2017-05-05 21:25:17 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:25:17 --> Email Class Initialized
+DEBUG - 2017-05-05 21:25:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:25:17 --> Model Class Initialized
+INFO - 2017-05-05 21:25:17 --> Model Class Initialized
+INFO - 2017-05-05 21:25:17 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:25:18 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:25:18 --> Final output sent to browser
+DEBUG - 2017-05-05 21:25:18 --> Total execution time: 0.9767
+INFO - 2017-05-05 21:25:18 --> Config Class Initialized
+INFO - 2017-05-05 21:25:18 --> Hooks Class Initialized
+INFO - 2017-05-05 21:25:18 --> Config Class Initialized
+INFO - 2017-05-05 21:25:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:25:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:25:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:25:18 --> URI Class Initialized
+DEBUG - 2017-05-05 21:25:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:25:18 --> Router Class Initialized
+INFO - 2017-05-05 21:25:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:25:18 --> Output Class Initialized
+INFO - 2017-05-05 21:25:18 --> URI Class Initialized
+INFO - 2017-05-05 21:25:18 --> Security Class Initialized
+DEBUG - 2017-05-05 21:25:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:25:18 --> Input Class Initialized
+INFO - 2017-05-05 21:25:18 --> Router Class Initialized
+INFO - 2017-05-05 21:25:18 --> Language Class Initialized
+ERROR - 2017-05-05 21:25:18 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:25:18 --> Output Class Initialized
+INFO - 2017-05-05 21:25:18 --> Security Class Initialized
+DEBUG - 2017-05-05 21:25:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:25:18 --> Input Class Initialized
+INFO - 2017-05-05 21:25:18 --> Language Class Initialized
+ERROR - 2017-05-05 21:25:18 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:26:11 --> Config Class Initialized
+INFO - 2017-05-05 21:26:11 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:26:11 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:26:11 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:26:11 --> URI Class Initialized
+DEBUG - 2017-05-05 21:26:11 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:26:11 --> Router Class Initialized
+INFO - 2017-05-05 21:26:11 --> Output Class Initialized
+INFO - 2017-05-05 21:26:11 --> Security Class Initialized
+DEBUG - 2017-05-05 21:26:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:26:11 --> Input Class Initialized
+INFO - 2017-05-05 21:26:11 --> Language Class Initialized
+INFO - 2017-05-05 21:26:11 --> Loader Class Initialized
+INFO - 2017-05-05 21:26:11 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:26:11 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:26:11 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:26:11 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:26:11 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:26:11 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:26:11 --> User Agent Class Initialized
+INFO - 2017-05-05 21:26:11 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:26:11 --> Pagination Class Initialized
+INFO - 2017-05-05 21:26:11 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:26:11 --> Controller Class Initialized
+INFO - 2017-05-05 21:26:11 --> Model Class Initialized
+INFO - 2017-05-05 21:26:11 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:26:11 --> Email Class Initialized
+DEBUG - 2017-05-05 21:26:11 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:26:11 --> Model Class Initialized
+INFO - 2017-05-05 21:26:11 --> Model Class Initialized
+INFO - 2017-05-05 21:26:11 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:26:11 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:26:11 --> Final output sent to browser
+DEBUG - 2017-05-05 21:26:11 --> Total execution time: 0.7781
+INFO - 2017-05-05 21:26:12 --> Config Class Initialized
+INFO - 2017-05-05 21:26:12 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:26:12 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:26:12 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:26:12 --> URI Class Initialized
+INFO - 2017-05-05 21:26:12 --> Router Class Initialized
+INFO - 2017-05-05 21:26:12 --> Output Class Initialized
+INFO - 2017-05-05 21:26:12 --> Security Class Initialized
+INFO - 2017-05-05 21:26:12 --> Config Class Initialized
+INFO - 2017-05-05 21:26:12 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:26:12 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:26:12 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:26:12 --> URI Class Initialized
+INFO - 2017-05-05 21:26:12 --> Router Class Initialized
+INFO - 2017-05-05 21:26:12 --> Output Class Initialized
+DEBUG - 2017-05-05 21:26:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:26:12 --> Input Class Initialized
+INFO - 2017-05-05 21:26:12 --> Security Class Initialized
+INFO - 2017-05-05 21:26:12 --> Language Class Initialized
+DEBUG - 2017-05-05 21:26:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-05-05 21:26:12 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:26:12 --> Input Class Initialized
+INFO - 2017-05-05 21:26:12 --> Language Class Initialized
+ERROR - 2017-05-05 21:26:12 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:31:00 --> Config Class Initialized
+INFO - 2017-05-05 21:31:00 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:31:00 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:31:00 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:31:00 --> URI Class Initialized
+DEBUG - 2017-05-05 21:31:00 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:31:00 --> Router Class Initialized
+INFO - 2017-05-05 21:31:00 --> Output Class Initialized
+INFO - 2017-05-05 21:31:00 --> Security Class Initialized
+DEBUG - 2017-05-05 21:31:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:31:00 --> Input Class Initialized
+INFO - 2017-05-05 21:31:00 --> Language Class Initialized
+INFO - 2017-05-05 21:31:00 --> Loader Class Initialized
+INFO - 2017-05-05 21:31:00 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:31:00 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:31:00 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:31:00 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:31:00 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:31:00 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:31:00 --> User Agent Class Initialized
+INFO - 2017-05-05 21:31:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:31:00 --> Pagination Class Initialized
+INFO - 2017-05-05 21:31:00 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:31:00 --> Controller Class Initialized
+INFO - 2017-05-05 21:31:00 --> Model Class Initialized
+INFO - 2017-05-05 21:31:00 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:31:00 --> Email Class Initialized
+DEBUG - 2017-05-05 21:31:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:31:00 --> Model Class Initialized
+INFO - 2017-05-05 21:31:00 --> Model Class Initialized
+INFO - 2017-05-05 21:31:00 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:31:00 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:31:00 --> Final output sent to browser
+DEBUG - 2017-05-05 21:31:00 --> Total execution time: 0.8995
+INFO - 2017-05-05 21:31:01 --> Config Class Initialized
+INFO - 2017-05-05 21:31:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:31:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:31:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:31:01 --> URI Class Initialized
+INFO - 2017-05-05 21:31:01 --> Config Class Initialized
+INFO - 2017-05-05 21:31:01 --> Hooks Class Initialized
+INFO - 2017-05-05 21:31:01 --> Router Class Initialized
+INFO - 2017-05-05 21:31:01 --> Output Class Initialized
+DEBUG - 2017-05-05 21:31:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:31:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:31:01 --> Security Class Initialized
+INFO - 2017-05-05 21:31:01 --> URI Class Initialized
+DEBUG - 2017-05-05 21:31:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:31:01 --> Input Class Initialized
+INFO - 2017-05-05 21:31:01 --> Language Class Initialized
+INFO - 2017-05-05 21:31:01 --> Router Class Initialized
+ERROR - 2017-05-05 21:31:01 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:31:01 --> Output Class Initialized
+INFO - 2017-05-05 21:31:01 --> Security Class Initialized
+DEBUG - 2017-05-05 21:31:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:31:01 --> Input Class Initialized
+INFO - 2017-05-05 21:31:01 --> Language Class Initialized
+ERROR - 2017-05-05 21:31:01 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:31:12 --> Config Class Initialized
+INFO - 2017-05-05 21:31:12 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:31:12 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:31:12 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:31:12 --> URI Class Initialized
+DEBUG - 2017-05-05 21:31:12 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:31:12 --> Router Class Initialized
+INFO - 2017-05-05 21:31:12 --> Output Class Initialized
+INFO - 2017-05-05 21:31:12 --> Security Class Initialized
+DEBUG - 2017-05-05 21:31:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:31:12 --> Input Class Initialized
+INFO - 2017-05-05 21:31:12 --> Language Class Initialized
+INFO - 2017-05-05 21:31:12 --> Loader Class Initialized
+INFO - 2017-05-05 21:31:12 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:31:12 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:31:12 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:31:12 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:31:12 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:31:12 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:31:12 --> User Agent Class Initialized
+INFO - 2017-05-05 21:31:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:31:12 --> Pagination Class Initialized
+INFO - 2017-05-05 21:31:12 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:31:12 --> Controller Class Initialized
+INFO - 2017-05-05 21:31:12 --> Model Class Initialized
+INFO - 2017-05-05 21:31:12 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:31:12 --> Email Class Initialized
+DEBUG - 2017-05-05 21:31:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:31:12 --> Model Class Initialized
+INFO - 2017-05-05 21:31:12 --> Model Class Initialized
+INFO - 2017-05-05 21:31:12 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:31:13 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:31:13 --> Final output sent to browser
+DEBUG - 2017-05-05 21:31:13 --> Total execution time: 0.7700
+INFO - 2017-05-05 21:31:13 --> Config Class Initialized
+INFO - 2017-05-05 21:31:13 --> Hooks Class Initialized
+INFO - 2017-05-05 21:31:13 --> Config Class Initialized
+INFO - 2017-05-05 21:31:13 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:31:13 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:31:13 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:31:13 --> URI Class Initialized
+DEBUG - 2017-05-05 21:31:13 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:31:13 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:31:13 --> Router Class Initialized
+INFO - 2017-05-05 21:31:13 --> URI Class Initialized
+INFO - 2017-05-05 21:31:13 --> Output Class Initialized
+INFO - 2017-05-05 21:31:13 --> Security Class Initialized
+INFO - 2017-05-05 21:31:13 --> Router Class Initialized
+DEBUG - 2017-05-05 21:31:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:31:13 --> Input Class Initialized
+INFO - 2017-05-05 21:31:13 --> Output Class Initialized
+INFO - 2017-05-05 21:31:13 --> Language Class Initialized
+ERROR - 2017-05-05 21:31:13 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:31:13 --> Security Class Initialized
+DEBUG - 2017-05-05 21:31:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:31:13 --> Input Class Initialized
+INFO - 2017-05-05 21:31:13 --> Language Class Initialized
+ERROR - 2017-05-05 21:31:13 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:32:28 --> Config Class Initialized
+INFO - 2017-05-05 21:32:28 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:32:28 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:32:28 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:32:28 --> URI Class Initialized
+DEBUG - 2017-05-05 21:32:28 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:32:28 --> Router Class Initialized
+INFO - 2017-05-05 21:32:28 --> Output Class Initialized
+INFO - 2017-05-05 21:32:28 --> Security Class Initialized
+DEBUG - 2017-05-05 21:32:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:32:28 --> Input Class Initialized
+INFO - 2017-05-05 21:32:28 --> Language Class Initialized
+INFO - 2017-05-05 21:32:28 --> Loader Class Initialized
+INFO - 2017-05-05 21:32:28 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:32:28 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:32:28 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:32:28 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:32:28 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:32:28 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:32:28 --> User Agent Class Initialized
+INFO - 2017-05-05 21:32:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:32:28 --> Pagination Class Initialized
+INFO - 2017-05-05 21:32:28 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:32:28 --> Controller Class Initialized
+INFO - 2017-05-05 21:32:28 --> Model Class Initialized
+INFO - 2017-05-05 21:32:28 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:32:28 --> Email Class Initialized
+DEBUG - 2017-05-05 21:32:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:32:28 --> Model Class Initialized
+INFO - 2017-05-05 21:32:28 --> Model Class Initialized
+INFO - 2017-05-05 21:32:28 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:32:29 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:32:29 --> Final output sent to browser
+DEBUG - 2017-05-05 21:32:29 --> Total execution time: 0.8993
+INFO - 2017-05-05 21:32:29 --> Config Class Initialized
+INFO - 2017-05-05 21:32:29 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:32:29 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:32:29 --> Config Class Initialized
+INFO - 2017-05-05 21:32:29 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:32:29 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:32:29 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:32:29 --> URI Class Initialized
+INFO - 2017-05-05 21:32:29 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:32:29 --> Router Class Initialized
+INFO - 2017-05-05 21:32:29 --> URI Class Initialized
+INFO - 2017-05-05 21:32:29 --> Output Class Initialized
+INFO - 2017-05-05 21:32:29 --> Router Class Initialized
+INFO - 2017-05-05 21:32:29 --> Security Class Initialized
+DEBUG - 2017-05-05 21:32:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:32:29 --> Output Class Initialized
+INFO - 2017-05-05 21:32:29 --> Input Class Initialized
+INFO - 2017-05-05 21:32:29 --> Language Class Initialized
+INFO - 2017-05-05 21:32:29 --> Security Class Initialized
+ERROR - 2017-05-05 21:32:29 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 21:32:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:32:29 --> Input Class Initialized
+INFO - 2017-05-05 21:32:29 --> Language Class Initialized
+ERROR - 2017-05-05 21:32:29 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:32:46 --> Config Class Initialized
+INFO - 2017-05-05 21:32:46 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:32:46 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:32:46 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:32:46 --> URI Class Initialized
+DEBUG - 2017-05-05 21:32:46 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:32:46 --> Router Class Initialized
+INFO - 2017-05-05 21:32:46 --> Output Class Initialized
+INFO - 2017-05-05 21:32:46 --> Security Class Initialized
+DEBUG - 2017-05-05 21:32:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:32:46 --> Input Class Initialized
+INFO - 2017-05-05 21:32:46 --> Language Class Initialized
+INFO - 2017-05-05 21:32:46 --> Loader Class Initialized
+INFO - 2017-05-05 21:32:46 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:32:46 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:32:46 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:32:46 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:32:46 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:32:46 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:32:46 --> User Agent Class Initialized
+INFO - 2017-05-05 21:32:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:32:46 --> Pagination Class Initialized
+INFO - 2017-05-05 21:32:46 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:32:46 --> Controller Class Initialized
+INFO - 2017-05-05 21:32:46 --> Model Class Initialized
+INFO - 2017-05-05 21:32:46 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:32:46 --> Email Class Initialized
+DEBUG - 2017-05-05 21:32:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:32:46 --> Model Class Initialized
+INFO - 2017-05-05 21:32:46 --> Model Class Initialized
+INFO - 2017-05-05 21:32:46 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:32:47 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:32:47 --> Final output sent to browser
+DEBUG - 2017-05-05 21:32:47 --> Total execution time: 0.8858
+INFO - 2017-05-05 21:32:47 --> Config Class Initialized
+INFO - 2017-05-05 21:32:47 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:32:47 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:32:47 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:32:47 --> URI Class Initialized
+INFO - 2017-05-05 21:32:47 --> Router Class Initialized
+INFO - 2017-05-05 21:32:47 --> Output Class Initialized
+INFO - 2017-05-05 21:32:47 --> Security Class Initialized
+DEBUG - 2017-05-05 21:32:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:32:47 --> Input Class Initialized
+INFO - 2017-05-05 21:32:47 --> Language Class Initialized
+ERROR - 2017-05-05 21:32:47 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:32:47 --> Config Class Initialized
+INFO - 2017-05-05 21:32:47 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:32:47 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:32:47 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:32:47 --> URI Class Initialized
+INFO - 2017-05-05 21:32:47 --> Router Class Initialized
+INFO - 2017-05-05 21:32:47 --> Output Class Initialized
+INFO - 2017-05-05 21:32:47 --> Security Class Initialized
+DEBUG - 2017-05-05 21:32:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:32:47 --> Input Class Initialized
+INFO - 2017-05-05 21:32:47 --> Language Class Initialized
+ERROR - 2017-05-05 21:32:47 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:32:47 --> Config Class Initialized
+INFO - 2017-05-05 21:32:47 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:32:47 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:32:47 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:32:47 --> URI Class Initialized
+INFO - 2017-05-05 21:32:47 --> Router Class Initialized
+INFO - 2017-05-05 21:32:47 --> Output Class Initialized
+INFO - 2017-05-05 21:32:47 --> Security Class Initialized
+DEBUG - 2017-05-05 21:32:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:32:47 --> Input Class Initialized
+INFO - 2017-05-05 21:32:47 --> Language Class Initialized
+ERROR - 2017-05-05 21:32:47 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:36:38 --> Config Class Initialized
+INFO - 2017-05-05 21:36:38 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:36:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:36:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:36:38 --> URI Class Initialized
+DEBUG - 2017-05-05 21:36:38 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:36:38 --> Router Class Initialized
+INFO - 2017-05-05 21:36:38 --> Output Class Initialized
+INFO - 2017-05-05 21:36:38 --> Security Class Initialized
+DEBUG - 2017-05-05 21:36:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:36:38 --> Input Class Initialized
+INFO - 2017-05-05 21:36:38 --> Language Class Initialized
+INFO - 2017-05-05 21:36:38 --> Loader Class Initialized
+INFO - 2017-05-05 21:36:38 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:36:38 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:36:38 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:36:38 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:36:38 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:36:38 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:36:38 --> User Agent Class Initialized
+INFO - 2017-05-05 21:36:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:36:38 --> Pagination Class Initialized
+INFO - 2017-05-05 21:36:38 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:36:38 --> Controller Class Initialized
+INFO - 2017-05-05 21:36:38 --> Model Class Initialized
+INFO - 2017-05-05 21:36:38 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:36:38 --> Email Class Initialized
+DEBUG - 2017-05-05 21:36:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:36:38 --> Model Class Initialized
+INFO - 2017-05-05 21:36:38 --> Model Class Initialized
+INFO - 2017-05-05 21:36:38 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:36:39 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:36:39 --> Final output sent to browser
+DEBUG - 2017-05-05 21:36:39 --> Total execution time: 0.8653
+INFO - 2017-05-05 21:36:39 --> Config Class Initialized
+INFO - 2017-05-05 21:36:39 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:36:39 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:36:39 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:36:39 --> URI Class Initialized
+INFO - 2017-05-05 21:36:39 --> Router Class Initialized
+INFO - 2017-05-05 21:36:39 --> Output Class Initialized
+INFO - 2017-05-05 21:36:39 --> Security Class Initialized
+INFO - 2017-05-05 21:36:39 --> Config Class Initialized
+DEBUG - 2017-05-05 21:36:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:36:39 --> Input Class Initialized
+INFO - 2017-05-05 21:36:39 --> Language Class Initialized
+INFO - 2017-05-05 21:36:39 --> Hooks Class Initialized
+ERROR - 2017-05-05 21:36:39 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 21:36:39 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:36:39 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:36:39 --> URI Class Initialized
+INFO - 2017-05-05 21:36:39 --> Router Class Initialized
+INFO - 2017-05-05 21:36:39 --> Output Class Initialized
+INFO - 2017-05-05 21:36:39 --> Security Class Initialized
+DEBUG - 2017-05-05 21:36:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:36:39 --> Input Class Initialized
+INFO - 2017-05-05 21:36:39 --> Language Class Initialized
+ERROR - 2017-05-05 21:36:39 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:37:41 --> Config Class Initialized
+INFO - 2017-05-05 21:37:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:37:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:37:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:37:41 --> URI Class Initialized
+DEBUG - 2017-05-05 21:37:41 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:37:41 --> Router Class Initialized
+INFO - 2017-05-05 21:37:41 --> Output Class Initialized
+INFO - 2017-05-05 21:37:41 --> Security Class Initialized
+DEBUG - 2017-05-05 21:37:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:37:41 --> Input Class Initialized
+INFO - 2017-05-05 21:37:41 --> Language Class Initialized
+INFO - 2017-05-05 21:37:41 --> Loader Class Initialized
+INFO - 2017-05-05 21:37:41 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:37:41 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:37:41 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:37:41 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:37:41 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:37:41 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:37:41 --> User Agent Class Initialized
+INFO - 2017-05-05 21:37:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:37:41 --> Pagination Class Initialized
+INFO - 2017-05-05 21:37:41 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:37:41 --> Controller Class Initialized
+INFO - 2017-05-05 21:37:41 --> Model Class Initialized
+INFO - 2017-05-05 21:37:41 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:37:41 --> Email Class Initialized
+DEBUG - 2017-05-05 21:37:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:37:41 --> Model Class Initialized
+INFO - 2017-05-05 21:37:41 --> Model Class Initialized
+INFO - 2017-05-05 21:37:41 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:37:42 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:37:42 --> Final output sent to browser
+DEBUG - 2017-05-05 21:37:42 --> Total execution time: 0.7856
+INFO - 2017-05-05 21:37:42 --> Config Class Initialized
+INFO - 2017-05-05 21:37:42 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:37:42 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:37:42 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:37:42 --> URI Class Initialized
+INFO - 2017-05-05 21:37:42 --> Router Class Initialized
+INFO - 2017-05-05 21:37:42 --> Config Class Initialized
+INFO - 2017-05-05 21:37:42 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:37:42 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:37:42 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:37:42 --> URI Class Initialized
+INFO - 2017-05-05 21:37:42 --> Router Class Initialized
+INFO - 2017-05-05 21:37:42 --> Output Class Initialized
+INFO - 2017-05-05 21:37:42 --> Output Class Initialized
+INFO - 2017-05-05 21:37:42 --> Security Class Initialized
+INFO - 2017-05-05 21:37:42 --> Security Class Initialized
+DEBUG - 2017-05-05 21:37:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:37:42 --> Input Class Initialized
+INFO - 2017-05-05 21:37:42 --> Language Class Initialized
+DEBUG - 2017-05-05 21:37:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:37:42 --> Input Class Initialized
+ERROR - 2017-05-05 21:37:42 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:37:42 --> Language Class Initialized
+ERROR - 2017-05-05 21:37:42 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:38:15 --> Config Class Initialized
+INFO - 2017-05-05 21:38:15 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:38:15 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:38:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:38:15 --> URI Class Initialized
+DEBUG - 2017-05-05 21:38:15 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:38:15 --> Router Class Initialized
+INFO - 2017-05-05 21:38:15 --> Output Class Initialized
+INFO - 2017-05-05 21:38:15 --> Security Class Initialized
+DEBUG - 2017-05-05 21:38:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:38:15 --> Input Class Initialized
+INFO - 2017-05-05 21:38:15 --> Language Class Initialized
+INFO - 2017-05-05 21:38:15 --> Loader Class Initialized
+INFO - 2017-05-05 21:38:15 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:38:15 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:38:15 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:38:15 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:38:15 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:38:15 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:38:15 --> User Agent Class Initialized
+INFO - 2017-05-05 21:38:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:38:15 --> Pagination Class Initialized
+INFO - 2017-05-05 21:38:15 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:38:15 --> Controller Class Initialized
+INFO - 2017-05-05 21:38:15 --> Model Class Initialized
+INFO - 2017-05-05 21:38:15 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:38:15 --> Email Class Initialized
+DEBUG - 2017-05-05 21:38:15 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:38:15 --> Model Class Initialized
+INFO - 2017-05-05 21:38:15 --> Model Class Initialized
+INFO - 2017-05-05 21:38:15 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:38:16 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:38:16 --> Final output sent to browser
+DEBUG - 2017-05-05 21:38:16 --> Total execution time: 0.8414
+INFO - 2017-05-05 21:38:16 --> Config Class Initialized
+INFO - 2017-05-05 21:38:16 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:38:16 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:38:16 --> Config Class Initialized
+INFO - 2017-05-05 21:38:16 --> Hooks Class Initialized
+INFO - 2017-05-05 21:38:16 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:38:16 --> URI Class Initialized
+DEBUG - 2017-05-05 21:38:16 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:38:16 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:38:16 --> URI Class Initialized
+INFO - 2017-05-05 21:38:16 --> Router Class Initialized
+INFO - 2017-05-05 21:38:16 --> Router Class Initialized
+INFO - 2017-05-05 21:38:16 --> Output Class Initialized
+INFO - 2017-05-05 21:38:16 --> Output Class Initialized
+INFO - 2017-05-05 21:38:16 --> Security Class Initialized
+INFO - 2017-05-05 21:38:16 --> Security Class Initialized
+DEBUG - 2017-05-05 21:38:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-05 21:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:38:16 --> Input Class Initialized
+INFO - 2017-05-05 21:38:16 --> Input Class Initialized
+INFO - 2017-05-05 21:38:16 --> Language Class Initialized
+INFO - 2017-05-05 21:38:16 --> Language Class Initialized
+ERROR - 2017-05-05 21:38:16 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 21:38:16 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:38:47 --> Config Class Initialized
+INFO - 2017-05-05 21:38:47 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:38:47 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:38:47 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:38:47 --> URI Class Initialized
+DEBUG - 2017-05-05 21:38:47 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:38:47 --> Router Class Initialized
+INFO - 2017-05-05 21:38:47 --> Output Class Initialized
+INFO - 2017-05-05 21:38:47 --> Security Class Initialized
+DEBUG - 2017-05-05 21:38:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:38:47 --> Input Class Initialized
+INFO - 2017-05-05 21:38:47 --> Language Class Initialized
+INFO - 2017-05-05 21:38:47 --> Loader Class Initialized
+INFO - 2017-05-05 21:38:47 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:38:47 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:38:47 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:38:47 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:38:47 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:38:47 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:38:47 --> User Agent Class Initialized
+INFO - 2017-05-05 21:38:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:38:47 --> Pagination Class Initialized
+INFO - 2017-05-05 21:38:47 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:38:47 --> Controller Class Initialized
+INFO - 2017-05-05 21:38:47 --> Model Class Initialized
+INFO - 2017-05-05 21:38:47 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:38:47 --> Email Class Initialized
+DEBUG - 2017-05-05 21:38:47 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:38:47 --> Model Class Initialized
+INFO - 2017-05-05 21:38:47 --> Model Class Initialized
+INFO - 2017-05-05 21:38:47 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:39:00 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:39:00 --> Final output sent to browser
+DEBUG - 2017-05-05 21:39:00 --> Total execution time: 12.9905
+INFO - 2017-05-05 21:39:01 --> Config Class Initialized
+INFO - 2017-05-05 21:39:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:39:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:39:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:39:01 --> URI Class Initialized
+INFO - 2017-05-05 21:39:01 --> Router Class Initialized
+INFO - 2017-05-05 21:39:01 --> Output Class Initialized
+INFO - 2017-05-05 21:39:01 --> Security Class Initialized
+DEBUG - 2017-05-05 21:39:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:39:01 --> Input Class Initialized
+INFO - 2017-05-05 21:39:01 --> Language Class Initialized
+ERROR - 2017-05-05 21:39:01 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:39:01 --> Config Class Initialized
+INFO - 2017-05-05 21:39:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:39:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:39:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:39:01 --> URI Class Initialized
+INFO - 2017-05-05 21:39:01 --> Router Class Initialized
+INFO - 2017-05-05 21:39:01 --> Output Class Initialized
+INFO - 2017-05-05 21:39:01 --> Security Class Initialized
+DEBUG - 2017-05-05 21:39:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:39:01 --> Input Class Initialized
+INFO - 2017-05-05 21:39:01 --> Language Class Initialized
+ERROR - 2017-05-05 21:39:01 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:39:32 --> Config Class Initialized
+INFO - 2017-05-05 21:39:32 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:39:32 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:39:32 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:39:32 --> URI Class Initialized
+DEBUG - 2017-05-05 21:39:32 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:39:32 --> Router Class Initialized
+INFO - 2017-05-05 21:39:32 --> Output Class Initialized
+INFO - 2017-05-05 21:39:32 --> Security Class Initialized
+DEBUG - 2017-05-05 21:39:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:39:32 --> Input Class Initialized
+INFO - 2017-05-05 21:39:32 --> Language Class Initialized
+INFO - 2017-05-05 21:39:32 --> Loader Class Initialized
+INFO - 2017-05-05 21:39:32 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:39:32 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:39:32 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:39:32 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:39:32 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:39:32 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:39:32 --> User Agent Class Initialized
+INFO - 2017-05-05 21:39:32 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:39:32 --> Pagination Class Initialized
+INFO - 2017-05-05 21:39:32 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:39:32 --> Controller Class Initialized
+INFO - 2017-05-05 21:39:32 --> Model Class Initialized
+INFO - 2017-05-05 21:39:32 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:39:32 --> Email Class Initialized
+DEBUG - 2017-05-05 21:39:32 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:39:32 --> Model Class Initialized
+INFO - 2017-05-05 21:39:32 --> Model Class Initialized
+INFO - 2017-05-05 21:39:32 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:39:33 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:39:33 --> Final output sent to browser
+DEBUG - 2017-05-05 21:39:33 --> Total execution time: 0.8334
+INFO - 2017-05-05 21:39:33 --> Config Class Initialized
+INFO - 2017-05-05 21:39:33 --> Hooks Class Initialized
+INFO - 2017-05-05 21:39:33 --> Config Class Initialized
+INFO - 2017-05-05 21:39:33 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:39:33 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:39:33 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:39:33 --> URI Class Initialized
+INFO - 2017-05-05 21:39:33 --> Router Class Initialized
+INFO - 2017-05-05 21:39:33 --> Output Class Initialized
+INFO - 2017-05-05 21:39:33 --> Security Class Initialized
+DEBUG - 2017-05-05 21:39:33 --> UTF-8 Support Enabled
+DEBUG - 2017-05-05 21:39:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:39:33 --> Input Class Initialized
+INFO - 2017-05-05 21:39:33 --> Language Class Initialized
+ERROR - 2017-05-05 21:39:33 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:39:33 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:39:33 --> URI Class Initialized
+INFO - 2017-05-05 21:39:33 --> Router Class Initialized
+INFO - 2017-05-05 21:39:33 --> Output Class Initialized
+INFO - 2017-05-05 21:39:33 --> Security Class Initialized
+DEBUG - 2017-05-05 21:39:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:39:33 --> Input Class Initialized
+INFO - 2017-05-05 21:39:33 --> Language Class Initialized
+ERROR - 2017-05-05 21:39:33 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:42:50 --> Config Class Initialized
+INFO - 2017-05-05 21:42:50 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:42:50 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:42:50 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:42:50 --> URI Class Initialized
+DEBUG - 2017-05-05 21:42:50 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:42:50 --> Router Class Initialized
+INFO - 2017-05-05 21:42:50 --> Output Class Initialized
+INFO - 2017-05-05 21:42:50 --> Security Class Initialized
+DEBUG - 2017-05-05 21:42:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:42:50 --> Input Class Initialized
+INFO - 2017-05-05 21:42:50 --> Language Class Initialized
+INFO - 2017-05-05 21:42:50 --> Loader Class Initialized
+INFO - 2017-05-05 21:42:50 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:42:50 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:42:50 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:42:50 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:42:50 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:42:50 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:42:50 --> User Agent Class Initialized
+INFO - 2017-05-05 21:42:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:42:50 --> Pagination Class Initialized
+INFO - 2017-05-05 21:42:50 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:42:50 --> Controller Class Initialized
+INFO - 2017-05-05 21:42:50 --> Model Class Initialized
+INFO - 2017-05-05 21:42:50 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:42:50 --> Email Class Initialized
+DEBUG - 2017-05-05 21:42:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:42:50 --> Model Class Initialized
+INFO - 2017-05-05 21:42:50 --> Model Class Initialized
+INFO - 2017-05-05 21:42:50 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:42:51 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:42:51 --> Final output sent to browser
+DEBUG - 2017-05-05 21:42:51 --> Total execution time: 0.8462
+INFO - 2017-05-05 21:42:51 --> Config Class Initialized
+INFO - 2017-05-05 21:42:51 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:42:51 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:42:51 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:42:51 --> URI Class Initialized
+INFO - 2017-05-05 21:42:51 --> Router Class Initialized
+INFO - 2017-05-05 21:42:51 --> Output Class Initialized
+INFO - 2017-05-05 21:42:51 --> Security Class Initialized
+DEBUG - 2017-05-05 21:42:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:42:51 --> Input Class Initialized
+INFO - 2017-05-05 21:42:51 --> Config Class Initialized
+INFO - 2017-05-05 21:42:51 --> Hooks Class Initialized
+INFO - 2017-05-05 21:42:51 --> Language Class Initialized
+ERROR - 2017-05-05 21:42:51 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 21:42:51 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:42:51 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:42:51 --> URI Class Initialized
+INFO - 2017-05-05 21:42:51 --> Router Class Initialized
+INFO - 2017-05-05 21:42:51 --> Output Class Initialized
+INFO - 2017-05-05 21:42:51 --> Security Class Initialized
+DEBUG - 2017-05-05 21:42:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:42:51 --> Input Class Initialized
+INFO - 2017-05-05 21:42:51 --> Language Class Initialized
+ERROR - 2017-05-05 21:42:51 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:43:14 --> Config Class Initialized
+INFO - 2017-05-05 21:43:14 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:43:14 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:43:14 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:43:14 --> URI Class Initialized
+DEBUG - 2017-05-05 21:43:14 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:43:14 --> Router Class Initialized
+INFO - 2017-05-05 21:43:14 --> Output Class Initialized
+INFO - 2017-05-05 21:43:14 --> Security Class Initialized
+DEBUG - 2017-05-05 21:43:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:43:14 --> Input Class Initialized
+INFO - 2017-05-05 21:43:14 --> Language Class Initialized
+INFO - 2017-05-05 21:43:14 --> Loader Class Initialized
+INFO - 2017-05-05 21:43:14 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:43:14 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:43:14 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:43:14 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:43:14 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:43:14 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:43:14 --> User Agent Class Initialized
+INFO - 2017-05-05 21:43:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:43:14 --> Pagination Class Initialized
+INFO - 2017-05-05 21:43:14 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:43:14 --> Controller Class Initialized
+INFO - 2017-05-05 21:43:14 --> Model Class Initialized
+INFO - 2017-05-05 21:43:14 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:43:14 --> Email Class Initialized
+DEBUG - 2017-05-05 21:43:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:43:14 --> Model Class Initialized
+INFO - 2017-05-05 21:43:14 --> Model Class Initialized
+INFO - 2017-05-05 21:43:14 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:43:15 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:43:15 --> Final output sent to browser
+DEBUG - 2017-05-05 21:43:15 --> Total execution time: 0.9784
+INFO - 2017-05-05 21:43:15 --> Config Class Initialized
+INFO - 2017-05-05 21:43:15 --> Config Class Initialized
+INFO - 2017-05-05 21:43:15 --> Hooks Class Initialized
+INFO - 2017-05-05 21:43:15 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:43:15 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:43:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:43:15 --> URI Class Initialized
+DEBUG - 2017-05-05 21:43:15 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:43:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:43:15 --> URI Class Initialized
+INFO - 2017-05-05 21:43:15 --> Router Class Initialized
+INFO - 2017-05-05 21:43:15 --> Router Class Initialized
+INFO - 2017-05-05 21:43:15 --> Output Class Initialized
+INFO - 2017-05-05 21:43:15 --> Security Class Initialized
+INFO - 2017-05-05 21:43:15 --> Output Class Initialized
+DEBUG - 2017-05-05 21:43:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:43:15 --> Security Class Initialized
+INFO - 2017-05-05 21:43:15 --> Input Class Initialized
+INFO - 2017-05-05 21:43:15 --> Language Class Initialized
+DEBUG - 2017-05-05 21:43:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:43:15 --> Input Class Initialized
+ERROR - 2017-05-05 21:43:15 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:43:15 --> Language Class Initialized
+ERROR - 2017-05-05 21:43:15 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:43:15 --> Config Class Initialized
+INFO - 2017-05-05 21:43:15 --> Config Class Initialized
+INFO - 2017-05-05 21:43:15 --> Hooks Class Initialized
+INFO - 2017-05-05 21:43:15 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:43:15 --> UTF-8 Support Enabled
+DEBUG - 2017-05-05 21:43:15 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:43:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:43:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:43:15 --> URI Class Initialized
+INFO - 2017-05-05 21:43:15 --> URI Class Initialized
+INFO - 2017-05-05 21:43:15 --> Router Class Initialized
+INFO - 2017-05-05 21:43:15 --> Router Class Initialized
+INFO - 2017-05-05 21:43:15 --> Output Class Initialized
+INFO - 2017-05-05 21:43:15 --> Output Class Initialized
+INFO - 2017-05-05 21:43:15 --> Security Class Initialized
+INFO - 2017-05-05 21:43:15 --> Security Class Initialized
+DEBUG - 2017-05-05 21:43:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:43:15 --> Input Class Initialized
+INFO - 2017-05-05 21:43:15 --> Language Class Initialized
+DEBUG - 2017-05-05 21:43:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:43:15 --> Input Class Initialized
+ERROR - 2017-05-05 21:43:15 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:43:15 --> Language Class Initialized
+ERROR - 2017-05-05 21:43:15 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:46:03 --> Config Class Initialized
+INFO - 2017-05-05 21:46:03 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:46:03 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:46:03 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:46:03 --> URI Class Initialized
+DEBUG - 2017-05-05 21:46:03 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:46:03 --> Router Class Initialized
+INFO - 2017-05-05 21:46:03 --> Output Class Initialized
+INFO - 2017-05-05 21:46:03 --> Security Class Initialized
+DEBUG - 2017-05-05 21:46:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:46:03 --> Input Class Initialized
+INFO - 2017-05-05 21:46:03 --> Language Class Initialized
+INFO - 2017-05-05 21:46:03 --> Loader Class Initialized
+INFO - 2017-05-05 21:46:03 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:46:03 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:46:03 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:46:03 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:46:03 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:46:04 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:46:04 --> User Agent Class Initialized
+INFO - 2017-05-05 21:46:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:46:04 --> Pagination Class Initialized
+INFO - 2017-05-05 21:46:04 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:46:04 --> Controller Class Initialized
+INFO - 2017-05-05 21:46:04 --> Model Class Initialized
+INFO - 2017-05-05 21:46:04 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:46:04 --> Email Class Initialized
+DEBUG - 2017-05-05 21:46:04 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:46:04 --> Model Class Initialized
+INFO - 2017-05-05 21:46:04 --> Model Class Initialized
+INFO - 2017-05-05 21:46:04 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:46:04 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:46:04 --> Final output sent to browser
+DEBUG - 2017-05-05 21:46:04 --> Total execution time: 0.8323
+INFO - 2017-05-05 21:46:04 --> Config Class Initialized
+INFO - 2017-05-05 21:46:04 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:46:04 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:46:04 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:46:04 --> Config Class Initialized
+INFO - 2017-05-05 21:46:04 --> Hooks Class Initialized
+INFO - 2017-05-05 21:46:04 --> URI Class Initialized
+DEBUG - 2017-05-05 21:46:04 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:46:04 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:46:05 --> URI Class Initialized
+INFO - 2017-05-05 21:46:05 --> Router Class Initialized
+INFO - 2017-05-05 21:46:05 --> Output Class Initialized
+INFO - 2017-05-05 21:46:05 --> Security Class Initialized
+DEBUG - 2017-05-05 21:46:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:46:05 --> Input Class Initialized
+INFO - 2017-05-05 21:46:05 --> Language Class Initialized
+ERROR - 2017-05-05 21:46:05 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:46:05 --> Router Class Initialized
+INFO - 2017-05-05 21:46:05 --> Output Class Initialized
+INFO - 2017-05-05 21:46:05 --> Security Class Initialized
+DEBUG - 2017-05-05 21:46:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:46:05 --> Input Class Initialized
+INFO - 2017-05-05 21:46:05 --> Language Class Initialized
+ERROR - 2017-05-05 21:46:05 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:49:00 --> Config Class Initialized
+INFO - 2017-05-05 21:49:00 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:49:00 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:49:00 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:49:00 --> URI Class Initialized
+DEBUG - 2017-05-05 21:49:00 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:49:00 --> Router Class Initialized
+INFO - 2017-05-05 21:49:00 --> Output Class Initialized
+INFO - 2017-05-05 21:49:00 --> Security Class Initialized
+DEBUG - 2017-05-05 21:49:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:49:00 --> Input Class Initialized
+INFO - 2017-05-05 21:49:00 --> Language Class Initialized
+INFO - 2017-05-05 21:49:00 --> Loader Class Initialized
+INFO - 2017-05-05 21:49:00 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:49:00 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:49:00 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:49:00 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:49:00 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:49:00 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:49:00 --> User Agent Class Initialized
+INFO - 2017-05-05 21:49:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:49:00 --> Pagination Class Initialized
+INFO - 2017-05-05 21:49:00 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:49:00 --> Controller Class Initialized
+INFO - 2017-05-05 21:49:00 --> Model Class Initialized
+INFO - 2017-05-05 21:49:00 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:49:00 --> Email Class Initialized
+DEBUG - 2017-05-05 21:49:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:49:00 --> Model Class Initialized
+INFO - 2017-05-05 21:49:00 --> Model Class Initialized
+INFO - 2017-05-05 21:49:00 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:49:01 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:49:01 --> Final output sent to browser
+DEBUG - 2017-05-05 21:49:01 --> Total execution time: 1.1427
+INFO - 2017-05-05 21:49:01 --> Config Class Initialized
+INFO - 2017-05-05 21:49:01 --> Config Class Initialized
+INFO - 2017-05-05 21:49:01 --> Hooks Class Initialized
+INFO - 2017-05-05 21:49:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:49:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:49:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:49:01 --> URI Class Initialized
+INFO - 2017-05-05 21:49:01 --> Router Class Initialized
+INFO - 2017-05-05 21:49:01 --> Output Class Initialized
+INFO - 2017-05-05 21:49:01 --> Security Class Initialized
+DEBUG - 2017-05-05 21:49:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:49:01 --> Input Class Initialized
+INFO - 2017-05-05 21:49:01 --> Language Class Initialized
+ERROR - 2017-05-05 21:49:01 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 21:49:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:49:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:49:01 --> URI Class Initialized
+INFO - 2017-05-05 21:49:01 --> Router Class Initialized
+INFO - 2017-05-05 21:49:01 --> Output Class Initialized
+INFO - 2017-05-05 21:49:01 --> Security Class Initialized
+DEBUG - 2017-05-05 21:49:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:49:01 --> Input Class Initialized
+INFO - 2017-05-05 21:49:01 --> Language Class Initialized
+ERROR - 2017-05-05 21:49:01 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:49:02 --> Config Class Initialized
+INFO - 2017-05-05 21:49:02 --> Config Class Initialized
+INFO - 2017-05-05 21:49:02 --> Hooks Class Initialized
+INFO - 2017-05-05 21:49:02 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:49:02 --> UTF-8 Support Enabled
+DEBUG - 2017-05-05 21:49:02 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:49:02 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:49:02 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:49:02 --> URI Class Initialized
+INFO - 2017-05-05 21:49:02 --> URI Class Initialized
+INFO - 2017-05-05 21:49:02 --> Router Class Initialized
+INFO - 2017-05-05 21:49:02 --> Router Class Initialized
+INFO - 2017-05-05 21:49:02 --> Output Class Initialized
+INFO - 2017-05-05 21:49:02 --> Output Class Initialized
+INFO - 2017-05-05 21:49:02 --> Security Class Initialized
+INFO - 2017-05-05 21:49:02 --> Security Class Initialized
+DEBUG - 2017-05-05 21:49:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-05 21:49:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:49:02 --> Input Class Initialized
+INFO - 2017-05-05 21:49:02 --> Input Class Initialized
+INFO - 2017-05-05 21:49:02 --> Language Class Initialized
+INFO - 2017-05-05 21:49:02 --> Language Class Initialized
+ERROR - 2017-05-05 21:49:02 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 21:49:02 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:51:50 --> Config Class Initialized
+INFO - 2017-05-05 21:51:50 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:51:50 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:51:50 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:51:50 --> URI Class Initialized
+DEBUG - 2017-05-05 21:51:50 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:51:50 --> Router Class Initialized
+INFO - 2017-05-05 21:51:50 --> Output Class Initialized
+INFO - 2017-05-05 21:51:50 --> Security Class Initialized
+DEBUG - 2017-05-05 21:51:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:51:50 --> Input Class Initialized
+INFO - 2017-05-05 21:51:50 --> Language Class Initialized
+INFO - 2017-05-05 21:51:50 --> Loader Class Initialized
+INFO - 2017-05-05 21:51:50 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:51:50 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:51:50 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:51:50 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:51:50 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:51:50 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:51:50 --> User Agent Class Initialized
+INFO - 2017-05-05 21:51:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:51:50 --> Pagination Class Initialized
+INFO - 2017-05-05 21:51:50 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:51:50 --> Controller Class Initialized
+INFO - 2017-05-05 21:51:50 --> Model Class Initialized
+INFO - 2017-05-05 21:51:50 --> Config Class Initialized
+INFO - 2017-05-05 21:51:50 --> Hooks Class Initialized
+INFO - 2017-05-05 21:51:50 --> Database Driver Class Initialized
+DEBUG - 2017-05-05 21:51:50 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:51:50 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:51:50 --> URI Class Initialized
+DEBUG - 2017-05-05 21:51:50 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:51:50 --> Router Class Initialized
+INFO - 2017-05-05 21:51:50 --> Email Class Initialized
+DEBUG - 2017-05-05 21:51:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:51:50 --> Model Class Initialized
+INFO - 2017-05-05 21:51:50 --> Output Class Initialized
+INFO - 2017-05-05 21:51:50 --> Model Class Initialized
+INFO - 2017-05-05 21:51:50 --> Security Class Initialized
+DEBUG - 2017-05-05 21:51:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:51:50 --> Input Class Initialized
+INFO - 2017-05-05 21:51:50 --> Language Class Initialized
+INFO - 2017-05-05 21:51:50 --> Loader Class Initialized
+INFO - 2017-05-05 21:51:50 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:51:50 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:51:50 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:51:50 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:51:50 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:51:50 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:51:51 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:51:51 --> Final output sent to browser
+DEBUG - 2017-05-05 21:51:51 --> Total execution time: 0.8815
+INFO - 2017-05-05 21:51:51 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:51:51 --> User Agent Class Initialized
+INFO - 2017-05-05 21:51:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:51:51 --> Pagination Class Initialized
+INFO - 2017-05-05 21:51:51 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:51:51 --> Controller Class Initialized
+INFO - 2017-05-05 21:51:51 --> Model Class Initialized
+INFO - 2017-05-05 21:51:51 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:51:51 --> Email Class Initialized
+DEBUG - 2017-05-05 21:51:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:51:51 --> Model Class Initialized
+INFO - 2017-05-05 21:51:51 --> Model Class Initialized
+INFO - 2017-05-05 21:51:51 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:51:51 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:51:52 --> Final output sent to browser
+DEBUG - 2017-05-05 21:51:52 --> Total execution time: 1.9979
+INFO - 2017-05-05 21:51:52 --> Config Class Initialized
+INFO - 2017-05-05 21:51:52 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:51:52 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:51:52 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:51:52 --> URI Class Initialized
+INFO - 2017-05-05 21:51:52 --> Router Class Initialized
+INFO - 2017-05-05 21:51:52 --> Config Class Initialized
+INFO - 2017-05-05 21:51:52 --> Hooks Class Initialized
+INFO - 2017-05-05 21:51:52 --> Output Class Initialized
+INFO - 2017-05-05 21:51:52 --> Security Class Initialized
+DEBUG - 2017-05-05 21:51:52 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:51:52 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 21:51:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:51:52 --> Input Class Initialized
+INFO - 2017-05-05 21:51:52 --> URI Class Initialized
+INFO - 2017-05-05 21:51:52 --> Language Class Initialized
+ERROR - 2017-05-05 21:51:52 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:51:52 --> Router Class Initialized
+INFO - 2017-05-05 21:51:52 --> Output Class Initialized
+INFO - 2017-05-05 21:51:52 --> Security Class Initialized
+DEBUG - 2017-05-05 21:51:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:51:52 --> Input Class Initialized
+INFO - 2017-05-05 21:51:52 --> Language Class Initialized
+ERROR - 2017-05-05 21:51:52 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:51:52 --> Config Class Initialized
+INFO - 2017-05-05 21:51:52 --> Config Class Initialized
+INFO - 2017-05-05 21:51:52 --> Hooks Class Initialized
+INFO - 2017-05-05 21:51:52 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:51:52 --> UTF-8 Support Enabled
+DEBUG - 2017-05-05 21:51:52 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:51:52 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:51:52 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:51:52 --> URI Class Initialized
+INFO - 2017-05-05 21:51:52 --> URI Class Initialized
+INFO - 2017-05-05 21:51:52 --> Router Class Initialized
+INFO - 2017-05-05 21:51:52 --> Router Class Initialized
+INFO - 2017-05-05 21:51:52 --> Output Class Initialized
+INFO - 2017-05-05 21:51:52 --> Security Class Initialized
+INFO - 2017-05-05 21:51:52 --> Output Class Initialized
+DEBUG - 2017-05-05 21:51:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:51:52 --> Input Class Initialized
+INFO - 2017-05-05 21:51:52 --> Security Class Initialized
+INFO - 2017-05-05 21:51:52 --> Language Class Initialized
+DEBUG - 2017-05-05 21:51:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-05-05 21:51:52 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:51:52 --> Input Class Initialized
+INFO - 2017-05-05 21:51:52 --> Language Class Initialized
+ERROR - 2017-05-05 21:51:52 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:52:34 --> Config Class Initialized
+INFO - 2017-05-05 21:52:34 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:52:34 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:52:34 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:52:34 --> URI Class Initialized
+DEBUG - 2017-05-05 21:52:34 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:52:34 --> Router Class Initialized
+INFO - 2017-05-05 21:52:34 --> Output Class Initialized
+INFO - 2017-05-05 21:52:34 --> Security Class Initialized
+DEBUG - 2017-05-05 21:52:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:52:34 --> Input Class Initialized
+INFO - 2017-05-05 21:52:34 --> Language Class Initialized
+INFO - 2017-05-05 21:52:34 --> Loader Class Initialized
+INFO - 2017-05-05 21:52:34 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:52:34 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:52:34 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:52:34 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:52:34 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:52:34 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:52:34 --> User Agent Class Initialized
+INFO - 2017-05-05 21:52:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:52:34 --> Pagination Class Initialized
+INFO - 2017-05-05 21:52:34 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:52:34 --> Controller Class Initialized
+INFO - 2017-05-05 21:52:34 --> Model Class Initialized
+INFO - 2017-05-05 21:52:34 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:52:35 --> Email Class Initialized
+DEBUG - 2017-05-05 21:52:35 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:52:35 --> Model Class Initialized
+INFO - 2017-05-05 21:52:35 --> Model Class Initialized
+INFO - 2017-05-05 21:52:35 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:52:35 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:52:35 --> Final output sent to browser
+DEBUG - 2017-05-05 21:52:35 --> Total execution time: 0.8223
+INFO - 2017-05-05 21:52:35 --> Config Class Initialized
+INFO - 2017-05-05 21:52:35 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:52:35 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:52:35 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:52:35 --> URI Class Initialized
+INFO - 2017-05-05 21:52:35 --> Router Class Initialized
+INFO - 2017-05-05 21:52:35 --> Output Class Initialized
+INFO - 2017-05-05 21:52:35 --> Security Class Initialized
+DEBUG - 2017-05-05 21:52:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:52:35 --> Input Class Initialized
+INFO - 2017-05-05 21:52:35 --> Language Class Initialized
+ERROR - 2017-05-05 21:52:35 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:52:35 --> Config Class Initialized
+INFO - 2017-05-05 21:52:35 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:52:35 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:52:35 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:52:35 --> URI Class Initialized
+INFO - 2017-05-05 21:52:35 --> Router Class Initialized
+INFO - 2017-05-05 21:52:35 --> Output Class Initialized
+INFO - 2017-05-05 21:52:35 --> Security Class Initialized
+DEBUG - 2017-05-05 21:52:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:52:35 --> Input Class Initialized
+INFO - 2017-05-05 21:52:35 --> Language Class Initialized
+ERROR - 2017-05-05 21:52:35 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:52:35 --> Config Class Initialized
+INFO - 2017-05-05 21:52:35 --> Config Class Initialized
+INFO - 2017-05-05 21:52:35 --> Hooks Class Initialized
+INFO - 2017-05-05 21:52:35 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:52:35 --> UTF-8 Support Enabled
+DEBUG - 2017-05-05 21:52:35 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:52:35 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:52:35 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:52:35 --> URI Class Initialized
+INFO - 2017-05-05 21:52:35 --> URI Class Initialized
+INFO - 2017-05-05 21:52:35 --> Router Class Initialized
+INFO - 2017-05-05 21:52:35 --> Router Class Initialized
+INFO - 2017-05-05 21:52:35 --> Output Class Initialized
+INFO - 2017-05-05 21:52:35 --> Output Class Initialized
+INFO - 2017-05-05 21:52:35 --> Security Class Initialized
+INFO - 2017-05-05 21:52:35 --> Security Class Initialized
+DEBUG - 2017-05-05 21:52:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-05 21:52:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:52:35 --> Input Class Initialized
+INFO - 2017-05-05 21:52:35 --> Input Class Initialized
+INFO - 2017-05-05 21:52:35 --> Language Class Initialized
+INFO - 2017-05-05 21:52:35 --> Language Class Initialized
+ERROR - 2017-05-05 21:52:35 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 21:52:35 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:55:10 --> Config Class Initialized
+INFO - 2017-05-05 21:55:10 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:55:10 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:55:10 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:55:10 --> URI Class Initialized
+DEBUG - 2017-05-05 21:55:10 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:55:10 --> Router Class Initialized
+INFO - 2017-05-05 21:55:10 --> Output Class Initialized
+INFO - 2017-05-05 21:55:10 --> Security Class Initialized
+DEBUG - 2017-05-05 21:55:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:55:10 --> Input Class Initialized
+INFO - 2017-05-05 21:55:10 --> Language Class Initialized
+INFO - 2017-05-05 21:55:10 --> Loader Class Initialized
+INFO - 2017-05-05 21:55:10 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:55:10 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:55:10 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:55:10 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:55:10 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:55:10 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:55:10 --> User Agent Class Initialized
+INFO - 2017-05-05 21:55:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:55:10 --> Pagination Class Initialized
+INFO - 2017-05-05 21:55:10 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:55:10 --> Controller Class Initialized
+INFO - 2017-05-05 21:55:10 --> Model Class Initialized
+INFO - 2017-05-05 21:55:10 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:55:10 --> Email Class Initialized
+DEBUG - 2017-05-05 21:55:10 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:55:10 --> Model Class Initialized
+INFO - 2017-05-05 21:55:10 --> Model Class Initialized
+INFO - 2017-05-05 21:55:10 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:55:12 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:55:12 --> Final output sent to browser
+DEBUG - 2017-05-05 21:55:12 --> Total execution time: 1.7325
+INFO - 2017-05-05 21:55:12 --> Config Class Initialized
+INFO - 2017-05-05 21:55:12 --> Hooks Class Initialized
+INFO - 2017-05-05 21:55:12 --> Config Class Initialized
+INFO - 2017-05-05 21:55:12 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:55:12 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:55:12 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:55:12 --> URI Class Initialized
+DEBUG - 2017-05-05 21:55:12 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:55:12 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:55:12 --> Router Class Initialized
+INFO - 2017-05-05 21:55:12 --> URI Class Initialized
+INFO - 2017-05-05 21:55:12 --> Output Class Initialized
+INFO - 2017-05-05 21:55:12 --> Router Class Initialized
+INFO - 2017-05-05 21:55:12 --> Output Class Initialized
+INFO - 2017-05-05 21:55:12 --> Security Class Initialized
+INFO - 2017-05-05 21:55:12 --> Security Class Initialized
+DEBUG - 2017-05-05 21:55:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-05 21:55:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:55:12 --> Input Class Initialized
+INFO - 2017-05-05 21:55:12 --> Input Class Initialized
+INFO - 2017-05-05 21:55:12 --> Language Class Initialized
+INFO - 2017-05-05 21:55:12 --> Language Class Initialized
+ERROR - 2017-05-05 21:55:12 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 21:55:12 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:55:31 --> Config Class Initialized
+INFO - 2017-05-05 21:55:31 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:55:31 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:55:31 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:55:31 --> URI Class Initialized
+DEBUG - 2017-05-05 21:55:31 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:55:31 --> Router Class Initialized
+INFO - 2017-05-05 21:55:31 --> Output Class Initialized
+INFO - 2017-05-05 21:55:31 --> Security Class Initialized
+DEBUG - 2017-05-05 21:55:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:55:31 --> Input Class Initialized
+INFO - 2017-05-05 21:55:31 --> Language Class Initialized
+INFO - 2017-05-05 21:55:31 --> Loader Class Initialized
+INFO - 2017-05-05 21:55:31 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:55:31 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:55:31 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:55:31 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:55:31 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:55:31 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:55:31 --> User Agent Class Initialized
+INFO - 2017-05-05 21:55:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:55:31 --> Pagination Class Initialized
+INFO - 2017-05-05 21:55:31 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:55:31 --> Controller Class Initialized
+INFO - 2017-05-05 21:55:31 --> Model Class Initialized
+INFO - 2017-05-05 21:55:31 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:55:31 --> Email Class Initialized
+DEBUG - 2017-05-05 21:55:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:55:31 --> Model Class Initialized
+INFO - 2017-05-05 21:55:31 --> Model Class Initialized
+INFO - 2017-05-05 21:55:31 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:55:32 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:55:32 --> Final output sent to browser
+DEBUG - 2017-05-05 21:55:32 --> Total execution time: 0.8657
+INFO - 2017-05-05 21:55:32 --> Config Class Initialized
+INFO - 2017-05-05 21:55:32 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:55:32 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:55:32 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:55:32 --> URI Class Initialized
+INFO - 2017-05-05 21:55:32 --> Router Class Initialized
+INFO - 2017-05-05 21:55:32 --> Output Class Initialized
+INFO - 2017-05-05 21:55:32 --> Security Class Initialized
+DEBUG - 2017-05-05 21:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:55:32 --> Input Class Initialized
+INFO - 2017-05-05 21:55:32 --> Language Class Initialized
+ERROR - 2017-05-05 21:55:32 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:55:32 --> Config Class Initialized
+INFO - 2017-05-05 21:55:32 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:55:32 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:55:32 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:55:32 --> URI Class Initialized
+INFO - 2017-05-05 21:55:32 --> Router Class Initialized
+INFO - 2017-05-05 21:55:32 --> Output Class Initialized
+INFO - 2017-05-05 21:55:32 --> Security Class Initialized
+DEBUG - 2017-05-05 21:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:55:32 --> Input Class Initialized
+INFO - 2017-05-05 21:55:32 --> Language Class Initialized
+ERROR - 2017-05-05 21:55:32 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:55:55 --> Config Class Initialized
+INFO - 2017-05-05 21:55:56 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:55:56 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:55:56 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:55:56 --> URI Class Initialized
+DEBUG - 2017-05-05 21:55:56 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:55:56 --> Router Class Initialized
+INFO - 2017-05-05 21:55:56 --> Output Class Initialized
+INFO - 2017-05-05 21:55:56 --> Security Class Initialized
+DEBUG - 2017-05-05 21:55:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:55:56 --> Input Class Initialized
+INFO - 2017-05-05 21:55:56 --> Language Class Initialized
+INFO - 2017-05-05 21:55:56 --> Loader Class Initialized
+INFO - 2017-05-05 21:55:56 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:55:57 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:55:57 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:55:57 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:55:57 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:55:57 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:55:57 --> User Agent Class Initialized
+INFO - 2017-05-05 21:55:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:55:57 --> Pagination Class Initialized
+INFO - 2017-05-05 21:55:57 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:55:57 --> Controller Class Initialized
+INFO - 2017-05-05 21:55:57 --> Model Class Initialized
+INFO - 2017-05-05 21:55:57 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:55:57 --> Email Class Initialized
+DEBUG - 2017-05-05 21:55:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:55:57 --> Model Class Initialized
+INFO - 2017-05-05 21:55:57 --> Model Class Initialized
+INFO - 2017-05-05 21:55:57 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:55:58 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:55:58 --> Final output sent to browser
+DEBUG - 2017-05-05 21:55:58 --> Total execution time: 2.4168
+INFO - 2017-05-05 21:56:00 --> Config Class Initialized
+INFO - 2017-05-05 21:56:00 --> Hooks Class Initialized
+INFO - 2017-05-05 21:56:00 --> Config Class Initialized
+INFO - 2017-05-05 21:56:00 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:56:00 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:00 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 21:56:00 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:00 --> URI Class Initialized
+INFO - 2017-05-05 21:56:00 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:56:00 --> URI Class Initialized
+INFO - 2017-05-05 21:56:00 --> Router Class Initialized
+INFO - 2017-05-05 21:56:00 --> Router Class Initialized
+INFO - 2017-05-05 21:56:00 --> Output Class Initialized
+INFO - 2017-05-05 21:56:00 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:00 --> Input Class Initialized
+INFO - 2017-05-05 21:56:00 --> Language Class Initialized
+ERROR - 2017-05-05 21:56:00 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:56:00 --> Output Class Initialized
+INFO - 2017-05-05 21:56:00 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:00 --> Input Class Initialized
+INFO - 2017-05-05 21:56:00 --> Language Class Initialized
+ERROR - 2017-05-05 21:56:00 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:56:20 --> Config Class Initialized
+INFO - 2017-05-05 21:56:20 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:56:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:20 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:56:20 --> URI Class Initialized
+DEBUG - 2017-05-05 21:56:20 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:56:20 --> Router Class Initialized
+INFO - 2017-05-05 21:56:20 --> Output Class Initialized
+INFO - 2017-05-05 21:56:20 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:20 --> Input Class Initialized
+INFO - 2017-05-05 21:56:20 --> Language Class Initialized
+INFO - 2017-05-05 21:56:20 --> Loader Class Initialized
+INFO - 2017-05-05 21:56:20 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:56:20 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:56:20 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:56:20 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:56:20 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:56:20 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:56:20 --> User Agent Class Initialized
+INFO - 2017-05-05 21:56:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:56:20 --> Pagination Class Initialized
+INFO - 2017-05-05 21:56:20 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:56:20 --> Controller Class Initialized
+INFO - 2017-05-05 21:56:20 --> Model Class Initialized
+INFO - 2017-05-05 21:56:20 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:56:20 --> Email Class Initialized
+DEBUG - 2017-05-05 21:56:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:56:20 --> Model Class Initialized
+INFO - 2017-05-05 21:56:20 --> Model Class Initialized
+INFO - 2017-05-05 21:56:20 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:56:21 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:56:21 --> Final output sent to browser
+DEBUG - 2017-05-05 21:56:21 --> Total execution time: 0.8090
+INFO - 2017-05-05 21:56:21 --> Config Class Initialized
+INFO - 2017-05-05 21:56:21 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:56:21 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:21 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:56:21 --> URI Class Initialized
+INFO - 2017-05-05 21:56:21 --> Router Class Initialized
+INFO - 2017-05-05 21:56:21 --> Config Class Initialized
+INFO - 2017-05-05 21:56:21 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:56:21 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:21 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:56:21 --> URI Class Initialized
+INFO - 2017-05-05 21:56:21 --> Router Class Initialized
+INFO - 2017-05-05 21:56:21 --> Output Class Initialized
+INFO - 2017-05-05 21:56:21 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:21 --> Input Class Initialized
+INFO - 2017-05-05 21:56:21 --> Output Class Initialized
+INFO - 2017-05-05 21:56:21 --> Language Class Initialized
+ERROR - 2017-05-05 21:56:21 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:56:21 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:21 --> Input Class Initialized
+INFO - 2017-05-05 21:56:21 --> Language Class Initialized
+ERROR - 2017-05-05 21:56:21 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:56:21 --> Config Class Initialized
+INFO - 2017-05-05 21:56:21 --> Config Class Initialized
+INFO - 2017-05-05 21:56:21 --> Hooks Class Initialized
+INFO - 2017-05-05 21:56:21 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:56:21 --> UTF-8 Support Enabled
+DEBUG - 2017-05-05 21:56:21 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:21 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:56:21 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:56:21 --> URI Class Initialized
+INFO - 2017-05-05 21:56:21 --> URI Class Initialized
+INFO - 2017-05-05 21:56:21 --> Router Class Initialized
+INFO - 2017-05-05 21:56:21 --> Router Class Initialized
+INFO - 2017-05-05 21:56:21 --> Output Class Initialized
+INFO - 2017-05-05 21:56:21 --> Output Class Initialized
+INFO - 2017-05-05 21:56:21 --> Security Class Initialized
+INFO - 2017-05-05 21:56:21 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-05 21:56:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:21 --> Input Class Initialized
+INFO - 2017-05-05 21:56:21 --> Input Class Initialized
+INFO - 2017-05-05 21:56:21 --> Language Class Initialized
+INFO - 2017-05-05 21:56:21 --> Language Class Initialized
+ERROR - 2017-05-05 21:56:21 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 21:56:21 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:56:40 --> Config Class Initialized
+INFO - 2017-05-05 21:56:40 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:56:40 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:40 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:56:40 --> URI Class Initialized
+DEBUG - 2017-05-05 21:56:40 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:56:40 --> Router Class Initialized
+INFO - 2017-05-05 21:56:40 --> Output Class Initialized
+INFO - 2017-05-05 21:56:40 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:40 --> Input Class Initialized
+INFO - 2017-05-05 21:56:40 --> Language Class Initialized
+INFO - 2017-05-05 21:56:40 --> Loader Class Initialized
+INFO - 2017-05-05 21:56:40 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:56:40 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:56:40 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:56:40 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:56:40 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:56:40 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:56:40 --> User Agent Class Initialized
+INFO - 2017-05-05 21:56:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:56:40 --> Pagination Class Initialized
+INFO - 2017-05-05 21:56:40 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:56:40 --> Controller Class Initialized
+INFO - 2017-05-05 21:56:40 --> Model Class Initialized
+INFO - 2017-05-05 21:56:40 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:56:40 --> Email Class Initialized
+DEBUG - 2017-05-05 21:56:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:56:40 --> Model Class Initialized
+INFO - 2017-05-05 21:56:40 --> Model Class Initialized
+INFO - 2017-05-05 21:56:40 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:56:41 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:56:41 --> Final output sent to browser
+DEBUG - 2017-05-05 21:56:41 --> Total execution time: 0.8433
+INFO - 2017-05-05 21:56:41 --> Config Class Initialized
+INFO - 2017-05-05 21:56:41 --> Hooks Class Initialized
+INFO - 2017-05-05 21:56:41 --> Config Class Initialized
+INFO - 2017-05-05 21:56:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:56:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:41 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 21:56:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:56:41 --> URI Class Initialized
+INFO - 2017-05-05 21:56:41 --> URI Class Initialized
+INFO - 2017-05-05 21:56:41 --> Router Class Initialized
+INFO - 2017-05-05 21:56:41 --> Router Class Initialized
+INFO - 2017-05-05 21:56:41 --> Output Class Initialized
+INFO - 2017-05-05 21:56:41 --> Output Class Initialized
+INFO - 2017-05-05 21:56:41 --> Security Class Initialized
+INFO - 2017-05-05 21:56:41 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-05 21:56:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:41 --> Input Class Initialized
+INFO - 2017-05-05 21:56:41 --> Input Class Initialized
+INFO - 2017-05-05 21:56:41 --> Language Class Initialized
+INFO - 2017-05-05 21:56:41 --> Language Class Initialized
+ERROR - 2017-05-05 21:56:41 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 21:56:41 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:56:46 --> Config Class Initialized
+INFO - 2017-05-05 21:56:46 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:56:46 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:46 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:56:46 --> URI Class Initialized
+DEBUG - 2017-05-05 21:56:46 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:56:46 --> Router Class Initialized
+INFO - 2017-05-05 21:56:46 --> Output Class Initialized
+INFO - 2017-05-05 21:56:46 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:46 --> Input Class Initialized
+INFO - 2017-05-05 21:56:46 --> Language Class Initialized
+INFO - 2017-05-05 21:56:46 --> Loader Class Initialized
+INFO - 2017-05-05 21:56:46 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:56:46 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:56:46 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:56:46 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:56:46 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:56:46 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:56:46 --> User Agent Class Initialized
+INFO - 2017-05-05 21:56:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:56:46 --> Pagination Class Initialized
+INFO - 2017-05-05 21:56:46 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:56:46 --> Controller Class Initialized
+INFO - 2017-05-05 21:56:46 --> Model Class Initialized
+INFO - 2017-05-05 21:56:46 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:56:46 --> Email Class Initialized
+DEBUG - 2017-05-05 21:56:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:56:46 --> Model Class Initialized
+INFO - 2017-05-05 21:56:46 --> Model Class Initialized
+INFO - 2017-05-05 21:56:46 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:56:48 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:56:48 --> Final output sent to browser
+DEBUG - 2017-05-05 21:56:48 --> Total execution time: 1.7993
+INFO - 2017-05-05 21:56:48 --> Config Class Initialized
+INFO - 2017-05-05 21:56:48 --> Config Class Initialized
+INFO - 2017-05-05 21:56:48 --> Hooks Class Initialized
+INFO - 2017-05-05 21:56:48 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:56:48 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:48 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 21:56:48 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:56:48 --> URI Class Initialized
+INFO - 2017-05-05 21:56:48 --> Router Class Initialized
+INFO - 2017-05-05 21:56:48 --> Output Class Initialized
+INFO - 2017-05-05 21:56:48 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:48 --> Input Class Initialized
+INFO - 2017-05-05 21:56:48 --> Language Class Initialized
+ERROR - 2017-05-05 21:56:48 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:56:48 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:56:48 --> URI Class Initialized
+INFO - 2017-05-05 21:56:48 --> Router Class Initialized
+INFO - 2017-05-05 21:56:48 --> Output Class Initialized
+INFO - 2017-05-05 21:56:48 --> Security Class Initialized
+DEBUG - 2017-05-05 21:56:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:56:48 --> Input Class Initialized
+INFO - 2017-05-05 21:56:48 --> Language Class Initialized
+ERROR - 2017-05-05 21:56:48 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:58:50 --> Config Class Initialized
+INFO - 2017-05-05 21:58:50 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:58:50 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:58:50 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:58:50 --> URI Class Initialized
+DEBUG - 2017-05-05 21:58:50 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:58:50 --> Router Class Initialized
+INFO - 2017-05-05 21:58:50 --> Output Class Initialized
+INFO - 2017-05-05 21:58:50 --> Security Class Initialized
+DEBUG - 2017-05-05 21:58:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:58:50 --> Input Class Initialized
+INFO - 2017-05-05 21:58:51 --> Language Class Initialized
+INFO - 2017-05-05 21:58:51 --> Loader Class Initialized
+INFO - 2017-05-05 21:58:51 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:58:51 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:58:51 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:58:51 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:58:51 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:58:51 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:58:51 --> User Agent Class Initialized
+INFO - 2017-05-05 21:58:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:58:51 --> Pagination Class Initialized
+INFO - 2017-05-05 21:58:51 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:58:51 --> Controller Class Initialized
+INFO - 2017-05-05 21:58:51 --> Model Class Initialized
+INFO - 2017-05-05 21:58:51 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:58:51 --> Email Class Initialized
+DEBUG - 2017-05-05 21:58:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:58:51 --> Model Class Initialized
+INFO - 2017-05-05 21:58:51 --> Model Class Initialized
+INFO - 2017-05-05 21:58:51 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:58:53 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:58:53 --> Final output sent to browser
+DEBUG - 2017-05-05 21:58:53 --> Total execution time: 2.8114
+INFO - 2017-05-05 21:58:54 --> Config Class Initialized
+INFO - 2017-05-05 21:58:54 --> Hooks Class Initialized
+INFO - 2017-05-05 21:58:54 --> Config Class Initialized
+INFO - 2017-05-05 21:58:54 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:58:54 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:58:54 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:58:54 --> URI Class Initialized
+DEBUG - 2017-05-05 21:58:54 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:58:54 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:58:54 --> URI Class Initialized
+INFO - 2017-05-05 21:58:54 --> Router Class Initialized
+INFO - 2017-05-05 21:58:54 --> Router Class Initialized
+INFO - 2017-05-05 21:58:54 --> Output Class Initialized
+INFO - 2017-05-05 21:58:54 --> Output Class Initialized
+INFO - 2017-05-05 21:58:54 --> Security Class Initialized
+INFO - 2017-05-05 21:58:54 --> Security Class Initialized
+DEBUG - 2017-05-05 21:58:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-05 21:58:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:58:54 --> Input Class Initialized
+INFO - 2017-05-05 21:58:54 --> Input Class Initialized
+INFO - 2017-05-05 21:58:54 --> Language Class Initialized
+INFO - 2017-05-05 21:58:54 --> Language Class Initialized
+ERROR - 2017-05-05 21:58:54 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 21:58:54 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 21:59:22 --> Config Class Initialized
+INFO - 2017-05-05 21:59:22 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:59:22 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:59:22 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:59:22 --> URI Class Initialized
+DEBUG - 2017-05-05 21:59:22 --> No URI present. Default controller set.
+INFO - 2017-05-05 21:59:22 --> Router Class Initialized
+INFO - 2017-05-05 21:59:22 --> Output Class Initialized
+INFO - 2017-05-05 21:59:22 --> Security Class Initialized
+DEBUG - 2017-05-05 21:59:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:59:22 --> Input Class Initialized
+INFO - 2017-05-05 21:59:22 --> Language Class Initialized
+INFO - 2017-05-05 21:59:22 --> Loader Class Initialized
+INFO - 2017-05-05 21:59:22 --> Helper loaded: language_helper
+INFO - 2017-05-05 21:59:22 --> Helper loaded: url_helper
+INFO - 2017-05-05 21:59:22 --> Helper loaded: form_helper
+INFO - 2017-05-05 21:59:22 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 21:59:22 --> Helper loaded: util_helper
+INFO - 2017-05-05 21:59:22 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 21:59:22 --> User Agent Class Initialized
+INFO - 2017-05-05 21:59:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 21:59:22 --> Pagination Class Initialized
+INFO - 2017-05-05 21:59:22 --> Form Validation Class Initialized
+INFO - 2017-05-05 21:59:22 --> Controller Class Initialized
+INFO - 2017-05-05 21:59:22 --> Model Class Initialized
+INFO - 2017-05-05 21:59:23 --> Database Driver Class Initialized
+INFO - 2017-05-05 21:59:23 --> Email Class Initialized
+DEBUG - 2017-05-05 21:59:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 21:59:23 --> Model Class Initialized
+INFO - 2017-05-05 21:59:23 --> Model Class Initialized
+INFO - 2017-05-05 21:59:23 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 21:59:23 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 21:59:23 --> Final output sent to browser
+DEBUG - 2017-05-05 21:59:23 --> Total execution time: 0.8528
+INFO - 2017-05-05 21:59:23 --> Config Class Initialized
+INFO - 2017-05-05 21:59:23 --> Hooks Class Initialized
+DEBUG - 2017-05-05 21:59:23 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:59:23 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:59:23 --> URI Class Initialized
+INFO - 2017-05-05 21:59:23 --> Router Class Initialized
+INFO - 2017-05-05 21:59:23 --> Output Class Initialized
+INFO - 2017-05-05 21:59:23 --> Security Class Initialized
+DEBUG - 2017-05-05 21:59:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:59:23 --> Input Class Initialized
+INFO - 2017-05-05 21:59:23 --> Language Class Initialized
+INFO - 2017-05-05 21:59:23 --> Config Class Initialized
+INFO - 2017-05-05 21:59:23 --> Hooks Class Initialized
+ERROR - 2017-05-05 21:59:23 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 21:59:24 --> UTF-8 Support Enabled
+INFO - 2017-05-05 21:59:24 --> Utf8 Class Initialized
+INFO - 2017-05-05 21:59:24 --> URI Class Initialized
+INFO - 2017-05-05 21:59:24 --> Router Class Initialized
+INFO - 2017-05-05 21:59:24 --> Output Class Initialized
+INFO - 2017-05-05 21:59:24 --> Security Class Initialized
+DEBUG - 2017-05-05 21:59:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 21:59:24 --> Input Class Initialized
+INFO - 2017-05-05 21:59:24 --> Language Class Initialized
+ERROR - 2017-05-05 21:59:24 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:00:30 --> Config Class Initialized
+INFO - 2017-05-05 22:00:30 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:00:30 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:00:30 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:00:31 --> URI Class Initialized
+DEBUG - 2017-05-05 22:00:31 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:00:31 --> Router Class Initialized
+INFO - 2017-05-05 22:00:31 --> Output Class Initialized
+INFO - 2017-05-05 22:00:31 --> Security Class Initialized
+DEBUG - 2017-05-05 22:00:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:00:31 --> Input Class Initialized
+INFO - 2017-05-05 22:00:31 --> Language Class Initialized
+INFO - 2017-05-05 22:00:31 --> Loader Class Initialized
+INFO - 2017-05-05 22:00:31 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:00:31 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:00:31 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:00:31 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:00:31 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:00:31 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:00:31 --> User Agent Class Initialized
+INFO - 2017-05-05 22:00:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:00:31 --> Pagination Class Initialized
+INFO - 2017-05-05 22:00:31 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:00:31 --> Controller Class Initialized
+INFO - 2017-05-05 22:00:31 --> Model Class Initialized
+INFO - 2017-05-05 22:00:31 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:00:31 --> Email Class Initialized
+DEBUG - 2017-05-05 22:00:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:00:31 --> Model Class Initialized
+INFO - 2017-05-05 22:00:31 --> Model Class Initialized
+INFO - 2017-05-05 22:00:31 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:00:31 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:00:31 --> Final output sent to browser
+DEBUG - 2017-05-05 22:00:31 --> Total execution time: 0.7982
+INFO - 2017-05-05 22:00:31 --> Config Class Initialized
+INFO - 2017-05-05 22:00:31 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:00:31 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:00:31 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:00:31 --> URI Class Initialized
+INFO - 2017-05-05 22:00:31 --> Router Class Initialized
+INFO - 2017-05-05 22:00:31 --> Output Class Initialized
+INFO - 2017-05-05 22:00:31 --> Config Class Initialized
+INFO - 2017-05-05 22:00:31 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:00:31 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:00:31 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:00:31 --> URI Class Initialized
+INFO - 2017-05-05 22:00:32 --> Security Class Initialized
+DEBUG - 2017-05-05 22:00:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:00:32 --> Input Class Initialized
+INFO - 2017-05-05 22:00:32 --> Router Class Initialized
+INFO - 2017-05-05 22:00:32 --> Language Class Initialized
+INFO - 2017-05-05 22:00:32 --> Output Class Initialized
+ERROR - 2017-05-05 22:00:32 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:00:32 --> Security Class Initialized
+DEBUG - 2017-05-05 22:00:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:00:32 --> Input Class Initialized
+INFO - 2017-05-05 22:00:32 --> Language Class Initialized
+ERROR - 2017-05-05 22:00:32 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:01:18 --> Config Class Initialized
+INFO - 2017-05-05 22:01:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:01:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:01:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:01:18 --> URI Class Initialized
+DEBUG - 2017-05-05 22:01:18 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:01:18 --> Router Class Initialized
+INFO - 2017-05-05 22:01:18 --> Output Class Initialized
+INFO - 2017-05-05 22:01:18 --> Security Class Initialized
+DEBUG - 2017-05-05 22:01:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:01:18 --> Input Class Initialized
+INFO - 2017-05-05 22:01:18 --> Language Class Initialized
+INFO - 2017-05-05 22:01:18 --> Loader Class Initialized
+INFO - 2017-05-05 22:01:18 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:01:18 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:01:18 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:01:18 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:01:18 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:01:18 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:01:18 --> User Agent Class Initialized
+INFO - 2017-05-05 22:01:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:01:18 --> Pagination Class Initialized
+INFO - 2017-05-05 22:01:18 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:01:18 --> Controller Class Initialized
+INFO - 2017-05-05 22:01:18 --> Model Class Initialized
+INFO - 2017-05-05 22:01:18 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:01:18 --> Email Class Initialized
+DEBUG - 2017-05-05 22:01:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:01:18 --> Model Class Initialized
+INFO - 2017-05-05 22:01:18 --> Model Class Initialized
+INFO - 2017-05-05 22:01:18 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:01:19 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:01:19 --> Final output sent to browser
+DEBUG - 2017-05-05 22:01:19 --> Total execution time: 0.7704
+INFO - 2017-05-05 22:01:19 --> Config Class Initialized
+INFO - 2017-05-05 22:01:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:01:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:01:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:01:19 --> URI Class Initialized
+INFO - 2017-05-05 22:01:19 --> Config Class Initialized
+INFO - 2017-05-05 22:01:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:01:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:01:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:01:19 --> Router Class Initialized
+INFO - 2017-05-05 22:01:19 --> URI Class Initialized
+INFO - 2017-05-05 22:01:19 --> Output Class Initialized
+INFO - 2017-05-05 22:01:19 --> Router Class Initialized
+INFO - 2017-05-05 22:01:19 --> Security Class Initialized
+INFO - 2017-05-05 22:01:19 --> Output Class Initialized
+DEBUG - 2017-05-05 22:01:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:01:19 --> Input Class Initialized
+INFO - 2017-05-05 22:01:19 --> Language Class Initialized
+INFO - 2017-05-05 22:01:19 --> Security Class Initialized
+ERROR - 2017-05-05 22:01:19 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 22:01:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:01:19 --> Input Class Initialized
+INFO - 2017-05-05 22:01:19 --> Language Class Initialized
+ERROR - 2017-05-05 22:01:19 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:01:37 --> Config Class Initialized
+INFO - 2017-05-05 22:01:37 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:01:37 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:01:37 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:01:37 --> URI Class Initialized
+DEBUG - 2017-05-05 22:01:37 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:01:37 --> Router Class Initialized
+INFO - 2017-05-05 22:01:37 --> Output Class Initialized
+INFO - 2017-05-05 22:01:37 --> Security Class Initialized
+DEBUG - 2017-05-05 22:01:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:01:37 --> Input Class Initialized
+INFO - 2017-05-05 22:01:37 --> Language Class Initialized
+INFO - 2017-05-05 22:01:37 --> Loader Class Initialized
+INFO - 2017-05-05 22:01:37 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:01:37 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:01:37 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:01:37 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:01:37 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:01:37 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:01:37 --> User Agent Class Initialized
+INFO - 2017-05-05 22:01:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:01:37 --> Pagination Class Initialized
+INFO - 2017-05-05 22:01:37 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:01:37 --> Controller Class Initialized
+INFO - 2017-05-05 22:01:37 --> Model Class Initialized
+INFO - 2017-05-05 22:01:37 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:01:37 --> Email Class Initialized
+DEBUG - 2017-05-05 22:01:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:01:37 --> Model Class Initialized
+INFO - 2017-05-05 22:01:37 --> Model Class Initialized
+INFO - 2017-05-05 22:01:37 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:01:38 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:01:38 --> Final output sent to browser
+DEBUG - 2017-05-05 22:01:38 --> Total execution time: 0.7663
+INFO - 2017-05-05 22:01:38 --> Config Class Initialized
+INFO - 2017-05-05 22:01:38 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:01:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:01:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:01:38 --> URI Class Initialized
+INFO - 2017-05-05 22:01:38 --> Router Class Initialized
+INFO - 2017-05-05 22:01:38 --> Output Class Initialized
+INFO - 2017-05-05 22:01:38 --> Security Class Initialized
+DEBUG - 2017-05-05 22:01:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:01:38 --> Input Class Initialized
+INFO - 2017-05-05 22:01:38 --> Language Class Initialized
+ERROR - 2017-05-05 22:01:38 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:01:38 --> Config Class Initialized
+INFO - 2017-05-05 22:01:38 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:01:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:01:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:01:38 --> URI Class Initialized
+INFO - 2017-05-05 22:01:38 --> Router Class Initialized
+INFO - 2017-05-05 22:01:38 --> Output Class Initialized
+INFO - 2017-05-05 22:01:38 --> Security Class Initialized
+DEBUG - 2017-05-05 22:01:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:01:38 --> Input Class Initialized
+INFO - 2017-05-05 22:01:38 --> Language Class Initialized
+ERROR - 2017-05-05 22:01:38 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:01:38 --> Config Class Initialized
+INFO - 2017-05-05 22:01:38 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:01:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:01:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:01:38 --> URI Class Initialized
+INFO - 2017-05-05 22:01:38 --> Router Class Initialized
+INFO - 2017-05-05 22:01:38 --> Output Class Initialized
+INFO - 2017-05-05 22:01:38 --> Security Class Initialized
+DEBUG - 2017-05-05 22:01:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:01:38 --> Input Class Initialized
+INFO - 2017-05-05 22:01:38 --> Language Class Initialized
+ERROR - 2017-05-05 22:01:38 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:02:14 --> Config Class Initialized
+INFO - 2017-05-05 22:02:14 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:02:14 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:02:14 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:02:14 --> URI Class Initialized
+DEBUG - 2017-05-05 22:02:14 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:02:14 --> Router Class Initialized
+INFO - 2017-05-05 22:02:14 --> Output Class Initialized
+INFO - 2017-05-05 22:02:14 --> Security Class Initialized
+DEBUG - 2017-05-05 22:02:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:02:14 --> Input Class Initialized
+INFO - 2017-05-05 22:02:14 --> Language Class Initialized
+INFO - 2017-05-05 22:02:14 --> Loader Class Initialized
+INFO - 2017-05-05 22:02:14 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:02:14 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:02:14 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:02:14 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:02:14 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:02:14 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:02:14 --> User Agent Class Initialized
+INFO - 2017-05-05 22:02:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:02:14 --> Pagination Class Initialized
+INFO - 2017-05-05 22:02:14 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:02:14 --> Controller Class Initialized
+INFO - 2017-05-05 22:02:14 --> Model Class Initialized
+INFO - 2017-05-05 22:02:14 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:02:14 --> Email Class Initialized
+DEBUG - 2017-05-05 22:02:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:02:14 --> Model Class Initialized
+INFO - 2017-05-05 22:02:14 --> Model Class Initialized
+INFO - 2017-05-05 22:02:14 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:02:15 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:02:15 --> Final output sent to browser
+DEBUG - 2017-05-05 22:02:15 --> Total execution time: 0.8705
+INFO - 2017-05-05 22:02:15 --> Config Class Initialized
+INFO - 2017-05-05 22:02:15 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:02:15 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:02:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:02:15 --> URI Class Initialized
+INFO - 2017-05-05 22:02:15 --> Router Class Initialized
+INFO - 2017-05-05 22:02:15 --> Output Class Initialized
+INFO - 2017-05-05 22:02:15 --> Security Class Initialized
+DEBUG - 2017-05-05 22:02:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:02:15 --> Input Class Initialized
+INFO - 2017-05-05 22:02:15 --> Language Class Initialized
+ERROR - 2017-05-05 22:02:15 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:02:15 --> Config Class Initialized
+INFO - 2017-05-05 22:02:15 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:02:15 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:02:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:02:15 --> URI Class Initialized
+INFO - 2017-05-05 22:02:16 --> Router Class Initialized
+INFO - 2017-05-05 22:02:16 --> Output Class Initialized
+INFO - 2017-05-05 22:02:16 --> Security Class Initialized
+DEBUG - 2017-05-05 22:02:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:02:16 --> Input Class Initialized
+INFO - 2017-05-05 22:02:16 --> Language Class Initialized
+ERROR - 2017-05-05 22:02:16 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:02:40 --> Config Class Initialized
+INFO - 2017-05-05 22:02:40 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:02:40 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:02:40 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:02:40 --> URI Class Initialized
+DEBUG - 2017-05-05 22:02:40 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:02:40 --> Router Class Initialized
+INFO - 2017-05-05 22:02:40 --> Output Class Initialized
+INFO - 2017-05-05 22:02:40 --> Security Class Initialized
+DEBUG - 2017-05-05 22:02:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:02:40 --> Input Class Initialized
+INFO - 2017-05-05 22:02:40 --> Language Class Initialized
+INFO - 2017-05-05 22:02:40 --> Loader Class Initialized
+INFO - 2017-05-05 22:02:40 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:02:40 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:02:40 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:02:40 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:02:40 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:02:40 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:02:40 --> User Agent Class Initialized
+INFO - 2017-05-05 22:02:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:02:40 --> Pagination Class Initialized
+INFO - 2017-05-05 22:02:40 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:02:40 --> Controller Class Initialized
+INFO - 2017-05-05 22:02:40 --> Model Class Initialized
+INFO - 2017-05-05 22:02:40 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:02:40 --> Email Class Initialized
+DEBUG - 2017-05-05 22:02:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:02:40 --> Model Class Initialized
+INFO - 2017-05-05 22:02:40 --> Model Class Initialized
+INFO - 2017-05-05 22:02:40 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:02:40 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:02:40 --> Final output sent to browser
+DEBUG - 2017-05-05 22:02:40 --> Total execution time: 0.9127
+INFO - 2017-05-05 22:02:41 --> Config Class Initialized
+INFO - 2017-05-05 22:02:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:02:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:02:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:02:41 --> URI Class Initialized
+INFO - 2017-05-05 22:02:41 --> Router Class Initialized
+INFO - 2017-05-05 22:02:41 --> Output Class Initialized
+INFO - 2017-05-05 22:02:41 --> Config Class Initialized
+INFO - 2017-05-05 22:02:41 --> Hooks Class Initialized
+INFO - 2017-05-05 22:02:41 --> Security Class Initialized
+DEBUG - 2017-05-05 22:02:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:02:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:02:41 --> URI Class Initialized
+DEBUG - 2017-05-05 22:02:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:02:41 --> Input Class Initialized
+INFO - 2017-05-05 22:02:41 --> Router Class Initialized
+INFO - 2017-05-05 22:02:41 --> Language Class Initialized
+INFO - 2017-05-05 22:02:41 --> Output Class Initialized
+ERROR - 2017-05-05 22:02:41 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:02:41 --> Security Class Initialized
+DEBUG - 2017-05-05 22:02:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:02:41 --> Input Class Initialized
+INFO - 2017-05-05 22:02:41 --> Language Class Initialized
+ERROR - 2017-05-05 22:02:41 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:04:18 --> Config Class Initialized
+INFO - 2017-05-05 22:04:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:04:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:04:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:04:18 --> URI Class Initialized
+DEBUG - 2017-05-05 22:04:18 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:04:18 --> Router Class Initialized
+INFO - 2017-05-05 22:04:18 --> Output Class Initialized
+INFO - 2017-05-05 22:04:18 --> Security Class Initialized
+DEBUG - 2017-05-05 22:04:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:04:18 --> Input Class Initialized
+INFO - 2017-05-05 22:04:18 --> Language Class Initialized
+INFO - 2017-05-05 22:04:18 --> Loader Class Initialized
+INFO - 2017-05-05 22:04:18 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:04:18 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:04:18 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:04:18 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:04:18 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:04:18 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:04:18 --> User Agent Class Initialized
+INFO - 2017-05-05 22:04:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:04:18 --> Pagination Class Initialized
+INFO - 2017-05-05 22:04:18 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:04:18 --> Controller Class Initialized
+INFO - 2017-05-05 22:04:18 --> Model Class Initialized
+INFO - 2017-05-05 22:04:18 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:04:18 --> Email Class Initialized
+DEBUG - 2017-05-05 22:04:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:04:18 --> Model Class Initialized
+INFO - 2017-05-05 22:04:18 --> Model Class Initialized
+INFO - 2017-05-05 22:04:18 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:04:19 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:04:19 --> Final output sent to browser
+DEBUG - 2017-05-05 22:04:19 --> Total execution time: 0.8153
+INFO - 2017-05-05 22:04:19 --> Config Class Initialized
+INFO - 2017-05-05 22:04:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:04:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:04:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:04:19 --> URI Class Initialized
+INFO - 2017-05-05 22:04:19 --> Router Class Initialized
+INFO - 2017-05-05 22:04:19 --> Output Class Initialized
+INFO - 2017-05-05 22:04:19 --> Security Class Initialized
+DEBUG - 2017-05-05 22:04:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:04:19 --> Input Class Initialized
+INFO - 2017-05-05 22:04:19 --> Language Class Initialized
+ERROR - 2017-05-05 22:04:19 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:04:19 --> Config Class Initialized
+INFO - 2017-05-05 22:04:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:04:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:04:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:04:19 --> URI Class Initialized
+INFO - 2017-05-05 22:04:19 --> Router Class Initialized
+INFO - 2017-05-05 22:04:19 --> Output Class Initialized
+INFO - 2017-05-05 22:04:19 --> Security Class Initialized
+DEBUG - 2017-05-05 22:04:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:04:19 --> Input Class Initialized
+INFO - 2017-05-05 22:04:19 --> Language Class Initialized
+ERROR - 2017-05-05 22:04:19 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:05:08 --> Config Class Initialized
+INFO - 2017-05-05 22:05:08 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:05:08 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:05:08 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:05:08 --> URI Class Initialized
+DEBUG - 2017-05-05 22:05:08 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:05:08 --> Router Class Initialized
+INFO - 2017-05-05 22:05:08 --> Output Class Initialized
+INFO - 2017-05-05 22:05:08 --> Security Class Initialized
+DEBUG - 2017-05-05 22:05:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:05:08 --> Input Class Initialized
+INFO - 2017-05-05 22:05:08 --> Language Class Initialized
+INFO - 2017-05-05 22:05:08 --> Loader Class Initialized
+INFO - 2017-05-05 22:05:08 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:05:08 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:05:08 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:05:08 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:05:08 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:05:08 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:05:08 --> User Agent Class Initialized
+INFO - 2017-05-05 22:05:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:05:08 --> Pagination Class Initialized
+INFO - 2017-05-05 22:05:08 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:05:08 --> Controller Class Initialized
+INFO - 2017-05-05 22:05:08 --> Model Class Initialized
+INFO - 2017-05-05 22:05:08 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:05:08 --> Email Class Initialized
+DEBUG - 2017-05-05 22:05:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:05:08 --> Model Class Initialized
+INFO - 2017-05-05 22:05:08 --> Model Class Initialized
+INFO - 2017-05-05 22:05:08 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:05:09 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:05:09 --> Final output sent to browser
+DEBUG - 2017-05-05 22:05:09 --> Total execution time: 0.8150
+INFO - 2017-05-05 22:05:09 --> Config Class Initialized
+INFO - 2017-05-05 22:05:09 --> Hooks Class Initialized
+INFO - 2017-05-05 22:05:09 --> Config Class Initialized
+INFO - 2017-05-05 22:05:09 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:05:09 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:05:09 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:05:09 --> URI Class Initialized
+INFO - 2017-05-05 22:05:09 --> Router Class Initialized
+INFO - 2017-05-05 22:05:09 --> Output Class Initialized
+INFO - 2017-05-05 22:05:09 --> Security Class Initialized
+DEBUG - 2017-05-05 22:05:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:05:09 --> Input Class Initialized
+INFO - 2017-05-05 22:05:09 --> Language Class Initialized
+ERROR - 2017-05-05 22:05:09 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 22:05:09 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:05:09 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:05:09 --> URI Class Initialized
+INFO - 2017-05-05 22:05:09 --> Router Class Initialized
+INFO - 2017-05-05 22:05:09 --> Output Class Initialized
+INFO - 2017-05-05 22:05:09 --> Security Class Initialized
+DEBUG - 2017-05-05 22:05:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:05:09 --> Input Class Initialized
+INFO - 2017-05-05 22:05:09 --> Language Class Initialized
+ERROR - 2017-05-05 22:05:09 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:05:51 --> Config Class Initialized
+INFO - 2017-05-05 22:05:51 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:05:51 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:05:51 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:05:51 --> URI Class Initialized
+DEBUG - 2017-05-05 22:05:51 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:05:51 --> Router Class Initialized
+INFO - 2017-05-05 22:05:51 --> Output Class Initialized
+INFO - 2017-05-05 22:05:51 --> Security Class Initialized
+DEBUG - 2017-05-05 22:05:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:05:51 --> Input Class Initialized
+INFO - 2017-05-05 22:05:51 --> Language Class Initialized
+INFO - 2017-05-05 22:05:51 --> Loader Class Initialized
+INFO - 2017-05-05 22:05:51 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:05:51 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:05:51 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:05:51 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:05:51 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:05:51 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:05:51 --> User Agent Class Initialized
+INFO - 2017-05-05 22:05:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:05:51 --> Pagination Class Initialized
+INFO - 2017-05-05 22:05:51 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:05:51 --> Controller Class Initialized
+INFO - 2017-05-05 22:05:51 --> Model Class Initialized
+INFO - 2017-05-05 22:05:51 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:05:51 --> Email Class Initialized
+DEBUG - 2017-05-05 22:05:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:05:51 --> Model Class Initialized
+INFO - 2017-05-05 22:05:51 --> Model Class Initialized
+INFO - 2017-05-05 22:05:51 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:05:52 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:05:52 --> Final output sent to browser
+DEBUG - 2017-05-05 22:05:52 --> Total execution time: 0.8911
+INFO - 2017-05-05 22:05:52 --> Config Class Initialized
+INFO - 2017-05-05 22:05:52 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:05:52 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:05:52 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:05:52 --> URI Class Initialized
+INFO - 2017-05-05 22:05:52 --> Router Class Initialized
+INFO - 2017-05-05 22:05:52 --> Output Class Initialized
+INFO - 2017-05-05 22:05:52 --> Security Class Initialized
+DEBUG - 2017-05-05 22:05:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:05:52 --> Input Class Initialized
+INFO - 2017-05-05 22:05:52 --> Language Class Initialized
+INFO - 2017-05-05 22:05:52 --> Config Class Initialized
+INFO - 2017-05-05 22:05:52 --> Hooks Class Initialized
+ERROR - 2017-05-05 22:05:52 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 22:05:52 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:05:52 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:05:52 --> URI Class Initialized
+INFO - 2017-05-05 22:05:52 --> Router Class Initialized
+INFO - 2017-05-05 22:05:52 --> Output Class Initialized
+INFO - 2017-05-05 22:05:52 --> Security Class Initialized
+DEBUG - 2017-05-05 22:05:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:05:52 --> Input Class Initialized
+INFO - 2017-05-05 22:05:52 --> Language Class Initialized
+ERROR - 2017-05-05 22:05:52 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:05:53 --> Config Class Initialized
+INFO - 2017-05-05 22:05:53 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:05:53 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:05:53 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:05:53 --> URI Class Initialized
+INFO - 2017-05-05 22:05:53 --> Router Class Initialized
+INFO - 2017-05-05 22:05:53 --> Output Class Initialized
+INFO - 2017-05-05 22:05:53 --> Security Class Initialized
+DEBUG - 2017-05-05 22:05:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:05:53 --> Input Class Initialized
+INFO - 2017-05-05 22:05:53 --> Language Class Initialized
+ERROR - 2017-05-05 22:05:53 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:06:41 --> Config Class Initialized
+INFO - 2017-05-05 22:06:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:06:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:06:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:06:41 --> URI Class Initialized
+DEBUG - 2017-05-05 22:06:41 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:06:41 --> Router Class Initialized
+INFO - 2017-05-05 22:06:41 --> Output Class Initialized
+INFO - 2017-05-05 22:06:41 --> Security Class Initialized
+DEBUG - 2017-05-05 22:06:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:06:41 --> Input Class Initialized
+INFO - 2017-05-05 22:06:41 --> Language Class Initialized
+INFO - 2017-05-05 22:06:41 --> Loader Class Initialized
+INFO - 2017-05-05 22:06:41 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:06:41 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:06:41 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:06:41 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:06:41 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:06:41 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:06:41 --> User Agent Class Initialized
+INFO - 2017-05-05 22:06:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:06:41 --> Pagination Class Initialized
+INFO - 2017-05-05 22:06:41 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:06:41 --> Controller Class Initialized
+INFO - 2017-05-05 22:06:41 --> Model Class Initialized
+INFO - 2017-05-05 22:06:41 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:06:41 --> Email Class Initialized
+DEBUG - 2017-05-05 22:06:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:06:41 --> Model Class Initialized
+INFO - 2017-05-05 22:06:41 --> Model Class Initialized
+INFO - 2017-05-05 22:06:41 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:06:42 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:06:42 --> Final output sent to browser
+DEBUG - 2017-05-05 22:06:42 --> Total execution time: 0.9387
+INFO - 2017-05-05 22:06:42 --> Config Class Initialized
+INFO - 2017-05-05 22:06:42 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:06:42 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:06:42 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:06:42 --> URI Class Initialized
+INFO - 2017-05-05 22:06:42 --> Router Class Initialized
+INFO - 2017-05-05 22:06:42 --> Output Class Initialized
+INFO - 2017-05-05 22:06:42 --> Security Class Initialized
+DEBUG - 2017-05-05 22:06:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:06:42 --> Input Class Initialized
+INFO - 2017-05-05 22:06:42 --> Language Class Initialized
+ERROR - 2017-05-05 22:06:42 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:06:42 --> Config Class Initialized
+INFO - 2017-05-05 22:06:42 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:06:42 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:06:42 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:06:42 --> URI Class Initialized
+INFO - 2017-05-05 22:06:42 --> Router Class Initialized
+INFO - 2017-05-05 22:06:42 --> Output Class Initialized
+INFO - 2017-05-05 22:06:42 --> Security Class Initialized
+DEBUG - 2017-05-05 22:06:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:06:42 --> Input Class Initialized
+INFO - 2017-05-05 22:06:42 --> Language Class Initialized
+ERROR - 2017-05-05 22:06:42 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:06:42 --> Config Class Initialized
+INFO - 2017-05-05 22:06:42 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:06:42 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:06:42 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:06:42 --> URI Class Initialized
+INFO - 2017-05-05 22:06:42 --> Router Class Initialized
+INFO - 2017-05-05 22:06:42 --> Output Class Initialized
+INFO - 2017-05-05 22:06:42 --> Security Class Initialized
+DEBUG - 2017-05-05 22:06:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:06:42 --> Input Class Initialized
+INFO - 2017-05-05 22:06:42 --> Language Class Initialized
+ERROR - 2017-05-05 22:06:42 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:07:11 --> Config Class Initialized
+INFO - 2017-05-05 22:07:11 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:07:11 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:07:11 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:07:11 --> URI Class Initialized
+DEBUG - 2017-05-05 22:07:11 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:07:11 --> Router Class Initialized
+INFO - 2017-05-05 22:07:11 --> Output Class Initialized
+INFO - 2017-05-05 22:07:11 --> Security Class Initialized
+DEBUG - 2017-05-05 22:07:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:07:11 --> Input Class Initialized
+INFO - 2017-05-05 22:07:11 --> Language Class Initialized
+INFO - 2017-05-05 22:07:11 --> Loader Class Initialized
+INFO - 2017-05-05 22:07:11 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:07:11 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:07:11 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:07:11 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:07:11 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:07:11 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:07:11 --> User Agent Class Initialized
+INFO - 2017-05-05 22:07:11 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:07:12 --> Pagination Class Initialized
+INFO - 2017-05-05 22:07:12 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:07:12 --> Controller Class Initialized
+INFO - 2017-05-05 22:07:12 --> Model Class Initialized
+INFO - 2017-05-05 22:07:12 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:07:12 --> Email Class Initialized
+DEBUG - 2017-05-05 22:07:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:07:12 --> Model Class Initialized
+INFO - 2017-05-05 22:07:12 --> Model Class Initialized
+INFO - 2017-05-05 22:07:12 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:07:12 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:07:12 --> Final output sent to browser
+DEBUG - 2017-05-05 22:07:12 --> Total execution time: 0.8790
+INFO - 2017-05-05 22:07:13 --> Config Class Initialized
+INFO - 2017-05-05 22:07:13 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:07:13 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:07:13 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:07:13 --> URI Class Initialized
+INFO - 2017-05-05 22:07:13 --> Router Class Initialized
+INFO - 2017-05-05 22:07:13 --> Config Class Initialized
+INFO - 2017-05-05 22:07:13 --> Hooks Class Initialized
+INFO - 2017-05-05 22:07:13 --> Output Class Initialized
+INFO - 2017-05-05 22:07:13 --> Security Class Initialized
+DEBUG - 2017-05-05 22:07:13 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:07:13 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 22:07:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:07:13 --> Input Class Initialized
+INFO - 2017-05-05 22:07:13 --> URI Class Initialized
+INFO - 2017-05-05 22:07:13 --> Language Class Initialized
+ERROR - 2017-05-05 22:07:13 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:07:13 --> Router Class Initialized
+INFO - 2017-05-05 22:07:13 --> Output Class Initialized
+INFO - 2017-05-05 22:07:13 --> Security Class Initialized
+DEBUG - 2017-05-05 22:07:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:07:13 --> Input Class Initialized
+INFO - 2017-05-05 22:07:13 --> Language Class Initialized
+ERROR - 2017-05-05 22:07:13 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:07:57 --> Config Class Initialized
+INFO - 2017-05-05 22:07:57 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:07:57 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:07:57 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:07:57 --> URI Class Initialized
+DEBUG - 2017-05-05 22:07:57 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:07:57 --> Router Class Initialized
+INFO - 2017-05-05 22:07:57 --> Output Class Initialized
+INFO - 2017-05-05 22:07:57 --> Security Class Initialized
+DEBUG - 2017-05-05 22:07:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:07:57 --> Input Class Initialized
+INFO - 2017-05-05 22:07:57 --> Language Class Initialized
+INFO - 2017-05-05 22:07:57 --> Loader Class Initialized
+INFO - 2017-05-05 22:07:57 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:07:57 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:07:57 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:07:57 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:07:57 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:07:57 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:07:57 --> User Agent Class Initialized
+INFO - 2017-05-05 22:07:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:07:57 --> Pagination Class Initialized
+INFO - 2017-05-05 22:07:57 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:07:57 --> Controller Class Initialized
+INFO - 2017-05-05 22:07:57 --> Model Class Initialized
+INFO - 2017-05-05 22:07:57 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:07:57 --> Email Class Initialized
+DEBUG - 2017-05-05 22:07:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:07:57 --> Model Class Initialized
+INFO - 2017-05-05 22:07:57 --> Model Class Initialized
+INFO - 2017-05-05 22:07:57 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:07:58 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:07:58 --> Final output sent to browser
+DEBUG - 2017-05-05 22:07:58 --> Total execution time: 0.9272
+INFO - 2017-05-05 22:07:58 --> Config Class Initialized
+INFO - 2017-05-05 22:07:58 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:07:58 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:07:58 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:07:58 --> URI Class Initialized
+INFO - 2017-05-05 22:07:58 --> Router Class Initialized
+INFO - 2017-05-05 22:07:58 --> Output Class Initialized
+INFO - 2017-05-05 22:07:58 --> Security Class Initialized
+DEBUG - 2017-05-05 22:07:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:07:58 --> Input Class Initialized
+INFO - 2017-05-05 22:07:58 --> Language Class Initialized
+ERROR - 2017-05-05 22:07:58 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:07:58 --> Config Class Initialized
+INFO - 2017-05-05 22:07:58 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:07:58 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:07:58 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:07:58 --> URI Class Initialized
+INFO - 2017-05-05 22:07:58 --> Router Class Initialized
+INFO - 2017-05-05 22:07:58 --> Output Class Initialized
+INFO - 2017-05-05 22:07:58 --> Security Class Initialized
+DEBUG - 2017-05-05 22:07:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:07:58 --> Input Class Initialized
+INFO - 2017-05-05 22:07:58 --> Language Class Initialized
+ERROR - 2017-05-05 22:07:58 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:07:58 --> Config Class Initialized
+INFO - 2017-05-05 22:07:58 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:07:58 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:07:58 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:07:58 --> URI Class Initialized
+INFO - 2017-05-05 22:07:58 --> Router Class Initialized
+INFO - 2017-05-05 22:07:58 --> Output Class Initialized
+INFO - 2017-05-05 22:07:58 --> Security Class Initialized
+DEBUG - 2017-05-05 22:07:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:07:58 --> Input Class Initialized
+INFO - 2017-05-05 22:07:58 --> Language Class Initialized
+ERROR - 2017-05-05 22:07:58 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:09:21 --> Config Class Initialized
+INFO - 2017-05-05 22:09:21 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:09:21 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:09:21 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:09:21 --> URI Class Initialized
+DEBUG - 2017-05-05 22:09:21 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:09:21 --> Router Class Initialized
+INFO - 2017-05-05 22:09:21 --> Output Class Initialized
+INFO - 2017-05-05 22:09:21 --> Security Class Initialized
+DEBUG - 2017-05-05 22:09:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:09:21 --> Input Class Initialized
+INFO - 2017-05-05 22:09:21 --> Language Class Initialized
+INFO - 2017-05-05 22:09:21 --> Loader Class Initialized
+INFO - 2017-05-05 22:09:21 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:09:21 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:09:21 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:09:21 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:09:21 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:09:21 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:09:21 --> User Agent Class Initialized
+INFO - 2017-05-05 22:09:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:09:21 --> Pagination Class Initialized
+INFO - 2017-05-05 22:09:21 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:09:21 --> Controller Class Initialized
+INFO - 2017-05-05 22:09:21 --> Model Class Initialized
+INFO - 2017-05-05 22:09:21 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:09:21 --> Email Class Initialized
+DEBUG - 2017-05-05 22:09:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:09:21 --> Model Class Initialized
+INFO - 2017-05-05 22:09:21 --> Model Class Initialized
+INFO - 2017-05-05 22:09:21 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:09:22 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:09:22 --> Final output sent to browser
+DEBUG - 2017-05-05 22:09:22 --> Total execution time: 1.2203
+INFO - 2017-05-05 22:09:23 --> Config Class Initialized
+INFO - 2017-05-05 22:09:23 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:09:23 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:09:23 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:09:23 --> URI Class Initialized
+INFO - 2017-05-05 22:09:23 --> Router Class Initialized
+INFO - 2017-05-05 22:09:23 --> Output Class Initialized
+INFO - 2017-05-05 22:09:23 --> Security Class Initialized
+DEBUG - 2017-05-05 22:09:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:09:23 --> Input Class Initialized
+INFO - 2017-05-05 22:09:23 --> Config Class Initialized
+INFO - 2017-05-05 22:09:23 --> Language Class Initialized
+INFO - 2017-05-05 22:09:23 --> Hooks Class Initialized
+ERROR - 2017-05-05 22:09:23 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 22:09:23 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:09:23 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:09:23 --> URI Class Initialized
+INFO - 2017-05-05 22:09:23 --> Router Class Initialized
+INFO - 2017-05-05 22:09:23 --> Output Class Initialized
+INFO - 2017-05-05 22:09:23 --> Security Class Initialized
+DEBUG - 2017-05-05 22:09:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:09:23 --> Input Class Initialized
+INFO - 2017-05-05 22:09:23 --> Language Class Initialized
+ERROR - 2017-05-05 22:09:23 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:11:17 --> Config Class Initialized
+INFO - 2017-05-05 22:11:17 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:11:17 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:11:17 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:11:17 --> URI Class Initialized
+DEBUG - 2017-05-05 22:11:17 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:11:17 --> Router Class Initialized
+INFO - 2017-05-05 22:11:17 --> Output Class Initialized
+INFO - 2017-05-05 22:11:17 --> Security Class Initialized
+DEBUG - 2017-05-05 22:11:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:11:17 --> Input Class Initialized
+INFO - 2017-05-05 22:11:17 --> Language Class Initialized
+INFO - 2017-05-05 22:11:17 --> Loader Class Initialized
+INFO - 2017-05-05 22:11:17 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:11:17 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:11:17 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:11:17 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:11:17 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:11:17 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:11:17 --> User Agent Class Initialized
+INFO - 2017-05-05 22:11:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:11:17 --> Pagination Class Initialized
+INFO - 2017-05-05 22:11:17 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:11:17 --> Controller Class Initialized
+INFO - 2017-05-05 22:11:17 --> Model Class Initialized
+INFO - 2017-05-05 22:11:17 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:11:17 --> Email Class Initialized
+DEBUG - 2017-05-05 22:11:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:11:17 --> Model Class Initialized
+INFO - 2017-05-05 22:11:17 --> Model Class Initialized
+INFO - 2017-05-05 22:11:17 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:11:18 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:11:18 --> Final output sent to browser
+DEBUG - 2017-05-05 22:11:18 --> Total execution time: 0.9546
+INFO - 2017-05-05 22:11:18 --> Config Class Initialized
+INFO - 2017-05-05 22:11:18 --> Config Class Initialized
+INFO - 2017-05-05 22:11:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:11:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:11:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:11:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:11:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:11:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:11:18 --> URI Class Initialized
+INFO - 2017-05-05 22:11:18 --> Router Class Initialized
+INFO - 2017-05-05 22:11:18 --> Output Class Initialized
+INFO - 2017-05-05 22:11:18 --> URI Class Initialized
+INFO - 2017-05-05 22:11:18 --> Security Class Initialized
+DEBUG - 2017-05-05 22:11:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:11:18 --> Input Class Initialized
+INFO - 2017-05-05 22:11:18 --> Router Class Initialized
+INFO - 2017-05-05 22:11:18 --> Language Class Initialized
+ERROR - 2017-05-05 22:11:18 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:11:18 --> Output Class Initialized
+INFO - 2017-05-05 22:11:18 --> Security Class Initialized
+DEBUG - 2017-05-05 22:11:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:11:18 --> Input Class Initialized
+INFO - 2017-05-05 22:11:18 --> Language Class Initialized
+ERROR - 2017-05-05 22:11:18 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:13:54 --> Config Class Initialized
+INFO - 2017-05-05 22:13:54 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:13:54 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:13:54 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:13:54 --> URI Class Initialized
+DEBUG - 2017-05-05 22:13:54 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:13:54 --> Router Class Initialized
+INFO - 2017-05-05 22:13:54 --> Output Class Initialized
+INFO - 2017-05-05 22:13:54 --> Security Class Initialized
+DEBUG - 2017-05-05 22:13:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:13:54 --> Input Class Initialized
+INFO - 2017-05-05 22:13:54 --> Language Class Initialized
+INFO - 2017-05-05 22:13:54 --> Loader Class Initialized
+INFO - 2017-05-05 22:13:54 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:13:54 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:13:54 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:13:54 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:13:54 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:13:54 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:13:54 --> User Agent Class Initialized
+INFO - 2017-05-05 22:13:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:13:54 --> Pagination Class Initialized
+INFO - 2017-05-05 22:13:54 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:13:54 --> Controller Class Initialized
+INFO - 2017-05-05 22:13:54 --> Model Class Initialized
+INFO - 2017-05-05 22:13:54 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:13:54 --> Email Class Initialized
+DEBUG - 2017-05-05 22:13:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:13:54 --> Model Class Initialized
+INFO - 2017-05-05 22:13:54 --> Model Class Initialized
+INFO - 2017-05-05 22:13:54 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:13:54 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:13:54 --> Final output sent to browser
+DEBUG - 2017-05-05 22:13:54 --> Total execution time: 0.9862
+INFO - 2017-05-05 22:13:55 --> Config Class Initialized
+INFO - 2017-05-05 22:13:55 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:13:55 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:13:55 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:13:55 --> URI Class Initialized
+INFO - 2017-05-05 22:13:55 --> Router Class Initialized
+INFO - 2017-05-05 22:13:55 --> Output Class Initialized
+INFO - 2017-05-05 22:13:55 --> Security Class Initialized
+DEBUG - 2017-05-05 22:13:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:13:55 --> Input Class Initialized
+INFO - 2017-05-05 22:13:55 --> Language Class Initialized
+ERROR - 2017-05-05 22:13:55 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:13:55 --> Config Class Initialized
+INFO - 2017-05-05 22:13:55 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:13:55 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:13:55 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:13:55 --> URI Class Initialized
+INFO - 2017-05-05 22:13:55 --> Router Class Initialized
+INFO - 2017-05-05 22:13:55 --> Output Class Initialized
+INFO - 2017-05-05 22:13:55 --> Security Class Initialized
+DEBUG - 2017-05-05 22:13:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:13:55 --> Input Class Initialized
+INFO - 2017-05-05 22:13:55 --> Language Class Initialized
+ERROR - 2017-05-05 22:13:55 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:14:43 --> Config Class Initialized
+INFO - 2017-05-05 22:14:43 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:14:43 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:14:43 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:14:43 --> URI Class Initialized
+DEBUG - 2017-05-05 22:14:43 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:14:43 --> Router Class Initialized
+INFO - 2017-05-05 22:14:43 --> Output Class Initialized
+INFO - 2017-05-05 22:14:43 --> Security Class Initialized
+DEBUG - 2017-05-05 22:14:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:14:43 --> Input Class Initialized
+INFO - 2017-05-05 22:14:43 --> Language Class Initialized
+INFO - 2017-05-05 22:14:43 --> Loader Class Initialized
+INFO - 2017-05-05 22:14:43 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:14:43 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:14:43 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:14:43 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:14:43 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:14:43 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:14:43 --> User Agent Class Initialized
+INFO - 2017-05-05 22:14:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:14:43 --> Pagination Class Initialized
+INFO - 2017-05-05 22:14:43 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:14:43 --> Controller Class Initialized
+INFO - 2017-05-05 22:14:43 --> Model Class Initialized
+INFO - 2017-05-05 22:14:43 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:14:43 --> Email Class Initialized
+DEBUG - 2017-05-05 22:14:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:14:43 --> Model Class Initialized
+INFO - 2017-05-05 22:14:43 --> Model Class Initialized
+INFO - 2017-05-05 22:14:43 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:14:44 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:14:44 --> Final output sent to browser
+DEBUG - 2017-05-05 22:14:44 --> Total execution time: 1.3891
+INFO - 2017-05-05 22:14:44 --> Config Class Initialized
+INFO - 2017-05-05 22:14:44 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:14:44 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:14:44 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:14:44 --> URI Class Initialized
+INFO - 2017-05-05 22:14:44 --> Router Class Initialized
+INFO - 2017-05-05 22:14:44 --> Output Class Initialized
+INFO - 2017-05-05 22:14:44 --> Security Class Initialized
+DEBUG - 2017-05-05 22:14:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:14:44 --> Input Class Initialized
+INFO - 2017-05-05 22:14:44 --> Language Class Initialized
+ERROR - 2017-05-05 22:14:44 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:14:44 --> Config Class Initialized
+INFO - 2017-05-05 22:14:44 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:14:44 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:14:44 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:14:44 --> URI Class Initialized
+INFO - 2017-05-05 22:14:44 --> Router Class Initialized
+INFO - 2017-05-05 22:14:44 --> Output Class Initialized
+INFO - 2017-05-05 22:14:44 --> Security Class Initialized
+DEBUG - 2017-05-05 22:14:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:14:44 --> Input Class Initialized
+INFO - 2017-05-05 22:14:44 --> Language Class Initialized
+ERROR - 2017-05-05 22:14:44 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:15:50 --> Config Class Initialized
+INFO - 2017-05-05 22:15:50 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:15:50 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:15:50 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:15:50 --> URI Class Initialized
+DEBUG - 2017-05-05 22:15:50 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:15:50 --> Router Class Initialized
+INFO - 2017-05-05 22:15:50 --> Output Class Initialized
+INFO - 2017-05-05 22:15:50 --> Security Class Initialized
+DEBUG - 2017-05-05 22:15:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:15:50 --> Input Class Initialized
+INFO - 2017-05-05 22:15:50 --> Language Class Initialized
+INFO - 2017-05-05 22:15:50 --> Loader Class Initialized
+INFO - 2017-05-05 22:15:50 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:15:50 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:15:50 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:15:50 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:15:50 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:15:50 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:15:50 --> User Agent Class Initialized
+INFO - 2017-05-05 22:15:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:15:50 --> Pagination Class Initialized
+INFO - 2017-05-05 22:15:50 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:15:50 --> Controller Class Initialized
+INFO - 2017-05-05 22:15:50 --> Model Class Initialized
+INFO - 2017-05-05 22:15:50 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:15:50 --> Email Class Initialized
+DEBUG - 2017-05-05 22:15:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:15:50 --> Model Class Initialized
+INFO - 2017-05-05 22:15:50 --> Model Class Initialized
+INFO - 2017-05-05 22:15:50 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:15:51 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:15:51 --> Final output sent to browser
+DEBUG - 2017-05-05 22:15:51 --> Total execution time: 0.7959
+INFO - 2017-05-05 22:15:51 --> Config Class Initialized
+INFO - 2017-05-05 22:15:51 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:15:51 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:15:51 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:15:51 --> URI Class Initialized
+INFO - 2017-05-05 22:15:51 --> Router Class Initialized
+INFO - 2017-05-05 22:15:51 --> Output Class Initialized
+INFO - 2017-05-05 22:15:51 --> Security Class Initialized
+DEBUG - 2017-05-05 22:15:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:15:51 --> Input Class Initialized
+INFO - 2017-05-05 22:15:51 --> Language Class Initialized
+ERROR - 2017-05-05 22:15:51 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:15:51 --> Config Class Initialized
+INFO - 2017-05-05 22:15:51 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:15:51 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:15:51 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:15:51 --> URI Class Initialized
+INFO - 2017-05-05 22:15:51 --> Router Class Initialized
+INFO - 2017-05-05 22:15:51 --> Output Class Initialized
+INFO - 2017-05-05 22:15:51 --> Security Class Initialized
+DEBUG - 2017-05-05 22:15:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:15:51 --> Input Class Initialized
+INFO - 2017-05-05 22:15:51 --> Language Class Initialized
+ERROR - 2017-05-05 22:15:51 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:17:37 --> Config Class Initialized
+INFO - 2017-05-05 22:17:37 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:17:37 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:17:37 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:17:37 --> URI Class Initialized
+DEBUG - 2017-05-05 22:17:37 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:17:37 --> Router Class Initialized
+INFO - 2017-05-05 22:17:37 --> Output Class Initialized
+INFO - 2017-05-05 22:17:37 --> Security Class Initialized
+DEBUG - 2017-05-05 22:17:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:17:37 --> Input Class Initialized
+INFO - 2017-05-05 22:17:37 --> Language Class Initialized
+INFO - 2017-05-05 22:17:37 --> Loader Class Initialized
+INFO - 2017-05-05 22:17:37 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:17:37 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:17:37 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:17:37 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:17:37 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:17:37 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:17:37 --> User Agent Class Initialized
+INFO - 2017-05-05 22:17:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:17:37 --> Pagination Class Initialized
+INFO - 2017-05-05 22:17:37 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:17:37 --> Controller Class Initialized
+INFO - 2017-05-05 22:17:37 --> Model Class Initialized
+INFO - 2017-05-05 22:17:37 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:17:37 --> Email Class Initialized
+DEBUG - 2017-05-05 22:17:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:17:37 --> Model Class Initialized
+INFO - 2017-05-05 22:17:37 --> Model Class Initialized
+INFO - 2017-05-05 22:17:37 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:17:38 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:17:38 --> Final output sent to browser
+DEBUG - 2017-05-05 22:17:38 --> Total execution time: 0.8501
+INFO - 2017-05-05 22:17:38 --> Config Class Initialized
+INFO - 2017-05-05 22:17:38 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:17:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:17:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:17:38 --> Config Class Initialized
+INFO - 2017-05-05 22:17:38 --> Hooks Class Initialized
+INFO - 2017-05-05 22:17:38 --> URI Class Initialized
+DEBUG - 2017-05-05 22:17:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:17:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:17:38 --> URI Class Initialized
+INFO - 2017-05-05 22:17:38 --> Router Class Initialized
+INFO - 2017-05-05 22:17:38 --> Output Class Initialized
+INFO - 2017-05-05 22:17:38 --> Security Class Initialized
+DEBUG - 2017-05-05 22:17:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:17:38 --> Input Class Initialized
+INFO - 2017-05-05 22:17:38 --> Language Class Initialized
+ERROR - 2017-05-05 22:17:38 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:17:38 --> Router Class Initialized
+INFO - 2017-05-05 22:17:38 --> Output Class Initialized
+INFO - 2017-05-05 22:17:38 --> Security Class Initialized
+DEBUG - 2017-05-05 22:17:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:17:38 --> Input Class Initialized
+INFO - 2017-05-05 22:17:38 --> Language Class Initialized
+ERROR - 2017-05-05 22:17:38 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:20:00 --> Config Class Initialized
+INFO - 2017-05-05 22:20:00 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:20:00 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:20:00 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:20:00 --> URI Class Initialized
+DEBUG - 2017-05-05 22:20:00 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:20:00 --> Router Class Initialized
+INFO - 2017-05-05 22:20:00 --> Output Class Initialized
+INFO - 2017-05-05 22:20:00 --> Security Class Initialized
+DEBUG - 2017-05-05 22:20:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:20:00 --> Input Class Initialized
+INFO - 2017-05-05 22:20:00 --> Language Class Initialized
+INFO - 2017-05-05 22:20:00 --> Loader Class Initialized
+INFO - 2017-05-05 22:20:00 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:20:00 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:20:00 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:20:00 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:20:00 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:20:00 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:20:00 --> User Agent Class Initialized
+INFO - 2017-05-05 22:20:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:20:00 --> Pagination Class Initialized
+INFO - 2017-05-05 22:20:00 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:20:00 --> Controller Class Initialized
+INFO - 2017-05-05 22:20:00 --> Model Class Initialized
+INFO - 2017-05-05 22:20:00 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:20:00 --> Email Class Initialized
+DEBUG - 2017-05-05 22:20:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:20:00 --> Model Class Initialized
+INFO - 2017-05-05 22:20:00 --> Model Class Initialized
+INFO - 2017-05-05 22:20:00 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:20:01 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:20:01 --> Final output sent to browser
+DEBUG - 2017-05-05 22:20:01 --> Total execution time: 0.9325
+INFO - 2017-05-05 22:20:01 --> Config Class Initialized
+INFO - 2017-05-05 22:20:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:20:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:20:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:20:01 --> URI Class Initialized
+INFO - 2017-05-05 22:20:01 --> Router Class Initialized
+INFO - 2017-05-05 22:20:01 --> Output Class Initialized
+INFO - 2017-05-05 22:20:01 --> Security Class Initialized
+DEBUG - 2017-05-05 22:20:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:20:01 --> Input Class Initialized
+INFO - 2017-05-05 22:20:01 --> Language Class Initialized
+ERROR - 2017-05-05 22:20:01 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:20:01 --> Config Class Initialized
+INFO - 2017-05-05 22:20:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:20:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:20:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:20:01 --> URI Class Initialized
+INFO - 2017-05-05 22:20:01 --> Router Class Initialized
+INFO - 2017-05-05 22:20:01 --> Output Class Initialized
+INFO - 2017-05-05 22:20:01 --> Security Class Initialized
+DEBUG - 2017-05-05 22:20:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:20:01 --> Input Class Initialized
+INFO - 2017-05-05 22:20:01 --> Language Class Initialized
+ERROR - 2017-05-05 22:20:01 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:20:01 --> Config Class Initialized
+INFO - 2017-05-05 22:20:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:20:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:20:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:20:01 --> URI Class Initialized
+INFO - 2017-05-05 22:20:01 --> Router Class Initialized
+INFO - 2017-05-05 22:20:01 --> Output Class Initialized
+INFO - 2017-05-05 22:20:01 --> Security Class Initialized
+DEBUG - 2017-05-05 22:20:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:20:01 --> Input Class Initialized
+INFO - 2017-05-05 22:20:02 --> Language Class Initialized
+ERROR - 2017-05-05 22:20:02 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:21:41 --> Config Class Initialized
+INFO - 2017-05-05 22:21:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:21:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:21:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:21:41 --> URI Class Initialized
+DEBUG - 2017-05-05 22:21:41 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:21:41 --> Router Class Initialized
+INFO - 2017-05-05 22:21:41 --> Output Class Initialized
+INFO - 2017-05-05 22:21:41 --> Security Class Initialized
+DEBUG - 2017-05-05 22:21:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:21:41 --> Input Class Initialized
+INFO - 2017-05-05 22:21:41 --> Language Class Initialized
+INFO - 2017-05-05 22:21:41 --> Loader Class Initialized
+INFO - 2017-05-05 22:21:41 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:21:41 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:21:41 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:21:41 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:21:41 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:21:41 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:21:41 --> User Agent Class Initialized
+INFO - 2017-05-05 22:21:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:21:42 --> Pagination Class Initialized
+INFO - 2017-05-05 22:21:42 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:21:42 --> Controller Class Initialized
+INFO - 2017-05-05 22:21:42 --> Model Class Initialized
+INFO - 2017-05-05 22:21:42 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:21:42 --> Email Class Initialized
+DEBUG - 2017-05-05 22:21:42 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:21:42 --> Model Class Initialized
+INFO - 2017-05-05 22:21:42 --> Model Class Initialized
+INFO - 2017-05-05 22:21:42 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:21:42 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:21:42 --> Final output sent to browser
+DEBUG - 2017-05-05 22:21:42 --> Total execution time: 0.8698
+INFO - 2017-05-05 22:21:42 --> Config Class Initialized
+INFO - 2017-05-05 22:21:42 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:21:42 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:21:42 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:21:42 --> URI Class Initialized
+INFO - 2017-05-05 22:21:42 --> Router Class Initialized
+INFO - 2017-05-05 22:21:43 --> Output Class Initialized
+INFO - 2017-05-05 22:21:43 --> Security Class Initialized
+DEBUG - 2017-05-05 22:21:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:21:43 --> Input Class Initialized
+INFO - 2017-05-05 22:21:43 --> Language Class Initialized
+ERROR - 2017-05-05 22:21:43 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:21:43 --> Config Class Initialized
+INFO - 2017-05-05 22:21:43 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:21:43 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:21:43 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:21:43 --> URI Class Initialized
+INFO - 2017-05-05 22:21:43 --> Router Class Initialized
+INFO - 2017-05-05 22:21:43 --> Output Class Initialized
+INFO - 2017-05-05 22:21:43 --> Security Class Initialized
+DEBUG - 2017-05-05 22:21:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:21:43 --> Input Class Initialized
+INFO - 2017-05-05 22:21:43 --> Language Class Initialized
+ERROR - 2017-05-05 22:21:43 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:21:56 --> Config Class Initialized
+INFO - 2017-05-05 22:21:56 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:21:56 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:21:56 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:21:56 --> URI Class Initialized
+DEBUG - 2017-05-05 22:21:56 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:21:56 --> Router Class Initialized
+INFO - 2017-05-05 22:21:56 --> Output Class Initialized
+INFO - 2017-05-05 22:21:56 --> Security Class Initialized
+DEBUG - 2017-05-05 22:21:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:21:56 --> Input Class Initialized
+INFO - 2017-05-05 22:21:56 --> Language Class Initialized
+INFO - 2017-05-05 22:21:56 --> Loader Class Initialized
+INFO - 2017-05-05 22:21:56 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:21:56 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:21:56 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:21:56 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:21:56 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:21:56 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:21:56 --> User Agent Class Initialized
+INFO - 2017-05-05 22:21:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:21:56 --> Pagination Class Initialized
+INFO - 2017-05-05 22:21:56 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:21:56 --> Controller Class Initialized
+INFO - 2017-05-05 22:21:56 --> Model Class Initialized
+INFO - 2017-05-05 22:21:56 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:21:56 --> Email Class Initialized
+DEBUG - 2017-05-05 22:21:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:21:56 --> Model Class Initialized
+INFO - 2017-05-05 22:21:56 --> Model Class Initialized
+INFO - 2017-05-05 22:21:56 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:21:57 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:21:57 --> Final output sent to browser
+DEBUG - 2017-05-05 22:21:57 --> Total execution time: 0.8349
+INFO - 2017-05-05 22:21:57 --> Config Class Initialized
+INFO - 2017-05-05 22:21:57 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:21:57 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:21:57 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:21:57 --> URI Class Initialized
+INFO - 2017-05-05 22:21:57 --> Router Class Initialized
+INFO - 2017-05-05 22:21:57 --> Output Class Initialized
+INFO - 2017-05-05 22:21:57 --> Security Class Initialized
+DEBUG - 2017-05-05 22:21:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:21:57 --> Input Class Initialized
+INFO - 2017-05-05 22:21:57 --> Language Class Initialized
+ERROR - 2017-05-05 22:21:57 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:21:57 --> Config Class Initialized
+INFO - 2017-05-05 22:21:57 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:21:57 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:21:57 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:21:57 --> URI Class Initialized
+INFO - 2017-05-05 22:21:57 --> Router Class Initialized
+INFO - 2017-05-05 22:21:57 --> Output Class Initialized
+INFO - 2017-05-05 22:21:57 --> Security Class Initialized
+DEBUG - 2017-05-05 22:21:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:21:57 --> Input Class Initialized
+INFO - 2017-05-05 22:21:57 --> Language Class Initialized
+ERROR - 2017-05-05 22:21:57 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:21:57 --> Config Class Initialized
+INFO - 2017-05-05 22:21:57 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:21:58 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:21:58 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:21:58 --> URI Class Initialized
+INFO - 2017-05-05 22:21:58 --> Router Class Initialized
+INFO - 2017-05-05 22:21:58 --> Output Class Initialized
+INFO - 2017-05-05 22:21:58 --> Security Class Initialized
+DEBUG - 2017-05-05 22:21:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:21:58 --> Input Class Initialized
+INFO - 2017-05-05 22:21:58 --> Language Class Initialized
+ERROR - 2017-05-05 22:21:58 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:24:01 --> Config Class Initialized
+INFO - 2017-05-05 22:24:01 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:24:01 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:24:01 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:24:01 --> URI Class Initialized
+DEBUG - 2017-05-05 22:24:01 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:24:01 --> Router Class Initialized
+INFO - 2017-05-05 22:24:01 --> Output Class Initialized
+INFO - 2017-05-05 22:24:01 --> Security Class Initialized
+DEBUG - 2017-05-05 22:24:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:24:01 --> Input Class Initialized
+INFO - 2017-05-05 22:24:01 --> Language Class Initialized
+INFO - 2017-05-05 22:24:01 --> Loader Class Initialized
+INFO - 2017-05-05 22:24:01 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:24:01 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:24:01 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:24:01 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:24:01 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:24:01 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:24:01 --> User Agent Class Initialized
+INFO - 2017-05-05 22:24:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:24:01 --> Pagination Class Initialized
+INFO - 2017-05-05 22:24:01 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:24:01 --> Controller Class Initialized
+INFO - 2017-05-05 22:24:01 --> Model Class Initialized
+INFO - 2017-05-05 22:24:01 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:24:01 --> Email Class Initialized
+DEBUG - 2017-05-05 22:24:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:24:01 --> Model Class Initialized
+INFO - 2017-05-05 22:24:01 --> Model Class Initialized
+INFO - 2017-05-05 22:24:01 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:24:02 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:24:02 --> Final output sent to browser
+DEBUG - 2017-05-05 22:24:02 --> Total execution time: 0.9191
+INFO - 2017-05-05 22:24:02 --> Config Class Initialized
+INFO - 2017-05-05 22:24:02 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:24:02 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:24:02 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:24:02 --> Config Class Initialized
+INFO - 2017-05-05 22:24:02 --> Hooks Class Initialized
+INFO - 2017-05-05 22:24:02 --> URI Class Initialized
+INFO - 2017-05-05 22:24:02 --> Router Class Initialized
+DEBUG - 2017-05-05 22:24:02 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:24:02 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:24:02 --> URI Class Initialized
+INFO - 2017-05-05 22:24:02 --> Router Class Initialized
+INFO - 2017-05-05 22:24:02 --> Output Class Initialized
+INFO - 2017-05-05 22:24:02 --> Security Class Initialized
+DEBUG - 2017-05-05 22:24:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:24:02 --> Input Class Initialized
+INFO - 2017-05-05 22:24:02 --> Language Class Initialized
+ERROR - 2017-05-05 22:24:02 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:24:02 --> Output Class Initialized
+INFO - 2017-05-05 22:24:02 --> Security Class Initialized
+DEBUG - 2017-05-05 22:24:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:24:02 --> Input Class Initialized
+INFO - 2017-05-05 22:24:02 --> Language Class Initialized
+ERROR - 2017-05-05 22:24:02 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:24:24 --> Config Class Initialized
+INFO - 2017-05-05 22:24:24 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:24:24 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:24:24 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:24:24 --> URI Class Initialized
+DEBUG - 2017-05-05 22:24:24 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:24:24 --> Router Class Initialized
+INFO - 2017-05-05 22:24:24 --> Output Class Initialized
+INFO - 2017-05-05 22:24:24 --> Security Class Initialized
+DEBUG - 2017-05-05 22:24:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:24:24 --> Input Class Initialized
+INFO - 2017-05-05 22:24:24 --> Language Class Initialized
+INFO - 2017-05-05 22:24:24 --> Loader Class Initialized
+INFO - 2017-05-05 22:24:24 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:24:24 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:24:24 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:24:24 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:24:24 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:24:24 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:24:24 --> User Agent Class Initialized
+INFO - 2017-05-05 22:24:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:24:24 --> Pagination Class Initialized
+INFO - 2017-05-05 22:24:24 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:24:24 --> Controller Class Initialized
+INFO - 2017-05-05 22:24:24 --> Model Class Initialized
+INFO - 2017-05-05 22:24:24 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:24:24 --> Email Class Initialized
+DEBUG - 2017-05-05 22:24:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:24:24 --> Model Class Initialized
+INFO - 2017-05-05 22:24:24 --> Model Class Initialized
+INFO - 2017-05-05 22:24:24 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:24:24 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:24:24 --> Final output sent to browser
+DEBUG - 2017-05-05 22:24:24 --> Total execution time: 0.8576
+INFO - 2017-05-05 22:24:25 --> Config Class Initialized
+INFO - 2017-05-05 22:24:25 --> Hooks Class Initialized
+INFO - 2017-05-05 22:24:25 --> Config Class Initialized
+INFO - 2017-05-05 22:24:25 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:24:25 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:24:25 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:24:25 --> URI Class Initialized
+DEBUG - 2017-05-05 22:24:25 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:24:25 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:24:25 --> Router Class Initialized
+INFO - 2017-05-05 22:24:25 --> URI Class Initialized
+INFO - 2017-05-05 22:24:25 --> Output Class Initialized
+INFO - 2017-05-05 22:24:25 --> Router Class Initialized
+INFO - 2017-05-05 22:24:25 --> Security Class Initialized
+INFO - 2017-05-05 22:24:25 --> Output Class Initialized
+DEBUG - 2017-05-05 22:24:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:24:25 --> Security Class Initialized
+INFO - 2017-05-05 22:24:25 --> Input Class Initialized
+INFO - 2017-05-05 22:24:25 --> Language Class Initialized
+DEBUG - 2017-05-05 22:24:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:24:25 --> Input Class Initialized
+ERROR - 2017-05-05 22:24:25 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:24:25 --> Language Class Initialized
+ERROR - 2017-05-05 22:24:25 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:26:31 --> Config Class Initialized
+INFO - 2017-05-05 22:26:31 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:26:31 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:26:31 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:26:31 --> URI Class Initialized
+DEBUG - 2017-05-05 22:26:31 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:26:31 --> Router Class Initialized
+INFO - 2017-05-05 22:26:31 --> Output Class Initialized
+INFO - 2017-05-05 22:26:31 --> Security Class Initialized
+DEBUG - 2017-05-05 22:26:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:26:31 --> Input Class Initialized
+INFO - 2017-05-05 22:26:31 --> Language Class Initialized
+INFO - 2017-05-05 22:26:31 --> Loader Class Initialized
+INFO - 2017-05-05 22:26:31 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:26:31 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:26:31 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:26:31 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:26:31 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:26:31 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:26:31 --> User Agent Class Initialized
+INFO - 2017-05-05 22:26:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:26:31 --> Pagination Class Initialized
+INFO - 2017-05-05 22:26:31 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:26:31 --> Controller Class Initialized
+INFO - 2017-05-05 22:26:31 --> Model Class Initialized
+INFO - 2017-05-05 22:26:31 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:26:31 --> Email Class Initialized
+DEBUG - 2017-05-05 22:26:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:26:31 --> Model Class Initialized
+INFO - 2017-05-05 22:26:31 --> Model Class Initialized
+INFO - 2017-05-05 22:26:31 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:26:33 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:26:33 --> Final output sent to browser
+DEBUG - 2017-05-05 22:26:33 --> Total execution time: 1.6155
+INFO - 2017-05-05 22:26:33 --> Config Class Initialized
+INFO - 2017-05-05 22:26:33 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:26:33 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:26:33 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:26:33 --> URI Class Initialized
+INFO - 2017-05-05 22:26:33 --> Router Class Initialized
+INFO - 2017-05-05 22:26:33 --> Output Class Initialized
+INFO - 2017-05-05 22:26:33 --> Security Class Initialized
+INFO - 2017-05-05 22:26:33 --> Config Class Initialized
+INFO - 2017-05-05 22:26:33 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:26:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-05 22:26:33 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:26:33 --> Input Class Initialized
+INFO - 2017-05-05 22:26:33 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:26:33 --> Language Class Initialized
+INFO - 2017-05-05 22:26:33 --> URI Class Initialized
+ERROR - 2017-05-05 22:26:33 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:26:33 --> Router Class Initialized
+INFO - 2017-05-05 22:26:33 --> Output Class Initialized
+INFO - 2017-05-05 22:26:33 --> Security Class Initialized
+DEBUG - 2017-05-05 22:26:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:26:33 --> Input Class Initialized
+INFO - 2017-05-05 22:26:33 --> Language Class Initialized
+ERROR - 2017-05-05 22:26:33 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:26:43 --> Config Class Initialized
+INFO - 2017-05-05 22:26:43 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:26:43 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:26:43 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:26:43 --> URI Class Initialized
+DEBUG - 2017-05-05 22:26:43 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:26:43 --> Router Class Initialized
+INFO - 2017-05-05 22:26:43 --> Output Class Initialized
+INFO - 2017-05-05 22:26:43 --> Security Class Initialized
+DEBUG - 2017-05-05 22:26:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:26:43 --> Input Class Initialized
+INFO - 2017-05-05 22:26:43 --> Language Class Initialized
+INFO - 2017-05-05 22:26:43 --> Loader Class Initialized
+INFO - 2017-05-05 22:26:43 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:26:43 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:26:43 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:26:43 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:26:43 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:26:43 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:26:43 --> User Agent Class Initialized
+INFO - 2017-05-05 22:26:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:26:43 --> Pagination Class Initialized
+INFO - 2017-05-05 22:26:43 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:26:43 --> Controller Class Initialized
+INFO - 2017-05-05 22:26:43 --> Model Class Initialized
+INFO - 2017-05-05 22:26:43 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:26:43 --> Email Class Initialized
+DEBUG - 2017-05-05 22:26:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:26:43 --> Model Class Initialized
+INFO - 2017-05-05 22:26:43 --> Model Class Initialized
+INFO - 2017-05-05 22:26:43 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:26:44 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:26:44 --> Final output sent to browser
+DEBUG - 2017-05-05 22:26:44 --> Total execution time: 0.7444
+INFO - 2017-05-05 22:26:44 --> Config Class Initialized
+INFO - 2017-05-05 22:26:44 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:26:44 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:26:44 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:26:44 --> URI Class Initialized
+INFO - 2017-05-05 22:26:44 --> Config Class Initialized
+INFO - 2017-05-05 22:26:44 --> Hooks Class Initialized
+INFO - 2017-05-05 22:26:44 --> Router Class Initialized
+DEBUG - 2017-05-05 22:26:44 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:26:44 --> Output Class Initialized
+INFO - 2017-05-05 22:26:44 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:26:44 --> URI Class Initialized
+INFO - 2017-05-05 22:26:44 --> Security Class Initialized
+DEBUG - 2017-05-05 22:26:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:26:44 --> Router Class Initialized
+INFO - 2017-05-05 22:26:44 --> Input Class Initialized
+INFO - 2017-05-05 22:26:44 --> Language Class Initialized
+INFO - 2017-05-05 22:26:44 --> Output Class Initialized
+ERROR - 2017-05-05 22:26:44 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:26:44 --> Security Class Initialized
+DEBUG - 2017-05-05 22:26:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:26:44 --> Input Class Initialized
+INFO - 2017-05-05 22:26:44 --> Language Class Initialized
+ERROR - 2017-05-05 22:26:44 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:27:40 --> Config Class Initialized
+INFO - 2017-05-05 22:27:40 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:27:40 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:27:40 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:27:40 --> URI Class Initialized
+DEBUG - 2017-05-05 22:27:40 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:27:40 --> Router Class Initialized
+INFO - 2017-05-05 22:27:40 --> Output Class Initialized
+INFO - 2017-05-05 22:27:40 --> Security Class Initialized
+DEBUG - 2017-05-05 22:27:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:27:40 --> Input Class Initialized
+INFO - 2017-05-05 22:27:40 --> Language Class Initialized
+INFO - 2017-05-05 22:27:40 --> Loader Class Initialized
+INFO - 2017-05-05 22:27:40 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:27:40 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:27:40 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:27:40 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:27:40 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:27:40 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:27:40 --> User Agent Class Initialized
+INFO - 2017-05-05 22:27:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:27:40 --> Pagination Class Initialized
+INFO - 2017-05-05 22:27:40 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:27:40 --> Controller Class Initialized
+INFO - 2017-05-05 22:27:40 --> Model Class Initialized
+INFO - 2017-05-05 22:27:40 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:27:40 --> Email Class Initialized
+DEBUG - 2017-05-05 22:27:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:27:40 --> Model Class Initialized
+INFO - 2017-05-05 22:27:40 --> Model Class Initialized
+INFO - 2017-05-05 22:27:40 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:27:41 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:27:41 --> Final output sent to browser
+DEBUG - 2017-05-05 22:27:41 --> Total execution time: 1.0231
+INFO - 2017-05-05 22:27:41 --> Config Class Initialized
+INFO - 2017-05-05 22:27:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:27:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:27:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:27:41 --> URI Class Initialized
+INFO - 2017-05-05 22:27:41 --> Router Class Initialized
+INFO - 2017-05-05 22:27:41 --> Output Class Initialized
+INFO - 2017-05-05 22:27:41 --> Security Class Initialized
+DEBUG - 2017-05-05 22:27:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:27:41 --> Input Class Initialized
+INFO - 2017-05-05 22:27:41 --> Language Class Initialized
+ERROR - 2017-05-05 22:27:41 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:27:41 --> Config Class Initialized
+INFO - 2017-05-05 22:27:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:27:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:27:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:27:41 --> URI Class Initialized
+INFO - 2017-05-05 22:27:41 --> Router Class Initialized
+INFO - 2017-05-05 22:27:41 --> Output Class Initialized
+INFO - 2017-05-05 22:27:41 --> Security Class Initialized
+DEBUG - 2017-05-05 22:27:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:27:41 --> Input Class Initialized
+INFO - 2017-05-05 22:27:41 --> Language Class Initialized
+ERROR - 2017-05-05 22:27:41 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:29:55 --> Config Class Initialized
+INFO - 2017-05-05 22:29:55 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:29:55 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:29:55 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:29:55 --> URI Class Initialized
+DEBUG - 2017-05-05 22:29:55 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:29:55 --> Router Class Initialized
+INFO - 2017-05-05 22:29:55 --> Output Class Initialized
+INFO - 2017-05-05 22:29:55 --> Security Class Initialized
+DEBUG - 2017-05-05 22:29:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:29:55 --> Input Class Initialized
+INFO - 2017-05-05 22:29:55 --> Language Class Initialized
+INFO - 2017-05-05 22:29:55 --> Loader Class Initialized
+INFO - 2017-05-05 22:29:55 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:29:55 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:29:55 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:29:55 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:29:55 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:29:56 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:29:56 --> User Agent Class Initialized
+INFO - 2017-05-05 22:29:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:29:56 --> Pagination Class Initialized
+INFO - 2017-05-05 22:29:56 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:29:56 --> Controller Class Initialized
+INFO - 2017-05-05 22:29:56 --> Model Class Initialized
+INFO - 2017-05-05 22:29:56 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:29:56 --> Email Class Initialized
+DEBUG - 2017-05-05 22:29:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:29:56 --> Model Class Initialized
+INFO - 2017-05-05 22:29:56 --> Model Class Initialized
+INFO - 2017-05-05 22:29:56 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:29:56 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:29:56 --> Final output sent to browser
+DEBUG - 2017-05-05 22:29:56 --> Total execution time: 0.9951
+INFO - 2017-05-05 22:29:57 --> Config Class Initialized
+INFO - 2017-05-05 22:29:57 --> Hooks Class Initialized
+INFO - 2017-05-05 22:29:57 --> Config Class Initialized
+INFO - 2017-05-05 22:29:57 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:29:57 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:29:57 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 22:29:57 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:29:57 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:29:57 --> URI Class Initialized
+INFO - 2017-05-05 22:29:57 --> URI Class Initialized
+INFO - 2017-05-05 22:29:57 --> Router Class Initialized
+INFO - 2017-05-05 22:29:57 --> Router Class Initialized
+INFO - 2017-05-05 22:29:57 --> Output Class Initialized
+INFO - 2017-05-05 22:29:57 --> Output Class Initialized
+INFO - 2017-05-05 22:29:57 --> Security Class Initialized
+INFO - 2017-05-05 22:29:57 --> Security Class Initialized
+DEBUG - 2017-05-05 22:29:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:29:57 --> Input Class Initialized
+INFO - 2017-05-05 22:29:57 --> Language Class Initialized
+DEBUG - 2017-05-05 22:29:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:29:57 --> Input Class Initialized
+ERROR - 2017-05-05 22:29:57 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:29:57 --> Language Class Initialized
+ERROR - 2017-05-05 22:29:57 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:30:19 --> Config Class Initialized
+INFO - 2017-05-05 22:30:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:30:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:30:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:30:19 --> URI Class Initialized
+DEBUG - 2017-05-05 22:30:19 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:30:19 --> Router Class Initialized
+INFO - 2017-05-05 22:30:19 --> Output Class Initialized
+INFO - 2017-05-05 22:30:19 --> Security Class Initialized
+DEBUG - 2017-05-05 22:30:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:30:19 --> Input Class Initialized
+INFO - 2017-05-05 22:30:19 --> Language Class Initialized
+INFO - 2017-05-05 22:30:19 --> Loader Class Initialized
+INFO - 2017-05-05 22:30:19 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:30:19 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:30:19 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:30:19 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:30:19 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:30:19 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:30:19 --> User Agent Class Initialized
+INFO - 2017-05-05 22:30:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:30:19 --> Pagination Class Initialized
+INFO - 2017-05-05 22:30:19 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:30:19 --> Controller Class Initialized
+INFO - 2017-05-05 22:30:19 --> Model Class Initialized
+INFO - 2017-05-05 22:30:19 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:30:19 --> Email Class Initialized
+DEBUG - 2017-05-05 22:30:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:30:19 --> Model Class Initialized
+INFO - 2017-05-05 22:30:19 --> Model Class Initialized
+INFO - 2017-05-05 22:30:19 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:30:19 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:30:19 --> Final output sent to browser
+DEBUG - 2017-05-05 22:30:20 --> Total execution time: 0.8616
+INFO - 2017-05-05 22:30:20 --> Config Class Initialized
+INFO - 2017-05-05 22:30:20 --> Hooks Class Initialized
+INFO - 2017-05-05 22:30:20 --> Config Class Initialized
+INFO - 2017-05-05 22:30:20 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:30:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:30:20 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 22:30:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:30:20 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:30:20 --> URI Class Initialized
+INFO - 2017-05-05 22:30:20 --> URI Class Initialized
+INFO - 2017-05-05 22:30:20 --> Router Class Initialized
+INFO - 2017-05-05 22:30:20 --> Output Class Initialized
+INFO - 2017-05-05 22:30:20 --> Router Class Initialized
+INFO - 2017-05-05 22:30:20 --> Output Class Initialized
+INFO - 2017-05-05 22:30:20 --> Security Class Initialized
+INFO - 2017-05-05 22:30:20 --> Security Class Initialized
+DEBUG - 2017-05-05 22:30:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:30:20 --> Input Class Initialized
+INFO - 2017-05-05 22:30:20 --> Language Class Initialized
+DEBUG - 2017-05-05 22:30:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:30:20 --> Input Class Initialized
+INFO - 2017-05-05 22:30:20 --> Language Class Initialized
+ERROR - 2017-05-05 22:30:20 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 22:30:20 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:36:43 --> Config Class Initialized
+INFO - 2017-05-05 22:36:43 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:36:43 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:36:43 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:36:43 --> URI Class Initialized
+DEBUG - 2017-05-05 22:36:43 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:36:43 --> Router Class Initialized
+INFO - 2017-05-05 22:36:43 --> Output Class Initialized
+INFO - 2017-05-05 22:36:43 --> Security Class Initialized
+DEBUG - 2017-05-05 22:36:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:36:43 --> Input Class Initialized
+INFO - 2017-05-05 22:36:43 --> Language Class Initialized
+INFO - 2017-05-05 22:36:43 --> Loader Class Initialized
+INFO - 2017-05-05 22:36:43 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:36:43 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:36:43 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:36:43 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:36:43 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:36:43 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:36:43 --> User Agent Class Initialized
+INFO - 2017-05-05 22:36:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:36:43 --> Pagination Class Initialized
+INFO - 2017-05-05 22:36:43 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:36:43 --> Controller Class Initialized
+INFO - 2017-05-05 22:36:43 --> Model Class Initialized
+INFO - 2017-05-05 22:36:43 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:36:43 --> Email Class Initialized
+DEBUG - 2017-05-05 22:36:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:36:43 --> Model Class Initialized
+INFO - 2017-05-05 22:36:43 --> Model Class Initialized
+INFO - 2017-05-05 22:36:43 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:36:44 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:36:44 --> Final output sent to browser
+DEBUG - 2017-05-05 22:36:44 --> Total execution time: 1.0106
+INFO - 2017-05-05 22:36:44 --> Config Class Initialized
+INFO - 2017-05-05 22:36:44 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:36:44 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:36:44 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:36:44 --> URI Class Initialized
+INFO - 2017-05-05 22:36:44 --> Router Class Initialized
+INFO - 2017-05-05 22:36:44 --> Output Class Initialized
+INFO - 2017-05-05 22:36:44 --> Security Class Initialized
+DEBUG - 2017-05-05 22:36:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:36:44 --> Input Class Initialized
+INFO - 2017-05-05 22:36:44 --> Language Class Initialized
+ERROR - 2017-05-05 22:36:44 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:36:44 --> Config Class Initialized
+INFO - 2017-05-05 22:36:44 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:36:44 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:36:44 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:36:44 --> URI Class Initialized
+INFO - 2017-05-05 22:36:44 --> Router Class Initialized
+INFO - 2017-05-05 22:36:44 --> Output Class Initialized
+INFO - 2017-05-05 22:36:44 --> Security Class Initialized
+DEBUG - 2017-05-05 22:36:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:36:44 --> Input Class Initialized
+INFO - 2017-05-05 22:36:44 --> Language Class Initialized
+ERROR - 2017-05-05 22:36:44 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:36:44 --> Config Class Initialized
+INFO - 2017-05-05 22:36:44 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:36:44 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:36:44 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:36:44 --> URI Class Initialized
+INFO - 2017-05-05 22:36:44 --> Router Class Initialized
+INFO - 2017-05-05 22:36:44 --> Output Class Initialized
+INFO - 2017-05-05 22:36:44 --> Security Class Initialized
+DEBUG - 2017-05-05 22:36:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:36:44 --> Input Class Initialized
+INFO - 2017-05-05 22:36:44 --> Language Class Initialized
+ERROR - 2017-05-05 22:36:44 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:37:08 --> Config Class Initialized
+INFO - 2017-05-05 22:37:08 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:08 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:08 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:08 --> URI Class Initialized
+DEBUG - 2017-05-05 22:37:08 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:37:08 --> Router Class Initialized
+INFO - 2017-05-05 22:37:08 --> Output Class Initialized
+INFO - 2017-05-05 22:37:08 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:08 --> Input Class Initialized
+INFO - 2017-05-05 22:37:08 --> Language Class Initialized
+INFO - 2017-05-05 22:37:08 --> Loader Class Initialized
+INFO - 2017-05-05 22:37:08 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:37:08 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:37:08 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:37:08 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:37:08 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:37:08 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:37:08 --> User Agent Class Initialized
+INFO - 2017-05-05 22:37:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:37:08 --> Pagination Class Initialized
+INFO - 2017-05-05 22:37:08 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:37:08 --> Controller Class Initialized
+INFO - 2017-05-05 22:37:08 --> Model Class Initialized
+INFO - 2017-05-05 22:37:08 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:37:08 --> Email Class Initialized
+DEBUG - 2017-05-05 22:37:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:37:08 --> Model Class Initialized
+INFO - 2017-05-05 22:37:08 --> Model Class Initialized
+INFO - 2017-05-05 22:37:08 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:37:09 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:37:09 --> Final output sent to browser
+DEBUG - 2017-05-05 22:37:09 --> Total execution time: 0.8095
+INFO - 2017-05-05 22:37:09 --> Config Class Initialized
+INFO - 2017-05-05 22:37:09 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:09 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:09 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:09 --> Config Class Initialized
+INFO - 2017-05-05 22:37:09 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:09 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:09 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:09 --> URI Class Initialized
+INFO - 2017-05-05 22:37:09 --> URI Class Initialized
+INFO - 2017-05-05 22:37:09 --> Router Class Initialized
+INFO - 2017-05-05 22:37:09 --> Output Class Initialized
+INFO - 2017-05-05 22:37:09 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:09 --> Input Class Initialized
+INFO - 2017-05-05 22:37:09 --> Language Class Initialized
+ERROR - 2017-05-05 22:37:09 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:37:09 --> Router Class Initialized
+INFO - 2017-05-05 22:37:09 --> Output Class Initialized
+INFO - 2017-05-05 22:37:09 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:09 --> Input Class Initialized
+INFO - 2017-05-05 22:37:09 --> Language Class Initialized
+ERROR - 2017-05-05 22:37:09 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:37:25 --> Config Class Initialized
+INFO - 2017-05-05 22:37:25 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:25 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:25 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:25 --> URI Class Initialized
+DEBUG - 2017-05-05 22:37:25 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:37:25 --> Router Class Initialized
+INFO - 2017-05-05 22:37:25 --> Output Class Initialized
+INFO - 2017-05-05 22:37:25 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:25 --> Input Class Initialized
+INFO - 2017-05-05 22:37:25 --> Language Class Initialized
+INFO - 2017-05-05 22:37:25 --> Loader Class Initialized
+INFO - 2017-05-05 22:37:25 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:37:25 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:37:25 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:37:25 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:37:25 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:37:25 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:37:25 --> User Agent Class Initialized
+INFO - 2017-05-05 22:37:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:37:25 --> Pagination Class Initialized
+INFO - 2017-05-05 22:37:25 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:37:25 --> Controller Class Initialized
+INFO - 2017-05-05 22:37:25 --> Model Class Initialized
+INFO - 2017-05-05 22:37:25 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:37:25 --> Email Class Initialized
+DEBUG - 2017-05-05 22:37:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:37:25 --> Model Class Initialized
+INFO - 2017-05-05 22:37:25 --> Model Class Initialized
+INFO - 2017-05-05 22:37:25 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:37:26 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:37:26 --> Final output sent to browser
+DEBUG - 2017-05-05 22:37:26 --> Total execution time: 0.8643
+INFO - 2017-05-05 22:37:26 --> Config Class Initialized
+INFO - 2017-05-05 22:37:26 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:26 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:26 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:26 --> URI Class Initialized
+INFO - 2017-05-05 22:37:26 --> Router Class Initialized
+INFO - 2017-05-05 22:37:26 --> Output Class Initialized
+INFO - 2017-05-05 22:37:26 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:26 --> Input Class Initialized
+INFO - 2017-05-05 22:37:26 --> Language Class Initialized
+ERROR - 2017-05-05 22:37:26 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:37:26 --> Config Class Initialized
+INFO - 2017-05-05 22:37:26 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:26 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:26 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:26 --> URI Class Initialized
+INFO - 2017-05-05 22:37:26 --> Router Class Initialized
+INFO - 2017-05-05 22:37:26 --> Output Class Initialized
+INFO - 2017-05-05 22:37:26 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:26 --> Input Class Initialized
+INFO - 2017-05-05 22:37:26 --> Language Class Initialized
+ERROR - 2017-05-05 22:37:26 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:37:37 --> Config Class Initialized
+INFO - 2017-05-05 22:37:37 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:37 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:37 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:37 --> URI Class Initialized
+DEBUG - 2017-05-05 22:37:37 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:37:37 --> Router Class Initialized
+INFO - 2017-05-05 22:37:37 --> Output Class Initialized
+INFO - 2017-05-05 22:37:37 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:38 --> Input Class Initialized
+INFO - 2017-05-05 22:37:38 --> Language Class Initialized
+INFO - 2017-05-05 22:37:38 --> Loader Class Initialized
+INFO - 2017-05-05 22:37:38 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:37:38 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:37:38 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:37:38 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:37:38 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:37:38 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:37:38 --> User Agent Class Initialized
+INFO - 2017-05-05 22:37:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:37:38 --> Pagination Class Initialized
+INFO - 2017-05-05 22:37:38 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:37:38 --> Controller Class Initialized
+INFO - 2017-05-05 22:37:38 --> Model Class Initialized
+INFO - 2017-05-05 22:37:38 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:37:38 --> Email Class Initialized
+DEBUG - 2017-05-05 22:37:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:37:38 --> Model Class Initialized
+INFO - 2017-05-05 22:37:38 --> Model Class Initialized
+INFO - 2017-05-05 22:37:38 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:37:39 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:37:39 --> Final output sent to browser
+DEBUG - 2017-05-05 22:37:39 --> Total execution time: 1.1369
+INFO - 2017-05-05 22:37:39 --> Config Class Initialized
+INFO - 2017-05-05 22:37:39 --> Hooks Class Initialized
+INFO - 2017-05-05 22:37:39 --> Config Class Initialized
+INFO - 2017-05-05 22:37:39 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:39 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:39 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 22:37:39 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:39 --> URI Class Initialized
+INFO - 2017-05-05 22:37:39 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:39 --> URI Class Initialized
+INFO - 2017-05-05 22:37:39 --> Router Class Initialized
+INFO - 2017-05-05 22:37:39 --> Router Class Initialized
+INFO - 2017-05-05 22:37:39 --> Output Class Initialized
+INFO - 2017-05-05 22:37:39 --> Output Class Initialized
+INFO - 2017-05-05 22:37:39 --> Security Class Initialized
+INFO - 2017-05-05 22:37:39 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:39 --> Input Class Initialized
+DEBUG - 2017-05-05 22:37:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:39 --> Language Class Initialized
+INFO - 2017-05-05 22:37:39 --> Input Class Initialized
+ERROR - 2017-05-05 22:37:39 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:37:39 --> Language Class Initialized
+ERROR - 2017-05-05 22:37:39 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:37:51 --> Config Class Initialized
+INFO - 2017-05-05 22:37:51 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:51 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:51 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:51 --> URI Class Initialized
+DEBUG - 2017-05-05 22:37:51 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:37:51 --> Router Class Initialized
+INFO - 2017-05-05 22:37:51 --> Output Class Initialized
+INFO - 2017-05-05 22:37:51 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:51 --> Input Class Initialized
+INFO - 2017-05-05 22:37:51 --> Language Class Initialized
+INFO - 2017-05-05 22:37:51 --> Loader Class Initialized
+INFO - 2017-05-05 22:37:51 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:37:51 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:37:51 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:37:51 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:37:51 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:37:51 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:37:51 --> User Agent Class Initialized
+INFO - 2017-05-05 22:37:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:37:52 --> Pagination Class Initialized
+INFO - 2017-05-05 22:37:52 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:37:52 --> Controller Class Initialized
+INFO - 2017-05-05 22:37:52 --> Model Class Initialized
+INFO - 2017-05-05 22:37:52 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:37:52 --> Email Class Initialized
+DEBUG - 2017-05-05 22:37:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:37:52 --> Model Class Initialized
+INFO - 2017-05-05 22:37:52 --> Model Class Initialized
+INFO - 2017-05-05 22:37:52 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:37:52 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:37:52 --> Final output sent to browser
+DEBUG - 2017-05-05 22:37:52 --> Total execution time: 0.8861
+INFO - 2017-05-05 22:37:52 --> Config Class Initialized
+INFO - 2017-05-05 22:37:52 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:52 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:52 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:52 --> URI Class Initialized
+INFO - 2017-05-05 22:37:52 --> Router Class Initialized
+INFO - 2017-05-05 22:37:52 --> Output Class Initialized
+INFO - 2017-05-05 22:37:52 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:52 --> Input Class Initialized
+INFO - 2017-05-05 22:37:52 --> Language Class Initialized
+ERROR - 2017-05-05 22:37:52 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:37:52 --> Config Class Initialized
+INFO - 2017-05-05 22:37:52 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:37:52 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:37:52 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:37:52 --> URI Class Initialized
+INFO - 2017-05-05 22:37:52 --> Router Class Initialized
+INFO - 2017-05-05 22:37:52 --> Output Class Initialized
+INFO - 2017-05-05 22:37:52 --> Security Class Initialized
+DEBUG - 2017-05-05 22:37:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:37:52 --> Input Class Initialized
+INFO - 2017-05-05 22:37:52 --> Language Class Initialized
+ERROR - 2017-05-05 22:37:52 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:38:03 --> Config Class Initialized
+INFO - 2017-05-05 22:38:03 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:38:03 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:38:03 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:38:03 --> URI Class Initialized
+DEBUG - 2017-05-05 22:38:03 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:38:03 --> Router Class Initialized
+INFO - 2017-05-05 22:38:03 --> Output Class Initialized
+INFO - 2017-05-05 22:38:03 --> Security Class Initialized
+DEBUG - 2017-05-05 22:38:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:38:03 --> Input Class Initialized
+INFO - 2017-05-05 22:38:03 --> Language Class Initialized
+INFO - 2017-05-05 22:38:03 --> Loader Class Initialized
+INFO - 2017-05-05 22:38:03 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:38:03 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:38:03 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:38:03 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:38:03 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:38:03 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:38:03 --> User Agent Class Initialized
+INFO - 2017-05-05 22:38:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:38:03 --> Pagination Class Initialized
+INFO - 2017-05-05 22:38:03 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:38:03 --> Controller Class Initialized
+INFO - 2017-05-05 22:38:03 --> Model Class Initialized
+INFO - 2017-05-05 22:38:03 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:38:03 --> Email Class Initialized
+DEBUG - 2017-05-05 22:38:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:38:03 --> Model Class Initialized
+INFO - 2017-05-05 22:38:03 --> Model Class Initialized
+INFO - 2017-05-05 22:38:03 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:38:03 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:38:03 --> Final output sent to browser
+DEBUG - 2017-05-05 22:38:03 --> Total execution time: 0.8182
+INFO - 2017-05-05 22:38:04 --> Config Class Initialized
+INFO - 2017-05-05 22:38:04 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:38:04 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:38:04 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:38:04 --> URI Class Initialized
+INFO - 2017-05-05 22:38:04 --> Router Class Initialized
+INFO - 2017-05-05 22:38:04 --> Output Class Initialized
+INFO - 2017-05-05 22:38:04 --> Security Class Initialized
+INFO - 2017-05-05 22:38:04 --> Config Class Initialized
+DEBUG - 2017-05-05 22:38:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:38:04 --> Hooks Class Initialized
+INFO - 2017-05-05 22:38:04 --> Input Class Initialized
+INFO - 2017-05-05 22:38:04 --> Language Class Initialized
+ERROR - 2017-05-05 22:38:04 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 22:38:04 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:38:04 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:38:04 --> URI Class Initialized
+INFO - 2017-05-05 22:38:04 --> Router Class Initialized
+INFO - 2017-05-05 22:38:04 --> Output Class Initialized
+INFO - 2017-05-05 22:38:04 --> Security Class Initialized
+DEBUG - 2017-05-05 22:38:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:38:04 --> Input Class Initialized
+INFO - 2017-05-05 22:38:04 --> Language Class Initialized
+ERROR - 2017-05-05 22:38:04 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:38:15 --> Config Class Initialized
+INFO - 2017-05-05 22:38:15 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:38:15 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:38:15 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:38:15 --> URI Class Initialized
+DEBUG - 2017-05-05 22:38:15 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:38:15 --> Router Class Initialized
+INFO - 2017-05-05 22:38:15 --> Output Class Initialized
+INFO - 2017-05-05 22:38:15 --> Security Class Initialized
+DEBUG - 2017-05-05 22:38:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:38:15 --> Input Class Initialized
+INFO - 2017-05-05 22:38:15 --> Language Class Initialized
+INFO - 2017-05-05 22:38:15 --> Loader Class Initialized
+INFO - 2017-05-05 22:38:15 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:38:15 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:38:15 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:38:15 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:38:15 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:38:15 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:38:15 --> User Agent Class Initialized
+INFO - 2017-05-05 22:38:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:38:15 --> Pagination Class Initialized
+INFO - 2017-05-05 22:38:15 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:38:15 --> Controller Class Initialized
+INFO - 2017-05-05 22:38:15 --> Model Class Initialized
+INFO - 2017-05-05 22:38:15 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:38:16 --> Email Class Initialized
+DEBUG - 2017-05-05 22:38:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:38:16 --> Model Class Initialized
+INFO - 2017-05-05 22:38:16 --> Model Class Initialized
+INFO - 2017-05-05 22:38:16 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:38:16 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:38:16 --> Final output sent to browser
+DEBUG - 2017-05-05 22:38:16 --> Total execution time: 0.9273
+INFO - 2017-05-05 22:38:16 --> Config Class Initialized
+INFO - 2017-05-05 22:38:16 --> Hooks Class Initialized
+INFO - 2017-05-05 22:38:16 --> Config Class Initialized
+INFO - 2017-05-05 22:38:16 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:38:16 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:38:16 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:38:16 --> URI Class Initialized
+INFO - 2017-05-05 22:38:16 --> Router Class Initialized
+INFO - 2017-05-05 22:38:16 --> Output Class Initialized
+INFO - 2017-05-05 22:38:16 --> Security Class Initialized
+DEBUG - 2017-05-05 22:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:38:16 --> Input Class Initialized
+INFO - 2017-05-05 22:38:16 --> Language Class Initialized
+DEBUG - 2017-05-05 22:38:16 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:38:16 --> Utf8 Class Initialized
+ERROR - 2017-05-05 22:38:16 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:38:16 --> URI Class Initialized
+INFO - 2017-05-05 22:38:16 --> Router Class Initialized
+INFO - 2017-05-05 22:38:16 --> Output Class Initialized
+INFO - 2017-05-05 22:38:16 --> Security Class Initialized
+DEBUG - 2017-05-05 22:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:38:16 --> Input Class Initialized
+INFO - 2017-05-05 22:38:16 --> Language Class Initialized
+ERROR - 2017-05-05 22:38:16 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:39:19 --> Config Class Initialized
+INFO - 2017-05-05 22:39:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:39:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:19 --> URI Class Initialized
+DEBUG - 2017-05-05 22:39:19 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:39:19 --> Router Class Initialized
+INFO - 2017-05-05 22:39:19 --> Output Class Initialized
+INFO - 2017-05-05 22:39:19 --> Security Class Initialized
+DEBUG - 2017-05-05 22:39:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:19 --> Input Class Initialized
+INFO - 2017-05-05 22:39:19 --> Language Class Initialized
+INFO - 2017-05-05 22:39:19 --> Loader Class Initialized
+INFO - 2017-05-05 22:39:19 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:39:19 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:39:19 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:39:19 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:39:19 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:39:19 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:39:19 --> User Agent Class Initialized
+INFO - 2017-05-05 22:39:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:39:19 --> Pagination Class Initialized
+INFO - 2017-05-05 22:39:19 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:39:19 --> Controller Class Initialized
+INFO - 2017-05-05 22:39:19 --> Model Class Initialized
+INFO - 2017-05-05 22:39:19 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:39:19 --> Email Class Initialized
+DEBUG - 2017-05-05 22:39:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:39:19 --> Model Class Initialized
+INFO - 2017-05-05 22:39:19 --> Model Class Initialized
+INFO - 2017-05-05 22:39:19 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:39:20 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:39:20 --> Final output sent to browser
+DEBUG - 2017-05-05 22:39:20 --> Total execution time: 0.8276
+INFO - 2017-05-05 22:39:20 --> Config Class Initialized
+INFO - 2017-05-05 22:39:20 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:39:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:20 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:20 --> URI Class Initialized
+INFO - 2017-05-05 22:39:20 --> Router Class Initialized
+INFO - 2017-05-05 22:39:20 --> Output Class Initialized
+INFO - 2017-05-05 22:39:20 --> Security Class Initialized
+DEBUG - 2017-05-05 22:39:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:20 --> Input Class Initialized
+INFO - 2017-05-05 22:39:20 --> Language Class Initialized
+ERROR - 2017-05-05 22:39:20 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:39:20 --> Config Class Initialized
+INFO - 2017-05-05 22:39:20 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:39:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:20 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:20 --> URI Class Initialized
+INFO - 2017-05-05 22:39:20 --> Router Class Initialized
+INFO - 2017-05-05 22:39:20 --> Output Class Initialized
+INFO - 2017-05-05 22:39:20 --> Security Class Initialized
+DEBUG - 2017-05-05 22:39:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:20 --> Input Class Initialized
+INFO - 2017-05-05 22:39:20 --> Language Class Initialized
+ERROR - 2017-05-05 22:39:20 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:39:25 --> Config Class Initialized
+INFO - 2017-05-05 22:39:25 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:39:25 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:25 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:25 --> URI Class Initialized
+DEBUG - 2017-05-05 22:39:25 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:39:25 --> Router Class Initialized
+INFO - 2017-05-05 22:39:25 --> Output Class Initialized
+INFO - 2017-05-05 22:39:25 --> Security Class Initialized
+DEBUG - 2017-05-05 22:39:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:25 --> Input Class Initialized
+INFO - 2017-05-05 22:39:25 --> Language Class Initialized
+INFO - 2017-05-05 22:39:25 --> Loader Class Initialized
+INFO - 2017-05-05 22:39:25 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:39:25 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:39:25 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:39:25 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:39:25 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:39:25 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:39:25 --> User Agent Class Initialized
+INFO - 2017-05-05 22:39:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:39:25 --> Pagination Class Initialized
+INFO - 2017-05-05 22:39:25 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:39:25 --> Controller Class Initialized
+INFO - 2017-05-05 22:39:25 --> Model Class Initialized
+INFO - 2017-05-05 22:39:26 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:39:26 --> Email Class Initialized
+DEBUG - 2017-05-05 22:39:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:39:26 --> Model Class Initialized
+INFO - 2017-05-05 22:39:26 --> Model Class Initialized
+INFO - 2017-05-05 22:39:26 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:39:27 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:39:27 --> Final output sent to browser
+DEBUG - 2017-05-05 22:39:27 --> Total execution time: 1.2890
+INFO - 2017-05-05 22:39:27 --> Config Class Initialized
+INFO - 2017-05-05 22:39:27 --> Hooks Class Initialized
+INFO - 2017-05-05 22:39:27 --> Config Class Initialized
+INFO - 2017-05-05 22:39:27 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:39:27 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:27 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 22:39:27 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:27 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:27 --> URI Class Initialized
+INFO - 2017-05-05 22:39:27 --> URI Class Initialized
+INFO - 2017-05-05 22:39:27 --> Router Class Initialized
+INFO - 2017-05-05 22:39:27 --> Router Class Initialized
+INFO - 2017-05-05 22:39:27 --> Output Class Initialized
+INFO - 2017-05-05 22:39:27 --> Output Class Initialized
+INFO - 2017-05-05 22:39:27 --> Security Class Initialized
+INFO - 2017-05-05 22:39:27 --> Security Class Initialized
+DEBUG - 2017-05-05 22:39:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:27 --> Input Class Initialized
+DEBUG - 2017-05-05 22:39:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:27 --> Input Class Initialized
+INFO - 2017-05-05 22:39:27 --> Language Class Initialized
+INFO - 2017-05-05 22:39:27 --> Language Class Initialized
+ERROR - 2017-05-05 22:39:27 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 22:39:27 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:39:41 --> Config Class Initialized
+INFO - 2017-05-05 22:39:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:39:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:41 --> URI Class Initialized
+DEBUG - 2017-05-05 22:39:41 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:39:41 --> Router Class Initialized
+INFO - 2017-05-05 22:39:41 --> Output Class Initialized
+INFO - 2017-05-05 22:39:41 --> Security Class Initialized
+DEBUG - 2017-05-05 22:39:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:41 --> Input Class Initialized
+INFO - 2017-05-05 22:39:41 --> Language Class Initialized
+INFO - 2017-05-05 22:39:41 --> Loader Class Initialized
+INFO - 2017-05-05 22:39:41 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:39:41 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:39:41 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:39:41 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:39:41 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:39:41 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:39:42 --> User Agent Class Initialized
+INFO - 2017-05-05 22:39:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:39:42 --> Pagination Class Initialized
+INFO - 2017-05-05 22:39:42 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:39:42 --> Controller Class Initialized
+INFO - 2017-05-05 22:39:42 --> Model Class Initialized
+INFO - 2017-05-05 22:39:42 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:39:42 --> Email Class Initialized
+DEBUG - 2017-05-05 22:39:42 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:39:42 --> Model Class Initialized
+INFO - 2017-05-05 22:39:42 --> Model Class Initialized
+INFO - 2017-05-05 22:39:42 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:39:42 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:39:42 --> Final output sent to browser
+DEBUG - 2017-05-05 22:39:42 --> Total execution time: 0.8270
+INFO - 2017-05-05 22:39:42 --> Config Class Initialized
+INFO - 2017-05-05 22:39:42 --> Hooks Class Initialized
+INFO - 2017-05-05 22:39:42 --> Config Class Initialized
+INFO - 2017-05-05 22:39:42 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:39:42 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:42 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:42 --> URI Class Initialized
+DEBUG - 2017-05-05 22:39:42 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:42 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:42 --> Router Class Initialized
+INFO - 2017-05-05 22:39:42 --> URI Class Initialized
+INFO - 2017-05-05 22:39:42 --> Output Class Initialized
+INFO - 2017-05-05 22:39:42 --> Router Class Initialized
+INFO - 2017-05-05 22:39:42 --> Output Class Initialized
+INFO - 2017-05-05 22:39:42 --> Security Class Initialized
+DEBUG - 2017-05-05 22:39:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:42 --> Security Class Initialized
+INFO - 2017-05-05 22:39:42 --> Input Class Initialized
+DEBUG - 2017-05-05 22:39:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:42 --> Language Class Initialized
+INFO - 2017-05-05 22:39:42 --> Input Class Initialized
+INFO - 2017-05-05 22:39:42 --> Language Class Initialized
+ERROR - 2017-05-05 22:39:42 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 22:39:42 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:39:56 --> Config Class Initialized
+INFO - 2017-05-05 22:39:56 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:39:56 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:56 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:56 --> URI Class Initialized
+DEBUG - 2017-05-05 22:39:56 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:39:56 --> Router Class Initialized
+INFO - 2017-05-05 22:39:56 --> Output Class Initialized
+INFO - 2017-05-05 22:39:56 --> Security Class Initialized
+DEBUG - 2017-05-05 22:39:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:56 --> Input Class Initialized
+INFO - 2017-05-05 22:39:56 --> Language Class Initialized
+INFO - 2017-05-05 22:39:56 --> Loader Class Initialized
+INFO - 2017-05-05 22:39:56 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:39:56 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:39:56 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:39:56 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:39:56 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:39:56 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:39:56 --> User Agent Class Initialized
+INFO - 2017-05-05 22:39:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:39:56 --> Pagination Class Initialized
+INFO - 2017-05-05 22:39:56 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:39:56 --> Controller Class Initialized
+INFO - 2017-05-05 22:39:56 --> Model Class Initialized
+INFO - 2017-05-05 22:39:56 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:39:56 --> Email Class Initialized
+DEBUG - 2017-05-05 22:39:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:39:56 --> Model Class Initialized
+INFO - 2017-05-05 22:39:56 --> Model Class Initialized
+INFO - 2017-05-05 22:39:56 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:39:56 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:39:56 --> Final output sent to browser
+DEBUG - 2017-05-05 22:39:56 --> Total execution time: 0.8438
+INFO - 2017-05-05 22:39:57 --> Config Class Initialized
+INFO - 2017-05-05 22:39:57 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:39:57 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:57 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:57 --> URI Class Initialized
+INFO - 2017-05-05 22:39:57 --> Router Class Initialized
+INFO - 2017-05-05 22:39:57 --> Output Class Initialized
+INFO - 2017-05-05 22:39:57 --> Security Class Initialized
+DEBUG - 2017-05-05 22:39:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:57 --> Input Class Initialized
+INFO - 2017-05-05 22:39:57 --> Language Class Initialized
+ERROR - 2017-05-05 22:39:57 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:39:57 --> Config Class Initialized
+INFO - 2017-05-05 22:39:57 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:39:57 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:39:57 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:39:57 --> URI Class Initialized
+INFO - 2017-05-05 22:39:57 --> Router Class Initialized
+INFO - 2017-05-05 22:39:57 --> Output Class Initialized
+INFO - 2017-05-05 22:39:57 --> Security Class Initialized
+DEBUG - 2017-05-05 22:39:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:39:57 --> Input Class Initialized
+INFO - 2017-05-05 22:39:57 --> Language Class Initialized
+ERROR - 2017-05-05 22:39:57 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:40:25 --> Config Class Initialized
+INFO - 2017-05-05 22:40:25 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:40:25 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:40:25 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:40:25 --> URI Class Initialized
+DEBUG - 2017-05-05 22:40:25 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:40:25 --> Router Class Initialized
+INFO - 2017-05-05 22:40:25 --> Output Class Initialized
+INFO - 2017-05-05 22:40:25 --> Security Class Initialized
+DEBUG - 2017-05-05 22:40:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:40:25 --> Input Class Initialized
+INFO - 2017-05-05 22:40:25 --> Language Class Initialized
+INFO - 2017-05-05 22:40:25 --> Loader Class Initialized
+INFO - 2017-05-05 22:40:25 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:40:25 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:40:25 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:40:25 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:40:25 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:40:25 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:40:25 --> User Agent Class Initialized
+INFO - 2017-05-05 22:40:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:40:25 --> Pagination Class Initialized
+INFO - 2017-05-05 22:40:25 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:40:25 --> Controller Class Initialized
+INFO - 2017-05-05 22:40:25 --> Model Class Initialized
+INFO - 2017-05-05 22:40:25 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:40:25 --> Email Class Initialized
+DEBUG - 2017-05-05 22:40:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:40:25 --> Model Class Initialized
+INFO - 2017-05-05 22:40:25 --> Model Class Initialized
+INFO - 2017-05-05 22:40:25 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:40:26 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:40:26 --> Final output sent to browser
+DEBUG - 2017-05-05 22:40:26 --> Total execution time: 0.8044
+INFO - 2017-05-05 22:40:26 --> Config Class Initialized
+INFO - 2017-05-05 22:40:26 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:40:26 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:40:26 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:40:26 --> URI Class Initialized
+INFO - 2017-05-05 22:40:26 --> Router Class Initialized
+INFO - 2017-05-05 22:40:26 --> Output Class Initialized
+INFO - 2017-05-05 22:40:26 --> Security Class Initialized
+DEBUG - 2017-05-05 22:40:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:40:26 --> Input Class Initialized
+INFO - 2017-05-05 22:40:26 --> Language Class Initialized
+ERROR - 2017-05-05 22:40:26 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:40:26 --> Config Class Initialized
+INFO - 2017-05-05 22:40:26 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:40:26 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:40:26 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:40:26 --> URI Class Initialized
+INFO - 2017-05-05 22:40:26 --> Router Class Initialized
+INFO - 2017-05-05 22:40:26 --> Output Class Initialized
+INFO - 2017-05-05 22:40:26 --> Security Class Initialized
+DEBUG - 2017-05-05 22:40:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:40:26 --> Input Class Initialized
+INFO - 2017-05-05 22:40:26 --> Language Class Initialized
+ERROR - 2017-05-05 22:40:26 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:40:26 --> Config Class Initialized
+INFO - 2017-05-05 22:40:26 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:40:26 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:40:26 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:40:26 --> URI Class Initialized
+INFO - 2017-05-05 22:40:26 --> Router Class Initialized
+INFO - 2017-05-05 22:40:26 --> Output Class Initialized
+INFO - 2017-05-05 22:40:26 --> Security Class Initialized
+DEBUG - 2017-05-05 22:40:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:40:26 --> Input Class Initialized
+INFO - 2017-05-05 22:40:26 --> Language Class Initialized
+ERROR - 2017-05-05 22:40:26 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:41:16 --> Config Class Initialized
+INFO - 2017-05-05 22:41:16 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:41:16 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:41:16 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:41:16 --> URI Class Initialized
+DEBUG - 2017-05-05 22:41:16 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:41:16 --> Router Class Initialized
+INFO - 2017-05-05 22:41:16 --> Output Class Initialized
+INFO - 2017-05-05 22:41:16 --> Security Class Initialized
+DEBUG - 2017-05-05 22:41:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:41:16 --> Input Class Initialized
+INFO - 2017-05-05 22:41:16 --> Language Class Initialized
+INFO - 2017-05-05 22:41:16 --> Loader Class Initialized
+INFO - 2017-05-05 22:41:16 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:41:16 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:41:16 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:41:16 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:41:16 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:41:16 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:41:16 --> User Agent Class Initialized
+INFO - 2017-05-05 22:41:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:41:16 --> Pagination Class Initialized
+INFO - 2017-05-05 22:41:16 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:41:16 --> Controller Class Initialized
+INFO - 2017-05-05 22:41:16 --> Model Class Initialized
+INFO - 2017-05-05 22:41:16 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:41:16 --> Email Class Initialized
+DEBUG - 2017-05-05 22:41:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:41:16 --> Model Class Initialized
+INFO - 2017-05-05 22:41:16 --> Model Class Initialized
+INFO - 2017-05-05 22:41:16 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:41:17 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:41:17 --> Final output sent to browser
+DEBUG - 2017-05-05 22:41:17 --> Total execution time: 0.8627
+INFO - 2017-05-05 22:41:17 --> Config Class Initialized
+INFO - 2017-05-05 22:41:17 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:41:17 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:41:17 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:41:17 --> URI Class Initialized
+INFO - 2017-05-05 22:41:17 --> Router Class Initialized
+INFO - 2017-05-05 22:41:17 --> Output Class Initialized
+INFO - 2017-05-05 22:41:17 --> Security Class Initialized
+INFO - 2017-05-05 22:41:17 --> Config Class Initialized
+INFO - 2017-05-05 22:41:17 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:41:17 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:41:17 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 22:41:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:41:17 --> URI Class Initialized
+INFO - 2017-05-05 22:41:17 --> Input Class Initialized
+INFO - 2017-05-05 22:41:17 --> Language Class Initialized
+ERROR - 2017-05-05 22:41:17 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:41:17 --> Router Class Initialized
+INFO - 2017-05-05 22:41:17 --> Output Class Initialized
+INFO - 2017-05-05 22:41:17 --> Security Class Initialized
+DEBUG - 2017-05-05 22:41:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:41:17 --> Input Class Initialized
+INFO - 2017-05-05 22:41:17 --> Language Class Initialized
+ERROR - 2017-05-05 22:41:17 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:41:42 --> Config Class Initialized
+INFO - 2017-05-05 22:41:42 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:41:42 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:41:42 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:41:42 --> URI Class Initialized
+DEBUG - 2017-05-05 22:41:42 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:41:42 --> Router Class Initialized
+INFO - 2017-05-05 22:41:42 --> Output Class Initialized
+INFO - 2017-05-05 22:41:42 --> Security Class Initialized
+DEBUG - 2017-05-05 22:41:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:41:42 --> Input Class Initialized
+INFO - 2017-05-05 22:41:42 --> Language Class Initialized
+INFO - 2017-05-05 22:41:42 --> Loader Class Initialized
+INFO - 2017-05-05 22:41:42 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:41:42 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:41:42 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:41:42 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:41:42 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:41:42 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:41:42 --> User Agent Class Initialized
+INFO - 2017-05-05 22:41:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:41:42 --> Pagination Class Initialized
+INFO - 2017-05-05 22:41:42 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:41:42 --> Controller Class Initialized
+INFO - 2017-05-05 22:41:42 --> Model Class Initialized
+INFO - 2017-05-05 22:41:42 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:41:42 --> Email Class Initialized
+DEBUG - 2017-05-05 22:41:42 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:41:42 --> Model Class Initialized
+INFO - 2017-05-05 22:41:42 --> Model Class Initialized
+INFO - 2017-05-05 22:41:42 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:41:43 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:41:43 --> Final output sent to browser
+DEBUG - 2017-05-05 22:41:43 --> Total execution time: 0.8201
+INFO - 2017-05-05 22:41:43 --> Config Class Initialized
+INFO - 2017-05-05 22:41:43 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:41:43 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:41:43 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:41:43 --> URI Class Initialized
+INFO - 2017-05-05 22:41:43 --> Router Class Initialized
+INFO - 2017-05-05 22:41:43 --> Output Class Initialized
+INFO - 2017-05-05 22:41:43 --> Security Class Initialized
+DEBUG - 2017-05-05 22:41:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:41:43 --> Input Class Initialized
+INFO - 2017-05-05 22:41:43 --> Language Class Initialized
+ERROR - 2017-05-05 22:41:43 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:41:43 --> Config Class Initialized
+INFO - 2017-05-05 22:41:43 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:41:43 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:41:43 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:41:43 --> URI Class Initialized
+INFO - 2017-05-05 22:41:43 --> Router Class Initialized
+INFO - 2017-05-05 22:41:43 --> Output Class Initialized
+INFO - 2017-05-05 22:41:43 --> Security Class Initialized
+DEBUG - 2017-05-05 22:41:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:41:43 --> Input Class Initialized
+INFO - 2017-05-05 22:41:43 --> Language Class Initialized
+ERROR - 2017-05-05 22:41:43 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:41:56 --> Config Class Initialized
+INFO - 2017-05-05 22:41:56 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:41:56 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:41:56 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:41:56 --> URI Class Initialized
+DEBUG - 2017-05-05 22:41:56 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:41:56 --> Router Class Initialized
+INFO - 2017-05-05 22:41:56 --> Output Class Initialized
+INFO - 2017-05-05 22:41:56 --> Security Class Initialized
+DEBUG - 2017-05-05 22:41:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:41:56 --> Input Class Initialized
+INFO - 2017-05-05 22:41:56 --> Language Class Initialized
+INFO - 2017-05-05 22:41:56 --> Loader Class Initialized
+INFO - 2017-05-05 22:41:56 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:41:56 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:41:56 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:41:56 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:41:56 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:41:56 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:41:56 --> User Agent Class Initialized
+INFO - 2017-05-05 22:41:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:41:56 --> Pagination Class Initialized
+INFO - 2017-05-05 22:41:56 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:41:56 --> Controller Class Initialized
+INFO - 2017-05-05 22:41:56 --> Model Class Initialized
+INFO - 2017-05-05 22:41:56 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:41:56 --> Email Class Initialized
+DEBUG - 2017-05-05 22:41:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:41:56 --> Model Class Initialized
+INFO - 2017-05-05 22:41:56 --> Model Class Initialized
+INFO - 2017-05-05 22:41:56 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:41:57 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:41:57 --> Final output sent to browser
+DEBUG - 2017-05-05 22:41:57 --> Total execution time: 0.8212
+INFO - 2017-05-05 22:41:57 --> Config Class Initialized
+INFO - 2017-05-05 22:41:57 --> Hooks Class Initialized
+INFO - 2017-05-05 22:41:57 --> Config Class Initialized
+INFO - 2017-05-05 22:41:57 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:41:57 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:41:57 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:41:57 --> URI Class Initialized
+DEBUG - 2017-05-05 22:41:57 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:41:57 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:41:57 --> URI Class Initialized
+INFO - 2017-05-05 22:41:57 --> Router Class Initialized
+INFO - 2017-05-05 22:41:57 --> Router Class Initialized
+INFO - 2017-05-05 22:41:57 --> Output Class Initialized
+INFO - 2017-05-05 22:41:57 --> Security Class Initialized
+INFO - 2017-05-05 22:41:57 --> Output Class Initialized
+DEBUG - 2017-05-05 22:41:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:41:57 --> Input Class Initialized
+INFO - 2017-05-05 22:41:57 --> Language Class Initialized
+ERROR - 2017-05-05 22:41:57 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:41:57 --> Security Class Initialized
+DEBUG - 2017-05-05 22:41:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:41:57 --> Input Class Initialized
+INFO - 2017-05-05 22:41:57 --> Language Class Initialized
+ERROR - 2017-05-05 22:41:57 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:43:03 --> Config Class Initialized
+INFO - 2017-05-05 22:43:03 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:43:03 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:43:04 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:43:04 --> URI Class Initialized
+DEBUG - 2017-05-05 22:43:04 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:43:04 --> Router Class Initialized
+INFO - 2017-05-05 22:43:04 --> Output Class Initialized
+INFO - 2017-05-05 22:43:04 --> Security Class Initialized
+DEBUG - 2017-05-05 22:43:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:43:04 --> Input Class Initialized
+INFO - 2017-05-05 22:43:04 --> Language Class Initialized
+INFO - 2017-05-05 22:43:04 --> Loader Class Initialized
+INFO - 2017-05-05 22:43:04 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:43:04 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:43:04 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:43:04 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:43:04 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:43:04 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:43:04 --> User Agent Class Initialized
+INFO - 2017-05-05 22:43:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:43:04 --> Pagination Class Initialized
+INFO - 2017-05-05 22:43:04 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:43:04 --> Controller Class Initialized
+INFO - 2017-05-05 22:43:04 --> Model Class Initialized
+INFO - 2017-05-05 22:43:04 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:43:04 --> Email Class Initialized
+DEBUG - 2017-05-05 22:43:04 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:43:04 --> Model Class Initialized
+INFO - 2017-05-05 22:43:04 --> Model Class Initialized
+INFO - 2017-05-05 22:43:04 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:43:05 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:43:05 --> Final output sent to browser
+DEBUG - 2017-05-05 22:43:05 --> Total execution time: 1.3238
+INFO - 2017-05-05 22:43:05 --> Config Class Initialized
+INFO - 2017-05-05 22:43:05 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:43:05 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:43:05 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:43:05 --> URI Class Initialized
+INFO - 2017-05-05 22:43:05 --> Config Class Initialized
+INFO - 2017-05-05 22:43:05 --> Router Class Initialized
+INFO - 2017-05-05 22:43:05 --> Hooks Class Initialized
+INFO - 2017-05-05 22:43:05 --> Output Class Initialized
+INFO - 2017-05-05 22:43:05 --> Security Class Initialized
+DEBUG - 2017-05-05 22:43:05 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:43:05 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 22:43:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:43:05 --> Input Class Initialized
+INFO - 2017-05-05 22:43:05 --> URI Class Initialized
+INFO - 2017-05-05 22:43:05 --> Language Class Initialized
+ERROR - 2017-05-05 22:43:05 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:43:05 --> Router Class Initialized
+INFO - 2017-05-05 22:43:05 --> Output Class Initialized
+INFO - 2017-05-05 22:43:05 --> Security Class Initialized
+DEBUG - 2017-05-05 22:43:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:43:05 --> Input Class Initialized
+INFO - 2017-05-05 22:43:05 --> Language Class Initialized
+ERROR - 2017-05-05 22:43:05 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:43:59 --> Config Class Initialized
+INFO - 2017-05-05 22:43:59 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:43:59 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:43:59 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:43:59 --> URI Class Initialized
+DEBUG - 2017-05-05 22:43:59 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:43:59 --> Router Class Initialized
+INFO - 2017-05-05 22:43:59 --> Output Class Initialized
+INFO - 2017-05-05 22:43:59 --> Security Class Initialized
+DEBUG - 2017-05-05 22:43:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:43:59 --> Input Class Initialized
+INFO - 2017-05-05 22:43:59 --> Language Class Initialized
+INFO - 2017-05-05 22:43:59 --> Loader Class Initialized
+INFO - 2017-05-05 22:43:59 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:43:59 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:43:59 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:43:59 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:43:59 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:43:59 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:43:59 --> User Agent Class Initialized
+INFO - 2017-05-05 22:43:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:43:59 --> Pagination Class Initialized
+INFO - 2017-05-05 22:43:59 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:43:59 --> Controller Class Initialized
+INFO - 2017-05-05 22:43:59 --> Model Class Initialized
+INFO - 2017-05-05 22:43:59 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:43:59 --> Email Class Initialized
+DEBUG - 2017-05-05 22:43:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:43:59 --> Model Class Initialized
+INFO - 2017-05-05 22:43:59 --> Model Class Initialized
+INFO - 2017-05-05 22:43:59 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:43:59 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:43:59 --> Final output sent to browser
+DEBUG - 2017-05-05 22:43:59 --> Total execution time: 0.8985
+INFO - 2017-05-05 22:44:00 --> Config Class Initialized
+INFO - 2017-05-05 22:44:00 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:44:00 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:44:00 --> Config Class Initialized
+INFO - 2017-05-05 22:44:00 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:44:00 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:44:00 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:44:00 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:44:00 --> URI Class Initialized
+INFO - 2017-05-05 22:44:00 --> URI Class Initialized
+INFO - 2017-05-05 22:44:00 --> Router Class Initialized
+INFO - 2017-05-05 22:44:00 --> Router Class Initialized
+INFO - 2017-05-05 22:44:00 --> Output Class Initialized
+INFO - 2017-05-05 22:44:00 --> Output Class Initialized
+INFO - 2017-05-05 22:44:00 --> Security Class Initialized
+INFO - 2017-05-05 22:44:00 --> Security Class Initialized
+DEBUG - 2017-05-05 22:44:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-05 22:44:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:44:00 --> Input Class Initialized
+INFO - 2017-05-05 22:44:00 --> Input Class Initialized
+INFO - 2017-05-05 22:44:00 --> Language Class Initialized
+INFO - 2017-05-05 22:44:00 --> Language Class Initialized
+ERROR - 2017-05-05 22:44:00 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 22:44:00 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:44:45 --> Config Class Initialized
+INFO - 2017-05-05 22:44:45 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:44:45 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:44:45 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:44:45 --> URI Class Initialized
+DEBUG - 2017-05-05 22:44:45 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:44:45 --> Router Class Initialized
+INFO - 2017-05-05 22:44:45 --> Output Class Initialized
+INFO - 2017-05-05 22:44:45 --> Security Class Initialized
+DEBUG - 2017-05-05 22:44:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:44:45 --> Input Class Initialized
+INFO - 2017-05-05 22:44:45 --> Language Class Initialized
+INFO - 2017-05-05 22:44:45 --> Loader Class Initialized
+INFO - 2017-05-05 22:44:45 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:44:45 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:44:45 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:44:45 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:44:45 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:44:45 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:44:45 --> User Agent Class Initialized
+INFO - 2017-05-05 22:44:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:44:45 --> Pagination Class Initialized
+INFO - 2017-05-05 22:44:45 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:44:45 --> Controller Class Initialized
+INFO - 2017-05-05 22:44:45 --> Model Class Initialized
+INFO - 2017-05-05 22:44:45 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:44:45 --> Email Class Initialized
+DEBUG - 2017-05-05 22:44:45 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:44:45 --> Model Class Initialized
+INFO - 2017-05-05 22:44:45 --> Model Class Initialized
+INFO - 2017-05-05 22:44:45 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:44:46 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:44:46 --> Final output sent to browser
+DEBUG - 2017-05-05 22:44:46 --> Total execution time: 0.9295
+INFO - 2017-05-05 22:44:46 --> Config Class Initialized
+INFO - 2017-05-05 22:44:46 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:44:46 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:44:46 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:44:46 --> URI Class Initialized
+INFO - 2017-05-05 22:44:46 --> Router Class Initialized
+INFO - 2017-05-05 22:44:46 --> Output Class Initialized
+INFO - 2017-05-05 22:44:46 --> Security Class Initialized
+DEBUG - 2017-05-05 22:44:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:44:46 --> Input Class Initialized
+INFO - 2017-05-05 22:44:46 --> Language Class Initialized
+ERROR - 2017-05-05 22:44:46 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:44:46 --> Config Class Initialized
+INFO - 2017-05-05 22:44:46 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:44:46 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:44:46 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:44:46 --> URI Class Initialized
+INFO - 2017-05-05 22:44:46 --> Router Class Initialized
+INFO - 2017-05-05 22:44:46 --> Output Class Initialized
+INFO - 2017-05-05 22:44:46 --> Security Class Initialized
+DEBUG - 2017-05-05 22:44:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:44:46 --> Input Class Initialized
+INFO - 2017-05-05 22:44:46 --> Language Class Initialized
+ERROR - 2017-05-05 22:44:46 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:44:46 --> Config Class Initialized
+INFO - 2017-05-05 22:44:46 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:44:46 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:44:46 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:44:46 --> URI Class Initialized
+INFO - 2017-05-05 22:44:46 --> Router Class Initialized
+INFO - 2017-05-05 22:44:46 --> Output Class Initialized
+INFO - 2017-05-05 22:44:46 --> Security Class Initialized
+DEBUG - 2017-05-05 22:44:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:44:46 --> Input Class Initialized
+INFO - 2017-05-05 22:44:46 --> Language Class Initialized
+ERROR - 2017-05-05 22:44:46 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:44:58 --> Config Class Initialized
+INFO - 2017-05-05 22:44:58 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:44:58 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:44:58 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:44:58 --> URI Class Initialized
+DEBUG - 2017-05-05 22:44:58 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:44:58 --> Router Class Initialized
+INFO - 2017-05-05 22:44:58 --> Output Class Initialized
+INFO - 2017-05-05 22:44:58 --> Security Class Initialized
+DEBUG - 2017-05-05 22:44:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:44:58 --> Input Class Initialized
+INFO - 2017-05-05 22:44:58 --> Language Class Initialized
+INFO - 2017-05-05 22:44:58 --> Loader Class Initialized
+INFO - 2017-05-05 22:44:58 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:44:58 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:44:58 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:44:58 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:44:58 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:44:58 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:44:58 --> User Agent Class Initialized
+INFO - 2017-05-05 22:44:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:44:58 --> Pagination Class Initialized
+INFO - 2017-05-05 22:44:58 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:44:58 --> Controller Class Initialized
+INFO - 2017-05-05 22:44:58 --> Model Class Initialized
+INFO - 2017-05-05 22:44:58 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:44:58 --> Email Class Initialized
+DEBUG - 2017-05-05 22:44:58 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:44:58 --> Model Class Initialized
+INFO - 2017-05-05 22:44:58 --> Model Class Initialized
+INFO - 2017-05-05 22:44:58 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:44:59 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:44:59 --> Final output sent to browser
+DEBUG - 2017-05-05 22:44:59 --> Total execution time: 0.7915
+INFO - 2017-05-05 22:44:59 --> Config Class Initialized
+INFO - 2017-05-05 22:44:59 --> Hooks Class Initialized
+INFO - 2017-05-05 22:44:59 --> Config Class Initialized
+INFO - 2017-05-05 22:44:59 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:44:59 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:44:59 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:44:59 --> URI Class Initialized
+INFO - 2017-05-05 22:44:59 --> Router Class Initialized
+DEBUG - 2017-05-05 22:44:59 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:44:59 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:44:59 --> URI Class Initialized
+INFO - 2017-05-05 22:44:59 --> Output Class Initialized
+INFO - 2017-05-05 22:44:59 --> Security Class Initialized
+INFO - 2017-05-05 22:44:59 --> Router Class Initialized
+DEBUG - 2017-05-05 22:44:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:44:59 --> Input Class Initialized
+INFO - 2017-05-05 22:44:59 --> Output Class Initialized
+INFO - 2017-05-05 22:44:59 --> Language Class Initialized
+INFO - 2017-05-05 22:44:59 --> Security Class Initialized
+ERROR - 2017-05-05 22:44:59 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 22:44:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:44:59 --> Input Class Initialized
+INFO - 2017-05-05 22:44:59 --> Language Class Initialized
+ERROR - 2017-05-05 22:44:59 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:46:19 --> Config Class Initialized
+INFO - 2017-05-05 22:46:19 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:46:19 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:46:19 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:46:19 --> URI Class Initialized
+DEBUG - 2017-05-05 22:46:19 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:46:19 --> Router Class Initialized
+INFO - 2017-05-05 22:46:19 --> Output Class Initialized
+INFO - 2017-05-05 22:46:19 --> Security Class Initialized
+DEBUG - 2017-05-05 22:46:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:46:19 --> Input Class Initialized
+INFO - 2017-05-05 22:46:19 --> Language Class Initialized
+INFO - 2017-05-05 22:46:19 --> Loader Class Initialized
+INFO - 2017-05-05 22:46:19 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:46:19 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:46:19 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:46:19 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:46:19 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:46:19 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:46:19 --> User Agent Class Initialized
+INFO - 2017-05-05 22:46:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:46:19 --> Pagination Class Initialized
+INFO - 2017-05-05 22:46:19 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:46:19 --> Controller Class Initialized
+INFO - 2017-05-05 22:46:19 --> Model Class Initialized
+INFO - 2017-05-05 22:46:19 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:46:19 --> Email Class Initialized
+DEBUG - 2017-05-05 22:46:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:46:19 --> Model Class Initialized
+INFO - 2017-05-05 22:46:19 --> Model Class Initialized
+INFO - 2017-05-05 22:46:20 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:46:20 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:46:20 --> Final output sent to browser
+DEBUG - 2017-05-05 22:46:20 --> Total execution time: 0.8230
+INFO - 2017-05-05 22:46:20 --> Config Class Initialized
+INFO - 2017-05-05 22:46:20 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:46:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:46:20 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:46:20 --> Config Class Initialized
+INFO - 2017-05-05 22:46:20 --> URI Class Initialized
+INFO - 2017-05-05 22:46:20 --> Hooks Class Initialized
+INFO - 2017-05-05 22:46:20 --> Router Class Initialized
+INFO - 2017-05-05 22:46:20 --> Output Class Initialized
+DEBUG - 2017-05-05 22:46:20 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:46:20 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:46:20 --> URI Class Initialized
+INFO - 2017-05-05 22:46:20 --> Security Class Initialized
+DEBUG - 2017-05-05 22:46:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:46:20 --> Router Class Initialized
+INFO - 2017-05-05 22:46:20 --> Input Class Initialized
+INFO - 2017-05-05 22:46:20 --> Language Class Initialized
+ERROR - 2017-05-05 22:46:20 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:46:20 --> Output Class Initialized
+INFO - 2017-05-05 22:46:20 --> Security Class Initialized
+DEBUG - 2017-05-05 22:46:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:46:20 --> Input Class Initialized
+INFO - 2017-05-05 22:46:20 --> Language Class Initialized
+ERROR - 2017-05-05 22:46:20 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:47:21 --> Config Class Initialized
+INFO - 2017-05-05 22:47:21 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:47:21 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:47:21 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:47:21 --> URI Class Initialized
+DEBUG - 2017-05-05 22:47:21 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:47:21 --> Router Class Initialized
+INFO - 2017-05-05 22:47:21 --> Output Class Initialized
+INFO - 2017-05-05 22:47:22 --> Security Class Initialized
+DEBUG - 2017-05-05 22:47:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:47:22 --> Input Class Initialized
+INFO - 2017-05-05 22:47:22 --> Language Class Initialized
+INFO - 2017-05-05 22:47:22 --> Loader Class Initialized
+INFO - 2017-05-05 22:47:22 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:47:22 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:47:22 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:47:22 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:47:22 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:47:22 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:47:22 --> User Agent Class Initialized
+INFO - 2017-05-05 22:47:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:47:22 --> Pagination Class Initialized
+INFO - 2017-05-05 22:47:22 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:47:22 --> Controller Class Initialized
+INFO - 2017-05-05 22:47:22 --> Model Class Initialized
+INFO - 2017-05-05 22:47:22 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:47:22 --> Email Class Initialized
+DEBUG - 2017-05-05 22:47:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:47:22 --> Model Class Initialized
+INFO - 2017-05-05 22:47:22 --> Model Class Initialized
+INFO - 2017-05-05 22:47:22 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:47:22 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:47:22 --> Final output sent to browser
+DEBUG - 2017-05-05 22:47:22 --> Total execution time: 0.9590
+INFO - 2017-05-05 22:47:23 --> Config Class Initialized
+INFO - 2017-05-05 22:47:23 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:47:23 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:47:23 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:47:23 --> URI Class Initialized
+INFO - 2017-05-05 22:47:23 --> Router Class Initialized
+INFO - 2017-05-05 22:47:23 --> Output Class Initialized
+INFO - 2017-05-05 22:47:23 --> Security Class Initialized
+DEBUG - 2017-05-05 22:47:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:47:23 --> Input Class Initialized
+INFO - 2017-05-05 22:47:23 --> Language Class Initialized
+ERROR - 2017-05-05 22:47:23 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:47:23 --> Config Class Initialized
+INFO - 2017-05-05 22:47:23 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:47:23 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:47:23 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:47:23 --> URI Class Initialized
+INFO - 2017-05-05 22:47:23 --> Router Class Initialized
+INFO - 2017-05-05 22:47:23 --> Output Class Initialized
+INFO - 2017-05-05 22:47:23 --> Security Class Initialized
+DEBUG - 2017-05-05 22:47:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:47:23 --> Input Class Initialized
+INFO - 2017-05-05 22:47:23 --> Language Class Initialized
+ERROR - 2017-05-05 22:47:23 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:49:12 --> Config Class Initialized
+INFO - 2017-05-05 22:49:12 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:49:12 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:49:12 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:49:12 --> URI Class Initialized
+DEBUG - 2017-05-05 22:49:12 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:49:12 --> Router Class Initialized
+INFO - 2017-05-05 22:49:12 --> Output Class Initialized
+INFO - 2017-05-05 22:49:12 --> Security Class Initialized
+DEBUG - 2017-05-05 22:49:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:49:12 --> Input Class Initialized
+INFO - 2017-05-05 22:49:12 --> Language Class Initialized
+INFO - 2017-05-05 22:49:12 --> Loader Class Initialized
+INFO - 2017-05-05 22:49:12 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:49:12 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:49:12 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:49:12 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:49:13 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:49:13 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:49:13 --> User Agent Class Initialized
+INFO - 2017-05-05 22:49:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:49:13 --> Pagination Class Initialized
+INFO - 2017-05-05 22:49:13 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:49:13 --> Controller Class Initialized
+INFO - 2017-05-05 22:49:13 --> Model Class Initialized
+INFO - 2017-05-05 22:49:13 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:49:13 --> Email Class Initialized
+DEBUG - 2017-05-05 22:49:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:49:13 --> Model Class Initialized
+INFO - 2017-05-05 22:49:13 --> Model Class Initialized
+INFO - 2017-05-05 22:49:13 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:49:13 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:49:13 --> Final output sent to browser
+DEBUG - 2017-05-05 22:49:13 --> Total execution time: 1.0527
+INFO - 2017-05-05 22:49:14 --> Config Class Initialized
+INFO - 2017-05-05 22:49:14 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:49:14 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:49:14 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:49:14 --> URI Class Initialized
+INFO - 2017-05-05 22:49:14 --> Router Class Initialized
+INFO - 2017-05-05 22:49:14 --> Output Class Initialized
+INFO - 2017-05-05 22:49:14 --> Security Class Initialized
+DEBUG - 2017-05-05 22:49:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:49:14 --> Config Class Initialized
+INFO - 2017-05-05 22:49:14 --> Input Class Initialized
+INFO - 2017-05-05 22:49:14 --> Language Class Initialized
+ERROR - 2017-05-05 22:49:14 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:49:14 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:49:14 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:49:14 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:49:14 --> URI Class Initialized
+INFO - 2017-05-05 22:49:14 --> Router Class Initialized
+INFO - 2017-05-05 22:49:14 --> Output Class Initialized
+INFO - 2017-05-05 22:49:14 --> Security Class Initialized
+DEBUG - 2017-05-05 22:49:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:49:14 --> Input Class Initialized
+INFO - 2017-05-05 22:49:14 --> Language Class Initialized
+ERROR - 2017-05-05 22:49:14 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:49:29 --> Config Class Initialized
+INFO - 2017-05-05 22:49:29 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:49:29 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:49:29 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:49:29 --> URI Class Initialized
+DEBUG - 2017-05-05 22:49:29 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:49:29 --> Router Class Initialized
+INFO - 2017-05-05 22:49:29 --> Output Class Initialized
+INFO - 2017-05-05 22:49:29 --> Security Class Initialized
+DEBUG - 2017-05-05 22:49:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:49:29 --> Input Class Initialized
+INFO - 2017-05-05 22:49:29 --> Language Class Initialized
+INFO - 2017-05-05 22:49:29 --> Loader Class Initialized
+INFO - 2017-05-05 22:49:29 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:49:29 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:49:29 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:49:29 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:49:29 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:49:29 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:49:29 --> User Agent Class Initialized
+INFO - 2017-05-05 22:49:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:49:29 --> Pagination Class Initialized
+INFO - 2017-05-05 22:49:29 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:49:29 --> Controller Class Initialized
+INFO - 2017-05-05 22:49:29 --> Model Class Initialized
+INFO - 2017-05-05 22:49:29 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:49:29 --> Email Class Initialized
+DEBUG - 2017-05-05 22:49:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:49:29 --> Model Class Initialized
+INFO - 2017-05-05 22:49:29 --> Model Class Initialized
+INFO - 2017-05-05 22:49:29 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:49:29 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:49:29 --> Final output sent to browser
+DEBUG - 2017-05-05 22:49:29 --> Total execution time: 0.8095
+INFO - 2017-05-05 22:49:30 --> Config Class Initialized
+INFO - 2017-05-05 22:49:30 --> Hooks Class Initialized
+INFO - 2017-05-05 22:49:30 --> Config Class Initialized
+INFO - 2017-05-05 22:49:30 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:49:30 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:49:30 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 22:49:30 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:49:30 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:49:30 --> URI Class Initialized
+INFO - 2017-05-05 22:49:30 --> URI Class Initialized
+INFO - 2017-05-05 22:49:30 --> Router Class Initialized
+INFO - 2017-05-05 22:49:30 --> Router Class Initialized
+INFO - 2017-05-05 22:49:30 --> Output Class Initialized
+INFO - 2017-05-05 22:49:30 --> Output Class Initialized
+INFO - 2017-05-05 22:49:30 --> Security Class Initialized
+DEBUG - 2017-05-05 22:49:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:49:30 --> Input Class Initialized
+INFO - 2017-05-05 22:49:30 --> Security Class Initialized
+INFO - 2017-05-05 22:49:30 --> Language Class Initialized
+ERROR - 2017-05-05 22:49:30 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 22:49:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:49:30 --> Input Class Initialized
+INFO - 2017-05-05 22:49:30 --> Language Class Initialized
+ERROR - 2017-05-05 22:49:30 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:49:46 --> Config Class Initialized
+INFO - 2017-05-05 22:49:46 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:49:46 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:49:46 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:49:46 --> URI Class Initialized
+DEBUG - 2017-05-05 22:49:46 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:49:46 --> Router Class Initialized
+INFO - 2017-05-05 22:49:46 --> Output Class Initialized
+INFO - 2017-05-05 22:49:46 --> Security Class Initialized
+DEBUG - 2017-05-05 22:49:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:49:46 --> Input Class Initialized
+INFO - 2017-05-05 22:49:46 --> Language Class Initialized
+INFO - 2017-05-05 22:49:46 --> Loader Class Initialized
+INFO - 2017-05-05 22:49:46 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:49:46 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:49:46 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:49:46 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:49:46 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:49:46 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:49:46 --> User Agent Class Initialized
+INFO - 2017-05-05 22:49:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:49:46 --> Pagination Class Initialized
+INFO - 2017-05-05 22:49:46 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:49:46 --> Controller Class Initialized
+INFO - 2017-05-05 22:49:46 --> Model Class Initialized
+INFO - 2017-05-05 22:49:46 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:49:46 --> Email Class Initialized
+DEBUG - 2017-05-05 22:49:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:49:46 --> Model Class Initialized
+INFO - 2017-05-05 22:49:46 --> Model Class Initialized
+INFO - 2017-05-05 22:49:46 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:49:47 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:49:47 --> Final output sent to browser
+DEBUG - 2017-05-05 22:49:47 --> Total execution time: 0.8709
+INFO - 2017-05-05 22:49:47 --> Config Class Initialized
+INFO - 2017-05-05 22:49:47 --> Hooks Class Initialized
+INFO - 2017-05-05 22:49:47 --> Config Class Initialized
+INFO - 2017-05-05 22:49:47 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:49:47 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:49:47 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:49:47 --> URI Class Initialized
+DEBUG - 2017-05-05 22:49:47 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:49:47 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:49:47 --> Router Class Initialized
+INFO - 2017-05-05 22:49:47 --> URI Class Initialized
+INFO - 2017-05-05 22:49:47 --> Output Class Initialized
+INFO - 2017-05-05 22:49:47 --> Security Class Initialized
+DEBUG - 2017-05-05 22:49:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:49:47 --> Input Class Initialized
+INFO - 2017-05-05 22:49:47 --> Router Class Initialized
+INFO - 2017-05-05 22:49:47 --> Language Class Initialized
+ERROR - 2017-05-05 22:49:47 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:49:47 --> Output Class Initialized
+INFO - 2017-05-05 22:49:47 --> Security Class Initialized
+DEBUG - 2017-05-05 22:49:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:49:47 --> Input Class Initialized
+INFO - 2017-05-05 22:49:47 --> Language Class Initialized
+ERROR - 2017-05-05 22:49:47 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 22:50:40 --> Config Class Initialized
+INFO - 2017-05-05 22:50:40 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:50:40 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:50:40 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:50:40 --> URI Class Initialized
+DEBUG - 2017-05-05 22:50:40 --> No URI present. Default controller set.
+INFO - 2017-05-05 22:50:40 --> Router Class Initialized
+INFO - 2017-05-05 22:50:40 --> Output Class Initialized
+INFO - 2017-05-05 22:50:40 --> Security Class Initialized
+DEBUG - 2017-05-05 22:50:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:50:40 --> Input Class Initialized
+INFO - 2017-05-05 22:50:40 --> Language Class Initialized
+INFO - 2017-05-05 22:50:40 --> Loader Class Initialized
+INFO - 2017-05-05 22:50:40 --> Helper loaded: language_helper
+INFO - 2017-05-05 22:50:40 --> Helper loaded: url_helper
+INFO - 2017-05-05 22:50:40 --> Helper loaded: form_helper
+INFO - 2017-05-05 22:50:41 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 22:50:41 --> Helper loaded: util_helper
+INFO - 2017-05-05 22:50:41 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 22:50:41 --> User Agent Class Initialized
+INFO - 2017-05-05 22:50:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 22:50:41 --> Pagination Class Initialized
+INFO - 2017-05-05 22:50:41 --> Form Validation Class Initialized
+INFO - 2017-05-05 22:50:41 --> Controller Class Initialized
+INFO - 2017-05-05 22:50:41 --> Model Class Initialized
+INFO - 2017-05-05 22:50:41 --> Database Driver Class Initialized
+INFO - 2017-05-05 22:50:41 --> Email Class Initialized
+DEBUG - 2017-05-05 22:50:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 22:50:41 --> Model Class Initialized
+INFO - 2017-05-05 22:50:41 --> Model Class Initialized
+INFO - 2017-05-05 22:50:41 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 22:50:41 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 22:50:41 --> Final output sent to browser
+DEBUG - 2017-05-05 22:50:41 --> Total execution time: 0.8966
+INFO - 2017-05-05 22:50:41 --> Config Class Initialized
+INFO - 2017-05-05 22:50:41 --> Hooks Class Initialized
+DEBUG - 2017-05-05 22:50:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:50:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:50:41 --> URI Class Initialized
+INFO - 2017-05-05 22:50:41 --> Router Class Initialized
+INFO - 2017-05-05 22:50:41 --> Output Class Initialized
+INFO - 2017-05-05 22:50:41 --> Security Class Initialized
+DEBUG - 2017-05-05 22:50:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:50:41 --> Input Class Initialized
+INFO - 2017-05-05 22:50:41 --> Config Class Initialized
+INFO - 2017-05-05 22:50:41 --> Hooks Class Initialized
+INFO - 2017-05-05 22:50:41 --> Language Class Initialized
+ERROR - 2017-05-05 22:50:41 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 22:50:41 --> UTF-8 Support Enabled
+INFO - 2017-05-05 22:50:41 --> Utf8 Class Initialized
+INFO - 2017-05-05 22:50:41 --> URI Class Initialized
+INFO - 2017-05-05 22:50:41 --> Router Class Initialized
+INFO - 2017-05-05 22:50:41 --> Output Class Initialized
+INFO - 2017-05-05 22:50:41 --> Security Class Initialized
+DEBUG - 2017-05-05 22:50:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 22:50:42 --> Input Class Initialized
+INFO - 2017-05-05 22:50:42 --> Language Class Initialized
+ERROR - 2017-05-05 22:50:42 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:03:17 --> Config Class Initialized
+INFO - 2017-05-05 23:03:17 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:03:17 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:03:17 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:03:17 --> URI Class Initialized
+DEBUG - 2017-05-05 23:03:17 --> No URI present. Default controller set.
+INFO - 2017-05-05 23:03:17 --> Router Class Initialized
+INFO - 2017-05-05 23:03:17 --> Output Class Initialized
+INFO - 2017-05-05 23:03:17 --> Security Class Initialized
+DEBUG - 2017-05-05 23:03:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:03:17 --> Input Class Initialized
+INFO - 2017-05-05 23:03:17 --> Language Class Initialized
+INFO - 2017-05-05 23:03:17 --> Loader Class Initialized
+INFO - 2017-05-05 23:03:17 --> Helper loaded: language_helper
+INFO - 2017-05-05 23:03:17 --> Helper loaded: url_helper
+INFO - 2017-05-05 23:03:17 --> Helper loaded: form_helper
+INFO - 2017-05-05 23:03:17 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 23:03:17 --> Helper loaded: util_helper
+INFO - 2017-05-05 23:03:17 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 23:03:17 --> User Agent Class Initialized
+INFO - 2017-05-05 23:03:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 23:03:17 --> Pagination Class Initialized
+INFO - 2017-05-05 23:03:17 --> Form Validation Class Initialized
+INFO - 2017-05-05 23:03:17 --> Controller Class Initialized
+INFO - 2017-05-05 23:03:17 --> Model Class Initialized
+INFO - 2017-05-05 23:03:17 --> Database Driver Class Initialized
+INFO - 2017-05-05 23:03:17 --> Email Class Initialized
+DEBUG - 2017-05-05 23:03:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 23:03:17 --> Model Class Initialized
+INFO - 2017-05-05 23:03:17 --> Model Class Initialized
+INFO - 2017-05-05 23:03:17 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 23:03:18 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 23:03:18 --> Final output sent to browser
+DEBUG - 2017-05-05 23:03:18 --> Total execution time: 1.0486
+INFO - 2017-05-05 23:03:18 --> Config Class Initialized
+INFO - 2017-05-05 23:03:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:03:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:03:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:03:18 --> URI Class Initialized
+INFO - 2017-05-05 23:03:18 --> Router Class Initialized
+INFO - 2017-05-05 23:03:18 --> Output Class Initialized
+INFO - 2017-05-05 23:03:18 --> Security Class Initialized
+DEBUG - 2017-05-05 23:03:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:03:18 --> Input Class Initialized
+INFO - 2017-05-05 23:03:18 --> Language Class Initialized
+ERROR - 2017-05-05 23:03:18 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:03:18 --> Config Class Initialized
+INFO - 2017-05-05 23:03:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:03:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:03:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:03:18 --> URI Class Initialized
+INFO - 2017-05-05 23:03:18 --> Router Class Initialized
+INFO - 2017-05-05 23:03:18 --> Output Class Initialized
+INFO - 2017-05-05 23:03:18 --> Security Class Initialized
+DEBUG - 2017-05-05 23:03:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:03:18 --> Input Class Initialized
+INFO - 2017-05-05 23:03:18 --> Language Class Initialized
+ERROR - 2017-05-05 23:03:18 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:03:54 --> Config Class Initialized
+INFO - 2017-05-05 23:03:54 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:03:54 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:03:54 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:03:54 --> URI Class Initialized
+DEBUG - 2017-05-05 23:03:54 --> No URI present. Default controller set.
+INFO - 2017-05-05 23:03:54 --> Router Class Initialized
+INFO - 2017-05-05 23:03:54 --> Output Class Initialized
+INFO - 2017-05-05 23:03:54 --> Security Class Initialized
+DEBUG - 2017-05-05 23:03:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:03:54 --> Input Class Initialized
+INFO - 2017-05-05 23:03:54 --> Language Class Initialized
+INFO - 2017-05-05 23:03:54 --> Loader Class Initialized
+INFO - 2017-05-05 23:03:54 --> Helper loaded: language_helper
+INFO - 2017-05-05 23:03:54 --> Helper loaded: url_helper
+INFO - 2017-05-05 23:03:54 --> Helper loaded: form_helper
+INFO - 2017-05-05 23:03:54 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 23:03:54 --> Helper loaded: util_helper
+INFO - 2017-05-05 23:03:54 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 23:03:54 --> User Agent Class Initialized
+INFO - 2017-05-05 23:03:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 23:03:54 --> Pagination Class Initialized
+INFO - 2017-05-05 23:03:54 --> Form Validation Class Initialized
+INFO - 2017-05-05 23:03:54 --> Controller Class Initialized
+INFO - 2017-05-05 23:03:54 --> Model Class Initialized
+INFO - 2017-05-05 23:03:54 --> Database Driver Class Initialized
+INFO - 2017-05-05 23:03:54 --> Email Class Initialized
+DEBUG - 2017-05-05 23:03:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 23:03:54 --> Model Class Initialized
+INFO - 2017-05-05 23:03:54 --> Model Class Initialized
+INFO - 2017-05-05 23:03:54 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 23:03:55 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 23:03:55 --> Final output sent to browser
+DEBUG - 2017-05-05 23:03:55 --> Total execution time: 0.9729
+INFO - 2017-05-05 23:03:55 --> Config Class Initialized
+INFO - 2017-05-05 23:03:55 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:03:55 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:03:55 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:03:55 --> URI Class Initialized
+INFO - 2017-05-05 23:03:55 --> Router Class Initialized
+INFO - 2017-05-05 23:03:55 --> Output Class Initialized
+INFO - 2017-05-05 23:03:55 --> Config Class Initialized
+INFO - 2017-05-05 23:03:55 --> Security Class Initialized
+INFO - 2017-05-05 23:03:55 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:03:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:03:55 --> Input Class Initialized
+INFO - 2017-05-05 23:03:55 --> Language Class Initialized
+ERROR - 2017-05-05 23:03:55 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 23:03:55 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:03:55 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:03:55 --> URI Class Initialized
+INFO - 2017-05-05 23:03:55 --> Router Class Initialized
+INFO - 2017-05-05 23:03:55 --> Output Class Initialized
+INFO - 2017-05-05 23:03:55 --> Security Class Initialized
+DEBUG - 2017-05-05 23:03:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:03:55 --> Input Class Initialized
+INFO - 2017-05-05 23:03:55 --> Language Class Initialized
+ERROR - 2017-05-05 23:03:55 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:04:17 --> Config Class Initialized
+INFO - 2017-05-05 23:04:17 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:04:17 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:04:17 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:04:17 --> URI Class Initialized
+DEBUG - 2017-05-05 23:04:17 --> No URI present. Default controller set.
+INFO - 2017-05-05 23:04:17 --> Router Class Initialized
+INFO - 2017-05-05 23:04:17 --> Output Class Initialized
+INFO - 2017-05-05 23:04:17 --> Security Class Initialized
+DEBUG - 2017-05-05 23:04:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:04:17 --> Input Class Initialized
+INFO - 2017-05-05 23:04:17 --> Language Class Initialized
+INFO - 2017-05-05 23:04:17 --> Loader Class Initialized
+INFO - 2017-05-05 23:04:17 --> Helper loaded: language_helper
+INFO - 2017-05-05 23:04:17 --> Helper loaded: url_helper
+INFO - 2017-05-05 23:04:17 --> Helper loaded: form_helper
+INFO - 2017-05-05 23:04:17 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 23:04:17 --> Helper loaded: util_helper
+INFO - 2017-05-05 23:04:17 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 23:04:17 --> User Agent Class Initialized
+INFO - 2017-05-05 23:04:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 23:04:17 --> Pagination Class Initialized
+INFO - 2017-05-05 23:04:17 --> Form Validation Class Initialized
+INFO - 2017-05-05 23:04:17 --> Controller Class Initialized
+INFO - 2017-05-05 23:04:17 --> Model Class Initialized
+INFO - 2017-05-05 23:04:17 --> Database Driver Class Initialized
+INFO - 2017-05-05 23:04:17 --> Email Class Initialized
+DEBUG - 2017-05-05 23:04:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 23:04:17 --> Model Class Initialized
+INFO - 2017-05-05 23:04:17 --> Model Class Initialized
+INFO - 2017-05-05 23:04:17 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 23:04:18 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 23:04:18 --> Final output sent to browser
+DEBUG - 2017-05-05 23:04:18 --> Total execution time: 0.7580
+INFO - 2017-05-05 23:04:18 --> Config Class Initialized
+INFO - 2017-05-05 23:04:18 --> Config Class Initialized
+INFO - 2017-05-05 23:04:18 --> Hooks Class Initialized
+INFO - 2017-05-05 23:04:18 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:04:18 --> UTF-8 Support Enabled
+DEBUG - 2017-05-05 23:04:18 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:04:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:04:18 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:04:18 --> URI Class Initialized
+INFO - 2017-05-05 23:04:18 --> URI Class Initialized
+INFO - 2017-05-05 23:04:18 --> Router Class Initialized
+INFO - 2017-05-05 23:04:18 --> Output Class Initialized
+INFO - 2017-05-05 23:04:18 --> Security Class Initialized
+INFO - 2017-05-05 23:04:18 --> Router Class Initialized
+DEBUG - 2017-05-05 23:04:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:04:18 --> Output Class Initialized
+INFO - 2017-05-05 23:04:18 --> Input Class Initialized
+INFO - 2017-05-05 23:04:18 --> Security Class Initialized
+INFO - 2017-05-05 23:04:18 --> Language Class Initialized
+DEBUG - 2017-05-05 23:04:18 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-05-05 23:04:18 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:04:18 --> Input Class Initialized
+INFO - 2017-05-05 23:04:18 --> Language Class Initialized
+ERROR - 2017-05-05 23:04:18 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:04:21 --> Config Class Initialized
+INFO - 2017-05-05 23:04:21 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:04:21 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:04:21 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:04:21 --> URI Class Initialized
+DEBUG - 2017-05-05 23:04:21 --> No URI present. Default controller set.
+INFO - 2017-05-05 23:04:21 --> Router Class Initialized
+INFO - 2017-05-05 23:04:21 --> Output Class Initialized
+INFO - 2017-05-05 23:04:21 --> Security Class Initialized
+DEBUG - 2017-05-05 23:04:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:04:21 --> Input Class Initialized
+INFO - 2017-05-05 23:04:21 --> Language Class Initialized
+INFO - 2017-05-05 23:04:21 --> Loader Class Initialized
+INFO - 2017-05-05 23:04:21 --> Helper loaded: language_helper
+INFO - 2017-05-05 23:04:21 --> Helper loaded: url_helper
+INFO - 2017-05-05 23:04:21 --> Helper loaded: form_helper
+INFO - 2017-05-05 23:04:21 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 23:04:21 --> Helper loaded: util_helper
+INFO - 2017-05-05 23:04:21 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 23:04:21 --> User Agent Class Initialized
+INFO - 2017-05-05 23:04:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 23:04:21 --> Pagination Class Initialized
+INFO - 2017-05-05 23:04:21 --> Form Validation Class Initialized
+INFO - 2017-05-05 23:04:21 --> Controller Class Initialized
+INFO - 2017-05-05 23:04:21 --> Model Class Initialized
+INFO - 2017-05-05 23:04:21 --> Database Driver Class Initialized
+INFO - 2017-05-05 23:04:21 --> Email Class Initialized
+DEBUG - 2017-05-05 23:04:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 23:04:21 --> Model Class Initialized
+INFO - 2017-05-05 23:04:21 --> Model Class Initialized
+INFO - 2017-05-05 23:04:22 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 23:04:22 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 23:04:22 --> Final output sent to browser
+DEBUG - 2017-05-05 23:04:22 --> Total execution time: 0.9742
+INFO - 2017-05-05 23:04:23 --> Config Class Initialized
+INFO - 2017-05-05 23:04:23 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:04:23 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:04:23 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:04:23 --> URI Class Initialized
+INFO - 2017-05-05 23:04:23 --> Router Class Initialized
+INFO - 2017-05-05 23:04:23 --> Output Class Initialized
+INFO - 2017-05-05 23:04:23 --> Security Class Initialized
+DEBUG - 2017-05-05 23:04:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:04:23 --> Input Class Initialized
+INFO - 2017-05-05 23:04:23 --> Language Class Initialized
+ERROR - 2017-05-05 23:04:23 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:04:23 --> Config Class Initialized
+INFO - 2017-05-05 23:04:23 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:04:23 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:04:23 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:04:23 --> URI Class Initialized
+INFO - 2017-05-05 23:04:23 --> Router Class Initialized
+INFO - 2017-05-05 23:04:23 --> Output Class Initialized
+INFO - 2017-05-05 23:04:23 --> Security Class Initialized
+DEBUG - 2017-05-05 23:04:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:04:23 --> Input Class Initialized
+INFO - 2017-05-05 23:04:23 --> Language Class Initialized
+ERROR - 2017-05-05 23:04:23 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:04:38 --> Config Class Initialized
+INFO - 2017-05-05 23:04:38 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:04:38 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:04:38 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:04:38 --> URI Class Initialized
+DEBUG - 2017-05-05 23:04:38 --> No URI present. Default controller set.
+INFO - 2017-05-05 23:04:38 --> Router Class Initialized
+INFO - 2017-05-05 23:04:38 --> Output Class Initialized
+INFO - 2017-05-05 23:04:38 --> Security Class Initialized
+DEBUG - 2017-05-05 23:04:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:04:38 --> Input Class Initialized
+INFO - 2017-05-05 23:04:38 --> Language Class Initialized
+INFO - 2017-05-05 23:04:38 --> Loader Class Initialized
+INFO - 2017-05-05 23:04:38 --> Helper loaded: language_helper
+INFO - 2017-05-05 23:04:38 --> Helper loaded: url_helper
+INFO - 2017-05-05 23:04:38 --> Helper loaded: form_helper
+INFO - 2017-05-05 23:04:38 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 23:04:38 --> Helper loaded: util_helper
+INFO - 2017-05-05 23:04:38 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 23:04:38 --> User Agent Class Initialized
+INFO - 2017-05-05 23:04:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 23:04:38 --> Pagination Class Initialized
+INFO - 2017-05-05 23:04:38 --> Form Validation Class Initialized
+INFO - 2017-05-05 23:04:38 --> Controller Class Initialized
+INFO - 2017-05-05 23:04:38 --> Model Class Initialized
+INFO - 2017-05-05 23:04:38 --> Database Driver Class Initialized
+INFO - 2017-05-05 23:04:38 --> Email Class Initialized
+DEBUG - 2017-05-05 23:04:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 23:04:38 --> Model Class Initialized
+INFO - 2017-05-05 23:04:38 --> Model Class Initialized
+INFO - 2017-05-05 23:04:38 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 23:04:39 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 23:04:39 --> Final output sent to browser
+DEBUG - 2017-05-05 23:04:39 --> Total execution time: 0.9152
+INFO - 2017-05-05 23:04:39 --> Config Class Initialized
+INFO - 2017-05-05 23:04:39 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:04:39 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:04:39 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:04:39 --> Config Class Initialized
+INFO - 2017-05-05 23:04:39 --> Hooks Class Initialized
+INFO - 2017-05-05 23:04:39 --> URI Class Initialized
+DEBUG - 2017-05-05 23:04:39 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:04:39 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:04:39 --> Router Class Initialized
+INFO - 2017-05-05 23:04:39 --> URI Class Initialized
+INFO - 2017-05-05 23:04:39 --> Output Class Initialized
+INFO - 2017-05-05 23:04:39 --> Router Class Initialized
+INFO - 2017-05-05 23:04:39 --> Security Class Initialized
+DEBUG - 2017-05-05 23:04:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:04:39 --> Output Class Initialized
+INFO - 2017-05-05 23:04:39 --> Input Class Initialized
+INFO - 2017-05-05 23:04:39 --> Language Class Initialized
+INFO - 2017-05-05 23:04:39 --> Security Class Initialized
+ERROR - 2017-05-05 23:04:39 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-05-05 23:04:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:04:39 --> Input Class Initialized
+INFO - 2017-05-05 23:04:39 --> Language Class Initialized
+ERROR - 2017-05-05 23:04:39 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:05:57 --> Config Class Initialized
+INFO - 2017-05-05 23:05:57 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:05:57 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:05:57 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:05:57 --> URI Class Initialized
+DEBUG - 2017-05-05 23:05:57 --> No URI present. Default controller set.
+INFO - 2017-05-05 23:05:57 --> Router Class Initialized
+INFO - 2017-05-05 23:05:57 --> Output Class Initialized
+INFO - 2017-05-05 23:05:57 --> Security Class Initialized
+DEBUG - 2017-05-05 23:05:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:05:57 --> Input Class Initialized
+INFO - 2017-05-05 23:05:57 --> Language Class Initialized
+INFO - 2017-05-05 23:05:57 --> Loader Class Initialized
+INFO - 2017-05-05 23:05:57 --> Helper loaded: language_helper
+INFO - 2017-05-05 23:05:57 --> Helper loaded: url_helper
+INFO - 2017-05-05 23:05:57 --> Helper loaded: form_helper
+INFO - 2017-05-05 23:05:57 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 23:05:57 --> Helper loaded: util_helper
+INFO - 2017-05-05 23:05:57 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 23:05:57 --> User Agent Class Initialized
+INFO - 2017-05-05 23:05:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 23:05:57 --> Pagination Class Initialized
+INFO - 2017-05-05 23:05:57 --> Form Validation Class Initialized
+INFO - 2017-05-05 23:05:57 --> Controller Class Initialized
+INFO - 2017-05-05 23:05:57 --> Model Class Initialized
+INFO - 2017-05-05 23:05:57 --> Database Driver Class Initialized
+INFO - 2017-05-05 23:05:57 --> Email Class Initialized
+DEBUG - 2017-05-05 23:05:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 23:05:57 --> Model Class Initialized
+INFO - 2017-05-05 23:05:57 --> Model Class Initialized
+INFO - 2017-05-05 23:05:57 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 23:05:58 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 23:05:58 --> Final output sent to browser
+DEBUG - 2017-05-05 23:05:58 --> Total execution time: 0.8042
+INFO - 2017-05-05 23:05:58 --> Config Class Initialized
+INFO - 2017-05-05 23:05:58 --> Hooks Class Initialized
+INFO - 2017-05-05 23:05:58 --> Config Class Initialized
+INFO - 2017-05-05 23:05:58 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:05:58 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:05:58 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 23:05:58 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:05:58 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:05:58 --> URI Class Initialized
+INFO - 2017-05-05 23:05:58 --> URI Class Initialized
+INFO - 2017-05-05 23:05:58 --> Router Class Initialized
+INFO - 2017-05-05 23:05:58 --> Router Class Initialized
+INFO - 2017-05-05 23:05:58 --> Output Class Initialized
+INFO - 2017-05-05 23:05:58 --> Output Class Initialized
+INFO - 2017-05-05 23:05:58 --> Security Class Initialized
+INFO - 2017-05-05 23:05:58 --> Security Class Initialized
+DEBUG - 2017-05-05 23:05:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:05:58 --> Input Class Initialized
+DEBUG - 2017-05-05 23:05:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:05:58 --> Input Class Initialized
+INFO - 2017-05-05 23:05:58 --> Language Class Initialized
+INFO - 2017-05-05 23:05:58 --> Language Class Initialized
+ERROR - 2017-05-05 23:05:58 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 23:05:58 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:06:28 --> Config Class Initialized
+INFO - 2017-05-05 23:06:28 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:06:28 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:06:28 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:06:28 --> URI Class Initialized
+DEBUG - 2017-05-05 23:06:28 --> No URI present. Default controller set.
+INFO - 2017-05-05 23:06:28 --> Router Class Initialized
+INFO - 2017-05-05 23:06:28 --> Output Class Initialized
+INFO - 2017-05-05 23:06:28 --> Security Class Initialized
+DEBUG - 2017-05-05 23:06:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:06:28 --> Input Class Initialized
+INFO - 2017-05-05 23:06:28 --> Language Class Initialized
+INFO - 2017-05-05 23:06:28 --> Loader Class Initialized
+INFO - 2017-05-05 23:06:28 --> Helper loaded: language_helper
+INFO - 2017-05-05 23:06:28 --> Helper loaded: url_helper
+INFO - 2017-05-05 23:06:28 --> Helper loaded: form_helper
+INFO - 2017-05-05 23:06:28 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 23:06:28 --> Helper loaded: util_helper
+INFO - 2017-05-05 23:06:28 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 23:06:28 --> User Agent Class Initialized
+INFO - 2017-05-05 23:06:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 23:06:28 --> Pagination Class Initialized
+INFO - 2017-05-05 23:06:28 --> Form Validation Class Initialized
+INFO - 2017-05-05 23:06:28 --> Controller Class Initialized
+INFO - 2017-05-05 23:06:28 --> Model Class Initialized
+INFO - 2017-05-05 23:06:29 --> Database Driver Class Initialized
+INFO - 2017-05-05 23:06:29 --> Email Class Initialized
+DEBUG - 2017-05-05 23:06:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 23:06:29 --> Model Class Initialized
+INFO - 2017-05-05 23:06:29 --> Model Class Initialized
+INFO - 2017-05-05 23:06:29 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 23:06:29 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 23:06:29 --> Final output sent to browser
+DEBUG - 2017-05-05 23:06:29 --> Total execution time: 0.8217
+INFO - 2017-05-05 23:06:29 --> Config Class Initialized
+INFO - 2017-05-05 23:06:29 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:06:29 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:06:29 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:06:29 --> URI Class Initialized
+INFO - 2017-05-05 23:06:29 --> Router Class Initialized
+INFO - 2017-05-05 23:06:29 --> Output Class Initialized
+INFO - 2017-05-05 23:06:29 --> Security Class Initialized
+DEBUG - 2017-05-05 23:06:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:06:29 --> Input Class Initialized
+INFO - 2017-05-05 23:06:29 --> Language Class Initialized
+ERROR - 2017-05-05 23:06:29 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:06:30 --> Config Class Initialized
+INFO - 2017-05-05 23:06:30 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:06:30 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:06:30 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:06:30 --> URI Class Initialized
+INFO - 2017-05-05 23:06:30 --> Router Class Initialized
+INFO - 2017-05-05 23:06:30 --> Output Class Initialized
+INFO - 2017-05-05 23:06:30 --> Security Class Initialized
+DEBUG - 2017-05-05 23:06:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:06:30 --> Input Class Initialized
+INFO - 2017-05-05 23:06:30 --> Language Class Initialized
+ERROR - 2017-05-05 23:06:30 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-05-05 23:07:27 --> Config Class Initialized
+INFO - 2017-05-05 23:07:27 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:07:27 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:07:27 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:07:27 --> URI Class Initialized
+DEBUG - 2017-05-05 23:07:27 --> No URI present. Default controller set.
+INFO - 2017-05-05 23:07:27 --> Router Class Initialized
+INFO - 2017-05-05 23:07:27 --> Output Class Initialized
+INFO - 2017-05-05 23:07:27 --> Security Class Initialized
+DEBUG - 2017-05-05 23:07:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:07:27 --> Input Class Initialized
+INFO - 2017-05-05 23:07:27 --> Language Class Initialized
+INFO - 2017-05-05 23:07:27 --> Loader Class Initialized
+INFO - 2017-05-05 23:07:27 --> Helper loaded: language_helper
+INFO - 2017-05-05 23:07:27 --> Helper loaded: url_helper
+INFO - 2017-05-05 23:07:27 --> Helper loaded: form_helper
+INFO - 2017-05-05 23:07:27 --> Helper loaded: captcha_helper
+INFO - 2017-05-05 23:07:27 --> Helper loaded: util_helper
+INFO - 2017-05-05 23:07:27 --> Session: Class initialized using 'files' driver.
+INFO - 2017-05-05 23:07:27 --> User Agent Class Initialized
+INFO - 2017-05-05 23:07:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-05-05 23:07:27 --> Pagination Class Initialized
+INFO - 2017-05-05 23:07:27 --> Form Validation Class Initialized
+INFO - 2017-05-05 23:07:27 --> Controller Class Initialized
+INFO - 2017-05-05 23:07:27 --> Model Class Initialized
+INFO - 2017-05-05 23:07:27 --> Database Driver Class Initialized
+INFO - 2017-05-05 23:07:27 --> Email Class Initialized
+DEBUG - 2017-05-05 23:07:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-05-05 23:07:27 --> Model Class Initialized
+INFO - 2017-05-05 23:07:27 --> Model Class Initialized
+INFO - 2017-05-05 23:07:27 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-05-05 23:07:28 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-05-05 23:07:28 --> Final output sent to browser
+DEBUG - 2017-05-05 23:07:28 --> Total execution time: 0.9053
+INFO - 2017-05-05 23:07:28 --> Config Class Initialized
+INFO - 2017-05-05 23:07:28 --> Config Class Initialized
+INFO - 2017-05-05 23:07:28 --> Hooks Class Initialized
+INFO - 2017-05-05 23:07:28 --> Hooks Class Initialized
+DEBUG - 2017-05-05 23:07:28 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:07:28 --> Utf8 Class Initialized
+DEBUG - 2017-05-05 23:07:28 --> UTF-8 Support Enabled
+INFO - 2017-05-05 23:07:28 --> Utf8 Class Initialized
+INFO - 2017-05-05 23:07:28 --> URI Class Initialized
+INFO - 2017-05-05 23:07:28 --> URI Class Initialized
+INFO - 2017-05-05 23:07:28 --> Router Class Initialized
+INFO - 2017-05-05 23:07:28 --> Router Class Initialized
+INFO - 2017-05-05 23:07:28 --> Output Class Initialized
+INFO - 2017-05-05 23:07:28 --> Output Class Initialized
+INFO - 2017-05-05 23:07:28 --> Security Class Initialized
+INFO - 2017-05-05 23:07:28 --> Security Class Initialized
+DEBUG - 2017-05-05 23:07:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:07:28 --> Input Class Initialized
+DEBUG - 2017-05-05 23:07:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-05-05 23:07:28 --> Input Class Initialized
+INFO - 2017-05-05 23:07:28 --> Language Class Initialized
+INFO - 2017-05-05 23:07:28 --> Language Class Initialized
+ERROR - 2017-05-05 23:07:28 --> 404 Page Not Found: Assets/noticia
+ERROR - 2017-05-05 23:07:28 --> 404 Page Not Found: Assets/noticia

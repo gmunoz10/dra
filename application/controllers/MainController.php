@@ -97,13 +97,13 @@ class MainController extends CI_Controller {
         $this->load->view("template/body_main", $component);
     }
 
-    public function promocion_agraria() {
-        $this->styles[] = '<link href="'.asset_url().'css/promocion_agraria.css" rel="stylesheet">';
-        $this->scripts[] = '<script src="'.asset_url().'js/promocion_agraria.js"></script>';
+    public function competitividad_negocios() {
+        $this->styles[] = '<link href="'.asset_url().'css/competitividad_negocios.css" rel="stylesheet">';
+        $this->scripts[] = '<script src="'.asset_url().'js/competitividad_negocios.js"></script>';
         // Imprimir vista con datos
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;
-        $component["content"] = $this->load->view("public/promocion_agraria", $data, true);
+        $component["content"] = $this->load->view("public/competitividad_negocios", $data, true);
         $this->load->view("template/body_main", $component);
     }
 

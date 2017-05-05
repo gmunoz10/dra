@@ -30,7 +30,7 @@
     <?php 
       foreach ($styles as $style) {
         echo $style; 
-      } 
+      }
     ?>
   </head>
   <body>

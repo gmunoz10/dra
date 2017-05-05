@@ -22,14 +22,14 @@
           <td style="width: 31px;">
             <img style="display: none;" src="<?= asset_url() ?>img/brand/arrow-right.png">
           </td>
- 					<td style="padding-left: 15px; font-weight: bold; font-size: 18px;"><div class="well"><span>Dirección de Información Agraria</span></div></td>
+ 					<td style="padding-left: 15px; font-weight: bold; font-size: 18px;"><div class="well"><a href="<?= base_url('informacion-agraria') ?>">Dirección de Información Agraria</a></div></td>
  				</tr>
  				<tr><td colspan="2"  style="height: 20px;"></td></tr>
  				<tr>
           <td style="width: 31px;">
             <img style="display: none;" src="<?= asset_url() ?>img/brand/arrow-right.png">
           </td>
- 					<td style="padding-left: 15px; font-weight: bold; font-size: 18px;"><div class="well"><span>Dirección de Competitividad y Negocios Agrarios</span></div></td>
+ 					<td style="padding-left: 15px; font-weight: bold; font-size: 18px;"><div class="well"><a href="<?= base_url('competitividad-negocios') ?>">Dirección de Competitividad y Negocios Agrarios</a></div></td>
  				</tr>
  				<tr><td colspan="2"  style="height: 20px;"></td></tr>
  				<tr>
