@@ -1,0 +1,16 @@
+.agencias tr td:nth-child(1) {
+	vertical-align: middle;
+}
+
+.agencias .well {
+	margin-bottom: 0px;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+
+.agencias a {
+	cursor: pointer;
+}

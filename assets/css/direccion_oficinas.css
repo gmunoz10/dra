@@ -1,0 +1,15 @@
+.direccion tr td:nth-child(1) {
+	vertical-align: middle;
+}
+
+.direccion .well {
+	margin-bottom: 0px;
+}
+
+.direccion span {
+	cursor: pointer;
+}
+
+.popover{
+    max-width: 60%; /* Max Width of the popover (depending on the container!) */
+}

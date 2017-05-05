@@ -49,6 +49,8 @@ class MainController extends CI_Controller {
     }
    
     public function direccion_oficina() {
+        $this->styles[] = '<link href="'.asset_url().'css/direccion_oficinas.css" rel="stylesheet">';
+        $this->scripts[] = '<script src="'.asset_url().'js/direccion_oficinas.js"></script>';
         // Imprimir vista con datos
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;
@@ -57,6 +59,9 @@ class MainController extends CI_Controller {
     }
    
     public function agencias_agrarias() {
+        $this->styles[] = '<link href="'.asset_url().'css/agencias_agrarias.css" rel="stylesheet">';
+        $this->scripts[] = '<script src="'.asset_url().'js/agencias_agrarias.js"></script>';
+        $this->scripts[] = '<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn7DuplyahzwHTAxc0EHQJ_Wd8a0FQpvk&language=es&callback=initMap"></script>';
         // Imprimir vista con datos
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;
@@ -83,10 +88,22 @@ class MainController extends CI_Controller {
     }
 
     public function informacion_agraria() {
+        $this->styles[] = '<link href="'.asset_url().'css/informacion_agraria.css" rel="stylesheet">';
+        $this->scripts[] = '<script src="'.asset_url().'js/informacion_agraria.js"></script>';
         // Imprimir vista con datos
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;
         $component["content"] = $this->load->view("public/informacion_agraria", $data, true);
+        $this->load->view("template/body_main", $component);
+    }
+
+    public function promocion_agraria() {
+        $this->styles[] = '<link href="'.asset_url().'css/promocion_agraria.css" rel="stylesheet">';
+        $this->scripts[] = '<script src="'.asset_url().'js/promocion_agraria.js"></script>';
+        // Imprimir vista con datos
+        $data["styles"] = $this->styles;
+        $data["scripts"] = $this->scripts;
+        $component["content"] = $this->load->view("public/promocion_agraria", $data, true);
         $this->load->view("template/body_main", $component);
     }
 

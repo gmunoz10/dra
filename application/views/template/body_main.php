@@ -88,13 +88,13 @@
                   <a href="<?= base_url('informacion-agraria') ?>">Información agraria</a>
                 </li>
                 <li>
+                  <a href="<?= base_url('promocion-agraria') ?>">Promoción agraria</a>
+                </li>
+                <li>
                   <a href="<?= base_url('direccion-oficina') ?>">Dirección y Oficinas</a>
                 </li>
                 <li>
                   <a href="<?= base_url('agencias-agrarias') ?>">Agencias agrarias</a>
-                </li>
-                <li>
-                  <a href="<?= base_url('institucional') ?>">Directorio Institucional</a>
                 </li>
               </ul>
             </li>
@@ -249,12 +249,15 @@
               <h3>Direccionar a</h3>
               <ul class="links-direcciones">
                 <li><a href="<?= base_url() ?>">Inicio</a></li>
+                <li><a href="<?= base_url('noticia/page') ?>">Noticias</a></li>
+                <li><a href="<?= base_url('evento/page') ?>">Eventos</a></li>
                 <li><a href="<?= base_url('vision-mision') ?>">Visión y misión</a></li>
                 <li><a href="<?= base_url('temas-agrarios') ?>">Temas agrarios</a></li>
                 <li><a href="<?= base_url('direccion-oficina') ?>">Dirección y oficinas</a></li>
                 <li><a href="<?= base_url('agencias-agrarias') ?>">Agencias agrarias</a></li>
                 <li><a href="<?= base_url('transparencia') ?>">Transparencia</a></li>
                 <li><a href="http://sisgedo2.regionlima.gob.pe/sisgedonew/app/main.php?_op=1I&_type=L&_nameop=Login%20de%20Acceso" target="_blank">SISGEDO</a></li>
+                <li><a href="http://corepo.dral.gob.pe/" target="_blank">COREPO</a></li>
                 <li><a href="http://webmail.dral.gob.pe" target="_blank">Webmail</a></li>
                 <li><a href="<?= base_url('agenda') ?>">Agenda</a></li>
                 <li><a href="<?= base_url('galeria') ?>">Galería</a></li>
@@ -263,33 +266,27 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <h3 class="web-recomendadas" class="no-margin">Webs recomendadas</h3>
+              <h3 class="ayuda" class="no-margin">Informaciones</h3>
+              <ul class="links-direcciones">
+                <li><a href="<?= base_url('informacion-agraria') ?>">Información agraria</a></li>
+                <li><a href="<?= base_url('promocion-agraria') ?>">Promoción agraria</a></li>
+              </ul>
+              <h3 class="web-recomendadas" class="no-margin">Webs recomendadas</h3>
               <ul class="links-direcciones">
                 <li><a href="http://www.regionlima.gob.pe/" target="_blank">www.regionlima.gob.pe</a></li>
                 <li><a href="http://www.munihuacho.gob.pe/" target="_blank">www.munihuacho.gob.pe</a></li>
               </ul>
-             <h3 class="ayuda" class="no-margin">Ayuda</h3>
-              <ul class="links-direcciones">
-                <li><a href="#">A dónde llamar</a></li>
-                <li><a href="#">Qué buscas</a></li>
-              </ul>
           </div>
           <div class="col-lg-4">
-             <h3 class="contacto" class="no-margin">Contacto</h3>
-              <div class="box-contacto-footer">
-                <p>
-                  Gobierno Regional de Lima
-                  <br>
-                  Dirección Regional de Agricultura
-                  <br>
-                  Av. Augusto B. Leguía s/n - Huacho
-                  <br>
-                  E-mail: info_publica@dral.gob.pe
-                </p>
-              </div>
+             <h3 class="contacto" class="no-margin">Video</h3>
+             <div id="player"></div>
+             <button class="btn btn-danger"><a href="https://www.youtube.com/channel/UCzW1r6IO7r8C2RPLZrD5lwA/videos" style="color: white;" target="_blank">Ver más videos</a></button>
           </div>
-          <div class="col-lg-12 text-center" style="padding-bottom: 30px;">
-            <hr>
+          <hr>
+          <div class="col-lg-12 text-center" style="margin-top: 15px; padding-bottom: 30px;padding-top: 75px;color: white;padding-left: 0px;background-repeat: no-repeat !important;background-position-x: center !important;background-size: cover !important;background: url(http://localhost/dra/assets/img/background/piepagina.png);">
+            <br>
+            <br>
+            <p class="text-center"><img src="<?= asset_url() ?>img/brand/logo-icon-blank.png"></p>
             <p>© 2017 - Dirección Regional de Agricultura de Lima</p>
             <p><b>Dirección: </b>Av. Augusto B. Leguía 3° Cuadra S/N Huacho</p>
             <p><b>Teléfono: </b> 2323402 / 2323869</p>
@@ -299,6 +296,39 @@
       </section>
     </footer>
 
+    <script>
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '200',
+          width: 'auto',
+          videoId: '<?= json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId=UCzW1r6IO7r8C2RPLZrD5lwA&key=AIzaSyCn7DuplyahzwHTAxc0EHQJ_Wd8a0FQpvk'))->items[0]->id->videoId ?>',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
     <script src="<?= asset_url() ?>plugins/jquery/dist/jquery.js"></script>        
     <script src="<?= asset_url() ?>plugins/bootstrap/dist/js/bootstrap.js"></script>        
     <script src="<?= asset_url() ?>plugins/toastr/toastr.min.js"></script>   
