@@ -7,7 +7,7 @@ if (isset($_SERVER['HTTP_HOST'])) {
     $config['base_url'] .= '://' . $_SERVER['HTTP_HOST'];
     $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
 } else {
-    $config['base_url'] = 'http://localhost/dra5';
+    $config['base_url'] = 'http://localhost/dra';
 }
 
 $config['index_page'] = 'index.php';
@@ -40,8 +40,7 @@ $config['encryption_key'] = 'e0n1c2r3y4p5t6i7o8n9e0n1c2r3y427';
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 14400;
-$config['sess_save_path'] = BASEPATH . 'dra5/cache';
-//$config['sess_save_path'] = BASEPATH . 'proveedor.holacamarero/cache';
+$config['sess_save_path'] = BASEPATH . 'dra/cache';
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
