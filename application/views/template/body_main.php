@@ -61,109 +61,111 @@
           <img src="<?= asset_url() ?>img/brand/ptes.jpg">
         </a>
       </div>
-      <header class="navbar navbar-inverse navbar-group navbar-main-group">
-        <div class="container no-margin">
+      <nav class="navbar navbar-inverse navbar-group navbar-main-group">
+        <div class="container-fluid no-padding">
           <div class="navbar-header navbar-static-top nav-main">
-            <button class="navbar-toggle" type="button">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
           </div>
-          <ul class="nav navbar-nav navbar-header-menu navbar-left">
-            <li>
-              <a class="item-menu" href="<?= base_url() ?>">Inicio</a>
-            </li>
-            <li class="dropdown">
-              <a class="item-menu dropdown-toggle" data-toggle="dropdown">Nosotros</a>
-              <ul class="dropdown-menu no-padding">
-                <li>
-                  <a href="<?= base_url('vision-mision') ?>">Visión y Misión</a>
-                </li>
-                <li>
-                  <a href="<?= base_url('temas-agrarios') ?>">Temas agrarios</a>
-                </li>
-                <li>
-                  <a href="<?= base_url('direccion-oficina') ?>">Dirección y Oficinas</a>
-                </li>
-                <li>
-                  <a href="<?= base_url('agencias-agrarias') ?>">Agencias agrarias</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a class="item-menu" href="<?= base_url('contacto') ?>">Contáctenos</a>
-            </li>
-            <li>
-              <a class="item-menu" href="<?= base_url('galeria') ?>">Galería</a>
-            </li>
-            <li>
-              <a class="item-menu" href="<?= base_url('agenda/publico') ?>">Agenda</a>
-            </li>
-            <li>
-              <a class="item-menu" href="http://corepo.dral.gob.pe/">COREPO</a>
-            </li>
-            <?php
-              if ($this->session->userdata("usuario")) {
-            ?>
-            <li class="dropdown">
-              <a class="item-menu dropdown-toggle" data-toggle="dropdown">Operaciones</a>
-              <ul class="dropdown-menu no-padding">
-                <?php if (check_permission(BUSCAR_ROL)) { ?>
-                  <li><a href="<?= base_url('rol') ?>">Roles</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_CUENTA)) { ?>
-                  <li><a href="<?= base_url('usuario') ?>">Cuentas de acceso</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_GRUPO_RESOLUCION)) { ?>
-                  <li><a href="<?= base_url('grupo_resolucion') ?>">Grupos de resolución</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_RESOLUCION)) { ?>
-                  <li><a href="<?= base_url('resolucion') ?>">Resoluciones</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_GRUPO_DIRECTIVA)) { ?>
-                  <li><a href="<?= base_url('grupo_directiva') ?>">Grupos de directiva</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_DIRECTIVA)) { ?>
-                  <li><a href="<?= base_url('directiva') ?>">Directivas</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_GRUPO_PAC)) { ?>
-                  <li><a href="<?= base_url('grupo_pac') ?>">Grupos de PAC</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_PAC)) { ?>
-                  <li><a href="<?= base_url('pac') ?>">PAC</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_GRUPO_DECLARACION_JURADA)) { ?>
-                  <li><a href="<?= base_url('grupo_declaracion_jurada') ?>">Grupos de declaración jurada</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_DECLARACION_JURADA)) { ?>
-                  <li><a href="<?= base_url('declaracion_jurada') ?>">Declaraciones juradas</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_DEPENDENCIA)) { ?>
-                  <li><a href="<?= base_url('dependencia') ?>">Dependencias</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_AGENDA)) { ?>
-                  <li><a href="<?= base_url('agenda') ?>">Agenda</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_NOTICIA)) { ?>
-                  <li><a href="<?= base_url('noticia') ?>">Noticia</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_NOTICIA)) { ?>
-                  <li><a href="<?= base_url('evento') ?>">Evento</a></li>
-                <?php } ?>
-                <?php if (check_permission(BUSCAR_ALBUM_IMAGEN)) { ?>
-                  <li><a href="<?= base_url('galeria/admin') ?>">Galería</a></li>
-                <?php } ?>
-              </ul>
-            </li>
-            <?php
-              }
-            ?>
-            <li class="divider-vertical"></li>
-          </ul>
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="nav navbar-nav navbar-header-menu navbar-left">
+              <li>
+                <a class="item-menu" href="<?= base_url() ?>">Inicio</a>
+              </li>
+              <li class="dropdown">
+                <a class="item-menu dropdown-toggle" data-toggle="dropdown">Nosotros</a>
+                <ul class="dropdown-menu no-padding">
+                  <li>
+                    <a href="<?= base_url('vision-mision') ?>">Visión y Misión</a>
+                  </li>
+                  <li>
+                    <a href="<?= base_url('temas-agrarios') ?>">Temas agrarios</a>
+                  </li>
+                  <li>
+                    <a href="<?= base_url('direccion-oficina') ?>">Dirección y Oficinas</a>
+                  </li>
+                  <li>
+                    <a href="<?= base_url('agencias-agrarias') ?>">Agencias agrarias</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="item-menu" href="<?= base_url('contacto') ?>">Contáctenos</a>
+              </li>
+              <li>
+                <a class="item-menu" href="<?= base_url('galeria') ?>">Galería</a>
+              </li>
+              <li>
+                <a class="item-menu" href="<?= base_url('agenda/publico') ?>">Agenda</a>
+              </li>
+              <li>
+                <a class="item-menu" href="http://corepo.dral.gob.pe/">COREPO</a>
+              </li>
+              <?php
+                if ($this->session->userdata("usuario")) {
+              ?>
+              <li class="dropdown">
+                <a class="item-menu dropdown-toggle" data-toggle="dropdown">Operaciones</a>
+                <ul class="dropdown-menu no-padding">
+                  <?php if (check_permission(BUSCAR_ROL)) { ?>
+                    <li><a href="<?= base_url('rol') ?>">Roles</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_CUENTA)) { ?>
+                    <li><a href="<?= base_url('usuario') ?>">Cuentas de acceso</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_GRUPO_RESOLUCION)) { ?>
+                    <li><a href="<?= base_url('grupo_resolucion') ?>">Grupos de resolución</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_RESOLUCION)) { ?>
+                    <li><a href="<?= base_url('resolucion') ?>">Resoluciones</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_GRUPO_DIRECTIVA)) { ?>
+                    <li><a href="<?= base_url('grupo_directiva') ?>">Grupos de directiva</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_DIRECTIVA)) { ?>
+                    <li><a href="<?= base_url('directiva') ?>">Directivas</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_GRUPO_PAC)) { ?>
+                    <li><a href="<?= base_url('grupo_pac') ?>">Grupos de PAC</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_PAC)) { ?>
+                    <li><a href="<?= base_url('pac') ?>">PAC</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_GRUPO_DECLARACION_JURADA)) { ?>
+                    <li><a href="<?= base_url('grupo_declaracion_jurada') ?>">Grupos de declaración jurada</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_DECLARACION_JURADA)) { ?>
+                    <li><a href="<?= base_url('declaracion_jurada') ?>">Declaraciones juradas</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_DEPENDENCIA)) { ?>
+                    <li><a href="<?= base_url('dependencia') ?>">Dependencias</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_AGENDA)) { ?>
+                    <li><a href="<?= base_url('agenda') ?>">Agenda</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_NOTICIA)) { ?>
+                    <li><a href="<?= base_url('noticia') ?>">Noticia</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_NOTICIA)) { ?>
+                    <li><a href="<?= base_url('evento') ?>">Evento</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_ALBUM_IMAGEN)) { ?>
+                    <li><a href="<?= base_url('galeria/admin') ?>">Galería</a></li>
+                  <?php } ?>
+                </ul>
+              </li>
+              <?php
+                }
+              ?>
+              <li class="divider-vertical"></li>
+            </ul>
+          </div>
         </div>
-      </header>
+      </nav>
 
       <section class="content">
         
