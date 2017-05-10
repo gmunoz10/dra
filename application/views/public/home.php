@@ -1,8 +1,8 @@
 <div class="text-center box-search vcenter">
-  <button class="btn btn-youtube-home"><i class="fa fa-youtube" aria-hidden="true"></i></button>
-  <button class="btn btn-twitter-home"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+  <a class="btn btn-youtube-home" href="https://www.youtube.com/channel/UCk1ZPrg8G-hMKDcT8Rk6HJg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+  <a class="btn btn-twitter-home" href="https://twitter.com/DRAL59954891" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
   <a class="btn btn-facebook-home" href="https://www.facebook.com/DRALoficial/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <div class="col-lg-6 col-md-offset-2">
+  <div class="col-lg-6 col-md-offset-2 box-search-side">
     <script>
       (function() {
         var cx = '013980864906967710135:ytegr_r5yni';
@@ -192,7 +192,7 @@
 
 
 <div class="modal fade" id="modal_aviso" tabindex="-1" data-backdrop="false" data-keyboard="true" role="dialog">
-  <div class="modal-dialog" role="document" style="width: 60%; margin-top: 10px;">
+  <div class="modal-dialog col-lg-10 col-md-offset-1" role="document" style="margin-top: 10px;">
     <div class="modal-content box-content box-bold" style="margin-top: 0px;">
       <div class="modal-header" style="padding: 0px;">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>

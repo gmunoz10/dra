@@ -39,26 +39,26 @@
       <?php
         if ($this->session->userdata("usuario")) {
       ?>
-      <button class="btb pull-right" style="margin-right: 4px; margin-left: 10px; border: none; padding: 2px 10px; background: #9e9e9e; font-family: Verdana, sans-serif;"><a href="<?= base_url('logout') ?>" style="text-decoration: none;"><i class="fa fa-power-off" aria-hidden="true"></i> Cerrar sesión</a></button>
+      <button class="btn pull-right" style="margin-right: 4px; margin-left: 10px; border: none; padding: 2px 10px; background: #9e9e9e; font-family: Verdana, sans-serif;"><a href="<?= base_url('logout') ?>" style="text-decoration: none;"><i class="fa fa-power-off" aria-hidden="true"></i> Cerrar sesión</a></button>
           <span class="pull-right" style="border: none; padding: 2px 10px; background: rgba(14,130,64, 1); color: white; font-family: Verdana, sans-serif;"><i class="fa fa-user" aria-hidden="true"></i> Bienvenido, <b><a href="<?= base_url() . 'cambiar_clave' ?>"><?= $this->session->userdata("usuario")->nomb_usu ?></b></a></span>
       <?php
         } else { 
       ?>
-          <button class="btb pull-right" style="margin-right: 4px; border: none; padding: 2px 10px; background: rgba(14,130,64, 1); font-family: Verdana, sans-serif;"><a href="<?= base_url('login') ?>" style="text-decoration: none;"><i class="fa fa-user" aria-hidden="true"></i> Intranet - Login</a></button>
+          <button class="btn pull-right sesion-login" style="margin-right: 4px; border: none; padding: 2px 10px; background: rgba(14,130,64, 1); font-family: Verdana, sans-serif;"><a href="<?= base_url('login') ?>" style="text-decoration: none;"><i class="fa fa-user" aria-hidden="true"></i> Intranet</a></button>
       <?php
         } 
       ?>
     </div>
     <div class="main-background" style="background-image: url('<?= asset_url() ?>img/background/granjero02.jpg');">
-      <div class="box-logo">
+      <div class="box-logo text-center">
         <a id="b" href="<?= base_url() ?>" class="navbar-brand-header">
-          <img src="<?= asset_url() ?>img/brand/logo.png">
+          <img class="logo-01" src="<?= asset_url() ?>img/brand/logo.png">
         </a>
         <a href="http://www.regionlima.gob.pe" target="_blank" class="navbar-brand-header">
           <img src="<?= asset_url() ?>img/brand/logo4.png">
         </a>
-        <a href="<?= base_url() . 'transparencia' ?>" class="navbar-brand-header pull-right" style="padding-top: 0px; position: absolute; right: 15px;">
-          <img src="<?= asset_url() ?>img/brand/ptes.jpg">
+        <a href="<?= base_url() . 'transparencia' ?>" class="navbar-brand-header pull-right pte-res" style="padding-top: 0px; position: absolute; right: 15px;">
+          <img class="logo-02" src="<?= asset_url() ?>img/brand/ptes.jpg">
         </a>
       </div>
       <nav class="navbar navbar-inverse navbar-group navbar-main-group">
@@ -181,7 +181,7 @@
       <br>
     </div>
     <footer class="well box-footer" style="padding: 0px;">
-      <div class="col-lg-12 no-padding">
+      <div class="col-lg-12 no-padding box-external">
         <div class="col-lg-2 no-padding" style="height: 120px; background-color: #f5f5f5; z-index: 1;">
         </div>
         <div id="box_move" class="col-lg-8 no-padding" style="padding: 15px; height: 120px; position: relative;">
@@ -278,12 +278,12 @@
           <div class="col-lg-4">
              <h3 class="contacto" class="no-margin">Video</h3>
              <div id="player"></div>
-             <button class="btn btn-danger"><a href="https://www.youtube.com/channel/UCzW1r6IO7r8C2RPLZrD5lwA/videos" style="color: white;" target="_blank">Ver más videos</a></button>
+             <button class="btn btn-danger"><a href="https://www.youtube.com/channel/UCk1ZPrg8G-hMKDcT8Rk6HJg/videos" style="color: white;" target="_blank">Ver más videos</a></button>
           </div>
           <hr>
         </div>
       </section>
-          <div class="col-lg-12 text-center" style="margin-top: 0px; padding-bottom: 30px;padding-top: 7%;color: white;padding-left: 0px;background-repeat: no-repeat !important;background-position-x: center !important;background-size: cover !important;background: url(<?= asset_url() ?>img/background/piepagina.jpg);">
+          <div class="col-lg-12 text-center footer-info" style="margin-top: 0px; padding-bottom: 30px;padding-top: 7%;color: white;padding-left: 0px;background-repeat: no-repeat !important;background-position-x: center !important;background-size: cover !important;background: url(<?= asset_url() ?>img/background/piepagina.jpg);">
             <br>
             <br>
             <p class="text-center"><img src="<?= asset_url() ?>img/brand/logo-icon-blank.png"></p>
@@ -306,7 +306,7 @@
         player = new YT.Player('player', {
           height: '200',
           width: 'auto',
-          videoId: '<?= json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId=UCzW1r6IO7r8C2RPLZrD5lwA&key=AIzaSyCn7DuplyahzwHTAxc0EHQJ_Wd8a0FQpvk'))->items[0]->id->videoId ?>',
+          videoId: '<?= json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId=UCk1ZPrg8G-hMKDcT8Rk6HJg&key=AIzaSyCn7DuplyahzwHTAxc0EHQJ_Wd8a0FQpvk'))->items[0]->id->videoId ?>',
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange

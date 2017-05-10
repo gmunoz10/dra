@@ -1,14 +1,14 @@
 <div class="container-page-header" style="background-image: url('<?= asset_url() ?>img/background/vision-mision.jpg');">
-    <button class="btn btn-youtube-home"><i class="fa fa-youtube" aria-hidden="true"></i></button>
-    <button class="btn btn-twitter-home"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+    <a class="btn btn-youtube-home" href="https://www.youtube.com/channel/UCk1ZPrg8G-hMKDcT8Rk6HJg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+    <a class="btn btn-twitter-home" href="https://twitter.com/DRAL59954891" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     <a class="btn btn-facebook-home" href="https://www.facebook.com/DRALoficial/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 </div>
 <section class="container container-page-inner" style="padding-bottom: 30px;">
     <section>
-      <div class="col-lg-11" style="padding-left: 75px; line-height: 1.42857143;">
+      <div class="col-lg-11 box-padding-75" style="padding-left: 75px; line-height: 1.42857143;">
       	<h3 style="font-weight: bold; color: #0e8240;">Dirección de Información Agraria</h3>
       	<br>
-      	<div style="padding-left: 75px;">
+      	<div class="box-padding-75" style="padding-left: 75px;">
  			<p>Para el seguimiento de las principales variables agroeconómicas, elaborados en el Plan de Estadística Agropecuaria Anual de estadísticas continuas de la Dirección Regional de Agricultura se ha Implementado estrategias estadísticas en base a la metodología diseñada por la Dirección General de Información Agraria del MINISTERIO DE AGRICULTURA, para la producción de información confiable sobre las principales variables agroeconómicas. En esta sección se muestra estadístca detallada y actualizada de los informes mensuales recogidos por nuestros técnicos en campo.</p>
  			<br>
  			<div class="col-lg-12 no-padding" style="margin-bottom: 30px;">

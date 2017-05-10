@@ -1,14 +1,14 @@
 <div class="container-page-header" style="background-image: url('<?= asset_url() ?>img/background/vision-mision.jpg');">
-    <button class="btn btn-youtube-home"><i class="fa fa-youtube" aria-hidden="true"></i></button>
-    <button class="btn btn-twitter-home"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+    <a class="btn btn-youtube-home" href="https://www.youtube.com/channel/UCk1ZPrg8G-hMKDcT8Rk6HJg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+    <a class="btn btn-twitter-home" href="https://twitter.com/DRAL59954891" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     <a class="btn btn-facebook-home" href="https://www.facebook.com/DRALoficial/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 </div>
 <section class="container container-page-inner" style="padding-bottom: 30px;">
     <section>
-      <div class="col-lg-11" style="padding-left: 75px; line-height: 1.42857143;">
+      <div class="col-lg-11 box-padding-75" style="padding-left: 75px; line-height: 1.42857143;">
       	<h3 style="font-weight: bold; color: #0e8240;">Dirección de Competitividad y Negocios Agrarios</h3>
       	<br>
-      	<div style="padding-left: 75px;">
+      	<div class="box-padding-75" style="padding-left: 75px;">
  			<p>El Perú dispone de 0.3 Has de tierras cultivadas por habitante. La mayor área dedicada a la agricultura y ganadería es del tipo tradicional, no competitivo en los mercados. Algunas causales de esta situación, son: Insuficiente investigación de cultivos y crianzas, como resultado de tecnologías ineficientes y obsoletas; y la tecnología disponible es insuficiente para desarrollar una agricultura moderna y competitiva en algunos casos. Es por ello, que la Agencia Agraria Huacho, como parte de su labor de Promoción Agraria, pone a su disposición, los siguientes boletines informativos que sirvirán de guía para la realización de las buenas prácticas agrícolas. Un aporte a la investigación agraria.</p>
  			<br>
       <div class="col-lg-12 no-padding" style="margin-bottom: 30px;">

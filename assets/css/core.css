@@ -653,3 +653,70 @@ a, a:hover {
   color: black;
   text-decoration: none;
 }
+
+#modal_aviso .modal-dialog {
+  width: 83.33333333% !important;
+  margin-left: 8.33333333% !important;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .logo-01 {
+      content:url("http://www.dral.gob.pe/assets/img/brand/logo-icon.png");
+    }
+    .logo-02 {
+      content:url("http://www.dral.gob.pe/assets/img/brand/pte.jpg");
+    }
+    .pte-res {
+      float: none !important; 
+      position: relative !important;
+      right: 0px !important;
+    }
+    .box-menu-side {
+        margin-top: 200px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .box-search-side {
+      display: none;
+    }
+    .box-external {
+      display: none;
+    }
+    .btn-youtube-home, .btn-facebook-home, .btn-twitter-home {
+      display: none;
+    }
+
+    .box-padding-75 {
+      padding-left: 0px !important;
+    }
+    .title-galeria {
+      display: block;
+    }
+    .form-search-galeria {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .form-search-galeria .form-group {
+      margin-bottom: 10px;
+    }
+    .resultado-galeria {
+      margin-top: 100px !important;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: white;
+    }
+    .box-noticias-eventos {
+      margin-top: 150px !important;
+    }
+    .footer-info {
+      padding-top: 25% !important;
+    }
+
+
+    #modal_aviso .modal-dialog {
+      width: 100% !important;
+      margin-left: -2% !important;
+    }
+}
