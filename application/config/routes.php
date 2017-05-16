@@ -34,6 +34,9 @@ $route['noticia/page/(:num)'] = "PrensaController/lista_noticia/$1";
 $route['evento/(:num)'] = "EventoController/evento/$1";
 $route['evento/page'] = "EventoController/lista_evento";
 $route['evento/page/(:num)'] = "EventoController/lista_evento/$1";
+$route['tema_agrario/(:num)'] = "TemaAgrarioController/tema_agrario/$1";
+$route['tema_agrario/page'] = "TemaAgrarioController/lista_tema_agrario";
+$route['tema_agrario/page/(:num)'] = "TemaAgrarioController/lista_tema_agrario/$1";
 $route['buscar'] = "MainController/buscar";
 
 $route['login'] = "MainController/login";
@@ -202,3 +205,14 @@ $route['grupo_pac/update'] = "PacController/update_grupo";
 $route['grupo_pac/habilitar'] = "PacController/habilitar_grupo";
 $route['grupo_pac/deshabilitar'] = "PacController/deshabilitar_grupo";
 $route['grupo_pac/eliminar'] = "PacController/eliminar_grupo";
+
+$route['tema_agrario'] = "TemaAgrarioController/index";
+$route['tema_agrario/paginate'] = "TemaAgrarioController/paginate";
+$route['tema_agrario/check_nume_tea'] = "TemaAgrarioController/check_nume_tea";
+$route['tema_agrario/check_nume_tea_actualizar'] = "TemaAgrarioController/check_nume_tea_actualizar";
+$route['tema_agrario/save'] = "TemaAgrarioController/save";
+$route['tema_agrario/update'] = "TemaAgrarioController/update";
+$route['tema_agrario/habilitar'] = "TemaAgrarioController/habilitar";
+$route['tema_agrario/deshabilitar'] = "TemaAgrarioController/deshabilitar";
+$route['tema_agrario/eliminar'] = "TemaAgrarioController/eliminar";
+$route['tema_agrario/uploadImage'] = "TemaAgrarioController/uploadImage";

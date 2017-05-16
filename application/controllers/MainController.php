@@ -71,6 +71,12 @@ class MainController extends CI_Controller {
 
     public function temas_agrarios() {
         $this->styles[] = '<link href="'.asset_url().'css/temas_agrarios.css" rel="stylesheet">';
+        $this->scripts[] = '<script src="'.asset_url().'js/temas_agrarios_public.js"></script>';
+
+        $this->load->model("mod_tema_agrario");
+
+        $data["temas_agrarios"] = $this->mod_tema_agrario->get_tema_agrarios();
+
         // Imprimir vista con datos
         $data["styles"] = $this->styles;
         $data["scripts"] = $this->scripts;

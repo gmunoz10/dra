@@ -12,3 +12,12 @@
   content: "• ";
   color: #0e8240; /* or whatever color you prefer */
 }
+
+
+.box-temas_agrarios h3 {
+	color: white;
+}
+
+.carousel-more {
+	background: rgba(14,130,64, 1);
+}

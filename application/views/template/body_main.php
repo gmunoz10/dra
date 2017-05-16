@@ -156,6 +156,9 @@
                   <?php if (check_permission(BUSCAR_ALBUM_IMAGEN)) { ?>
                     <li><a href="<?= base_url('galeria/admin') ?>">Galería</a></li>
                   <?php } ?>
+                  <?php if (check_permission(BUSCAR_ALBUM_IMAGEN)) { ?>
+                    <li><a href="<?= base_url('tema_agrario') ?>">Temas agrarios</a></li>
+                  <?php } ?>
                 </ul>
               </li>
               <?php
