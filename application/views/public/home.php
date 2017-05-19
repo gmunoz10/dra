@@ -190,7 +190,7 @@
   </div>
 </section>
 
-
+<!--
 <div class="modal fade" id="modal_aviso" tabindex="-1" data-backdrop="false" data-keyboard="true" role="dialog">
   <div class="modal-dialog col-lg-10 col-md-offset-1" role="document" style="margin-top: 10px;">
     <div class="modal-content box-content box-bold" style="margin-top: 0px;">
@@ -207,3 +207,4 @@
     </div>
   </div>
 </div>
+-->

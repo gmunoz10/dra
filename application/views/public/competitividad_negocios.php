@@ -29,7 +29,7 @@
       </div>
       <div class="col-lg-12 no-padding" style="margin-bottom: 30px;">
         <div class="col-lg-6 col-md-offset-3">
-          <img class="img-thumbnail" src="<?= asset_url() ?>img/competividad-negocios/gestion-calidad.jpg" style="width: 100%;">
+          <img class="img-thumbnail" src="<?= asset_url() ?>img/competividad-negocios/gestion-calidad.jpg" style="width: 100%;" tabindex="0" data-trigger="focus" data-toggle="popover" title="<b>Gestión de la Calidad</b>" data-content="<p>El área de Gestión de Calidad tiene por finalidad promover y asegurar el cumplimiento de la política nacional para la calidad con miras al desarrollo sostenible y la competitividad de las actividades económicas y la protección del consumidor en el ámbito de la DRAL.</p>" data-html="true" data-placement="bottom">
         </div>
       </div>
 

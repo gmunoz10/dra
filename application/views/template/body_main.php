@@ -83,6 +83,9 @@
                     <a href="<?= base_url('vision-mision') ?>">Visión y Misión</a>
                   </li>
                   <li>
+                    <a href="<?= base_url('funciones') ?>">Funciones</a>
+                  </li>
+                  <li>
                     <a href="<?= base_url('temas-agrarios') ?>">Temas agrarios</a>
                   </li>
                   <li>
@@ -156,7 +159,7 @@
                   <?php if (check_permission(BUSCAR_ALBUM_IMAGEN)) { ?>
                     <li><a href="<?= base_url('galeria/admin') ?>">Galería</a></li>
                   <?php } ?>
-                  <?php if (check_permission(BUSCAR_ALBUM_IMAGEN)) { ?>
+                  <?php if (check_permission(BUSCAR_TEMA_AGRARIO)) { ?>
                     <li><a href="<?= base_url('tema_agrario') ?>">Temas agrarios</a></li>
                   <?php } ?>
                 </ul>
@@ -286,7 +289,7 @@
           <hr>
         </div>
       </section>
-          <div class="col-lg-12 text-center footer-info" style="margin-top: 0px; padding-bottom: 30px;padding-top: 7%;color: white;padding-left: 0px;background-repeat: no-repeat !important;background-position-x: center !important;background-size: cover !important;background: url(<?= asset_url() ?>img/background/piepagina.jpg);">
+          <div class="col-lg-12 text-center footer-info" style="margin-top: 0px; padding-bottom: 30px;padding-top: 10%;color: white;padding-left: 0px;background-repeat: no-repeat !important;background-position-x: center !important;background-size: cover !important;background: url(<?= asset_url() ?>img/background/piepagina.jpg);">
             <br>
             <br>
             <p class="text-center"><img src="<?= asset_url() ?>img/brand/logo-icon-blank.png"></p>
@@ -294,7 +297,33 @@
             <p><b>Dirección: </b>Av. Augusto B. Leguía 3° Cuadra S/N Huacho</p>
             <p><b>Teléfono: </b> 2323402 / 2323869</p>
             <p><b>E-mail: </b> webmaster@dral.gob.pe</p>
+            <br>
+            <div class="col-lg-2 col-md-offset-5" style="background: #eabf21; color: darkgoldenrod; border-radius: 15px; padding-top: 15px; padding-bottom: 15px; border: 1px solid darkgoldenrod;">
+              <h1 class="no-margin"><i class="fa fa-globe" aria-hidden="true"></i><br><span><?= $this->mod_counter->get_count() ?></span></h1>
+              <p class="no-margin"><b>Contador de visitas</b></p>
+            </div>
           </div>
+          <!-- 
+          <section id="counter" class="counter">
+            <div class="main_counter_area">
+                <div class="overlay p-y-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="main_counter_content text-center white-text wow fadeInUp text-center">
+                                <div class="col-md-3">
+                                    <div class="single_counter p-y-2 m-t-1">
+                                        <i class="fa fa-user m-b-1"></i>
+                                        <h2 class="statistic-counter">100</h2>
+                                        <p>Visitas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          -->
     </footer>
 
     <script>
@@ -333,6 +362,8 @@
     <script src="<?= asset_url() ?>plugins/jquery/dist/jquery.js"></script>        
     <script src="<?= asset_url() ?>plugins/bootstrap/dist/js/bootstrap.js"></script>        
     <script src="<?= asset_url() ?>plugins/toastr/toastr.min.js"></script>   
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <script>
         // App data
         var base_url = '<?= base_url() ?>';
@@ -387,6 +418,11 @@
             toMove($(".img-aus-12"));
             toMove($(".img-aus-13"));
 
+        });
+
+        jQuery('.statistic-counter').counterUp({
+            delay: 10,
+            time: 2000
         });
 
     </script>       

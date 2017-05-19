@@ -84,6 +84,16 @@ class MainController extends CI_Controller {
         $this->load->view("template/body_main", $component);
     }
 
+    public function funciones() {
+        $this->styles[] = '<link href="'.asset_url().'css/temas_agrarios.css" rel="stylesheet">';
+
+        // Imprimir vista con datos
+        $data["styles"] = $this->styles;
+        $data["scripts"] = $this->scripts;
+        $component["content"] = $this->load->view("public/funciones", $data, true);
+        $this->load->view("template/body_main", $component);
+    }
+
     public function institucional() {
         $this->scripts[] = '<script src="'.asset_url().'js/institucional.js"></script>';
         // Imprimir vista con datos

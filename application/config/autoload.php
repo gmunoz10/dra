@@ -8,4 +8,4 @@ $autoload['drivers'] = array();
 $autoload['helper'] = array('language', 'url', 'form', 'captcha', 'util_helper');
 $autoload['config'] = array();
 $autoload['language'] = array();
-$autoload['model'] = array();
+$autoload['model'] = array("mod_counter");

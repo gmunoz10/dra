@@ -12,9 +12,10 @@ class Hooks_base {
         !$this->ci->load->helper('url') ? $this->ci->load->helper('url') : false;
     }
 
-    public function check_login()
-    {   
-
+    public function check_counter() {
+    	if (!$this->ci->mod_counter->check_ip($this->ci->input->ip_address())) {
+    		$this->ci->mod_counter->save($this->ci->input->ip_address());
+    	}
     }
 
 

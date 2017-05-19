@@ -9,6 +9,7 @@ $route['test/index'] = "TestController/index";
 
 $route['vision-mision'] = "MainController/vision_mision";
 $route['temas-agrarios'] = "MainController/temas_agrarios";
+$route['funciones'] = "MainController/funciones";
 $route['informacion-agraria'] = "MainController/informacion_agraria";
 $route['competitividad-negocios'] = "MainController/competitividad_negocios";
 $route['direccion-oficina'] = "MainController/direccion_oficina";
