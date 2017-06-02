@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-05-2017 a las 07:08:58
+-- Tiempo de generación: 02-06-2017 a las 15:37:30
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -71,6 +71,24 @@ INSERT INTO `album` (`codi_alb`, `titu_alb`, `fech_alb`, `codi_usu`, `esta_alb`,
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `contador`
+--
+
+CREATE TABLE `contador` (
+  `id` int(11) NOT NULL,
+  `ip_address` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `contador`
+--
+
+INSERT INTO `contador` (`id`, `ip_address`) VALUES
+(1, '::1');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `declaracion_jurada`
 --
 
@@ -129,6 +147,30 @@ CREATE TABLE `directiva` (
   `exte_dir` text NOT NULL,
   `esta_dir` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `empleado`
+--
+
+CREATE TABLE `empleado` (
+  `codi_emp` int(11) NOT NULL,
+  `nomb_emp` text NOT NULL,
+  `apel_emp` text NOT NULL,
+  `carg_emp` text NOT NULL,
+  `tipo_emp` text NOT NULL,
+  `ofic_emp` text NOT NULL,
+  `docu_emp` text NOT NULL,
+  `esta_emp` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `empleado`
+--
+
+INSERT INTO `empleado` (`codi_emp`, `nomb_emp`, `apel_emp`, `carg_emp`, `tipo_emp`, `ofic_emp`, `docu_emp`, `esta_emp`) VALUES
+(1, 'GERARDO', 'MUÑOZ', 'ASISTENTE DE INFORMATICA', 'TERCERO', 'UNIDAD DE INFORMÁTICA', '72676182', 1);
 
 -- --------------------------------------------------------
 
@@ -238,7 +280,8 @@ INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES
 (13, 'Eventos', 1),
 (14, 'Grupos de PAC', 1),
 (15, 'PAC', 1),
-(16, 'Temas agrarios', 1);
+(16, 'Temas agrarios', 1),
+(17, 'Empleados', 1);
 
 -- --------------------------------------------------------
 
@@ -480,7 +523,14 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 (116, 'Modificar tema agrario', 16, 1),
 (117, 'Habilitar tema agrario', 16, 1),
 (118, 'Deshabilitar tema agrario', 16, 1),
-(119, 'Eliminar tema agrario', 16, 1);
+(119, 'Eliminar tema agrario', 16, 1),
+(120, 'Buscar empleado', 18, 1),
+(121, 'Leer empleado', 18, 1),
+(122, 'Registrar empleado', 18, 1),
+(123, 'Modificar empleado', 18, 1),
+(124, 'Habilitar empleado', 18, 1),
+(125, 'Deshabilitar empleado', 18, 1),
+(126, 'Eliminar empleado', 18, 1);
 
 -- --------------------------------------------------------
 
@@ -625,6 +675,40 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`codi_usu`, `nomb_usu`, `cont_usu`, `esta_usu`, `codi_rol`) VALUES
 (1, 'gmunoz', '9e13ba9e28cd86b0a87eb941c32de7ce', 1, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `visita`
+--
+
+CREATE TABLE `visita` (
+  `codi_vis` int(11) NOT NULL,
+  `fech_vis` date NOT NULL,
+  `nomb_vis` text NOT NULL,
+  `apel_vis` text NOT NULL,
+  `tipo_vis` text NOT NULL,
+  `docu_vis` text NOT NULL,
+  `enti_vis` text NOT NULL,
+  `moti_vis` text NOT NULL,
+  `sede_vis` text NOT NULL,
+  `empl_vis` text NOT NULL,
+  `ofic_vis` text NOT NULL,
+  `ingr_vis` text NOT NULL,
+  `sali_vis` text NOT NULL,
+  `codi_usu` int(11) NOT NULL,
+  `esta_vis` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `visita`
+--
+
+INSERT INTO `visita` (`codi_vis`, `fech_vis`, `nomb_vis`, `apel_vis`, `tipo_vis`, `docu_vis`, `enti_vis`, `moti_vis`, `sede_vis`, `empl_vis`, `ofic_vis`, `ingr_vis`, `sali_vis`, `codi_usu`, `esta_vis`) VALUES
+(1, '2017-05-03', 'GERARDO', 'MUÑOZ', 'D.N.I.', '01', 'PLAZA', 'VISITA', 'SEDE CENTRAL', 'ANGELY', 'DIRECCIÓN REGIONAL', '01:00', '02:00', 1, 1),
+(2, '1970-01-01', '123', '', 'D.N.I.', '123', '123', '123', '123', '123', '123', '123', '123', 1, 1),
+(3, '1970-01-01', '1234', '', 'D.N.I.', '12341', '1234', '1234', '2412341', '1234', '12341234', '1234', '1234', 1, 1),
+(4, '2017-05-25', '2345', '', 'D.N.I.', '234523452345', '2345', '23452345', '2345', '2345', '23452345', '2345', '2345', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -863,6 +947,32 @@ CREATE TABLE `v_usuario` (
 -- --------------------------------------------------------
 
 --
+-- Estructura Stand-in para la vista `v_visita`
+--
+CREATE TABLE `v_visita` (
+`codi_vis` int(11)
+,`fech_vis` date
+,`nomb_vis` text
+,`apel_vis` text
+,`tipo_vis` text
+,`docu_vis` text
+,`enti_vis` text
+,`moti_vis` text
+,`sede_vis` text
+,`empl_vis` text
+,`ofic_vis` text
+,`ingr_vis` text
+,`sali_vis` text
+,`codi_usu` int(11)
+,`esta_vis` int(11)
+,`full_emp` mediumtext
+,`tipo_emp` text
+,`esta_emp` int(11)
+);
+
+-- --------------------------------------------------------
+
+--
 -- Estructura para la vista `v_agenda`
 --
 DROP TABLE IF EXISTS `v_agenda`;
@@ -977,6 +1087,15 @@ DROP TABLE IF EXISTS `v_usuario`;
 
 CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_usuario`  AS  select `u`.`codi_usu` AS `codi_usu`,`u`.`nomb_usu` AS `nomb_usu`,`u`.`cont_usu` AS `cont_usu`,`u`.`esta_usu` AS `esta_usu`,`u`.`codi_rol` AS `codi_rol`,`r`.`desc_rol` AS `desc_rol`,`r`.`esta_rol` AS `esta_rol` from (`usuario` `u` join `rol` `r`) where (`u`.`codi_rol` = `r`.`codi_rol`) ;
 
+-- --------------------------------------------------------
+
+--
+-- Estructura para la vista `v_visita`
+--
+DROP TABLE IF EXISTS `v_visita`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_visita`  AS  select `v`.`codi_vis` AS `codi_vis`,`v`.`fech_vis` AS `fech_vis`,`v`.`nomb_vis` AS `nomb_vis`,`v`.`apel_vis` AS `apel_vis`,`v`.`tipo_vis` AS `tipo_vis`,`v`.`docu_vis` AS `docu_vis`,`v`.`enti_vis` AS `enti_vis`,`v`.`moti_vis` AS `moti_vis`,`v`.`sede_vis` AS `sede_vis`,`v`.`empl_vis` AS `empl_vis`,`v`.`ofic_vis` AS `ofic_vis`,`v`.`ingr_vis` AS `ingr_vis`,`v`.`sali_vis` AS `sali_vis`,`v`.`codi_usu` AS `codi_usu`,`v`.`esta_vis` AS `esta_vis`,concat(`e`.`apel_emp`,', ',`e`.`nomb_emp`) AS `full_emp`,`e`.`tipo_emp` AS `tipo_emp`,`e`.`esta_emp` AS `esta_emp` from (`visita` `v` join `empleado` `e`) where (`v`.`empl_vis` = concat(`e`.`apel_emp`,', ',`e`.`nomb_emp`)) ;
+
 --
 -- Índices para tablas volcadas
 --
@@ -992,6 +1111,12 @@ ALTER TABLE `agenda`
 --
 ALTER TABLE `album`
   ADD PRIMARY KEY (`codi_alb`);
+
+--
+-- Indices de la tabla `contador`
+--
+ALTER TABLE `contador`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indices de la tabla `declaracion_jurada`
@@ -1010,6 +1135,12 @@ ALTER TABLE `dependencia`
 --
 ALTER TABLE `directiva`
   ADD PRIMARY KEY (`codi_dir`);
+
+--
+-- Indices de la tabla `empleado`
+--
+ALTER TABLE `empleado`
+  ADD PRIMARY KEY (`codi_emp`);
 
 --
 -- Indices de la tabla `evento`
@@ -1108,6 +1239,12 @@ ALTER TABLE `usuario`
   ADD PRIMARY KEY (`codi_usu`);
 
 --
+-- Indices de la tabla `visita`
+--
+ALTER TABLE `visita`
+  ADD PRIMARY KEY (`codi_vis`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -1121,6 +1258,11 @@ ALTER TABLE `agenda`
 --
 ALTER TABLE `album`
   MODIFY `codi_alb` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+--
+-- AUTO_INCREMENT de la tabla `contador`
+--
+ALTER TABLE `contador`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT de la tabla `declaracion_jurada`
 --
@@ -1136,6 +1278,11 @@ ALTER TABLE `dependencia`
 --
 ALTER TABLE `directiva`
   MODIFY `codi_dir` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT de la tabla `empleado`
+--
+ALTER TABLE `empleado`
+  MODIFY `codi_emp` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT de la tabla `evento`
 --
@@ -1160,7 +1307,7 @@ ALTER TABLE `grupo_pac`
 -- AUTO_INCREMENT de la tabla `grupo_permiso`
 --
 ALTER TABLE `grupo_permiso`
-  MODIFY `codi_gpr` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `codi_gpr` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 --
 -- AUTO_INCREMENT de la tabla `grupo_resolucion`
 --
@@ -1185,7 +1332,7 @@ ALTER TABLE `pac`
 -- AUTO_INCREMENT de la tabla `permiso`
 --
 ALTER TABLE `permiso`
-  MODIFY `codi_per` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=120;
+  MODIFY `codi_per` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=127;
 --
 -- AUTO_INCREMENT de la tabla `permiso_rol`
 --
@@ -1216,6 +1363,11 @@ ALTER TABLE `tema_agrario`
 --
 ALTER TABLE `usuario`
   MODIFY `codi_usu` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT de la tabla `visita`
+--
+ALTER TABLE `visita`
+  MODIFY `codi_vis` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

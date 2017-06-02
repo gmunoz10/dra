@@ -45,7 +45,7 @@ class Mod_visita extends CI_Model {
                             `ingr_vis` LIKE '%$search%' OR
                             `sali_vis` LIKE '%$search%'
                             )");
-        $this->db->order_by("fech_vis", "desc");
+        $this->db->order_by("codi_vis", "desc");
         $this->db->limit($limit, $start);
         $query = $this->db->get('visita');
         return $query->result();
@@ -71,6 +71,7 @@ class Mod_visita extends CI_Model {
         $search = $this->db->escape_like_str($string);
         $this->db->where("fech_vis", $fech_vis);
         $this->db->where("esta_vis", "1");
+        $this->db->where("tipo_emp", "NOMINADO");
         $this->db->where("(`codi_vis` LIKE '%$search%' OR 
                             `apel_vis` LIKE '%$search%' OR
                             `nomb_vis` LIKE '%$search%' OR
@@ -128,7 +129,7 @@ class Mod_visita extends CI_Model {
         }
 
         $this->db->limit($limit, $start);
-        $query = $this->db->get('visita');
+        $query = $this->db->get('v_visita');
         return $query->result();
     }
 
