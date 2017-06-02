@@ -16,6 +16,7 @@ class Hooks_base {
     	if (!$this->ci->mod_counter->check_ip($this->ci->input->ip_address())) {
     		$this->ci->mod_counter->save($this->ci->input->ip_address());
     	}
+        date_default_timezone_set('America/Lima');
     }
 
 

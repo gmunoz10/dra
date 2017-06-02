@@ -39,6 +39,17 @@ class MainController extends CI_Controller {
         $component["content"] = $this->load->view("public/home", $data, true);
         $this->load->view("template/body_main", $component);
     }
+
+    public function produccion() {
+        $this->styles[] = '<link href="'.asset_url().'css/produccion.css" rel="stylesheet">';
+        $this->scripts[] = '<script src="'.asset_url().'js/produccion.js"></script>';
+
+        // Imprimir vista con datos
+        $data["styles"] = $this->styles;
+        $data["scripts"] = $this->scripts;
+        $component["content"] = $this->load->view("public/produccion", $data, true);
+        $this->load->view("template/body_main", $component);
+    }
    
     public function vision_mision() {
         // Imprimir vista con datos

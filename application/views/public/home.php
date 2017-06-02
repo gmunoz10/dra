@@ -172,7 +172,7 @@
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>Res.: </b>Sr. Miguel Ángel Cuadros Huertas</p>
         <p class="text-center no-margin" style="padding: 0px 15px;">RDS N° 0077-2017-GRDE-DRA</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>E-mail:</b> info_publica@dral.gob.pe</p>
-        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Teléfono: </b> 239 6421</p>
+        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Teléfono: </b> 239-3869</p>
         <br>
       </dir>
     </div>
@@ -183,7 +183,7 @@
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>Res.: </b>Ing. Milagros Angely Cruz Balarezo</p>
         <p class="text-center no-margin">RDS N° 0077-2017-GRDE-DRA</p>
         <p class="text-center no-margin" style="padding: 0px 15px;"><b>E-mail:</b> transparencia@dral.gob.pe</p>
-        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Teléfono: </b> 239 6421</p>
+        <p class="text-center no-margin" style="padding: 0px 15px;"><b>Teléfono: </b> 239-3869</p>
         <br>
       </dir>
     </div>

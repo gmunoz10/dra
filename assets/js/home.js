@@ -54,6 +54,10 @@ $(function() {
 		  }, function(response){});
 	});
 
+ 	$('#carousel-noticias .btn-twitter').click(function (e) {
+        window.open('https://twitter.com/intent/tweet?&url='+encodeURI(base_url+"noticia/"+$("#carousel-noticias .carousel-inner .item.active").data("codi")), "Publica un Tweet en Twitter", "width=500,height=500");
+  	});
+
 	$("#evento_link").click(function() {
  		var codi_eve = $("#carousel-eventos .carousel-inner .item.active").data("codi");
  		window.location.href = base_url+"evento/"+codi_eve;
@@ -66,6 +70,10 @@ $(function() {
 		    href: base_url+"evento/"+$("#carousel-eventos .carousel-inner .item.active").data("codi"),
 		  }, function(response){});
 	});
+
+ 	$('#carousel-eventos .btn-twitter').click(function (e) {
+        window.open('https://twitter.com/intent/tweet?&url='+encodeURI(base_url+"evento/"+$("#carousel-eventos .carousel-inner .item.active").data("codi")), "Publica un Tweet en Twitter", "width=500,height=500");
+  	});
 
  	$("#modal_aviso").modal("show");
 });

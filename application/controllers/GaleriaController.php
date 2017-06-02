@@ -99,8 +99,8 @@ class GaleriaController extends CI_Controller {
                       'image_library'   => 'gd2',
                       'source_image'    =>  $fileData['full_path'],
                       'maintain_ratio'  =>  TRUE,
-                      'width'           =>  400,
-                      'height'          =>  400,
+                      'width'           =>  960,
+                      'height'          =>  540,
                     );
                     $this->image_lib->clear();
                     $this->image_lib->initialize($configer);
@@ -233,8 +233,8 @@ class GaleriaController extends CI_Controller {
                       'image_library'   => 'gd2',
                       'source_image'    =>  $fileData['full_path'],
                       'maintain_ratio'  =>  TRUE,
-                      'width'           =>  800,
-                      'height'          =>  800,
+                      'width'           =>  960,
+                      'height'          =>  540,
                     );
                     $this->image_lib->clear();
                     $this->image_lib->initialize($configer);

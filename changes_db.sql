@@ -201,3 +201,62 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 (NULL, 'Habilitar tema agrario', '16', '1'), 
 (NULL, 'Deshabilitar tema agrario', '16', '1'), 
 (NULL, 'Eliminar tema agrario', '16', '1');
+
+====================================================================================================================
+
+INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
+(NULL, 'Visitas', '1');
+
+INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
+(NULL, 'Buscar visita', '17', '1'), 
+(NULL, 'Leer visita', '17', '1'), 
+(NULL, 'Registrar visita', '17', '1'), 
+(NULL, 'Modificar visita', '17', '1'), 
+(NULL, 'Habilitar visita', '17', '1'), 
+(NULL, 'Deshabilitar visita', '17', '1'), 
+(NULL, 'Eliminar visita', '17', '1');
+
+====================================================================================================================
+
+
+CREATE TABLE `empleado` (
+  `codi_emp` int(11) NOT NULL,
+  `nomb_emp` text NOT NULL,
+  `apel_emp` text NOT NULL,
+  `carg_emp` text NOT NULL,
+  `tipo_emp` text NOT NULL,
+  `ofic_emp` text NOT NULL,
+  `docu_emp` text NOT NULL,
+  `esta_emp` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `empleado` (`codi_emp`, `nomb_emp`, `apel_emp`, `carg_emp`, `tipo_emp`, `ofic_emp`, `docu_emp`, `esta_emp`) VALUES
+(1, 'GERARDO', 'MUÑOZ', 'ASISTENTE DE INFORMATICA', 'TERCERO', 'UNIDAD DE INFORMÁTICA', '72676182', 1);
+
+ALTER TABLE `empleado`
+  ADD PRIMARY KEY (`codi_emp`);
+
+ALTER TABLE `empleado`
+  MODIFY `codi_emp` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+ALTER TABLE `visita` CHANGE `visi_vis` `nomb_vis` TEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+ALTER TABLE `visita` ADD `apel_vis` TEXT NOT NULL AFTER `nomb_vis`;
+
+====================================================================================================================
+
+INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
+(NULL, 'Empleados', '1');
+
+INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
+(NULL, 'Buscar empleado', '18', '1'), 
+(NULL, 'Leer empleado', '18', '1'), 
+(NULL, 'Registrar empleado', '18', '1'), 
+(NULL, 'Modificar empleado', '18', '1'), 
+(NULL, 'Habilitar empleado', '18', '1'), 
+(NULL, 'Deshabilitar empleado', '18', '1'), 
+(NULL, 'Eliminar empleado', '18', '1');
+
+
+ALTER TABLE `visita` ADD `tipo_vis` TEXT NOT NULL AFTER `apel_vis`;
+
+UPDATE visita set tipo_vis = 'D.N.I.';

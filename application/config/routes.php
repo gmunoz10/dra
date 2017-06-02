@@ -39,6 +39,7 @@ $route['tema_agrario/(:num)'] = "TemaAgrarioController/tema_agrario/$1";
 $route['tema_agrario/page'] = "TemaAgrarioController/lista_tema_agrario";
 $route['tema_agrario/page/(:num)'] = "TemaAgrarioController/lista_tema_agrario/$1";
 $route['buscar'] = "MainController/buscar";
+$route['produccion'] = "MainController/produccion";
 
 $route['login'] = "MainController/login";
 $route['validar_login'] = "SessionController/validar_login";
@@ -217,3 +218,21 @@ $route['tema_agrario/habilitar'] = "TemaAgrarioController/habilitar";
 $route['tema_agrario/deshabilitar'] = "TemaAgrarioController/deshabilitar";
 $route['tema_agrario/eliminar'] = "TemaAgrarioController/eliminar";
 $route['tema_agrario/uploadImage'] = "TemaAgrarioController/uploadImage";
+
+$route['visita'] = "VisitaController/index";
+$route['visita/paginate'] = "VisitaController/paginate";
+$route['visita/save'] = "VisitaController/save";
+$route['visita/update'] = "VisitaController/update";
+$route['visita/habilitar'] = "VisitaController/habilitar";
+$route['visita/deshabilitar'] = "VisitaController/deshabilitar";
+$route['visita/eliminar'] = "VisitaController/eliminar";
+$route['visita/paginate_portal'] = "VisitaController/paginate_portal";
+$route['visitas/portal'] = "VisitaController/visitas";
+
+$route['empleado'] = "EmpleadoController/index";
+$route['empleado/paginate'] = "EmpleadoController/paginate";
+$route['empleado/save'] = "EmpleadoController/save";
+$route['empleado/update'] = "EmpleadoController/update";
+$route['empleado/habilitar'] = "EmpleadoController/habilitar";
+$route['empleado/deshabilitar'] = "EmpleadoController/deshabilitar";
+$route['empleado/eliminar'] = "EmpleadoController/eliminar";

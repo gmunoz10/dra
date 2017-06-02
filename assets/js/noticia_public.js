@@ -25,4 +25,8 @@ $(function() {
 		  }, function(response){});
 	});
 
+ 	$('.btn-twitter').click(function (e) {
+        window.open('https://twitter.com/intent/tweet?&url='+encodeURI($('.btn-twitter').data("href")), "Publica un Tweet en Twitter", "width=500,height=500");
+	});
+
 });

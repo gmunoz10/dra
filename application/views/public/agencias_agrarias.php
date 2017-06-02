@@ -22,8 +22,8 @@
               <td style="width: 31px;">
                 <img style="display: none;" src="<?= asset_url() ?>img/brand/arrow-right.png">
               </td>
-              <td style="padding-left: 15px; font-weight: bold; font-size: 18px;"><a tabindex="0" data-trigger="focus" data-toggle="popover" title="<b>Agencia Agraria - Huacho</b>" data-content="<p><b>Sitio web: <a href='http://agenciaagrariahuacho.wixsite.com/agenciaagrariahuacho' target='_blank'><button type='button' class='btn btn-default btn-xs'><i class='fa fa-external-link' aria-hidden='true'></i></button></a></b></p><p><b>Responsable: </b><br>Ing. Víctor Huertas Asmat</p><p><b>Resolución: </b><br>RDS N° 235-2016-GRL-DRA</p><p><b>Teléfono: </b><br>2324280</p><p><b>FAX: </b><br>2324280</p><p><b>Dirección: </b><br>Jr. Augusto B. Leguía N° 152 - Huacho</p><p><b>Correo electrónico: </b><br>agenciahuaura@dral.gob.pe</p>" data-html="true" id="toHuacho"><div class="well">Huacho</div></a></td>
-     				</tr>
+              <td style="padding-left: 15px; font-weight: bold; font-size: 18px;"><a tabindex="0" data-trigger="focus" data-toggle="popover" title="<b>Agencia Agraria - Huaura</b>" data-content="<p><b>Sitio web: <a href='http://agenciaagrariahuacho.wixsite.com/agenciaagrariahuacho' target='_blank'><button type='button' class='btn btn-default btn-xs'><i class='fa fa-external-link' aria-hidden='true'></i></button></a></b></p><p><b>Responsable: </b><br>Ing. Víctor Huertas Asmat</p><p><b>Resolución: </b><br>RDS N° 235-2016-GRL-DRA</p><p><b>Teléfono: </b><br>2324280</p><p><b>FAX: </b><br>2324280</p><p><b>Dirección: </b><br>Jr. Augusto B. Leguía N° 152 - Huacho</p><p><b>Correo electrónico: </b><br>agenciahuaura@dral.gob.pe</p>" data-html="true" id="toHuacho"><div class="well">Huaura</div></a></td>
+            </tr>
      				<tr><td colspan="2"  style="height: 20px;"></td></tr>
      				<tr>
               <td style="width: 31px;">

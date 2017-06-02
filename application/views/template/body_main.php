@@ -16,6 +16,12 @@
     <meta property="og:locale" content="es_ES" />
     <meta property="og:site_name" content="Dirección Regional de Agricultura Lima" />
 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@DRAL59954891" />
+    <meta name="twitter:title" content="<?= (isset($title) && $title != "") ? $title : "DRAL" ?>" />
+    <meta name="twitter:description" content="<?= (isset($description) && $description != "") ? $description : "Dirección Regional de Agricultura Lima" ?>" />
+    <meta name="twitter:image" content="<?= (isset($img) && $img != "") ? $img : asset_url() . 'img/brand/logo-200.jpg' ?>" />
+
     <meta property="fb:app_id" content="1327135627399921" />
     <meta property="fb:pages" content="182498662244220" />
 
@@ -54,9 +60,6 @@
         <a id="b" href="<?= base_url() ?>" class="navbar-brand-header">
           <img class="logo-01" src="<?= asset_url() ?>img/brand/logo.png">
         </a>
-        <a href="http://www.regionlima.gob.pe" target="_blank" class="navbar-brand-header">
-          <img src="<?= asset_url() ?>img/brand/logo4.png">
-        </a>
         <a href="<?= base_url() . 'transparencia' ?>" class="navbar-brand-header pull-right pte-res" style="padding-top: 0px; position: absolute; right: 15px;">
           <img class="logo-02" src="<?= asset_url() ?>img/brand/ptes.jpg">
         </a>
@@ -87,6 +90,9 @@
                   </li>
                   <li>
                     <a href="<?= base_url('temas-agrarios') ?>">Temas agrarios</a>
+                  </li>
+                  <li>
+                    <a href="<?= base_url('produccion') ?>">Producción agrícola</a>
                   </li>
                   <li>
                     <a href="<?= base_url('direccion-oficina') ?>">Dirección y Oficinas</a>
@@ -161,6 +167,12 @@
                   <?php } ?>
                   <?php if (check_permission(BUSCAR_TEMA_AGRARIO)) { ?>
                     <li><a href="<?= base_url('tema_agrario') ?>">Temas agrarios</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_EMPLEADO)) { ?>
+                    <li><a href="<?= base_url('empleado') ?>">Empleados</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_VISITA)) { ?>
+                    <li><a href="<?= base_url('visita') ?>">Visitas</a></li>
                   <?php } ?>
                 </ul>
               </li>
@@ -298,10 +310,15 @@
             <p><b>Teléfono: </b> 2323402 / 2323869</p>
             <p><b>E-mail: </b> webmaster@dral.gob.pe</p>
             <br>
-            <div class="col-lg-2 col-md-offset-5" style="background: #eabf21; color: darkgoldenrod; border-radius: 15px; padding-top: 15px; padding-bottom: 15px; border: 1px solid darkgoldenrod;">
-              <h1 class="no-margin"><i class="fa fa-globe" aria-hidden="true"></i><br><span><?= $this->mod_counter->get_count() ?></span></h1>
-              <p class="no-margin"><b>Contador de visitas</b></p>
-            </div>
+            <?php if ($this->session->userdata("usuario") && $this->session->userdata("usuario")->codi_rol == "1") { ?>
+              <div class="col-lg-2 col-md-offset-5" style="background: #eabf21;color: darkgoldenrod;border-radius: 15px;padding-top: 7px;padding-bottom: 5px;border: 1px solid darkgoldenrod;">
+                <h1 class="no-margin" style="font-size: 18px;">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                  <span style="font-size: inherit;"><?= $this->mod_counter->get_count() ?></span>
+                </h1>
+                <p class="no-margin"><b>Contador de visitas</b></p>
+              </div>
+            <?php } ?>
           </div>
           <!-- 
           <section id="counter" class="counter">
@@ -340,8 +357,8 @@
           width: 'auto',
           videoId: '<?= json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId=UCk1ZPrg8G-hMKDcT8Rk6HJg&key=AIzaSyCn7DuplyahzwHTAxc0EHQJ_Wd8a0FQpvk'))->items[0]->id->videoId ?>',
           events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
+            //'onReady': onPlayerReady,
+            //'onStateChange': onPlayerStateChange
           }
         });
       }
