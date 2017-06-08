@@ -32,6 +32,7 @@ class Mod_empleado extends CI_Model {
     function get_terceros() {
         $this->db->where("esta_emp", "1");
         $this->db->where("tipo_emp", "TERCERO");
+        $this->db->order_by("apel_emp", "asc");
         $query = $this->db->get('empleado');
         return $query->result();
     }
