@@ -103,16 +103,22 @@
                 </ul>
               </li>
               <li>
-                <a class="item-menu" href="<?= base_url('contacto') ?>">Contáctenos</a>
+                <a class="item-menu" href="<?= base_url('agenda/publico') ?>">Agenda</a>
               </li>
               <li>
                 <a class="item-menu" href="<?= base_url('galeria') ?>">Galería</a>
               </li>
               <li>
-                <a class="item-menu" href="<?= base_url('agenda/publico') ?>">Agenda</a>
+                <a class="item-menu" href="http://corepo.dral.gob.pe/">COREPO</a>
               </li>
               <li>
-                <a class="item-menu" href="http://corepo.dral.gob.pe/">COREPO</a>
+                <a class="item-menu" href="<?= base_url('noticia/page') ?>">Noticias</a>
+              </li>
+              <li>
+                <a class="item-menu" href="<?= base_url('evento/page') ?>">Eventos</a>
+              </li>
+              <li>
+                <a class="item-menu" href="<?= base_url('contacto') ?>">Contáctenos</a>
               </li>
               <?php
                 if ($this->session->userdata("usuario")) {
@@ -173,6 +179,9 @@
                   <?php } ?>
                   <?php if (check_permission(BUSCAR_VISITA)) { ?>
                     <li><a href="<?= base_url('visita') ?>">Visitas</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_ASISTENCIA)) { ?>
+                    <li><a href="<?= base_url('asistencia') ?>">Asistencias</a></li>
                   <?php } ?>
                 </ul>
               </li>

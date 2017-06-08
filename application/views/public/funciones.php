@@ -9,8 +9,9 @@
       	<div class="box-padding-75" style="padding-left: 75px;">
       		<h3 style="font-weight: bold; color: #0e8240;">Funciones</h3>
       		<br>
- 			<p>Son funciones de la <b>Dirección Regional de Agricultura</b>:</p>
+			<p>Son funciones de la <b>Dirección Regional de Agricultura</b>:</p>
  			<br>
+ 			<div class="well">
  				<ul class="funciones-agrarios">
 				 	<li>Formular, aprobar, ejecutar, evaluar, dirigir, controlar y administrar los planes y políticas de la región en materia agraria, en concordancia con las políticas nacionales y los planes sectoriales, y las propuestas promocionales de desarrollo rural de parte de las municipalidades rurales.</li>
 				    <li>Promover la transformación, comercialización, exportación y consumo de productos naturales y agroindustriales de la Región.</li>
@@ -27,6 +28,7 @@
 				    <li>Proponer al Gobierno Regional de Lima los programas y proyectos agrarios para el desarrollo de la región.</li>
 				    <li>Cumplir otras funciones asignadas por el Gobierno Regional de Lima.</li>
  				</ul>
+ 			</div>
  			<br>
       	</div>
       </div>

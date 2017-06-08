@@ -19,17 +19,11 @@
 					  	</div>
 						<div class="col-lg-12" style="margin-top: 15px;">
 							<b><i>Comparte en: </i></b>
-					        <button type="button" class="btn btn-twitter btn-circle">
+					        <button type="button" class="btn btn-twitter btn-circle" data-href="<?= base_url() . 'noticia/' . $noticia->codi_not ?>">
 					          <i class="fa fa-twitter" aria-hidden="true"></i>
 					        </button>
 					        <button type="button" class="btn btn-facebook btn-circle" data-href="<?= base_url() . 'noticia/' . $noticia->codi_not ?>">
 					          <i class="fa fa-facebook" aria-hidden="true"></i>
-					        </button>
-					        <button type="button" class="btn btn-document btn-circle">
-					          <i class="fa fa-file" aria-hidden="true"></i>
-					        </button>
-					        <button type="button" class="btn btn-feed btn-circle">
-					          <i class="fa fa-rss" aria-hidden="true"></i>
 					        </button>
 					  	</div>
 				  	</div>

@@ -260,3 +260,40 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 ALTER TABLE `visita` ADD `tipo_vis` TEXT NOT NULL AFTER `apel_vis`;
 
 UPDATE visita set tipo_vis = 'D.N.I.';
+
+====================================================================================================================
+
+CREATE TABLE `asistencia` (
+  `codi_asi` int(11) NOT NULL,
+  `fech_asi` date NOT NULL,
+  `ingr_asi` text NOT NULL,
+  `sali_asi` text NOT NULL,
+  `codi_emp` int(11) NOT NULL,
+  `obsv_emp` text NOT NULL,
+  `esta_asi` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+ALTER TABLE `asistencia`
+  ADD PRIMARY KEY (`codi_asi`);
+
+ALTER TABLE `asistencia`
+  MODIFY `codi_asi` int(11) NOT NULL AUTO_INCREMENT;
+
+CREATE VIEW v_asistencia
+AS
+SELECT a.*, CONCAT(e.apel_emp, ', ', e.nomb_emp) as full_asi, e.ofic_emp, e.docu_emp, e.nomb_emp, e.apel_emp
+FROM empleado e, asistencia a
+WHERE e.codi_emp = a.codi_emp
+
+
+INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
+(NULL, 'Asistencia', '1');
+
+INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
+(NULL, 'Buscar asistencia', '19', '1'), 
+(NULL, 'Leer asistencia', '19', '1'), 
+(NULL, 'Registrar asistencia', '19', '1'), 
+(NULL, 'Modificar asistencia', '19', '1'), 
+(NULL, 'Habilitar asistencia', '19', '1'), 
+(NULL, 'Deshabilitar asistencia', '19', '1'), 
+(NULL, 'Eliminar asistencia', '19', '1');

@@ -15,6 +15,7 @@ $(function() {
             { "data": "docu_emp" },
             { "data": "ofic_emp" },
             { "data": "tipo_emp" },
+            { "data": "obsv_emp" },
             { "data": "estado" },
             { "data": "opciones" }
         ],
@@ -58,9 +59,31 @@ $(function() {
             rules: {
                 apel_emp: {
                     required: true,
+                    remote: {
+                        url: base_url+"empleado/check_full_emp",
+                        type: "post",
+                        data:
+                        {
+                            full_emp: function()
+                            {
+                                return $('#form_emp :input[name="apel_emp"]').val() + ', ' + $('#form_emp :input[name="nomb_emp"]').val();
+                            }
+                        }
+                    }
                 },
                 nomb_emp: {
                     required: true,
+                    remote: {
+                        url: base_url+"empleado/check_full_emp",
+                        type: "post",
+                        data:
+                        {
+                            full_emp: function()
+                            {
+                                return $('#form_emp :input[name="apel_emp"]').val() + ', ' + $('#form_emp :input[name="nomb_emp"]').val();
+                            }
+                        }
+                    }
                 },
                 carg_emp: {
                     required: true,
@@ -73,6 +96,14 @@ $(function() {
                 },
                 tipo_emp: {
                     required: true,
+                },
+            },
+            messages: {
+                nomb_emp: { 
+                    remote: "El empleado ya existe"
+                },
+                apel_emp: { 
+                    remote: "El empleado ya existe"
                 },
             },
             highlight: function(element) {
@@ -109,6 +140,7 @@ $(function() {
         $('#form_emp :input[name="nomb_emp"]').val(data.nomb_emp);  
         $('#form_emp :input[name="carg_emp"]').val(data.carg_emp);  
         $('#form_emp :input[name="docu_emp"]').val(data.docu_emp);  
+        $('#form_emp :input[name="obsv_emp"]').val(data.obsv_emp);  
         $('#form_emp select[name="ofic_emp"] option[value="'+data.ofic_emp+'"]').prop("selected", true);  
         $('#form_emp select[name="tipo_emp"] option[value="'+data.tipo_emp+'"]').prop("selected", true);  
 
@@ -150,6 +182,14 @@ $(function() {
                 },
                 tipo_emp: {
                     required: true,
+                },
+            },
+            messages: {
+                nomb_emp: { 
+                    remote: "El empleado ya existe"
+                },
+                apel_emp: { 
+                    remote: "El empleado ya existe"
                 },
             },
             highlight: function(element) {

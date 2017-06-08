@@ -236,3 +236,11 @@ $route['empleado/update'] = "EmpleadoController/update";
 $route['empleado/habilitar'] = "EmpleadoController/habilitar";
 $route['empleado/deshabilitar'] = "EmpleadoController/deshabilitar";
 $route['empleado/eliminar'] = "EmpleadoController/eliminar";
+
+$route['asistencia'] = "AsistenciaController/index";
+$route['asistencia/paginate'] = "AsistenciaController/paginate";
+$route['asistencia/save'] = "AsistenciaController/save";
+$route['asistencia/update'] = "AsistenciaController/update";
+$route['asistencia/habilitar'] = "AsistenciaController/habilitar";
+$route['asistencia/deshabilitar'] = "AsistenciaController/deshabilitar";
+$route['asistencia/eliminar'] = "AsistenciaController/eliminar";

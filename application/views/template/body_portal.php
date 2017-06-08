@@ -42,9 +42,6 @@
         <a href="<?= base_url() ?>" class="navbar-brand-header">
           <img src="<?= asset_url() ?>img/brand/logo.png">
         </a>
-        <a href="http://www.regionlima.gob.pe" target="_blank" class="navbar-brand-header">
-          <img src="<?= asset_url() ?>img/brand/logo4.png">
-        </a>
       </div>
       <section class="content">
         

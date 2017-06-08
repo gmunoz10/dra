@@ -17,6 +17,7 @@
                           <th>Documento</th>
                           <th>Oficina</th>
                           <th>Tipo</th>
+                          <th>Observación</th>
 			                    <th>Estado</th>
 			                    <th>Acciones</th>
 			                </tr>
@@ -80,10 +81,15 @@
                     <div class="form-group">
                         <label>Tipo*: </label>
                         <select class="form-control" name="tipo_emp">
-                          <option value="NOMINADO">NOMINADO</option>
-                          <option value="CAST">CAST</option>
+                          <option value="LEY 276">LEY 276</option>
+                          <option value="CAS">CAS</option>
                           <option value="TERCERO">TERCERO</option>
+                          <option value="CARGO DE CONFIANZA">CARGO DE CONFIANZA</option>
                         </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Observación: </label>
+                      <textarea class="form-control" rows="2" name="obsv_emp"></textarea>
                     </div>
                   </div>
                 </div>

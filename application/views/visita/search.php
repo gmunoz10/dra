@@ -16,7 +16,7 @@
                           <th>Fecha</th>
 			                    <th>Visitante</th>
                           <th>Tipo de documento</th>
-                          <th>Documento</th>
+                          <th>N° de documento</th>
                           <th>Entidad</th>
                           <th>Motivo</th>
                           <th>Sede</th>
@@ -68,10 +68,15 @@
                     </div>
                     <div class="form-group">
                         <label>Tipo de documento*: </label>
-                        <input class="form-control" name="tipo_vis">
+                        <select class="form-control" name="tipo_vis">
+                          <option value="D.N.I.">D.N.I.</option>
+                          <option value="PASAPORTE">PASAPORTE</option>
+                          <option value="CARNET DE EXTRANJERÍA">CARNET DE EXTRANJERÍA</option>
+                          <option value="LIBRETA MILITAR">LIBRETA MILITAR</option>
+                        </select>
                     </div>
                     <div class="form-group">
-                        <label>Documento*: </label>
+                        <label>N° de documento*: </label>
                         <input class="form-control" name="docu_vis">
                     </div>
                     <div class="form-group">
@@ -101,27 +106,13 @@
                         <label>Empleado público*: </label>
                         <select class="form-control" name="empl_vis">
                           <?php foreach ($empleado as $row) { ?>
-                            <option value="<?= $row->apel_emp . ', ' . $row->nomb_emp  ?>"><?= $row->apel_emp . ', ' . $row->nomb_emp  ?></option>
+                            <option data-ofic="<?= $row->ofic_emp  ?>" value="<?= $row->apel_emp . ', ' . $row->nomb_emp  ?>"><?= $row->apel_emp . ', ' . $row->nomb_emp  ?></option>
                           <?php } ?>
                         </select>
                     </div>
                     <div class="form-group">
                         <label>Oficina*: </label>
-                        <select class="form-control" name="ofic_vis">
-                          <option value="DIRECCIÓN REGIONAL">DIRECCIÓN REGIONAL</option>
-                          <option value="ASESORÍA JURÍDICA">ASESORÍA JURÍDICA</option>
-                          <option value="DIRECCIÓN DE COMPETIVIDAD Y NEGOCIOS AGRARIOS">DIRECCIÓN DE COMPETIVIDAD Y NEGOCIOS AGRARIOS</option>
-                          <option value="OFICINA DE ADMINISTRACIÓN">OFICINA DE ADMINISTRACIÓN</option>
-                          <option value="UNIDAD DE LOGÍSTICA">UNIDAD DE LOGÍSTICA</option>
-                          <option value="UNIDAD DE TESORERÍA">UNIDAD DE TESORERÍA</option>
-                          <option value="UNIDAD DE PATRIMONIO">UNIDAD DE PATRIMONIO</option>
-                          <option value="UNIDAD DE CONTABILIDAD">UNIDAD DE CONTABILIDAD</option>
-                          <option value="UNIDAD DE INFORMÁTICA">UNIDAD DE INFORMÁTICA</option>
-                          <option value="OFICINA DE RECURSOS HUMANOS">OFICINA DE RECURSOS HUMANOS</option>
-                          <option value="OFICINA DE IMAGEN INSTITUCIONAL">OFICINA DE IMAGEN INSTITUCIONAL</option>
-                          <option value="OFICINA DE PLANEAMIENTO Y PRESUPUESTO">OFICINA DE PLANEAMIENTO Y PRESUPUESTO</option>
-                          <option value="COORDINACIÓN TÉCNICA DE PROYECTOS">COORDINACIÓN TÉCNICA DE PROYECTOS</option>
-                        </select>
+                        <input class="form-control" name="ofic_vis" readonly="">
                     </div>
                     <div class="form-group">
                         <label>Hora de ingreso*: </label>

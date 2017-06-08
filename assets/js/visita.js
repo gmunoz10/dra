@@ -70,6 +70,7 @@ $(function() {
         $('#form_vis :input[name="tipo_vis"]').val("D.N.I.");  
         $('#form_vis :input[name="fech_vis"]').val(moment().format('YYYY-MM-DD'));  
         $('#form_vis :input[name="ingr_vis"]').val(moment().format('hh:mm A'));  
+        $('[name="ofic_vis"]').val($('[name="empl_vis"] option:selected').data("ofic"));
 
         $form_vis.attr("action", base_url+"visita/save");
 
@@ -157,12 +158,13 @@ $(function() {
         $('#form_vis :input[name="fech_vis"]').val(data.fech_vis);  
         $('#form_vis :input[name="apel_vis"]').val(data.apel_vis);  
         $('#form_vis :input[name="nomb_vis"]').val(data.nomb_vis);  
-        $('#form_vis :input[name="tipo_vis"]').val(data.tipo_vis);  
+        $('#form_vis select[name="tipo_vis"] option[value="'+data.tipo_vis+'"]').prop("selected", true);  
         $('#form_vis :input[name="docu_vis"]').val(data.docu_vis);  
         $('#form_vis :input[name="enti_vis"]').val(data.enti_vis);  
         $('#form_vis :input[name="moti_vis"]').val(data.moti_vis);  
         $('#form_vis select[name="sede_vis"] option[value="'+data.sede_vis+'"]').prop("selected", true);  
         $('#form_vis select[name="empl_vis"] option[value="'+data.empl_vis+'"]').prop("selected", true);  
+        $('[name="ofic_vis"]').val($('[name="empl_vis"] option:selected').data("ofic"));
         $('#form_vis select[name="ofic_vis"] option[value="'+data.ofic_vis+'"]').prop("selected", true);  
         $('#form_vis :input[name="ingr_vis"]').val(moment(data.ingr_vis, 'HH:mm').format('hh:mm A'));  
         $('#form_vis :input[name="sali_vis"]').val((data.sali_vis_d != "-") ? moment(data.sali_vis, 'HH:mm').format('hh:mm A') : "");  
@@ -260,5 +262,9 @@ $(function() {
 
     $(document).on('click', '.btn-enlace', function () {
         window.open($(this).parent().parent().find('[name="link"]').val(), "VISITAS DRAL", "width=490,height=500");
+    });
+
+    $('[name="empl_vis"]').on('change', function () {
+        $('[name="ofic_vis"]').val($('[name="empl_vis"] option:selected').data("ofic"));
     });
 });
