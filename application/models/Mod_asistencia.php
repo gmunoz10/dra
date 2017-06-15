@@ -28,18 +28,20 @@ class Mod_asistencia extends CI_Model {
         return $this->db->count_all_results('v_asistencia');
     }
 
-    function get_paginate($limit, $start, $string = "") {
+    function get_paginate($limit, $start, $string = "", $fech_asi) {
         $search = $this->db->escape_like_str($string);
         $this->db->where("esta_asi >", "-1");
+        $this->db->where("fech_asi", $fech_asi);
         $this->db->where("(`codi_asi` LIKE '%$search%' OR 
-                            `fech_asi` LIKE '%$search%' OR
                             `nomb_emp` LIKE '%$search%' OR
                             `apel_emp` LIKE '%$search%' OR
                             `docu_emp` LIKE '%$search%' OR
                             `obsv_emp` LIKE '%$search%' OR
                             `ofic_emp` LIKE '%$search%' OR
                             `ingr_asi` LIKE '%$search%' OR
-                            `sali_asi` LIKE '%$search%'
+                            `sali_asi` LIKE '%$search%' OR
+                            `inre_asi` LIKE '%$search%' OR
+                            `sare_asi` LIKE '%$search%'
                             )");
         $this->db->order_by("codi_asi", "desc");
         $this->db->limit($limit, $start);

@@ -29,9 +29,9 @@ class Mod_empleado extends CI_Model {
         return $query->result();
     }
 
-    function get_terceros() {
+    function get_empleado_asistencia() {
         $this->db->where("esta_emp", "1");
-        $this->db->where("tipo_emp", "TERCERO");
+        $this->db->where("`tipo_emp` = 'TERCERO' OR `tipo_emp` = 'CARGO DE CONFIANZA' OR `tipo_emp` = 'CAS'");
         $this->db->order_by("apel_emp", "asc");
         $query = $this->db->get('empleado');
         return $query->result();
@@ -67,6 +67,29 @@ class Mod_empleado extends CI_Model {
     function update($codi_emp, $data) {
         $this->db->where('codi_emp', $codi_emp);
         $this->db->update('empleado', $data);
+    }
+
+    function check_full_emp($full_emp) {
+        $this->db->where("esta_emp >", "-1");
+        $this->db->where("CONCAT(`apel_emp`, ', ', `nomb_emp`) = '$full_emp'");
+        $row = $this->db->get("empleado")->first_row();
+        if (!empty($row)) {
+            return 'false';
+        } else {
+            return 'true';
+        }
+    }
+
+    function check_full_emp_actualizar($codi_emp, $full_emp) {
+        $this->db->where("esta_emp >", "-1");
+        $this->db->where('codi_emp !=', $codi_emp);
+        $this->db->where("CONCAT(`apel_emp`, ', ', `nomb_emp`) = '$full_emp'");
+        $row = $this->db->get("empleado")->first_row();
+        if (!empty($row)) {
+            return 'false';
+        } else {
+            return 'true';
+        }
     }
 
 }

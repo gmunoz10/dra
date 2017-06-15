@@ -2,20 +2,20 @@
 	<section>
 		<div class="row">
 			<div class="box-content col-md-12" style="line-height: 1.42857143; margin: 30px; width: 95%;">
-			    <h2 class="title-sisgedo">Asistencias</h2>
+			    <h2 class="title-sisgedo">Comisiones</h2>
                   <div class="form-group no-margin" style="width: 440px;">
                       <div class='input-group date box-date'>
-                          <input type='text' class="form-control" id='fech_asi_search' value="<?= date("Y-m-d") ?>"/>
+                          <input type='text' class="form-control" id='fech_com_search' value="<?= date("Y-m-d") ?>"/>
                           <span class="input-group-addon">
                               <span class="glyphicon glyphicon-calendar">
                               </span>
                           </span>
-                          <?php if(check_permission(REGISTRAR_ASISTENCIA)) { ?>
+                          <?php if(check_permission(REGISTRAR_COMISION)) { ?>
                             <span class="input-group-btn">
                               <button id="btn_search" class="btn btn-default" style="color: black !important; font-weight: bold; border-radius: 0px !important;">Buscar</button>
                             </span>
                             <span class="input-group-btn">
-                              <button id="btn_asistencia" class="btn btn-orange" style="color: black !important; font-weight: bold;">Nueva asistencia</button>
+                              <button id="btn_comision" class="btn btn-orange" style="color: black !important; font-weight: bold;">Nueva comisión</button>
                             </span>
                           <?php } ?>
                       </div>
@@ -31,11 +31,7 @@
 			                    <th>Empleado</th>
                           <th>D.N.I.</th>
                           <th>Oficina</th>
-                          <th>Observación</th>
-                          <th>Ingreso</th>
-                          <th>Salida de refrigerio</th>
-                          <th>Ingreso de refrigerio</th>
-                          <th>Salida</th>
+                          <th>Tipo</th>
 			                    <th>Estado</th>
 			                    <th>Acciones</th>
 			                </tr>
@@ -49,13 +45,13 @@
 	</section>
 </div>
 
-<div class="modal fade" id="modal_asi" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog">
-  <div class="modal-dialog" role="document" style="width: 60%">
+<div class="modal fade" id="modal_com" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog">
+  <div class="modal-dialog" role="document" style="width: 80%">
     <div class="modal-content box-content box-bold">
-        <form id="form_asi" method="post" action="" accept-charset="utf-8">
-          <input type="hidden" name="codi_asi">
+        <form id="form_com" method="post" action="" accept-charset="utf-8">
+          <input type="hidden" name="codi_com">
           <div class="modal-header">
-                <h4 class="modal-title" id="modal_asi_lbl"></h4>
+                <h4 class="modal-title" id="modal_com_lbl"></h4>
             </div>
             <div class="modal-body">
               <div class="row">
@@ -63,7 +59,7 @@
                     <div class="form-group">
                         <label>Fecha*: </label>
                         <div class='input-group date box-date'>
-                            <input type='text' class="form-control" name="fech_asi" />
+                            <input type='text' class="form-control" name="fech_com" />
                             <span class="input-group-addon">
                                 <span class="glyphicon glyphicon-calendar">
                                 </span>
@@ -89,48 +85,34 @@
                   </div>
                   <div class="col-lg-6">
                     <div class="form-group">
-                        <label>Ingreso*: </label>
-                        <div class='input-group date box-date'>
-                            <input type='text' class="form-control" name="ingr_asi" />
-                            <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-time">
-                                </span>
-                            </span>
-                        </div>
+                        <label>Tipo*: </label>
+                        <select class="form-control" name="tipo_com">
+                          <option value="1">CON RETORNO</option>
+                          <option value="0">SIN RETORNO</option>
+                        </select>
                     </div>
-                    <div class="form-group">
-                        <label>Salida de refrigerio: </label>
-                        <div class='input-group date box-date'>
-                            <input type='text' class="form-control" name="sare_asi" />
-                            <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-time">
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label>Ingreso de refrigerio: </label>
-                        <div class='input-group date box-date'>
-                            <input type='text' class="form-control" name="inre_asi" />
-                            <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-time">
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label>Salida: </label>
-                        <div class='input-group date box-date'>
-                            <input type='text' class="form-control" name="sali_asi" />
-                            <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-time">
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                      <label>Observación*: </label>
-                      <textarea class="form-control" rows="3" id="obsv_emp" name="obsv_emp"></textarea>
+                    <div id="box_retorno">
+                      <div class="form-group">
+                          <label>Número de retornos*: </label>
+                          <select class="form-control" name="retornos">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                      </div>
+                      <table id="tbl_comision" class="table table-bordered table-condensed table-striped">
+                        <thead>
+                          <tr>
+                            <th>Ingreso</th>
+                            <th>Salida</th>
+                            <th>Obsv.</th>
+                          </tr>
+                          <tbody>
+                          </tbody>
+                        </thead>
+                      </table>
                     </div>
                   </div>
                 </div>
@@ -140,7 +122,7 @@
                 <br>
                 <br>
                 <button type="button" class="btn btn-default" data-dismiss="modal" style="margin-top: 20px;">Volver</button>
-                <button id="submit_asi" type="submit" class="btn btn-success" style="margin-top: 20px;">Guardar</button>
+                <button id="submit_com" type="submit" class="btn btn-success" style="margin-top: 20px;">Guardar</button>
             </div>
         </form>
     </div>

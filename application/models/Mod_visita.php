@@ -71,7 +71,7 @@ class Mod_visita extends CI_Model {
         $search = $this->db->escape_like_str($string);
         $this->db->where("fech_vis", $fech_vis);
         $this->db->where("esta_vis", "1");
-        $this->db->where("tipo_emp", "NOMINADO");
+        $this->db->where("(`tipo_emp` = 'LEY 276' OR `tipo_emp` = 'CAS' OR `tipo_emp` = 'CARGO DE CONFIANZA')");
         $this->db->where("(`codi_vis` LIKE '%$search%' OR 
                             `apel_vis` LIKE '%$search%' OR
                             `nomb_vis` LIKE '%$search%' OR

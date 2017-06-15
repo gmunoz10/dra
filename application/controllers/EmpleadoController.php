@@ -74,6 +74,7 @@ class EmpleadoController extends CI_Controller {
                     "docu_emp" => $row->docu_emp,
                     "ofic_emp" => $row->ofic_emp,
                     "tipo_emp" => $row->tipo_emp,
+                    "obsv_emp" => $row->obsv_emp,
                     "estado" => $estado,
                     "opciones" => $opciones
                 );
@@ -91,6 +92,14 @@ class EmpleadoController extends CI_Controller {
         }
     }
 
+    public function check_full_emp() {
+        echo $this->mod_empleado->check_full_emp($this->input->post('full_emp'));
+    }
+
+    public function check_full_emp_actualizar() {
+        echo $this->mod_empleado->check_full_emp_actualizar($this->input->post('codi_emp'), $this->input->post('full_emp'));
+    }
+
     public function save() {
 
         $apel_emp = $this->input->post('apel_emp');
@@ -99,20 +108,27 @@ class EmpleadoController extends CI_Controller {
         $docu_emp = $this->input->post('docu_emp');
         $ofic_emp = $this->input->post('ofic_emp');
         $tipo_emp = $this->input->post('tipo_emp');
+        $obsv_emp = $this->input->post('obsv_emp');
 
-        $data = array(
-            'apel_emp' => $apel_emp,
-            'nomb_emp' => $nomb_emp,
-            'carg_emp' => $carg_emp,
-            'docu_emp' => $docu_emp,
-            'ofic_emp' => $ofic_emp,
-            'tipo_emp' => $tipo_emp,
-            'esta_emp' => '1'
-        );
-        $codi_emp = $this->mod_empleado->save($data);
+        if ($this->mod_empleado->check_full_emp($apel_emp.', '.$nomb_emp) == "true") {
+            $data = array(
+                'apel_emp' => $apel_emp,
+                'nomb_emp' => $nomb_emp,
+                'carg_emp' => $carg_emp,
+                'docu_emp' => $docu_emp,
+                'ofic_emp' => $ofic_emp,
+                'tipo_emp' => $tipo_emp,
+                'obsv_emp' => $obsv_emp,
+                'esta_emp' => '1'
+            );
+            $codi_emp = $this->mod_empleado->save($data);
 
-        $type_system = "success";
-        $message_system = "El empleado ha sido registrado con éxito";
+            $type_system = "success";
+            $message_system = "El empleado ha sido registrado con éxito";
+        } else {
+            $type_system = "error";
+            $message_system = "El empleado ya existe";
+        }
         set_message_system($type_system, $message_system);
 
         header('Location: ' . base_url('empleado'));
@@ -127,20 +143,28 @@ class EmpleadoController extends CI_Controller {
         $docu_emp = $this->input->post('docu_emp');
         $ofic_emp = $this->input->post('ofic_emp');
         $tipo_emp = $this->input->post('tipo_emp');
+        $obsv_emp = $this->input->post('obsv_emp');
 
-        $data = array(
-            'apel_emp' => $apel_emp,
-            'nomb_emp' => $nomb_emp,
-            'carg_emp' => $carg_emp,
-            'docu_emp' => $docu_emp,
-            'ofic_emp' => $ofic_emp,
-            'tipo_emp' => $tipo_emp
-        );
+        if ($this->mod_empleado->check_full_emp_actualizar($codi_emp, $apel_emp.', '.$nomb_emp) == "true") {
+            $data = array(
+                'apel_emp' => $apel_emp,
+                'nomb_emp' => $nomb_emp,
+                'carg_emp' => $carg_emp,
+                'docu_emp' => $docu_emp,
+                'ofic_emp' => $ofic_emp,
+                'obsv_emp' => $obsv_emp,
+                'tipo_emp' => $tipo_emp
+            );
 
-        $type_system = "success";
-        $message_system = "El empleado ha sido actualizado con éxito";
+            $type_system = "success";
+            $message_system = "El empleado ha sido actualizado con éxito";
 
-        $this->mod_empleado->update($codi_emp, $data);
+            $this->mod_empleado->update($codi_emp, $data);
+        
+        } else {
+            $type_system = "error";
+            $message_system = "El empleado ya existe";
+        }
 
         set_message_system($type_system, $message_system);
 

@@ -297,3 +297,23 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 (NULL, 'Habilitar asistencia', '19', '1'), 
 (NULL, 'Deshabilitar asistencia', '19', '1'), 
 (NULL, 'Eliminar asistencia', '19', '1');
+
+====================================================================================================================
+
+INSERT INTO `grupo_permiso` (`codi_gpr`, `desc_gpr`, `esta_gpr`) VALUES 
+(NULL, 'Comisión', '1');
+
+INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES 
+(NULL, 'Buscar comisión', '20', '1'), 
+(NULL, 'Leer comisión', '20', '1'), 
+(NULL, 'Registrar comisión', '20', '1'), 
+(NULL, 'Modificar comisión', '20', '1'), 
+(NULL, 'Habilitar comisión', '20', '1'), 
+(NULL, 'Deshabilitar comisión', '20', '1'), 
+(NULL, 'Eliminar comisión', '20', '1');
+
+CREATE VIEW v_comision
+AS
+SELECT c.*, CONCAT(e.apel_emp, ', ', e.nomb_emp) as full_asi, e.ofic_emp, e.docu_emp, e.nomb_emp, e.apel_emp
+FROM empleado e, comision c
+WHERE e.codi_emp = c.codi_emp

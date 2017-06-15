@@ -654,6 +654,11 @@ a, a:hover {
   text-decoration: none;
 }
 
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
 #modal_aviso .modal-dialog {
   width: 83.33333333% !important;
   margin-left: 8.33333333% !important;

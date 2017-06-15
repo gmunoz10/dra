@@ -8,6 +8,9 @@ $(function() {
         "bServerSide": true,
         "sAjaxSource": base_url + "asistencia/paginate",
         "sServerMethod": "POST",
+        "fnServerParams": function(aoData) {
+            aoData.push({"name": "fech_asi", "value": $("#fech_asi_search").val()});
+        },
         "columns": [
             { "data": "codi_asi" },
             { "data": "fech_asi_d" },
@@ -16,6 +19,8 @@ $(function() {
             { "data": "ofic_emp" },
             { "data": "obsv_emp" },
             { "data": "ingr_asi_d" },
+            { "data": "sare_asi_d" },
+            { "data": "inre_asi_d" },
             { "data": "sali_asi_d" },
             { "data": "estado" },
             { "data": "opciones" }
@@ -45,8 +50,27 @@ $(function() {
         format: 'hh:mm A'
     });
 
+    $('input[name="inre_asi"]').parent().datetimepicker({
+        locale: 'es',
+        format: 'hh:mm A'
+    });
+
+    $('input[name="sare_asi"]').parent().datetimepicker({
+        locale: 'es',
+        format: 'hh:mm A'
+    });
+
     $('#form_asi :input[name="obsv_emp"]').keyup(function() {
         $(this).val($(this).val().toUpperCase());
+    });
+
+    $('#fech_asi_search').datetimepicker({
+        locale: 'es',
+        format: 'YYYY-MM-DD'
+    });
+
+    $('#btn_search').on('click', function() {
+        table_search.ajax.reload();
     });
 
     var $form_asi = $('#form_asi');
@@ -131,6 +155,8 @@ $(function() {
         $('#form_asi :input[name="obsv_emp"]').val(data.obsv_emp);  
         $('#form_asi :input[name="ingr_asi"]').val(moment(data.ingr_asi, 'HH:mm').format('hh:mm A'));  
         $('#form_asi :input[name="sali_asi"]').val((data.sali_asi_d != "-") ? moment(data.sali_asi, 'HH:mm').format('hh:mm A') : "");  
+        $('#form_asi :input[name="inre_asi"]').val((data.inre_asi_d != "-") ? moment(data.inre_asi, 'HH:mm').format('hh:mm A') : "");  
+        $('#form_asi :input[name="sare_asi"]').val((data.sare_asi_d != "-") ? moment(data.sare_asi, 'HH:mm').format('hh:mm A') : "");  
 
         $("#modal_asi_lbl").html("Modificar Asistencia");
 

@@ -236,6 +236,8 @@ $route['empleado/update'] = "EmpleadoController/update";
 $route['empleado/habilitar'] = "EmpleadoController/habilitar";
 $route['empleado/deshabilitar'] = "EmpleadoController/deshabilitar";
 $route['empleado/eliminar'] = "EmpleadoController/eliminar";
+$route['empleado/check_full_emp'] = "EmpleadoController/check_full_emp";
+$route['empleado/check_full_emp_actualizar'] = "EmpleadoController/check_full_emp_actualizar";
 
 $route['asistencia'] = "AsistenciaController/index";
 $route['asistencia/paginate'] = "AsistenciaController/paginate";
@@ -244,3 +246,11 @@ $route['asistencia/update'] = "AsistenciaController/update";
 $route['asistencia/habilitar'] = "AsistenciaController/habilitar";
 $route['asistencia/deshabilitar'] = "AsistenciaController/deshabilitar";
 $route['asistencia/eliminar'] = "AsistenciaController/eliminar";
+
+$route['comision'] = "ComisionController/index";
+$route['comision/paginate'] = "ComisionController/paginate";
+$route['comision/save'] = "ComisionController/save";
+$route['comision/update'] = "ComisionController/update";
+$route['comision/habilitar'] = "ComisionController/habilitar";
+$route['comision/deshabilitar'] = "ComisionController/deshabilitar";
+$route['comision/eliminar'] = "ComisionController/eliminar";

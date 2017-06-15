@@ -266,10 +266,12 @@ class VisitaController extends CI_Controller {
 
         $aaData = array();
 
+        $i = 1;
+
         foreach ($data as $row) {
 
             $aaData[] = array(
-                "codi_vis" => $row->codi_vis,
+                "codi_vis" => (int) $_POST['iDisplayStart']+$i,
                 "fech_vis" => $row->fech_vis,
                 "fech_vis_d" => date("d/m/Y", strtotime($row->fech_vis)),
                 "visi_vis" => $row->apel_vis . (($row->apel_vis != "") ? ', ' : "") . $row->nomb_vis,
@@ -285,6 +287,8 @@ class VisitaController extends CI_Controller {
                 "ingr_vis" => $row->ingr_vis,
                 "sali_vis" => $row->sali_vis,
             );
+
+            $i++;
         }
 
         $aa = array(

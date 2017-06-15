@@ -15,6 +15,10 @@
 	color: black;
 }
 
-#table_search tbody tr td:nth-child(13) {
-	min-width: 125px;
+#table_search tbody tr td:nth-child(9) {
+	min-width: 150px;
+}
+
+#table_search tbody tr td:nth-child(2) {
+	text-align: left;
 }

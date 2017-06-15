@@ -180,6 +180,9 @@
                   <?php if (check_permission(BUSCAR_VISITA)) { ?>
                     <li><a href="<?= base_url('visita') ?>">Visitas</a></li>
                   <?php } ?>
+                  <?php if (check_permission(BUSCAR_COMISION)) { ?>
+                    <li><a href="<?= base_url('comision') ?>">Comisiones</a></li>
+                  <?php } ?>
                   <?php if (check_permission(BUSCAR_ASISTENCIA)) { ?>
                     <li><a href="<?= base_url('asistencia') ?>">Asistencias</a></li>
                   <?php } ?>
