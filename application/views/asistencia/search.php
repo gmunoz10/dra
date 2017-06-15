@@ -10,10 +10,10 @@
                               <span class="glyphicon glyphicon-calendar">
                               </span>
                           </span>
+                          <span class="input-group-btn">
+                            <button id="btn_search" class="btn btn-default" style="color: black !important; font-weight: bold; border-radius: 0px !important;">Buscar</button>
+                          </span>
                           <?php if(check_permission(REGISTRAR_ASISTENCIA)) { ?>
-                            <span class="input-group-btn">
-                              <button id="btn_search" class="btn btn-default" style="color: black !important; font-weight: bold; border-radius: 0px !important;">Buscar</button>
-                            </span>
                             <span class="input-group-btn">
                               <button id="btn_asistencia" class="btn btn-orange" style="color: black !important; font-weight: bold;">Nueva asistencia</button>
                             </span>
