@@ -23,8 +23,14 @@ class Mod_evento extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string = "") {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_eve >", "-1");
+        $this->db->where("(`codi_eve` LIKE '%$search%' OR 
+                            `titu_eve` LIKE '%$search%' OR
+                            `cont_eve` LIKE '%$search%' OR
+                            `fech_eve` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('evento');
     }
 

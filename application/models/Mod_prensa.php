@@ -23,8 +23,14 @@ class Mod_prensa extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string = "") {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_not >", "-1");
+        $this->db->where("(`codi_not` LIKE '%$search%' OR 
+                            `titu_not` LIKE '%$search%' OR
+                            `cont_not` LIKE '%$search%' OR
+                            `fech_not` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('noticia');
     }
 

@@ -9,6 +9,7 @@ $route['test/index'] = "TestController/index";
 
 $route['vision-mision'] = "MainController/vision_mision";
 $route['temas-agrarios'] = "MainController/temas_agrarios";
+$route['organigrama'] = "MainController/organigrama";
 $route['funciones'] = "MainController/funciones";
 $route['informacion-agraria'] = "MainController/informacion_agraria";
 $route['competitividad-negocios'] = "MainController/competitividad_negocios";
@@ -247,6 +248,7 @@ $route['asistencia/habilitar'] = "AsistenciaController/habilitar";
 $route['asistencia/deshabilitar'] = "AsistenciaController/deshabilitar";
 $route['asistencia/eliminar'] = "AsistenciaController/eliminar";
 $route['asistencia/export'] = "AsistenciaController/export_pdf";
+$route['download_format'] = "AsistenciaController/format";
 
 $route['comision'] = "ComisionController/index";
 $route['comision/paginate'] = "ComisionController/paginate";
@@ -255,3 +257,4 @@ $route['comision/update'] = "ComisionController/update";
 $route['comision/habilitar'] = "ComisionController/habilitar";
 $route['comision/deshabilitar'] = "ComisionController/deshabilitar";
 $route['comision/eliminar'] = "ComisionController/eliminar";
+$route['comision/export'] = "ComisionController/export_pdf";

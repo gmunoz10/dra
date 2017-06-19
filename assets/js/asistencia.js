@@ -235,4 +235,14 @@ $(function() {
         $('#form_export').submit();
     });
 
+    $("#btn_format").click(function() {
+        $("#modal_format").modal('show');
+    });
+
+    $("#btn_select_format").click(function () {
+        $('#form_format [name="date"]').val($("#fech_asi_search").val());
+        $('#form_format [name="tipo"]').val($("#tipo_emp_format").val());
+        $('#form_format').submit();
+    });
+
 });

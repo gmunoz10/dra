@@ -58,7 +58,7 @@ class DirectivaController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_DIRECTIVA)) {
-            $nTotal = $this->mod_directiva->count_all();
+            $nTotal = $this->mod_directiva->count_all($_POST['sSearch']);
 
             $data = $this->mod_directiva->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 
@@ -540,7 +540,7 @@ class DirectivaController extends CI_Controller {
         $codi_gdi = $_POST['codi_gdi'];
         $year_dir = $_POST['year_dir'];
 
-        $nTotal = $this->mod_directiva->count_all_portal($codi_gdi);
+        $nTotal = $this->mod_directiva->count_all_portal($_POST['sSearch'], $codi_gdi, $year_dir);
 
         $data = $this->mod_directiva->get_paginate_portal($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch'], $codi_gdi, $year_dir, $_POST);
 

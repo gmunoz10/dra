@@ -43,7 +43,7 @@ class AsistenciaController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_ASISTENCIA)) {
-            $nTotal = $this->mod_asistencia->count_all();
+            $nTotal = $this->mod_asistencia->count_all($_POST['sSearch'], $_POST['fech_asi']);
 
             $data = $this->mod_asistencia->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch'], $_POST['fech_asi']);
 
@@ -220,7 +220,11 @@ class AsistenciaController extends CI_Controller {
         $data['date'] = $date;
         $data['tipo'] = $tipo;
 
-        $empleados = $this->mod_empleado->get_empleado(array('tipo_emp' => $tipo));
+        if ($tipo == "TODOS") {
+            $empleados = $this->mod_empleado->get_empleado();
+        } else {
+            $empleados = $this->mod_empleado->get_empleado(array('tipo_emp' => $tipo));
+        }
 
         $asistencias = [];
         $faltas = [];
@@ -273,6 +277,8 @@ class AsistenciaController extends CI_Controller {
                     $salida = 'FALTA';
 
                     foreach ($comisiones as $com) {
+
+                        $com->sali_dco = ($com->sali_dco != "") ? $com->sali_dco : "18:00";
                         if (strtotime($com->ingr_dco) <= strtotime('09:00') && strtotime('13:00') <= strtotime($com->sali_dco)) {
                             $ingreso = 'COMISIÓN';
                         }
@@ -298,9 +304,38 @@ class AsistenciaController extends CI_Controller {
         $data['faltas'] = $faltas;
 
         $this->load->library('pdf');
-        $this->pdf->load_view('asistencia/export', $data);
+        if ($tipo == "TODOS") {
+            $this->pdf->load_view('asistencia/export_all', $data);
+        } else {
+            $this->pdf->load_view('asistencia/export', $data);
+        }
         $this->pdf->render();
-        $this->pdf->stream($tipo.'_'.$date.".pdf");
+        $this->pdf->stream('ASISTENCIA_'.$tipo.'_'.$date.".pdf");
+    }
+
+    public function format() {
+        $date = $this->input->post('date');
+        $tipo = $this->input->post('tipo');
+
+        $data['date'] = $date;
+        $data['tipo'] = $tipo;
+
+        if ($tipo == "TERCERO") {
+            $empleados = $this->mod_empleado->get_empleado("`tipo_emp` = 'TERCERO' OR `tipo_emp` = 'CARGO DE CONFIANZA'");
+        } else {
+            $empleados = $this->mod_empleado->get_empleado(array('tipo_emp' => $tipo));
+        }
+
+        foreach ($empleados as $key => $row) {
+            $empleados[$key]->full_emp = $row->apel_emp . (($row->apel_emp != "") ? ', ' : "") . $row->nomb_emp;
+        }
+
+        $data['empleados'] = $empleados;
+
+        $this->load->library('pdf');
+        $this->pdf->load_view('asistencia/format', $data);
+        $this->pdf->render();
+        $this->pdf->stream('FORMATO_ASISTENCIA_'.$tipo.'_'.$date.".pdf");
     }
 
 

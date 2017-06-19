@@ -58,7 +58,7 @@ class PacController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_PAC)) {
-            $nTotal = $this->mod_pac->count_all();
+            $nTotal = $this->mod_pac->count_all($_POST['sSearch']);
 
             $data = $this->mod_pac->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 
@@ -509,7 +509,7 @@ class PacController extends CI_Controller {
         $codi_gpa = $this->input->post('codi_gpa');
         $year_pac = $this->input->post('year_pac');
 
-        $nTotal = $this->mod_pac->count_all_portal($codi_gpa, $year_pac);
+        $nTotal = $this->mod_pac->count_all_portal($_POST['sSearch'], $codi_gpa, $year_pac);
 
         $data = $this->mod_pac->get_paginate_portal($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch'], $codi_gpa, $year_pac, $_POST);
 

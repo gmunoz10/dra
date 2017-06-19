@@ -51,7 +51,7 @@ class AgendaController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_AGENDA)) {
-            $nTotal = $this->mod_agenda->count_all();
+            $nTotal = $this->mod_agenda->count_all($_POST['sSearch']);
 
             $data = $this->mod_agenda->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 

@@ -58,7 +58,7 @@ class DeclaracionjuradaController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_DECLARACION_JURADA)) {
-            $nTotal = $this->mod_declaracion_jurada->count_all();
+            $nTotal = $this->mod_declaracion_jurada->count_all($_POST['sSearch']);
 
             $data = $this->mod_declaracion_jurada->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 
@@ -540,7 +540,7 @@ class DeclaracionjuradaController extends CI_Controller {
         $codi_gdj = $_POST['codi_gdj'];
         $year_dju = $_POST['year_dju'];
 
-        $nTotal = $this->mod_declaracion_jurada->count_all_portal($codi_gdj);
+        $nTotal = $this->mod_declaracion_jurada->count_all_portal($_POST['sSearch'], $codi_gdj, $year_dju);
 
         $data = $this->mod_declaracion_jurada->get_paginate_portal($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch'], $codi_gdj, $year_dju, $_POST);
 

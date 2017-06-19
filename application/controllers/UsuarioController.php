@@ -42,7 +42,7 @@ class UsuarioController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_CUENTA)) {
-            $nTotal = $this->mod_usuario->count_all();
+            $nTotal = $this->mod_usuario->count_all($_POST['sSearch']);
 
             $data = $this->mod_usuario->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 

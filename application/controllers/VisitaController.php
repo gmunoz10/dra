@@ -43,7 +43,7 @@ class VisitaController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_VISITA)) {
-            $nTotal = $this->mod_visita->count_all();
+            $nTotal = $this->mod_visita->count_all($_POST['sSearch']);
 
             $data = $this->mod_visita->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 
@@ -258,7 +258,7 @@ class VisitaController extends CI_Controller {
 
         $fech_vis = $this->input->post('fech_vis');
 
-        $nTotal = $this->mod_visita->count_all_portal($fech_vis);
+        $nTotal = $this->mod_visita->count_all_portal($_POST['sSearch'], $fech_vis);
 
         $data = $this->mod_visita->get_paginate_portal($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch'], $fech_vis, $_POST);
 

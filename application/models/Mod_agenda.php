@@ -23,9 +23,16 @@ class Mod_agenda extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string = "") {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_age >", "-1");
         $this->db->where("esta_dpe", "1");
+        $this->db->where("(`codi_age` LIKE '%$search%' OR 
+                            `nomb_dpe` LIKE '%$search%' OR
+                            `fech_age` LIKE '%$search%' OR
+                            `desc_age` LIKE '%$search%' OR
+                            `luga_age` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_agenda');
     }
 

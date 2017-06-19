@@ -49,7 +49,7 @@ class EventoController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_EVENTO)) {
-            $nTotal = $this->mod_evento->count_all();
+            $nTotal = $this->mod_evento->count_all($_POST['sSearch']);
 
             $data = $this->mod_evento->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 

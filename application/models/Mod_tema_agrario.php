@@ -23,8 +23,14 @@ class Mod_tema_agrario extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string = "") {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_tea >", "-1");
+        $this->db->where("(`codi_tea` LIKE '%$search%' OR 
+                            `titu_tea` LIKE '%$search%' OR
+                            `cont_tea` LIKE '%$search%' OR
+                            `fech_tea` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('tema_agrario');
     }
 

@@ -36,7 +36,7 @@ class EmpleadoController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_EMPLEADO)) {
-            $nTotal = $this->mod_empleado->count_all();
+            $nTotal = $this->mod_empleado->count_all($_POST['sSearch']);
 
             $data = $this->mod_empleado->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 

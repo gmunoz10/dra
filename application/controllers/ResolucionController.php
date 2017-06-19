@@ -58,7 +58,7 @@ class ResolucionController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_RESOLUCION)) {
-            $nTotal = $this->mod_resolucion->count_all();
+            $nTotal = $this->mod_resolucion->count_all($_POST['sSearch']);
 
             $data = $this->mod_resolucion->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 
@@ -540,7 +540,7 @@ class ResolucionController extends CI_Controller {
         $codi_gre = $_POST['codi_gre'];
         $year_res = $_POST['year_res'];
 
-        $nTotal = $this->mod_resolucion->count_all_portal($codi_gre);
+        $nTotal = $this->mod_resolucion->count_all_portal($_POST['sSearch'], $codi_gre, $year_res);
 
         $data = $this->mod_resolucion->get_paginate_portal($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch'], $codi_gre, $year_res, $_POST);
 

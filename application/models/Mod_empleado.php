@@ -28,7 +28,7 @@ class Mod_empleado extends CI_Model {
         if ($where) {
             $this->db->where($where);
         }
-        $this->db->order_by('apel_emp asc, nomb_emp asc');
+        $this->db->order_by('tipo_emp asc, apel_emp asc, nomb_emp asc');
         $query = $this->db->get('empleado');
         return $query->result();
     }
@@ -41,8 +41,17 @@ class Mod_empleado extends CI_Model {
         return $query->result();
     }
 
-    function count_all() {
+    function count_all($string = "") {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_emp >", "-1");
+        $this->db->where("(`codi_emp` LIKE '%$search%' OR 
+                            `nomb_emp` LIKE '%$search%' OR
+                            `apel_emp` LIKE '%$search%' OR
+                            `carg_emp` LIKE '%$search%' OR
+                            `docu_emp` LIKE '%$search%' OR
+                            `ofic_emp` LIKE '%$search%' OR
+                            `tipo_emp` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('empleado');
     }
 

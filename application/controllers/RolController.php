@@ -40,7 +40,7 @@ class RolController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_ROL)) {
-            $nTotal = $this->mod_rol->count_all();
+            $nTotal = $this->mod_rol->count_all($_POST['sSearch']);
 
             $data = $this->mod_rol->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 

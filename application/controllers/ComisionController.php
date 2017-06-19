@@ -43,7 +43,7 @@ class ComisionController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_COMISION)) {
-            $nTotal = $this->mod_comision->count_all();
+            $nTotal = $this->mod_comision->count_all($_POST['sSearch'], $_POST['fech_com']);
 
             $data = $this->mod_comision->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch'], $_POST['fech_com']);
 
@@ -238,7 +238,29 @@ class ComisionController extends CI_Controller {
         header('Location: ' . base_url('comision'));
     }
 
+    public function export_pdf() {
+        $date = $this->input->post('date');
+        $tipo = $this->input->post('tipo');
 
-    
+        $data['date'] = $date;
+        $data['tipo'] = $tipo;
+
+        if ($tipo == "TODOS") {
+            $comisiones = $this->mod_comision->get_detalle_comision(array('fech_com' => $date));
+        } else {
+            $comisiones = $this->mod_comision->get_detalle_comision(array('fech_com' => $date, 'tipo_emp' => $tipo));
+        }
+
+        $data['comisiones'] = $comisiones;
+
+        $this->load->library('pdf');
+        if ($tipo == "TODOS") {
+            $this->pdf->load_view('comision/export_all', $data);
+        } else {
+            $this->pdf->load_view('comision/export', $data);
+        }
+        $this->pdf->render();
+        $this->pdf->stream('COMISION_'.$tipo.'_'.$date.".pdf");
+    }
 
 }

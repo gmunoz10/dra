@@ -1,7 +1,7 @@
 $(function() {
 
-    $('[data-toggle="popover"]').popover({
-        container: 'body'
+    $(document).on("click", ".show_content", function () {
+    	$("#box_content").html($(this).data("content"));
     });
 
     $(document).on("mouseover", ".direccion tr td:nth-child(2) span, .direccion tr td:nth-child(2) a", function () {

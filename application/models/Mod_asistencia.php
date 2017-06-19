@@ -23,8 +23,21 @@ class Mod_asistencia extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string = "", $fech_asi) {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_asi >", "-1");
+        $this->db->where("fech_asi", $fech_asi);
+        $this->db->where("(`codi_asi` LIKE '%$search%' OR 
+                            `nomb_emp` LIKE '%$search%' OR
+                            `apel_emp` LIKE '%$search%' OR
+                            `docu_emp` LIKE '%$search%' OR
+                            `obsv_emp` LIKE '%$search%' OR
+                            `ofic_emp` LIKE '%$search%' OR
+                            `ingr_asi` LIKE '%$search%' OR
+                            `sali_asi` LIKE '%$search%' OR
+                            `inre_asi` LIKE '%$search%' OR
+                            `sare_asi` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_asistencia');
     }
 

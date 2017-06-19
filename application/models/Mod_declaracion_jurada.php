@@ -23,9 +23,17 @@ class Mod_declaracion_jurada extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string = "") {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_dju >", "-1");
         $this->db->where("esta_gdj", "1");
+        $this->db->where("(`codi_dju` LIKE '%$search%' OR 
+                            `codi_gdj` LIKE '%$search%' OR
+                            `nomb_gdj` LIKE '%$search%' OR
+                            `nume_dju` LIKE '%$search%' OR
+                            `fech_dju` LIKE '%$search%' OR
+                            `desc_dju` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_declaracion_jurada');
     }
 
@@ -146,10 +154,16 @@ class Mod_declaracion_jurada extends CI_Model {
         $this->db->update('grupo_declaracion_jurada', $data);
     }
 
-    function count_all_portal($codi_gdj) {
+    function count_all_portal($string = "", $codi_gdj, $year_dju) {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("codi_gdj", $codi_gdj);
+        $this->db->where("EXTRACT(YEAR FROM `fech_dju`) = " . $year_dju);
         $this->db->where("esta_dju", "1");
         $this->db->where("esta_gdj", "1");
+        $this->db->where("(`nume_dju` LIKE '%$search%' OR
+                            `fech_dju` LIKE '%$search%' OR
+                            `desc_dju` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_declaracion_jurada');
     }
 

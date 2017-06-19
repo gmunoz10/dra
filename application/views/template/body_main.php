@@ -86,6 +86,9 @@
                     <a href="<?= base_url('vision-mision') ?>">Visión y Misión</a>
                   </li>
                   <li>
+                    <a href="<?= base_url('organigrama') ?>">Organigrama</a>
+                  </li>
+                  <li>
                     <a href="<?= base_url('funciones') ?>">Funciones</a>
                   </li>
                   <li>

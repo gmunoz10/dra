@@ -23,9 +23,17 @@ class Mod_directiva extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string = "") {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_dir >", "-1");
         $this->db->where("esta_gdi", "1");
+        $this->db->where("(`codi_dir` LIKE '%$search%' OR 
+                            `codi_gdi` LIKE '%$search%' OR
+                            `nomb_gdi` LIKE '%$search%' OR
+                            `nume_dir` LIKE '%$search%' OR
+                            `fech_dir` LIKE '%$search%' OR
+                            `desc_dir` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_directiva');
     }
 
@@ -146,10 +154,16 @@ class Mod_directiva extends CI_Model {
         $this->db->update('grupo_directiva', $data);
     }
 
-    function count_all_portal($codi_gdi) {
+    function count_all_portal($string = "", $codi_gdi, $year_dir) {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("codi_gdi", $codi_gdi);
+        $this->db->where("EXTRACT(YEAR FROM `fech_dir`) = " . $year_dir);
         $this->db->where("esta_dir", "1");
         $this->db->where("esta_gdi", "1");
+        $this->db->where("(`nume_dir` LIKE '%$search%' OR
+                            `fech_dir` LIKE '%$search%' OR
+                            `desc_dir` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_directiva');
     }
 

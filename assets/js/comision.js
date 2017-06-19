@@ -16,11 +16,12 @@ $(function() {
         var size = $('select[name="retornos"]').val();
         var bool = true;
         for (var i = 0; i < size; i++) {
-            if ($('input[name="ingr_com_'+i+'"]').val()=="" || $('input[name="sali_com_'+i+'"]').val()=="") {
-                if ($('input[name="sali_com_'+i+'"]').val()=="") {
+            if ($('input[name="ingr_com_'+i+'"]').val()=="" /* || $('input[name="sali_com_'+i+'"]').val()=="" */) {
+                /*if ($('input[name="sali_com_'+i+'"]').val()=="") {
                     $('input[name="sali_com_'+i+'"]').parent().removeClass('has-success').addClass('has-error');
                     $('input[name="sali_com_'+i+'"]').focus();
-                } else if ($('input[name="ingr_com_'+i+'"]').val()=="") {
+                } else */ 
+                if ($('input[name="ingr_com_'+i+'"]').val()=="") {
                     $('input[name="ingr_com_'+i+'"]').parent().removeClass('has-success').addClass('has-error');
                     $('input[name="ingr_com_'+i+'"]').focus();
                 }
@@ -35,7 +36,7 @@ $(function() {
     function add_row_detalle() {
         var name = "_" + $('#tbl_comision_con tbody tr').length;
 
-        var row = '<tr> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="sali_com'+name+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="ingr_com'+name+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <input class="form-control" name="obsv_com'+name+'"> </td> </tr>';
+        var row = '<tr> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="ingr_com'+name+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="sali_com'+name+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <input class="form-control" name="obsv_com'+name+'"> </td> </tr>';
 
         $('#tbl_comision_con tbody').append(row);
 
@@ -53,7 +54,7 @@ $(function() {
     function put_row_detalle(index, ingreso, salida, observacion) {
         var name = "_" + index;
 
-        var row = '<tr> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="sali_com'+name+'" value="'+salida+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="ingr_com'+name+'" value="'+ingreso+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <input class="form-control" name="obsv_com'+name+'"  value="'+observacion+'"> </td> </tr>';
+        var row = '<tr> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="ingr_com'+name+'" value="'+ingreso+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="sali_com'+name+'" value="'+salida+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <input class="form-control" name="obsv_com'+name+'"  value="'+observacion+'"> </td> </tr>';
 
         $('#tbl_comision_con tbody').append(row);
 
@@ -339,5 +340,15 @@ $(function() {
     $('[name="codi_emp"]').on('change', function () {
         $('[name="ofic_emp"]').val($('[name="codi_emp"] option:selected').data("ofic"));
         $('[name="docu_emp"]').val($('[name="codi_emp"] option:selected').data("docu"));
+    });
+
+    $("#btn_export").click(function() {
+        $("#modal_export").modal('show');
+    });
+
+    $("#btn_select").click(function () {
+        $('#form_export [name="date"]').val($("#fech_com_search").val());
+        $('#form_export [name="tipo"]').val($("#tipo_emp_export").val());
+        $('#form_export').submit();
     });
 });

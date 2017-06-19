@@ -49,7 +49,7 @@ class TemaAgrarioController extends CI_Controller {
 
     public function paginate() {
         if ($this->session->userdata("usuario") && check_permission(BUSCAR_TEMA_AGRARIO)) {
-            $nTotal = $this->mod_tema_agrario->count_all();
+            $nTotal = $this->mod_tema_agrario->count_all($_POST['sSearch']);
 
             $data = $this->mod_tema_agrario->get_paginate($_POST['iDisplayLength'], $_POST['iDisplayStart'], $_POST['sSearch']);
 

@@ -314,7 +314,7 @@ INSERT INTO `permiso` (`codi_per`, `desc_per`, `codi_gpr`, `esta_per`) VALUES
 
 CREATE VIEW v_comision
 AS
-SELECT c.*, CONCAT(e.apel_emp, ', ', e.nomb_emp) as full_asi, e.ofic_emp, e.docu_emp, e.nomb_emp, e.apel_emp
+SELECT c.*, CONCAT(e.apel_emp, ', ', e.nomb_emp) as full_asi, e.tipo_emp, e.ofic_emp, e.docu_emp, e.nomb_emp, e.apel_emp
 FROM empleado e, comision c
 WHERE e.codi_emp = c.codi_emp
 

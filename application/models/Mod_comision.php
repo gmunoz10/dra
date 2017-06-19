@@ -23,16 +23,27 @@ class Mod_comision extends CI_Model {
         }
     }
 
-    function get_detalle_comision($where) {
+    function get_detalle_comision($where = false) {
         $this->db->where("esta_com", "1");
-        $this->db->where($where);
+        if ($where) {
+            $this->db->where($where);
+        }
         $this->db->order_by("num_dco", "asc");
         $query = $this->db->get('v_detalle_comision');
         return $query->result();
     }
 
-    function count_all() {
+    function count_all($string = "", $fech_com) {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_com >", "-1");
+        $this->db->where("fech_com", $fech_com);
+        $this->db->where("(`codi_com` LIKE '%$search%' OR 
+                            `nomb_emp` LIKE '%$search%' OR
+                            `apel_emp` LIKE '%$search%' OR
+                            `docu_emp` LIKE '%$search%' OR
+                            `ofic_emp` LIKE '%$search%' OR
+                            `tipo_com` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_comision');
     }
 

@@ -23,9 +23,17 @@ class Mod_resolucion extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string = "") {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_res >", "-1");
         $this->db->where("esta_gre", "1");
+        $this->db->where("(`codi_res` LIKE '%$search%' OR 
+                            `codi_gre` LIKE '%$search%' OR
+                            `nomb_gre` LIKE '%$search%' OR
+                            `nume_res` LIKE '%$search%' OR
+                            `fech_res` LIKE '%$search%' OR
+                            `desc_res` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_resolucion');
     }
 
@@ -146,10 +154,16 @@ class Mod_resolucion extends CI_Model {
         $this->db->update('grupo_resolucion', $data);
     }
 
-    function count_all_portal($codi_gre) {
+    function count_all_portal($string = "", $codi_gre, $year_res) {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("codi_gre", $codi_gre);
+        $this->db->where("EXTRACT(YEAR FROM `fech_res`) = " . $year_res);
         $this->db->where("esta_res", "1");
         $this->db->where("esta_gre", "1");
+        $this->db->where("(`nume_res` LIKE '%$search%' OR
+                            `fech_res` LIKE '%$search%' OR
+                            `desc_res` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_resolucion');
     }
 

@@ -23,9 +23,16 @@ class Mod_pac extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string = "") {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_pac >", "-1");
         $this->db->where("esta_gpa", "1");
+        $this->db->where("(`codi_pac` LIKE '%$search%' OR 
+                            `codi_gpa` LIKE '%$search%' OR
+                            `nomb_gpa` LIKE '%$search%' OR
+                            `fech_pac` LIKE '%$search%' OR
+                            `desc_pac` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_pac');
     }
 
@@ -130,11 +137,15 @@ class Mod_pac extends CI_Model {
         return $query->result();
     }
 
-    function count_all_portal($codi_gpa, $year_pac) {
+    function count_all_portal($string = "", $codi_gpa, $year_pac) {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("codi_gpa", $codi_gpa);
         $this->db->where("EXTRACT(YEAR FROM `fech_pac`) = " . $year_pac);
         $this->db->where("esta_pac", "1");
         $this->db->where("esta_gpa", "1");
+        $this->db->where("(`fech_pac` LIKE '%$search%' OR
+                            `desc_pac` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_pac');
     }
 

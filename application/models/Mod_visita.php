@@ -23,8 +23,23 @@ class Mod_visita extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string) {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_vis >", "-1");
+        $this->db->where("(`codi_vis` LIKE '%$search%' OR 
+                            `fech_vis` LIKE '%$search%' OR
+                            `nomb_vis` LIKE '%$search%' OR
+                            `apel_vis` LIKE '%$search%' OR
+                            `tipo_vis` LIKE '%$search%' OR
+                            `docu_vis` LIKE '%$search%' OR
+                            `enti_vis` LIKE '%$search%' OR
+                            `moti_vis` LIKE '%$search%' OR
+                            `sede_vis` LIKE '%$search%' OR
+                            `empl_vis` LIKE '%$search%' OR
+                            `ofic_vis` LIKE '%$search%' OR
+                            `ingr_vis` LIKE '%$search%' OR
+                            `sali_vis` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('visita');
     }
 
@@ -61,9 +76,24 @@ class Mod_visita extends CI_Model {
         $this->db->update('visita', $data);
     }
 
-    function count_all_portal($fech_vis) {
+    function count_all_portal($string = "", $fech_vis) {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("fech_vis", $fech_vis);
         $this->db->where("esta_vis", "1");
+        $this->db->where("(`tipo_emp` = 'LEY 276' OR `tipo_emp` = 'CAS' OR `tipo_emp` = 'CARGO DE CONFIANZA')");
+        $this->db->where("(`codi_vis` LIKE '%$search%' OR 
+                            `apel_vis` LIKE '%$search%' OR
+                            `nomb_vis` LIKE '%$search%' OR
+                            `tipo_vis` LIKE '%$search%' OR
+                            `docu_vis` LIKE '%$search%' OR
+                            `enti_vis` LIKE '%$search%' OR
+                            `moti_vis` LIKE '%$search%' OR
+                            `sede_vis` LIKE '%$search%' OR
+                            `empl_vis` LIKE '%$search%' OR
+                            `ofic_vis` LIKE '%$search%' OR
+                            `ingr_vis` LIKE '%$search%' OR
+                            `sali_vis` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('visita');
     }
 

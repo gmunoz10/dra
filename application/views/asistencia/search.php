@@ -23,7 +23,9 @@
                           </span>
                       </div>
                   </div>
-                
+                  <span class="input-group-btn">
+                    <button id="btn_format" class="btn btn-default pull-right" style="font-weight: bold;">Descargar formato</button>
+                  </span>
 				<br>
 				<div class="table-responsive" style="margin-top: 30px; padding-bottom: 30px;">
 			        <table id="table_search" class="table table-bordered table-condensed">
@@ -155,6 +157,10 @@
   <input type="hidden" name="tipo">
 </form>
 
+<form id="form_format" action="<?= base_url('download_format') ?>" method="post">
+  <input type="hidden" name="date">
+  <input type="hidden" name="tipo">
+</form>
 
 <div class="modal fade" id="modal_export" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog">
   <div class="modal-dialog" role="document" style="width: 350px;">
@@ -171,6 +177,7 @@
                     <option value="CAS">CAS</option>
                     <option value="TERCERO">TERCERO</option>
                     <option value="CARGO DE CONFIANZA">CARGO DE CONFIANZA</option>
+                    <option value="TODOS">TODOS</option>
                   </select>
               </div>
             </div>
@@ -179,6 +186,33 @@
       <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
           <button id="btn_select" type="button" class="btn btn-danger">Generar reporte</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal_format" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog">
+  <div class="modal-dialog" role="document" style="width: 350px;">
+    <div class="modal-content box-content box-bold">
+      <div class="modal-header">
+          <h4 class="modal-title" id="modal_for_lbl">Seleccione tipo de empleado</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                  <label>Tipo de empleado: </label>
+                  <select class="form-control" id="tipo_emp_format">
+                    <option value="CAS">CAS</option>
+                    <option value="TERCERO">TERCERO</option>
+                  </select>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+          <button id="btn_select_format" type="button" class="btn btn-danger">Descargar formato</button>
       </div>
     </div>
   </div>

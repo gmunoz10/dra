@@ -35,8 +35,12 @@ class Mod_usuario extends CI_Model {
         }
     }
 
-    function count_all() {
+    function count_all($string = "") {
+        $search = $this->db->escape_like_str($string);
         $this->db->where("esta_usu >", "-1");
+        $this->db->where("(`codi_usu` LIKE '%$search%' OR 
+                            `nomb_usu` LIKE '%$search%'
+                            )");
         return $this->db->count_all_results('v_usuario');
     }
 

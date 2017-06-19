@@ -6242,3 +6242,2712 @@ DEBUG - 2017-06-19 07:57:04 --> Session class already loaded. Second attempt ign
 INFO - 2017-06-19 00:57:04 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/export.php
 INFO - 2017-06-19 00:57:08 --> Final output sent to browser
 DEBUG - 2017-06-19 00:57:08 --> Total execution time: 3.6939
+INFO - 2017-06-19 17:08:26 --> Config Class Initialized
+INFO - 2017-06-19 17:08:26 --> Hooks Class Initialized
+DEBUG - 2017-06-19 17:08:26 --> UTF-8 Support Enabled
+INFO - 2017-06-19 17:08:26 --> Utf8 Class Initialized
+INFO - 2017-06-19 17:08:26 --> URI Class Initialized
+DEBUG - 2017-06-19 17:08:26 --> No URI present. Default controller set.
+INFO - 2017-06-19 17:08:26 --> Router Class Initialized
+INFO - 2017-06-19 17:08:26 --> Output Class Initialized
+INFO - 2017-06-19 17:08:26 --> Security Class Initialized
+DEBUG - 2017-06-19 17:08:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 17:08:26 --> Input Class Initialized
+INFO - 2017-06-19 17:08:26 --> Language Class Initialized
+INFO - 2017-06-19 17:08:26 --> Loader Class Initialized
+INFO - 2017-06-19 17:08:26 --> Helper loaded: language_helper
+INFO - 2017-06-19 17:08:26 --> Helper loaded: url_helper
+INFO - 2017-06-19 17:08:26 --> Helper loaded: form_helper
+INFO - 2017-06-19 17:08:26 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 17:08:26 --> Helper loaded: util_helper
+INFO - 2017-06-19 17:08:26 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 17:08:26 --> User Agent Class Initialized
+INFO - 2017-06-19 17:08:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 17:08:26 --> Pagination Class Initialized
+INFO - 2017-06-19 17:08:26 --> Form Validation Class Initialized
+INFO - 2017-06-19 17:08:26 --> Model Class Initialized
+INFO - 2017-06-19 17:08:26 --> Database Driver Class Initialized
+INFO - 2017-06-19 17:08:26 --> Controller Class Initialized
+INFO - 2017-06-19 17:08:26 --> Model Class Initialized
+INFO - 2017-06-19 17:08:26 --> Email Class Initialized
+DEBUG - 2017-06-19 17:08:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 10:08:27 --> Model Class Initialized
+INFO - 2017-06-19 10:08:27 --> Model Class Initialized
+INFO - 2017-06-19 10:08:27 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-06-19 10:08:29 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 10:08:29 --> Final output sent to browser
+DEBUG - 2017-06-19 10:08:29 --> Total execution time: 3.6507
+INFO - 2017-06-19 18:00:03 --> Config Class Initialized
+INFO - 2017-06-19 18:00:03 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:00:04 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:00:04 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:00:04 --> URI Class Initialized
+DEBUG - 2017-06-19 18:00:04 --> No URI present. Default controller set.
+INFO - 2017-06-19 18:00:04 --> Router Class Initialized
+INFO - 2017-06-19 18:00:04 --> Output Class Initialized
+INFO - 2017-06-19 18:00:04 --> Security Class Initialized
+DEBUG - 2017-06-19 18:00:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:00:04 --> Input Class Initialized
+INFO - 2017-06-19 18:00:04 --> Language Class Initialized
+INFO - 2017-06-19 18:00:04 --> Loader Class Initialized
+INFO - 2017-06-19 18:00:04 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:00:04 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:00:04 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:00:04 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:00:04 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:00:05 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:00:05 --> User Agent Class Initialized
+INFO - 2017-06-19 18:00:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:00:05 --> Pagination Class Initialized
+INFO - 2017-06-19 18:00:05 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:00:05 --> Model Class Initialized
+INFO - 2017-06-19 18:00:05 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:00:07 --> Controller Class Initialized
+INFO - 2017-06-19 18:00:07 --> Model Class Initialized
+INFO - 2017-06-19 18:00:07 --> Email Class Initialized
+DEBUG - 2017-06-19 18:00:07 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:00:08 --> Model Class Initialized
+INFO - 2017-06-19 11:00:08 --> Model Class Initialized
+INFO - 2017-06-19 11:00:09 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-06-19 11:00:11 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:00:11 --> Final output sent to browser
+DEBUG - 2017-06-19 11:00:11 --> Total execution time: 7.4857
+INFO - 2017-06-19 18:00:13 --> Config Class Initialized
+INFO - 2017-06-19 18:00:13 --> Hooks Class Initialized
+INFO - 2017-06-19 18:00:13 --> Config Class Initialized
+INFO - 2017-06-19 18:00:13 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:00:13 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 18:00:13 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:00:13 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:00:13 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:00:13 --> URI Class Initialized
+INFO - 2017-06-19 18:00:13 --> URI Class Initialized
+INFO - 2017-06-19 18:00:14 --> Router Class Initialized
+INFO - 2017-06-19 18:00:14 --> Router Class Initialized
+INFO - 2017-06-19 18:00:14 --> Output Class Initialized
+INFO - 2017-06-19 18:00:14 --> Security Class Initialized
+INFO - 2017-06-19 18:00:14 --> Output Class Initialized
+INFO - 2017-06-19 18:00:14 --> Security Class Initialized
+DEBUG - 2017-06-19 18:00:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:00:14 --> Input Class Initialized
+INFO - 2017-06-19 18:00:14 --> Language Class Initialized
+ERROR - 2017-06-19 18:00:14 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-06-19 18:00:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:00:14 --> Input Class Initialized
+INFO - 2017-06-19 18:00:14 --> Language Class Initialized
+ERROR - 2017-06-19 18:00:14 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 18:00:19 --> Config Class Initialized
+INFO - 2017-06-19 18:00:19 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:00:19 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:00:19 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:00:19 --> URI Class Initialized
+INFO - 2017-06-19 18:00:19 --> Router Class Initialized
+INFO - 2017-06-19 18:00:19 --> Output Class Initialized
+INFO - 2017-06-19 18:00:19 --> Security Class Initialized
+DEBUG - 2017-06-19 18:00:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:00:19 --> Input Class Initialized
+INFO - 2017-06-19 18:00:19 --> Language Class Initialized
+INFO - 2017-06-19 18:00:19 --> Loader Class Initialized
+INFO - 2017-06-19 18:00:19 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:00:19 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:00:19 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:00:19 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:00:19 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:00:19 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:00:19 --> User Agent Class Initialized
+INFO - 2017-06-19 18:00:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:00:19 --> Pagination Class Initialized
+INFO - 2017-06-19 18:00:19 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:00:19 --> Model Class Initialized
+INFO - 2017-06-19 18:00:19 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:00:19 --> Controller Class Initialized
+INFO - 2017-06-19 18:00:19 --> Model Class Initialized
+INFO - 2017-06-19 18:00:19 --> Email Class Initialized
+DEBUG - 2017-06-19 18:00:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:00:19 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:00:19 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:00:19 --> Final output sent to browser
+DEBUG - 2017-06-19 11:00:19 --> Total execution time: 0.7769
+INFO - 2017-06-19 18:00:45 --> Config Class Initialized
+INFO - 2017-06-19 18:00:45 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:00:45 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:00:45 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:00:45 --> URI Class Initialized
+INFO - 2017-06-19 18:00:45 --> Router Class Initialized
+INFO - 2017-06-19 18:00:45 --> Output Class Initialized
+INFO - 2017-06-19 18:00:45 --> Security Class Initialized
+DEBUG - 2017-06-19 18:00:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:00:45 --> Input Class Initialized
+INFO - 2017-06-19 18:00:45 --> Language Class Initialized
+INFO - 2017-06-19 18:00:45 --> Loader Class Initialized
+INFO - 2017-06-19 18:00:45 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:00:45 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:00:45 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:00:45 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:00:45 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:00:45 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:00:45 --> User Agent Class Initialized
+INFO - 2017-06-19 18:00:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:00:45 --> Pagination Class Initialized
+INFO - 2017-06-19 18:00:45 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:00:45 --> Model Class Initialized
+INFO - 2017-06-19 18:00:45 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:00:45 --> Controller Class Initialized
+INFO - 2017-06-19 18:00:45 --> Model Class Initialized
+INFO - 2017-06-19 18:00:45 --> Email Class Initialized
+DEBUG - 2017-06-19 18:00:45 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:00:45 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:00:46 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:00:46 --> Final output sent to browser
+DEBUG - 2017-06-19 11:00:46 --> Total execution time: 0.7940
+INFO - 2017-06-19 18:01:29 --> Config Class Initialized
+INFO - 2017-06-19 18:01:29 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:01:29 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:01:29 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:01:29 --> URI Class Initialized
+INFO - 2017-06-19 18:01:29 --> Router Class Initialized
+INFO - 2017-06-19 18:01:29 --> Output Class Initialized
+INFO - 2017-06-19 18:01:29 --> Security Class Initialized
+DEBUG - 2017-06-19 18:01:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:01:29 --> Input Class Initialized
+INFO - 2017-06-19 18:01:29 --> Language Class Initialized
+INFO - 2017-06-19 18:01:29 --> Loader Class Initialized
+INFO - 2017-06-19 18:01:29 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:01:29 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:01:29 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:01:29 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:01:29 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:01:29 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:01:29 --> User Agent Class Initialized
+INFO - 2017-06-19 18:01:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:01:29 --> Pagination Class Initialized
+INFO - 2017-06-19 18:01:29 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:01:29 --> Model Class Initialized
+INFO - 2017-06-19 18:01:29 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:01:29 --> Controller Class Initialized
+INFO - 2017-06-19 18:01:29 --> Model Class Initialized
+INFO - 2017-06-19 18:01:29 --> Email Class Initialized
+DEBUG - 2017-06-19 18:01:30 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:01:30 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:01:30 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:01:30 --> Final output sent to browser
+DEBUG - 2017-06-19 11:01:30 --> Total execution time: 0.8496
+INFO - 2017-06-19 18:02:13 --> Config Class Initialized
+INFO - 2017-06-19 18:02:13 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:02:13 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:02:13 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:02:13 --> URI Class Initialized
+INFO - 2017-06-19 18:02:13 --> Router Class Initialized
+INFO - 2017-06-19 18:02:13 --> Output Class Initialized
+INFO - 2017-06-19 18:02:13 --> Security Class Initialized
+DEBUG - 2017-06-19 18:02:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:02:13 --> Input Class Initialized
+INFO - 2017-06-19 18:02:13 --> Language Class Initialized
+INFO - 2017-06-19 18:02:13 --> Loader Class Initialized
+INFO - 2017-06-19 18:02:13 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:02:13 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:02:13 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:02:13 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:02:13 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:02:13 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:02:13 --> User Agent Class Initialized
+INFO - 2017-06-19 18:02:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:02:13 --> Pagination Class Initialized
+INFO - 2017-06-19 18:02:13 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:02:13 --> Model Class Initialized
+INFO - 2017-06-19 18:02:13 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:02:13 --> Controller Class Initialized
+INFO - 2017-06-19 18:02:13 --> Model Class Initialized
+INFO - 2017-06-19 18:02:14 --> Email Class Initialized
+DEBUG - 2017-06-19 18:02:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:02:14 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:02:14 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:02:14 --> Final output sent to browser
+DEBUG - 2017-06-19 11:02:14 --> Total execution time: 0.7336
+INFO - 2017-06-19 18:02:49 --> Config Class Initialized
+INFO - 2017-06-19 18:02:49 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:02:49 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:02:49 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:02:49 --> URI Class Initialized
+INFO - 2017-06-19 18:02:49 --> Router Class Initialized
+INFO - 2017-06-19 18:02:49 --> Output Class Initialized
+INFO - 2017-06-19 18:02:49 --> Security Class Initialized
+DEBUG - 2017-06-19 18:02:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:02:49 --> Input Class Initialized
+INFO - 2017-06-19 18:02:49 --> Language Class Initialized
+INFO - 2017-06-19 18:02:49 --> Loader Class Initialized
+INFO - 2017-06-19 18:02:49 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:02:49 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:02:49 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:02:49 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:02:49 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:02:49 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:02:49 --> User Agent Class Initialized
+INFO - 2017-06-19 18:02:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:02:49 --> Pagination Class Initialized
+INFO - 2017-06-19 18:02:49 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:02:49 --> Model Class Initialized
+INFO - 2017-06-19 18:02:49 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:02:49 --> Controller Class Initialized
+INFO - 2017-06-19 18:02:49 --> Model Class Initialized
+INFO - 2017-06-19 18:02:49 --> Email Class Initialized
+DEBUG - 2017-06-19 18:02:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:02:49 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:02:50 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:02:50 --> Final output sent to browser
+DEBUG - 2017-06-19 11:02:50 --> Total execution time: 0.6950
+INFO - 2017-06-19 18:08:07 --> Config Class Initialized
+INFO - 2017-06-19 18:08:07 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:08:07 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:08:07 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:08:07 --> URI Class Initialized
+INFO - 2017-06-19 18:08:07 --> Router Class Initialized
+INFO - 2017-06-19 18:08:07 --> Output Class Initialized
+INFO - 2017-06-19 18:08:07 --> Security Class Initialized
+DEBUG - 2017-06-19 18:08:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:08:07 --> Input Class Initialized
+INFO - 2017-06-19 18:08:07 --> Language Class Initialized
+INFO - 2017-06-19 18:08:07 --> Loader Class Initialized
+INFO - 2017-06-19 18:08:07 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:08:07 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:08:07 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:08:07 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:08:07 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:08:07 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:08:07 --> User Agent Class Initialized
+INFO - 2017-06-19 18:08:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:08:07 --> Pagination Class Initialized
+INFO - 2017-06-19 18:08:07 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:08:07 --> Model Class Initialized
+INFO - 2017-06-19 18:08:07 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:08:07 --> Controller Class Initialized
+INFO - 2017-06-19 18:08:07 --> Model Class Initialized
+INFO - 2017-06-19 18:08:07 --> Email Class Initialized
+DEBUG - 2017-06-19 18:08:07 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:08:07 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:08:08 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:08:08 --> Final output sent to browser
+DEBUG - 2017-06-19 11:08:08 --> Total execution time: 0.7615
+INFO - 2017-06-19 18:10:20 --> Config Class Initialized
+INFO - 2017-06-19 18:10:20 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:10:20 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:10:20 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:10:20 --> URI Class Initialized
+INFO - 2017-06-19 18:10:20 --> Router Class Initialized
+INFO - 2017-06-19 18:10:20 --> Output Class Initialized
+INFO - 2017-06-19 18:10:20 --> Security Class Initialized
+DEBUG - 2017-06-19 18:10:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:10:20 --> Input Class Initialized
+INFO - 2017-06-19 18:10:20 --> Language Class Initialized
+INFO - 2017-06-19 18:10:20 --> Loader Class Initialized
+INFO - 2017-06-19 18:10:20 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:10:20 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:10:20 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:10:20 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:10:20 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:10:20 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:10:20 --> User Agent Class Initialized
+INFO - 2017-06-19 18:10:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:10:20 --> Pagination Class Initialized
+INFO - 2017-06-19 18:10:20 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:10:20 --> Model Class Initialized
+INFO - 2017-06-19 18:10:20 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:10:20 --> Controller Class Initialized
+INFO - 2017-06-19 18:10:20 --> Model Class Initialized
+INFO - 2017-06-19 18:10:20 --> Email Class Initialized
+DEBUG - 2017-06-19 18:10:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:10:20 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:10:21 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:10:21 --> Final output sent to browser
+DEBUG - 2017-06-19 11:10:21 --> Total execution time: 0.6813
+INFO - 2017-06-19 18:10:37 --> Config Class Initialized
+INFO - 2017-06-19 18:10:37 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:10:37 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:10:37 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:10:37 --> URI Class Initialized
+INFO - 2017-06-19 18:10:37 --> Router Class Initialized
+INFO - 2017-06-19 18:10:37 --> Output Class Initialized
+INFO - 2017-06-19 18:10:37 --> Security Class Initialized
+DEBUG - 2017-06-19 18:10:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:10:37 --> Input Class Initialized
+INFO - 2017-06-19 18:10:37 --> Language Class Initialized
+INFO - 2017-06-19 18:10:37 --> Loader Class Initialized
+INFO - 2017-06-19 18:10:37 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:10:37 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:10:37 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:10:37 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:10:37 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:10:37 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:10:37 --> User Agent Class Initialized
+INFO - 2017-06-19 18:10:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:10:37 --> Pagination Class Initialized
+INFO - 2017-06-19 18:10:37 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:10:37 --> Model Class Initialized
+INFO - 2017-06-19 18:10:37 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:10:37 --> Controller Class Initialized
+INFO - 2017-06-19 18:10:37 --> Model Class Initialized
+INFO - 2017-06-19 18:10:37 --> Email Class Initialized
+DEBUG - 2017-06-19 18:10:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:10:37 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:10:38 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:10:38 --> Final output sent to browser
+DEBUG - 2017-06-19 11:10:38 --> Total execution time: 0.7479
+INFO - 2017-06-19 18:11:18 --> Config Class Initialized
+INFO - 2017-06-19 18:11:18 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:11:18 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:11:18 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:11:18 --> URI Class Initialized
+INFO - 2017-06-19 18:11:18 --> Router Class Initialized
+INFO - 2017-06-19 18:11:18 --> Output Class Initialized
+INFO - 2017-06-19 18:11:18 --> Security Class Initialized
+DEBUG - 2017-06-19 18:11:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:11:18 --> Input Class Initialized
+INFO - 2017-06-19 18:11:18 --> Language Class Initialized
+INFO - 2017-06-19 18:11:18 --> Loader Class Initialized
+INFO - 2017-06-19 18:11:18 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:11:18 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:11:18 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:11:18 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:11:18 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:11:18 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:11:18 --> User Agent Class Initialized
+INFO - 2017-06-19 18:11:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:11:18 --> Pagination Class Initialized
+INFO - 2017-06-19 18:11:18 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:11:18 --> Model Class Initialized
+INFO - 2017-06-19 18:11:18 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:11:18 --> Controller Class Initialized
+INFO - 2017-06-19 18:11:18 --> Model Class Initialized
+INFO - 2017-06-19 18:11:18 --> Email Class Initialized
+DEBUG - 2017-06-19 18:11:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:11:18 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:11:19 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:11:19 --> Final output sent to browser
+DEBUG - 2017-06-19 11:11:19 --> Total execution time: 0.7742
+INFO - 2017-06-19 18:11:21 --> Config Class Initialized
+INFO - 2017-06-19 18:11:21 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:11:21 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:11:21 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:11:21 --> URI Class Initialized
+INFO - 2017-06-19 18:11:21 --> Router Class Initialized
+INFO - 2017-06-19 18:11:21 --> Output Class Initialized
+INFO - 2017-06-19 18:11:21 --> Security Class Initialized
+DEBUG - 2017-06-19 18:11:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:11:21 --> Input Class Initialized
+INFO - 2017-06-19 18:11:21 --> Language Class Initialized
+INFO - 2017-06-19 18:11:21 --> Loader Class Initialized
+INFO - 2017-06-19 18:11:21 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:11:21 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:11:21 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:11:21 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:11:21 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:11:21 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:11:21 --> User Agent Class Initialized
+INFO - 2017-06-19 18:11:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:11:21 --> Pagination Class Initialized
+INFO - 2017-06-19 18:11:21 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:11:21 --> Model Class Initialized
+INFO - 2017-06-19 18:11:21 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:11:21 --> Controller Class Initialized
+INFO - 2017-06-19 18:11:21 --> Model Class Initialized
+INFO - 2017-06-19 18:11:21 --> Email Class Initialized
+DEBUG - 2017-06-19 18:11:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:11:21 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:11:22 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:11:22 --> Final output sent to browser
+DEBUG - 2017-06-19 11:11:22 --> Total execution time: 0.6872
+INFO - 2017-06-19 18:11:47 --> Config Class Initialized
+INFO - 2017-06-19 18:11:47 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:11:47 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:11:47 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:11:47 --> URI Class Initialized
+INFO - 2017-06-19 18:11:47 --> Router Class Initialized
+INFO - 2017-06-19 18:11:47 --> Output Class Initialized
+INFO - 2017-06-19 18:11:47 --> Security Class Initialized
+DEBUG - 2017-06-19 18:11:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:11:47 --> Input Class Initialized
+INFO - 2017-06-19 18:11:47 --> Language Class Initialized
+INFO - 2017-06-19 18:11:47 --> Loader Class Initialized
+INFO - 2017-06-19 18:11:47 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:11:47 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:11:47 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:11:47 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:11:47 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:11:47 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:11:47 --> User Agent Class Initialized
+INFO - 2017-06-19 18:11:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:11:47 --> Pagination Class Initialized
+INFO - 2017-06-19 18:11:47 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:11:47 --> Model Class Initialized
+INFO - 2017-06-19 18:11:47 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:11:47 --> Controller Class Initialized
+INFO - 2017-06-19 18:11:47 --> Model Class Initialized
+INFO - 2017-06-19 18:11:47 --> Email Class Initialized
+DEBUG - 2017-06-19 18:11:47 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:11:47 --> File loaded: C:\xampp\htdocs\dra\application\views\public/informacion_agraria.php
+INFO - 2017-06-19 11:11:48 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:11:48 --> Final output sent to browser
+DEBUG - 2017-06-19 11:11:48 --> Total execution time: 1.1035
+INFO - 2017-06-19 18:13:05 --> Config Class Initialized
+INFO - 2017-06-19 18:13:05 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:13:05 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:13:05 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:13:05 --> URI Class Initialized
+INFO - 2017-06-19 18:13:05 --> Router Class Initialized
+INFO - 2017-06-19 18:13:05 --> Output Class Initialized
+INFO - 2017-06-19 18:13:05 --> Security Class Initialized
+DEBUG - 2017-06-19 18:13:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:13:05 --> Input Class Initialized
+INFO - 2017-06-19 18:13:05 --> Language Class Initialized
+INFO - 2017-06-19 18:13:05 --> Loader Class Initialized
+INFO - 2017-06-19 18:13:05 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:13:05 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:13:05 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:13:05 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:13:05 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:13:05 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:13:05 --> User Agent Class Initialized
+INFO - 2017-06-19 18:13:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:13:05 --> Pagination Class Initialized
+INFO - 2017-06-19 18:13:05 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:13:05 --> Model Class Initialized
+INFO - 2017-06-19 18:13:05 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:13:05 --> Controller Class Initialized
+INFO - 2017-06-19 18:13:05 --> Model Class Initialized
+INFO - 2017-06-19 18:13:05 --> Email Class Initialized
+DEBUG - 2017-06-19 18:13:05 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:13:05 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:13:06 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:13:06 --> Final output sent to browser
+DEBUG - 2017-06-19 11:13:06 --> Total execution time: 0.9183
+INFO - 2017-06-19 18:13:38 --> Config Class Initialized
+INFO - 2017-06-19 18:13:38 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:13:38 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:13:38 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:13:38 --> URI Class Initialized
+INFO - 2017-06-19 18:13:38 --> Router Class Initialized
+INFO - 2017-06-19 18:13:38 --> Output Class Initialized
+INFO - 2017-06-19 18:13:38 --> Security Class Initialized
+DEBUG - 2017-06-19 18:13:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:13:38 --> Input Class Initialized
+INFO - 2017-06-19 18:13:38 --> Language Class Initialized
+INFO - 2017-06-19 18:13:38 --> Loader Class Initialized
+INFO - 2017-06-19 18:13:38 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:13:38 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:13:38 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:13:38 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:13:38 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:13:38 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:13:38 --> User Agent Class Initialized
+INFO - 2017-06-19 18:13:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:13:38 --> Pagination Class Initialized
+INFO - 2017-06-19 18:13:38 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:13:38 --> Model Class Initialized
+INFO - 2017-06-19 18:13:38 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:13:38 --> Controller Class Initialized
+INFO - 2017-06-19 18:13:38 --> Model Class Initialized
+INFO - 2017-06-19 18:13:38 --> Email Class Initialized
+DEBUG - 2017-06-19 18:13:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:13:38 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:13:39 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:13:39 --> Final output sent to browser
+DEBUG - 2017-06-19 11:13:39 --> Total execution time: 0.8290
+INFO - 2017-06-19 18:13:56 --> Config Class Initialized
+INFO - 2017-06-19 18:13:56 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:13:56 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:13:56 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:13:56 --> URI Class Initialized
+INFO - 2017-06-19 18:13:56 --> Router Class Initialized
+INFO - 2017-06-19 18:13:57 --> Output Class Initialized
+INFO - 2017-06-19 18:13:57 --> Security Class Initialized
+DEBUG - 2017-06-19 18:13:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:13:57 --> Input Class Initialized
+INFO - 2017-06-19 18:13:57 --> Language Class Initialized
+INFO - 2017-06-19 18:13:57 --> Loader Class Initialized
+INFO - 2017-06-19 18:13:57 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:13:57 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:13:57 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:13:57 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:13:57 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:13:57 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:13:57 --> User Agent Class Initialized
+INFO - 2017-06-19 18:13:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:13:57 --> Pagination Class Initialized
+INFO - 2017-06-19 18:13:57 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:13:57 --> Model Class Initialized
+INFO - 2017-06-19 18:13:57 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:13:57 --> Controller Class Initialized
+INFO - 2017-06-19 18:13:57 --> Model Class Initialized
+INFO - 2017-06-19 18:13:57 --> Email Class Initialized
+DEBUG - 2017-06-19 18:13:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:13:57 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:13:57 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:13:57 --> Final output sent to browser
+DEBUG - 2017-06-19 11:13:57 --> Total execution time: 0.7353
+INFO - 2017-06-19 18:18:19 --> Config Class Initialized
+INFO - 2017-06-19 18:18:19 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:18:19 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:18:19 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:18:19 --> URI Class Initialized
+INFO - 2017-06-19 18:18:19 --> Router Class Initialized
+INFO - 2017-06-19 18:18:19 --> Output Class Initialized
+INFO - 2017-06-19 18:18:19 --> Security Class Initialized
+DEBUG - 2017-06-19 18:18:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:18:19 --> Input Class Initialized
+INFO - 2017-06-19 18:18:19 --> Language Class Initialized
+INFO - 2017-06-19 18:18:19 --> Loader Class Initialized
+INFO - 2017-06-19 18:18:19 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:18:19 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:18:20 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:18:20 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:18:20 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:18:20 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:18:20 --> User Agent Class Initialized
+INFO - 2017-06-19 18:18:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:18:20 --> Pagination Class Initialized
+INFO - 2017-06-19 18:18:20 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:18:20 --> Model Class Initialized
+INFO - 2017-06-19 18:18:20 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:18:20 --> Controller Class Initialized
+INFO - 2017-06-19 18:18:20 --> Model Class Initialized
+INFO - 2017-06-19 18:18:20 --> Email Class Initialized
+DEBUG - 2017-06-19 18:18:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:18:20 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:18:20 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:18:20 --> Final output sent to browser
+DEBUG - 2017-06-19 11:18:20 --> Total execution time: 0.7899
+INFO - 2017-06-19 18:18:26 --> Config Class Initialized
+INFO - 2017-06-19 18:18:26 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:18:26 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:18:26 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:18:26 --> URI Class Initialized
+INFO - 2017-06-19 18:18:26 --> Router Class Initialized
+INFO - 2017-06-19 18:18:26 --> Output Class Initialized
+INFO - 2017-06-19 18:18:26 --> Security Class Initialized
+DEBUG - 2017-06-19 18:18:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:18:26 --> Input Class Initialized
+INFO - 2017-06-19 18:18:26 --> Language Class Initialized
+INFO - 2017-06-19 18:18:26 --> Loader Class Initialized
+INFO - 2017-06-19 18:18:26 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:18:26 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:18:26 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:18:26 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:18:26 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:18:26 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:18:26 --> User Agent Class Initialized
+INFO - 2017-06-19 18:18:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:18:26 --> Pagination Class Initialized
+INFO - 2017-06-19 18:18:26 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:18:26 --> Model Class Initialized
+INFO - 2017-06-19 18:18:26 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:18:26 --> Controller Class Initialized
+INFO - 2017-06-19 18:18:26 --> Model Class Initialized
+INFO - 2017-06-19 18:18:26 --> Email Class Initialized
+DEBUG - 2017-06-19 18:18:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:18:26 --> File loaded: C:\xampp\htdocs\dra\application\views\public/informacion_agraria.php
+INFO - 2017-06-19 11:18:26 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:18:26 --> Final output sent to browser
+DEBUG - 2017-06-19 11:18:26 --> Total execution time: 0.6431
+INFO - 2017-06-19 18:19:03 --> Config Class Initialized
+INFO - 2017-06-19 18:19:03 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:19:03 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:19:03 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:19:03 --> URI Class Initialized
+INFO - 2017-06-19 18:19:03 --> Router Class Initialized
+INFO - 2017-06-19 18:19:03 --> Output Class Initialized
+INFO - 2017-06-19 18:19:03 --> Security Class Initialized
+DEBUG - 2017-06-19 18:19:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:19:03 --> Input Class Initialized
+INFO - 2017-06-19 18:19:03 --> Language Class Initialized
+INFO - 2017-06-19 18:19:03 --> Loader Class Initialized
+INFO - 2017-06-19 18:19:03 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:19:03 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:19:03 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:19:03 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:19:03 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:19:03 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:19:03 --> User Agent Class Initialized
+INFO - 2017-06-19 18:19:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:19:03 --> Pagination Class Initialized
+INFO - 2017-06-19 18:19:03 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:19:03 --> Model Class Initialized
+INFO - 2017-06-19 18:19:03 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:19:03 --> Controller Class Initialized
+INFO - 2017-06-19 18:19:03 --> Model Class Initialized
+INFO - 2017-06-19 18:19:03 --> Email Class Initialized
+DEBUG - 2017-06-19 18:19:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:19:03 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:19:04 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:19:04 --> Final output sent to browser
+DEBUG - 2017-06-19 11:19:04 --> Total execution time: 0.7813
+INFO - 2017-06-19 18:19:10 --> Config Class Initialized
+INFO - 2017-06-19 18:19:10 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:19:10 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:19:10 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:19:10 --> URI Class Initialized
+INFO - 2017-06-19 18:19:10 --> Router Class Initialized
+INFO - 2017-06-19 18:19:10 --> Output Class Initialized
+INFO - 2017-06-19 18:19:10 --> Security Class Initialized
+DEBUG - 2017-06-19 18:19:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:19:10 --> Input Class Initialized
+INFO - 2017-06-19 18:19:10 --> Language Class Initialized
+INFO - 2017-06-19 18:19:10 --> Loader Class Initialized
+INFO - 2017-06-19 18:19:10 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:19:10 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:19:10 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:19:10 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:19:10 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:19:10 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:19:10 --> User Agent Class Initialized
+INFO - 2017-06-19 18:19:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:19:10 --> Pagination Class Initialized
+INFO - 2017-06-19 18:19:10 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:19:10 --> Model Class Initialized
+INFO - 2017-06-19 18:19:10 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:19:10 --> Controller Class Initialized
+INFO - 2017-06-19 18:19:10 --> Model Class Initialized
+INFO - 2017-06-19 18:19:10 --> Email Class Initialized
+DEBUG - 2017-06-19 18:19:10 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:19:10 --> File loaded: C:\xampp\htdocs\dra\application\views\public/informacion_agraria.php
+INFO - 2017-06-19 11:19:11 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:19:11 --> Final output sent to browser
+DEBUG - 2017-06-19 11:19:11 --> Total execution time: 0.6505
+INFO - 2017-06-19 18:19:14 --> Config Class Initialized
+INFO - 2017-06-19 18:19:14 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:19:14 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:19:14 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:19:14 --> URI Class Initialized
+INFO - 2017-06-19 18:19:14 --> Router Class Initialized
+INFO - 2017-06-19 18:19:14 --> Output Class Initialized
+INFO - 2017-06-19 18:19:14 --> Security Class Initialized
+DEBUG - 2017-06-19 18:19:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:19:14 --> Input Class Initialized
+INFO - 2017-06-19 18:19:14 --> Language Class Initialized
+INFO - 2017-06-19 18:19:14 --> Loader Class Initialized
+INFO - 2017-06-19 18:19:14 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:19:14 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:19:14 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:19:14 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:19:14 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:19:14 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:19:14 --> User Agent Class Initialized
+INFO - 2017-06-19 18:19:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:19:14 --> Pagination Class Initialized
+INFO - 2017-06-19 18:19:14 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:19:14 --> Model Class Initialized
+INFO - 2017-06-19 18:19:14 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:19:14 --> Controller Class Initialized
+INFO - 2017-06-19 18:19:14 --> Model Class Initialized
+INFO - 2017-06-19 18:19:14 --> Email Class Initialized
+DEBUG - 2017-06-19 18:19:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:19:14 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:19:14 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:19:14 --> Final output sent to browser
+DEBUG - 2017-06-19 11:19:14 --> Total execution time: 0.6959
+INFO - 2017-06-19 18:21:26 --> Config Class Initialized
+INFO - 2017-06-19 18:21:26 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:21:26 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:21:26 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:21:26 --> URI Class Initialized
+INFO - 2017-06-19 18:21:26 --> Router Class Initialized
+INFO - 2017-06-19 18:21:26 --> Output Class Initialized
+INFO - 2017-06-19 18:21:26 --> Security Class Initialized
+DEBUG - 2017-06-19 18:21:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:21:26 --> Input Class Initialized
+INFO - 2017-06-19 18:21:26 --> Language Class Initialized
+INFO - 2017-06-19 18:21:26 --> Loader Class Initialized
+INFO - 2017-06-19 18:21:26 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:21:26 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:21:26 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:21:26 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:21:26 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:21:26 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:21:26 --> User Agent Class Initialized
+INFO - 2017-06-19 18:21:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:21:26 --> Pagination Class Initialized
+INFO - 2017-06-19 18:21:26 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:21:26 --> Model Class Initialized
+INFO - 2017-06-19 18:21:26 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:21:26 --> Controller Class Initialized
+INFO - 2017-06-19 18:21:26 --> Model Class Initialized
+INFO - 2017-06-19 18:21:26 --> Email Class Initialized
+DEBUG - 2017-06-19 18:21:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:21:26 --> File loaded: C:\xampp\htdocs\dra\application\views\public/direccion_oficina.php
+INFO - 2017-06-19 11:21:27 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:21:27 --> Final output sent to browser
+DEBUG - 2017-06-19 11:21:27 --> Total execution time: 0.7140
+INFO - 2017-06-19 18:21:39 --> Config Class Initialized
+INFO - 2017-06-19 18:21:39 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:21:39 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:21:39 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:21:39 --> URI Class Initialized
+INFO - 2017-06-19 18:21:39 --> Router Class Initialized
+INFO - 2017-06-19 18:21:39 --> Output Class Initialized
+INFO - 2017-06-19 18:21:39 --> Security Class Initialized
+DEBUG - 2017-06-19 18:21:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:21:39 --> Input Class Initialized
+INFO - 2017-06-19 18:21:39 --> Language Class Initialized
+INFO - 2017-06-19 18:21:39 --> Loader Class Initialized
+INFO - 2017-06-19 18:21:39 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:21:39 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:21:39 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:21:39 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:21:39 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:21:39 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:21:39 --> User Agent Class Initialized
+INFO - 2017-06-19 18:21:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:21:39 --> Pagination Class Initialized
+INFO - 2017-06-19 18:21:39 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:21:39 --> Model Class Initialized
+INFO - 2017-06-19 18:21:39 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:21:39 --> Controller Class Initialized
+INFO - 2017-06-19 18:21:39 --> Model Class Initialized
+INFO - 2017-06-19 18:21:39 --> Email Class Initialized
+DEBUG - 2017-06-19 18:21:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:21:39 --> File loaded: C:\xampp\htdocs\dra\application\views\public/competitividad_negocios.php
+INFO - 2017-06-19 11:21:40 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:21:40 --> Final output sent to browser
+DEBUG - 2017-06-19 11:21:40 --> Total execution time: 0.7174
+INFO - 2017-06-19 18:21:44 --> Config Class Initialized
+INFO - 2017-06-19 18:21:44 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:21:44 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:21:44 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:21:44 --> URI Class Initialized
+DEBUG - 2017-06-19 18:21:44 --> No URI present. Default controller set.
+INFO - 2017-06-19 18:21:44 --> Router Class Initialized
+INFO - 2017-06-19 18:21:44 --> Output Class Initialized
+INFO - 2017-06-19 18:21:44 --> Security Class Initialized
+DEBUG - 2017-06-19 18:21:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:21:44 --> Input Class Initialized
+INFO - 2017-06-19 18:21:44 --> Language Class Initialized
+INFO - 2017-06-19 18:21:44 --> Loader Class Initialized
+INFO - 2017-06-19 18:21:44 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:21:44 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:21:44 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:21:44 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:21:44 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:21:44 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:21:44 --> User Agent Class Initialized
+INFO - 2017-06-19 18:21:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:21:44 --> Pagination Class Initialized
+INFO - 2017-06-19 18:21:44 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:21:44 --> Config Class Initialized
+INFO - 2017-06-19 18:21:44 --> Hooks Class Initialized
+INFO - 2017-06-19 18:21:44 --> Model Class Initialized
+DEBUG - 2017-06-19 18:21:44 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:21:44 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:21:44 --> URI Class Initialized
+DEBUG - 2017-06-19 18:21:44 --> No URI present. Default controller set.
+INFO - 2017-06-19 18:21:44 --> Router Class Initialized
+INFO - 2017-06-19 18:21:44 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:21:44 --> Output Class Initialized
+INFO - 2017-06-19 18:21:44 --> Controller Class Initialized
+INFO - 2017-06-19 18:21:44 --> Security Class Initialized
+INFO - 2017-06-19 18:21:44 --> Model Class Initialized
+DEBUG - 2017-06-19 18:21:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:21:44 --> Input Class Initialized
+INFO - 2017-06-19 18:21:44 --> Language Class Initialized
+INFO - 2017-06-19 18:21:44 --> Email Class Initialized
+DEBUG - 2017-06-19 18:21:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 18:21:44 --> Loader Class Initialized
+INFO - 2017-06-19 18:21:44 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:21:44 --> Helper loaded: url_helper
+INFO - 2017-06-19 11:21:44 --> Model Class Initialized
+INFO - 2017-06-19 11:21:44 --> Model Class Initialized
+INFO - 2017-06-19 18:21:44 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:21:44 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:21:44 --> Helper loaded: util_helper
+INFO - 2017-06-19 11:21:44 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-06-19 11:21:45 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:21:45 --> Final output sent to browser
+DEBUG - 2017-06-19 11:21:45 --> Total execution time: 0.7287
+INFO - 2017-06-19 18:21:45 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:21:45 --> User Agent Class Initialized
+INFO - 2017-06-19 18:21:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:21:45 --> Pagination Class Initialized
+INFO - 2017-06-19 18:21:45 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:21:45 --> Model Class Initialized
+INFO - 2017-06-19 18:21:45 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:21:45 --> Controller Class Initialized
+INFO - 2017-06-19 18:21:45 --> Model Class Initialized
+INFO - 2017-06-19 18:21:45 --> Email Class Initialized
+DEBUG - 2017-06-19 18:21:45 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:21:45 --> Model Class Initialized
+INFO - 2017-06-19 11:21:45 --> Model Class Initialized
+INFO - 2017-06-19 11:21:45 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-06-19 11:21:45 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:21:45 --> Final output sent to browser
+DEBUG - 2017-06-19 11:21:45 --> Total execution time: 1.2541
+INFO - 2017-06-19 18:21:45 --> Config Class Initialized
+INFO - 2017-06-19 18:21:45 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:21:45 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:21:45 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:21:45 --> URI Class Initialized
+INFO - 2017-06-19 18:21:45 --> Config Class Initialized
+INFO - 2017-06-19 18:21:45 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:21:45 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:21:45 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:21:45 --> URI Class Initialized
+INFO - 2017-06-19 18:21:45 --> Router Class Initialized
+INFO - 2017-06-19 18:21:45 --> Output Class Initialized
+INFO - 2017-06-19 18:21:45 --> Security Class Initialized
+DEBUG - 2017-06-19 18:21:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:21:45 --> Input Class Initialized
+INFO - 2017-06-19 18:21:45 --> Language Class Initialized
+ERROR - 2017-06-19 18:21:45 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 18:21:45 --> Router Class Initialized
+INFO - 2017-06-19 18:21:46 --> Output Class Initialized
+INFO - 2017-06-19 18:21:46 --> Security Class Initialized
+DEBUG - 2017-06-19 18:21:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:21:46 --> Input Class Initialized
+INFO - 2017-06-19 18:21:46 --> Language Class Initialized
+ERROR - 2017-06-19 18:21:46 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 18:28:27 --> Config Class Initialized
+INFO - 2017-06-19 18:28:27 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:28:27 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:28:27 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:28:27 --> URI Class Initialized
+DEBUG - 2017-06-19 18:28:27 --> No URI present. Default controller set.
+INFO - 2017-06-19 18:28:27 --> Router Class Initialized
+INFO - 2017-06-19 18:28:27 --> Output Class Initialized
+INFO - 2017-06-19 18:28:27 --> Security Class Initialized
+DEBUG - 2017-06-19 18:28:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:28:27 --> Input Class Initialized
+INFO - 2017-06-19 18:28:27 --> Language Class Initialized
+INFO - 2017-06-19 18:28:27 --> Loader Class Initialized
+INFO - 2017-06-19 18:28:27 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:28:27 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:28:27 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:28:27 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:28:27 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:28:27 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:28:27 --> User Agent Class Initialized
+INFO - 2017-06-19 18:28:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:28:27 --> Pagination Class Initialized
+INFO - 2017-06-19 18:28:27 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:28:27 --> Model Class Initialized
+INFO - 2017-06-19 18:28:27 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:28:27 --> Controller Class Initialized
+INFO - 2017-06-19 18:28:27 --> Model Class Initialized
+INFO - 2017-06-19 18:28:27 --> Email Class Initialized
+DEBUG - 2017-06-19 18:28:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:28:27 --> Model Class Initialized
+INFO - 2017-06-19 11:28:27 --> Model Class Initialized
+INFO - 2017-06-19 11:28:27 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-06-19 11:28:28 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:28:28 --> Final output sent to browser
+DEBUG - 2017-06-19 11:28:28 --> Total execution time: 0.7513
+INFO - 2017-06-19 18:28:28 --> Config Class Initialized
+INFO - 2017-06-19 18:28:28 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:28:28 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:28:28 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:28:28 --> URI Class Initialized
+INFO - 2017-06-19 18:28:28 --> Router Class Initialized
+INFO - 2017-06-19 18:28:28 --> Output Class Initialized
+INFO - 2017-06-19 18:28:28 --> Security Class Initialized
+DEBUG - 2017-06-19 18:28:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:28:28 --> Input Class Initialized
+INFO - 2017-06-19 18:28:28 --> Language Class Initialized
+ERROR - 2017-06-19 18:28:28 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 18:28:28 --> Config Class Initialized
+INFO - 2017-06-19 18:28:28 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:28:28 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:28:28 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:28:28 --> URI Class Initialized
+INFO - 2017-06-19 18:28:28 --> Router Class Initialized
+INFO - 2017-06-19 18:28:28 --> Output Class Initialized
+INFO - 2017-06-19 18:28:28 --> Security Class Initialized
+DEBUG - 2017-06-19 18:28:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:28:28 --> Input Class Initialized
+INFO - 2017-06-19 18:28:28 --> Language Class Initialized
+ERROR - 2017-06-19 18:28:28 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 18:28:28 --> Config Class Initialized
+INFO - 2017-06-19 18:28:28 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:28:28 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:28:28 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:28:28 --> URI Class Initialized
+INFO - 2017-06-19 18:28:28 --> Router Class Initialized
+INFO - 2017-06-19 18:28:28 --> Output Class Initialized
+INFO - 2017-06-19 18:28:28 --> Security Class Initialized
+DEBUG - 2017-06-19 18:28:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:28:28 --> Input Class Initialized
+INFO - 2017-06-19 18:28:28 --> Language Class Initialized
+ERROR - 2017-06-19 18:28:28 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 18:28:31 --> Config Class Initialized
+INFO - 2017-06-19 18:28:31 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:28:31 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:28:31 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:28:31 --> URI Class Initialized
+INFO - 2017-06-19 18:28:31 --> Router Class Initialized
+INFO - 2017-06-19 18:28:31 --> Output Class Initialized
+INFO - 2017-06-19 18:28:31 --> Security Class Initialized
+DEBUG - 2017-06-19 18:28:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:28:31 --> Input Class Initialized
+INFO - 2017-06-19 18:28:31 --> Language Class Initialized
+INFO - 2017-06-19 18:28:31 --> Loader Class Initialized
+INFO - 2017-06-19 18:28:31 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:28:31 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:28:31 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:28:31 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:28:31 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:28:31 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:28:31 --> User Agent Class Initialized
+INFO - 2017-06-19 18:28:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:28:31 --> Pagination Class Initialized
+INFO - 2017-06-19 18:28:31 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:28:31 --> Model Class Initialized
+INFO - 2017-06-19 18:28:32 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:28:32 --> Controller Class Initialized
+INFO - 2017-06-19 18:28:32 --> Model Class Initialized
+INFO - 2017-06-19 18:28:32 --> Email Class Initialized
+DEBUG - 2017-06-19 18:28:32 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:28:32 --> File loaded: C:\xampp\htdocs\dra\application\views\public/organigrama.php
+INFO - 2017-06-19 11:28:32 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:28:32 --> Final output sent to browser
+DEBUG - 2017-06-19 11:28:32 --> Total execution time: 0.7354
+INFO - 2017-06-19 18:38:11 --> Config Class Initialized
+INFO - 2017-06-19 18:38:11 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:38:11 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:38:11 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:38:11 --> URI Class Initialized
+INFO - 2017-06-19 18:38:11 --> Router Class Initialized
+INFO - 2017-06-19 18:38:11 --> Output Class Initialized
+INFO - 2017-06-19 18:38:11 --> Security Class Initialized
+DEBUG - 2017-06-19 18:38:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:38:11 --> Input Class Initialized
+INFO - 2017-06-19 18:38:11 --> Language Class Initialized
+INFO - 2017-06-19 18:38:12 --> Loader Class Initialized
+INFO - 2017-06-19 18:38:12 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:38:12 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:38:12 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:38:12 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:38:12 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:38:12 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:38:12 --> User Agent Class Initialized
+INFO - 2017-06-19 18:38:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:38:12 --> Pagination Class Initialized
+INFO - 2017-06-19 18:38:12 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:38:12 --> Model Class Initialized
+INFO - 2017-06-19 18:38:12 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:38:12 --> Controller Class Initialized
+INFO - 2017-06-19 18:38:12 --> Model Class Initialized
+INFO - 2017-06-19 18:38:12 --> Email Class Initialized
+DEBUG - 2017-06-19 18:38:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:38:12 --> File loaded: C:\xampp\htdocs\dra\application\views\public/organigrama.php
+INFO - 2017-06-19 11:38:12 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:38:12 --> Final output sent to browser
+DEBUG - 2017-06-19 11:38:12 --> Total execution time: 0.7857
+INFO - 2017-06-19 18:38:12 --> Config Class Initialized
+INFO - 2017-06-19 18:38:12 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:38:12 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:38:12 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:38:20 --> Config Class Initialized
+INFO - 2017-06-19 18:38:20 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:38:20 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:38:20 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:38:31 --> Config Class Initialized
+INFO - 2017-06-19 18:38:31 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:38:31 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:38:31 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:38:31 --> URI Class Initialized
+INFO - 2017-06-19 18:38:31 --> Router Class Initialized
+INFO - 2017-06-19 18:38:31 --> Output Class Initialized
+INFO - 2017-06-19 18:38:31 --> Security Class Initialized
+DEBUG - 2017-06-19 18:38:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:38:31 --> Input Class Initialized
+INFO - 2017-06-19 18:38:31 --> Language Class Initialized
+INFO - 2017-06-19 18:38:31 --> Loader Class Initialized
+INFO - 2017-06-19 18:38:31 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:38:31 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:38:31 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:38:31 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:38:31 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:38:31 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:38:31 --> User Agent Class Initialized
+INFO - 2017-06-19 18:38:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:38:31 --> Pagination Class Initialized
+INFO - 2017-06-19 18:38:31 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:38:31 --> Model Class Initialized
+INFO - 2017-06-19 18:38:31 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:38:31 --> Controller Class Initialized
+INFO - 2017-06-19 18:38:31 --> Model Class Initialized
+INFO - 2017-06-19 18:38:31 --> Email Class Initialized
+DEBUG - 2017-06-19 18:38:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:38:31 --> File loaded: C:\xampp\htdocs\dra\application\views\public/organigrama.php
+INFO - 2017-06-19 11:38:32 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:38:32 --> Final output sent to browser
+DEBUG - 2017-06-19 11:38:32 --> Total execution time: 0.7068
+INFO - 2017-06-19 18:38:52 --> Config Class Initialized
+INFO - 2017-06-19 18:38:52 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:38:52 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:38:52 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:38:52 --> URI Class Initialized
+INFO - 2017-06-19 18:38:52 --> Router Class Initialized
+INFO - 2017-06-19 18:38:52 --> Output Class Initialized
+INFO - 2017-06-19 18:38:52 --> Security Class Initialized
+DEBUG - 2017-06-19 18:38:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:38:52 --> Input Class Initialized
+INFO - 2017-06-19 18:38:52 --> Language Class Initialized
+INFO - 2017-06-19 18:38:52 --> Loader Class Initialized
+INFO - 2017-06-19 18:38:52 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:38:52 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:38:52 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:38:52 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:38:52 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:38:52 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:38:52 --> User Agent Class Initialized
+INFO - 2017-06-19 18:38:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:38:52 --> Pagination Class Initialized
+INFO - 2017-06-19 18:38:52 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:38:52 --> Model Class Initialized
+INFO - 2017-06-19 18:38:52 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:38:52 --> Controller Class Initialized
+INFO - 2017-06-19 18:38:52 --> Model Class Initialized
+INFO - 2017-06-19 18:38:52 --> Email Class Initialized
+DEBUG - 2017-06-19 18:38:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:38:52 --> File loaded: C:\xampp\htdocs\dra\application\views\public/organigrama.php
+INFO - 2017-06-19 11:38:53 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:38:53 --> Final output sent to browser
+DEBUG - 2017-06-19 11:38:53 --> Total execution time: 0.7067
+INFO - 2017-06-19 18:39:34 --> Config Class Initialized
+INFO - 2017-06-19 18:39:34 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:39:34 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:39:34 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:39:34 --> URI Class Initialized
+INFO - 2017-06-19 18:39:34 --> Router Class Initialized
+INFO - 2017-06-19 18:39:34 --> Output Class Initialized
+INFO - 2017-06-19 18:39:34 --> Security Class Initialized
+DEBUG - 2017-06-19 18:39:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:39:34 --> Input Class Initialized
+INFO - 2017-06-19 18:39:34 --> Language Class Initialized
+INFO - 2017-06-19 18:39:34 --> Loader Class Initialized
+INFO - 2017-06-19 18:39:34 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:39:34 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:39:34 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:39:34 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:39:34 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:39:34 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:39:34 --> User Agent Class Initialized
+INFO - 2017-06-19 18:39:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:39:34 --> Pagination Class Initialized
+INFO - 2017-06-19 18:39:34 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:39:34 --> Model Class Initialized
+INFO - 2017-06-19 18:39:34 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:39:34 --> Controller Class Initialized
+INFO - 2017-06-19 18:39:34 --> Model Class Initialized
+INFO - 2017-06-19 18:39:34 --> Email Class Initialized
+DEBUG - 2017-06-19 18:39:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:39:34 --> File loaded: C:\xampp\htdocs\dra\application\views\public/organigrama.php
+INFO - 2017-06-19 11:39:35 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:39:35 --> Final output sent to browser
+DEBUG - 2017-06-19 11:39:35 --> Total execution time: 0.8925
+INFO - 2017-06-19 18:39:44 --> Config Class Initialized
+INFO - 2017-06-19 18:39:44 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:39:44 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:39:44 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:39:44 --> URI Class Initialized
+INFO - 2017-06-19 18:39:44 --> Router Class Initialized
+INFO - 2017-06-19 18:39:44 --> Output Class Initialized
+INFO - 2017-06-19 18:39:44 --> Security Class Initialized
+DEBUG - 2017-06-19 18:39:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:39:44 --> Input Class Initialized
+INFO - 2017-06-19 18:39:44 --> Language Class Initialized
+INFO - 2017-06-19 18:39:44 --> Loader Class Initialized
+INFO - 2017-06-19 18:39:44 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:39:44 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:39:44 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:39:44 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:39:44 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:39:44 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:39:44 --> User Agent Class Initialized
+INFO - 2017-06-19 18:39:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:39:44 --> Pagination Class Initialized
+INFO - 2017-06-19 18:39:44 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:39:44 --> Model Class Initialized
+INFO - 2017-06-19 18:39:44 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:39:44 --> Controller Class Initialized
+INFO - 2017-06-19 18:39:44 --> Model Class Initialized
+INFO - 2017-06-19 18:39:44 --> Email Class Initialized
+DEBUG - 2017-06-19 18:39:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:39:44 --> File loaded: C:\xampp\htdocs\dra\application\views\public/organigrama.php
+INFO - 2017-06-19 11:39:45 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:39:45 --> Final output sent to browser
+DEBUG - 2017-06-19 11:39:45 --> Total execution time: 0.6761
+INFO - 2017-06-19 18:39:52 --> Config Class Initialized
+INFO - 2017-06-19 18:39:52 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:39:52 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:39:52 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:39:52 --> URI Class Initialized
+INFO - 2017-06-19 18:39:52 --> Router Class Initialized
+INFO - 2017-06-19 18:39:52 --> Output Class Initialized
+INFO - 2017-06-19 18:39:52 --> Security Class Initialized
+DEBUG - 2017-06-19 18:39:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:39:52 --> Input Class Initialized
+INFO - 2017-06-19 18:39:52 --> Language Class Initialized
+INFO - 2017-06-19 18:39:52 --> Loader Class Initialized
+INFO - 2017-06-19 18:39:52 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:39:52 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:39:52 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:39:52 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:39:52 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:39:52 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:39:52 --> User Agent Class Initialized
+INFO - 2017-06-19 18:39:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:39:52 --> Pagination Class Initialized
+INFO - 2017-06-19 18:39:52 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:39:52 --> Model Class Initialized
+INFO - 2017-06-19 18:39:52 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:39:52 --> Controller Class Initialized
+INFO - 2017-06-19 18:39:52 --> Model Class Initialized
+INFO - 2017-06-19 18:39:52 --> Email Class Initialized
+DEBUG - 2017-06-19 18:39:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:39:52 --> File loaded: C:\xampp\htdocs\dra\application\views\public/organigrama.php
+INFO - 2017-06-19 11:39:53 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:39:53 --> Final output sent to browser
+DEBUG - 2017-06-19 11:39:53 --> Total execution time: 0.6912
+INFO - 2017-06-19 18:42:07 --> Config Class Initialized
+INFO - 2017-06-19 18:42:07 --> Hooks Class Initialized
+DEBUG - 2017-06-19 18:42:07 --> UTF-8 Support Enabled
+INFO - 2017-06-19 18:42:07 --> Utf8 Class Initialized
+INFO - 2017-06-19 18:42:07 --> URI Class Initialized
+INFO - 2017-06-19 18:42:07 --> Router Class Initialized
+INFO - 2017-06-19 18:42:07 --> Output Class Initialized
+INFO - 2017-06-19 18:42:07 --> Security Class Initialized
+DEBUG - 2017-06-19 18:42:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 18:42:07 --> Input Class Initialized
+INFO - 2017-06-19 18:42:07 --> Language Class Initialized
+INFO - 2017-06-19 18:42:07 --> Loader Class Initialized
+INFO - 2017-06-19 18:42:07 --> Helper loaded: language_helper
+INFO - 2017-06-19 18:42:07 --> Helper loaded: url_helper
+INFO - 2017-06-19 18:42:07 --> Helper loaded: form_helper
+INFO - 2017-06-19 18:42:07 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 18:42:07 --> Helper loaded: util_helper
+INFO - 2017-06-19 18:42:07 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 18:42:07 --> User Agent Class Initialized
+INFO - 2017-06-19 18:42:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 18:42:07 --> Pagination Class Initialized
+INFO - 2017-06-19 18:42:07 --> Form Validation Class Initialized
+INFO - 2017-06-19 18:42:07 --> Model Class Initialized
+INFO - 2017-06-19 18:42:07 --> Database Driver Class Initialized
+INFO - 2017-06-19 18:42:07 --> Controller Class Initialized
+INFO - 2017-06-19 18:42:07 --> Model Class Initialized
+INFO - 2017-06-19 18:42:07 --> Email Class Initialized
+DEBUG - 2017-06-19 18:42:07 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 11:42:07 --> File loaded: C:\xampp\htdocs\dra\application\views\public/organigrama.php
+INFO - 2017-06-19 11:42:08 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 11:42:08 --> Final output sent to browser
+DEBUG - 2017-06-19 11:42:08 --> Total execution time: 0.8231
+INFO - 2017-06-19 19:22:36 --> Config Class Initialized
+INFO - 2017-06-19 19:22:36 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:22:36 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:22:36 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:22:36 --> URI Class Initialized
+DEBUG - 2017-06-19 19:22:36 --> No URI present. Default controller set.
+INFO - 2017-06-19 19:22:36 --> Router Class Initialized
+INFO - 2017-06-19 19:22:36 --> Output Class Initialized
+INFO - 2017-06-19 19:22:36 --> Security Class Initialized
+DEBUG - 2017-06-19 19:22:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:22:36 --> Input Class Initialized
+INFO - 2017-06-19 19:22:36 --> Language Class Initialized
+INFO - 2017-06-19 19:22:36 --> Loader Class Initialized
+INFO - 2017-06-19 19:22:36 --> Helper loaded: language_helper
+INFO - 2017-06-19 19:22:36 --> Helper loaded: url_helper
+INFO - 2017-06-19 19:22:36 --> Helper loaded: form_helper
+INFO - 2017-06-19 19:22:36 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 19:22:36 --> Helper loaded: util_helper
+INFO - 2017-06-19 19:22:36 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 19:22:36 --> User Agent Class Initialized
+INFO - 2017-06-19 19:22:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 19:22:36 --> Pagination Class Initialized
+INFO - 2017-06-19 19:22:36 --> Form Validation Class Initialized
+INFO - 2017-06-19 19:22:36 --> Model Class Initialized
+INFO - 2017-06-19 19:22:36 --> Database Driver Class Initialized
+INFO - 2017-06-19 19:22:36 --> Controller Class Initialized
+INFO - 2017-06-19 19:22:36 --> Model Class Initialized
+INFO - 2017-06-19 19:22:36 --> Email Class Initialized
+DEBUG - 2017-06-19 19:22:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 12:22:36 --> Model Class Initialized
+INFO - 2017-06-19 12:22:36 --> Model Class Initialized
+INFO - 2017-06-19 12:22:36 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-06-19 12:22:37 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 12:22:37 --> Final output sent to browser
+DEBUG - 2017-06-19 12:22:37 --> Total execution time: 0.8549
+INFO - 2017-06-19 19:22:37 --> Config Class Initialized
+INFO - 2017-06-19 19:22:37 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:22:37 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:22:37 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:22:37 --> URI Class Initialized
+INFO - 2017-06-19 19:22:37 --> Config Class Initialized
+INFO - 2017-06-19 19:22:37 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:22:37 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:22:37 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:22:37 --> URI Class Initialized
+INFO - 2017-06-19 19:22:37 --> Router Class Initialized
+INFO - 2017-06-19 19:22:37 --> Output Class Initialized
+INFO - 2017-06-19 19:22:37 --> Security Class Initialized
+DEBUG - 2017-06-19 19:22:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:22:37 --> Input Class Initialized
+INFO - 2017-06-19 19:22:37 --> Language Class Initialized
+ERROR - 2017-06-19 19:22:37 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 19:22:37 --> Router Class Initialized
+INFO - 2017-06-19 19:22:37 --> Output Class Initialized
+INFO - 2017-06-19 19:22:37 --> Security Class Initialized
+DEBUG - 2017-06-19 19:22:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:22:37 --> Input Class Initialized
+INFO - 2017-06-19 19:22:37 --> Language Class Initialized
+ERROR - 2017-06-19 19:22:37 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 19:22:41 --> Config Class Initialized
+INFO - 2017-06-19 19:22:41 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:22:41 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:22:41 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:22:41 --> URI Class Initialized
+INFO - 2017-06-19 19:22:41 --> Router Class Initialized
+INFO - 2017-06-19 19:22:41 --> Output Class Initialized
+INFO - 2017-06-19 19:22:41 --> Security Class Initialized
+DEBUG - 2017-06-19 19:22:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:22:41 --> Input Class Initialized
+INFO - 2017-06-19 19:22:41 --> Language Class Initialized
+INFO - 2017-06-19 19:22:41 --> Loader Class Initialized
+INFO - 2017-06-19 19:22:41 --> Helper loaded: language_helper
+INFO - 2017-06-19 19:22:41 --> Helper loaded: url_helper
+INFO - 2017-06-19 19:22:41 --> Helper loaded: form_helper
+INFO - 2017-06-19 19:22:41 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 19:22:41 --> Helper loaded: util_helper
+INFO - 2017-06-19 19:22:41 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 19:22:41 --> User Agent Class Initialized
+INFO - 2017-06-19 19:22:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 19:22:41 --> Pagination Class Initialized
+INFO - 2017-06-19 19:22:41 --> Form Validation Class Initialized
+INFO - 2017-06-19 19:22:41 --> Model Class Initialized
+INFO - 2017-06-19 19:22:41 --> Database Driver Class Initialized
+INFO - 2017-06-19 19:22:41 --> Controller Class Initialized
+INFO - 2017-06-19 19:22:41 --> Model Class Initialized
+INFO - 2017-06-19 19:22:41 --> Email Class Initialized
+DEBUG - 2017-06-19 19:22:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 12:22:41 --> File loaded: C:\xampp\htdocs\dra\application\views\public/login.php
+INFO - 2017-06-19 12:22:42 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 12:22:42 --> Final output sent to browser
+DEBUG - 2017-06-19 12:22:42 --> Total execution time: 0.7228
+INFO - 2017-06-19 19:22:51 --> Config Class Initialized
+INFO - 2017-06-19 19:22:51 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:22:51 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:22:51 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:22:51 --> URI Class Initialized
+INFO - 2017-06-19 19:22:51 --> Router Class Initialized
+INFO - 2017-06-19 19:22:51 --> Output Class Initialized
+INFO - 2017-06-19 19:22:51 --> Security Class Initialized
+DEBUG - 2017-06-19 19:22:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:22:51 --> Input Class Initialized
+INFO - 2017-06-19 19:22:51 --> Language Class Initialized
+INFO - 2017-06-19 19:22:51 --> Loader Class Initialized
+INFO - 2017-06-19 19:22:51 --> Helper loaded: language_helper
+INFO - 2017-06-19 19:22:51 --> Helper loaded: url_helper
+INFO - 2017-06-19 19:22:51 --> Helper loaded: form_helper
+INFO - 2017-06-19 19:22:51 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 19:22:51 --> Helper loaded: util_helper
+INFO - 2017-06-19 19:22:51 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 19:22:51 --> User Agent Class Initialized
+INFO - 2017-06-19 19:22:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 19:22:51 --> Pagination Class Initialized
+INFO - 2017-06-19 19:22:51 --> Form Validation Class Initialized
+INFO - 2017-06-19 19:22:51 --> Model Class Initialized
+INFO - 2017-06-19 19:22:51 --> Database Driver Class Initialized
+INFO - 2017-06-19 19:22:51 --> Controller Class Initialized
+INFO - 2017-06-19 19:22:51 --> Model Class Initialized
+INFO - 2017-06-19 19:22:51 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 19:22:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 12:22:52 --> Final output sent to browser
+DEBUG - 2017-06-19 12:22:52 --> Total execution time: 1.0131
+INFO - 2017-06-19 19:22:52 --> Config Class Initialized
+INFO - 2017-06-19 19:22:52 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:22:52 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:22:52 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:22:52 --> URI Class Initialized
+DEBUG - 2017-06-19 19:22:52 --> No URI present. Default controller set.
+INFO - 2017-06-19 19:22:52 --> Router Class Initialized
+INFO - 2017-06-19 19:22:52 --> Output Class Initialized
+INFO - 2017-06-19 19:22:52 --> Security Class Initialized
+DEBUG - 2017-06-19 19:22:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:22:52 --> Input Class Initialized
+INFO - 2017-06-19 19:22:52 --> Language Class Initialized
+INFO - 2017-06-19 19:22:52 --> Loader Class Initialized
+INFO - 2017-06-19 19:22:52 --> Helper loaded: language_helper
+INFO - 2017-06-19 19:22:52 --> Helper loaded: url_helper
+INFO - 2017-06-19 19:22:52 --> Helper loaded: form_helper
+INFO - 2017-06-19 19:22:52 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 19:22:52 --> Helper loaded: util_helper
+INFO - 2017-06-19 19:22:52 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 19:22:52 --> User Agent Class Initialized
+INFO - 2017-06-19 19:22:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 19:22:52 --> Pagination Class Initialized
+INFO - 2017-06-19 19:22:52 --> Form Validation Class Initialized
+INFO - 2017-06-19 19:22:52 --> Model Class Initialized
+INFO - 2017-06-19 19:22:52 --> Database Driver Class Initialized
+INFO - 2017-06-19 19:22:52 --> Controller Class Initialized
+INFO - 2017-06-19 19:22:52 --> Model Class Initialized
+INFO - 2017-06-19 19:22:52 --> Email Class Initialized
+DEBUG - 2017-06-19 19:22:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 12:22:52 --> Model Class Initialized
+INFO - 2017-06-19 12:22:52 --> Model Class Initialized
+INFO - 2017-06-19 12:22:52 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-06-19 12:22:53 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 12:22:53 --> Final output sent to browser
+DEBUG - 2017-06-19 12:22:53 --> Total execution time: 0.7899
+INFO - 2017-06-19 19:22:53 --> Config Class Initialized
+INFO - 2017-06-19 19:22:53 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:22:53 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:22:53 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:22:53 --> URI Class Initialized
+INFO - 2017-06-19 19:22:53 --> Router Class Initialized
+INFO - 2017-06-19 19:22:53 --> Output Class Initialized
+INFO - 2017-06-19 19:22:53 --> Security Class Initialized
+DEBUG - 2017-06-19 19:22:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:22:53 --> Input Class Initialized
+INFO - 2017-06-19 19:22:53 --> Language Class Initialized
+INFO - 2017-06-19 19:22:53 --> Config Class Initialized
+INFO - 2017-06-19 19:22:53 --> Hooks Class Initialized
+ERROR - 2017-06-19 19:22:53 --> 404 Page Not Found: Assets/noticia
+DEBUG - 2017-06-19 19:22:53 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:22:53 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:22:53 --> URI Class Initialized
+INFO - 2017-06-19 19:22:53 --> Router Class Initialized
+INFO - 2017-06-19 19:22:53 --> Output Class Initialized
+INFO - 2017-06-19 19:22:53 --> Security Class Initialized
+DEBUG - 2017-06-19 19:22:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:22:53 --> Input Class Initialized
+INFO - 2017-06-19 19:22:53 --> Language Class Initialized
+ERROR - 2017-06-19 19:22:53 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 19:22:56 --> Config Class Initialized
+INFO - 2017-06-19 19:22:56 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:22:56 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:22:56 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:22:56 --> URI Class Initialized
+INFO - 2017-06-19 19:22:56 --> Router Class Initialized
+INFO - 2017-06-19 19:22:56 --> Output Class Initialized
+INFO - 2017-06-19 19:22:56 --> Security Class Initialized
+DEBUG - 2017-06-19 19:22:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:22:56 --> Input Class Initialized
+INFO - 2017-06-19 19:22:56 --> Language Class Initialized
+INFO - 2017-06-19 19:22:56 --> Loader Class Initialized
+INFO - 2017-06-19 19:22:56 --> Helper loaded: language_helper
+INFO - 2017-06-19 19:22:56 --> Helper loaded: url_helper
+INFO - 2017-06-19 19:22:56 --> Helper loaded: form_helper
+INFO - 2017-06-19 19:22:56 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 19:22:56 --> Helper loaded: util_helper
+INFO - 2017-06-19 19:22:56 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 19:22:56 --> User Agent Class Initialized
+INFO - 2017-06-19 19:22:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 19:22:56 --> Pagination Class Initialized
+INFO - 2017-06-19 19:22:56 --> Form Validation Class Initialized
+INFO - 2017-06-19 19:22:56 --> Model Class Initialized
+INFO - 2017-06-19 19:22:56 --> Database Driver Class Initialized
+INFO - 2017-06-19 19:22:56 --> Controller Class Initialized
+INFO - 2017-06-19 19:22:56 --> Model Class Initialized
+INFO - 2017-06-19 19:22:56 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 19:22:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 12:22:56 --> File loaded: C:\xampp\htdocs\dra\application\views\empleado/search.php
+INFO - 2017-06-19 12:22:57 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 12:22:57 --> Final output sent to browser
+DEBUG - 2017-06-19 12:22:57 --> Total execution time: 0.8406
+INFO - 2017-06-19 19:22:57 --> Config Class Initialized
+INFO - 2017-06-19 19:22:57 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:22:57 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:22:57 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:22:57 --> URI Class Initialized
+INFO - 2017-06-19 19:22:57 --> Router Class Initialized
+INFO - 2017-06-19 19:22:57 --> Output Class Initialized
+INFO - 2017-06-19 19:22:57 --> Security Class Initialized
+DEBUG - 2017-06-19 19:22:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:22:57 --> Input Class Initialized
+INFO - 2017-06-19 19:22:57 --> Language Class Initialized
+INFO - 2017-06-19 19:22:57 --> Loader Class Initialized
+INFO - 2017-06-19 19:22:57 --> Helper loaded: language_helper
+INFO - 2017-06-19 19:22:57 --> Helper loaded: url_helper
+INFO - 2017-06-19 19:22:57 --> Helper loaded: form_helper
+INFO - 2017-06-19 19:22:57 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 19:22:57 --> Helper loaded: util_helper
+INFO - 2017-06-19 19:22:57 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 19:22:57 --> User Agent Class Initialized
+INFO - 2017-06-19 19:22:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 19:22:57 --> Pagination Class Initialized
+INFO - 2017-06-19 19:22:57 --> Form Validation Class Initialized
+INFO - 2017-06-19 19:22:57 --> Model Class Initialized
+INFO - 2017-06-19 19:22:57 --> Database Driver Class Initialized
+INFO - 2017-06-19 19:22:57 --> Controller Class Initialized
+INFO - 2017-06-19 19:22:57 --> Model Class Initialized
+INFO - 2017-06-19 19:22:57 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 19:22:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 12:22:58 --> Final output sent to browser
+DEBUG - 2017-06-19 12:22:58 --> Total execution time: 0.6441
+INFO - 2017-06-19 19:23:02 --> Config Class Initialized
+INFO - 2017-06-19 19:23:02 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:23:02 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:23:02 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:23:02 --> URI Class Initialized
+INFO - 2017-06-19 19:23:02 --> Router Class Initialized
+INFO - 2017-06-19 19:23:02 --> Output Class Initialized
+INFO - 2017-06-19 19:23:02 --> Security Class Initialized
+DEBUG - 2017-06-19 19:23:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:23:02 --> Input Class Initialized
+INFO - 2017-06-19 19:23:02 --> Language Class Initialized
+INFO - 2017-06-19 19:23:02 --> Loader Class Initialized
+INFO - 2017-06-19 19:23:02 --> Helper loaded: language_helper
+INFO - 2017-06-19 19:23:02 --> Helper loaded: url_helper
+INFO - 2017-06-19 19:23:02 --> Helper loaded: form_helper
+INFO - 2017-06-19 19:23:02 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 19:23:02 --> Helper loaded: util_helper
+INFO - 2017-06-19 19:23:02 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 19:23:02 --> User Agent Class Initialized
+INFO - 2017-06-19 19:23:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 19:23:02 --> Pagination Class Initialized
+INFO - 2017-06-19 19:23:02 --> Form Validation Class Initialized
+INFO - 2017-06-19 19:23:02 --> Model Class Initialized
+INFO - 2017-06-19 19:23:02 --> Database Driver Class Initialized
+INFO - 2017-06-19 19:23:02 --> Controller Class Initialized
+INFO - 2017-06-19 19:23:02 --> Model Class Initialized
+INFO - 2017-06-19 19:23:02 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 19:23:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 12:23:02 --> Final output sent to browser
+DEBUG - 2017-06-19 12:23:02 --> Total execution time: 0.1240
+INFO - 2017-06-19 19:23:03 --> Config Class Initialized
+INFO - 2017-06-19 19:23:03 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:23:03 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:23:03 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:23:03 --> URI Class Initialized
+INFO - 2017-06-19 19:23:03 --> Router Class Initialized
+INFO - 2017-06-19 19:23:03 --> Output Class Initialized
+INFO - 2017-06-19 19:23:03 --> Security Class Initialized
+DEBUG - 2017-06-19 19:23:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:23:03 --> Input Class Initialized
+INFO - 2017-06-19 19:23:03 --> Language Class Initialized
+INFO - 2017-06-19 19:23:03 --> Loader Class Initialized
+INFO - 2017-06-19 19:23:03 --> Helper loaded: language_helper
+INFO - 2017-06-19 19:23:03 --> Helper loaded: url_helper
+INFO - 2017-06-19 19:23:03 --> Helper loaded: form_helper
+INFO - 2017-06-19 19:23:03 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 19:23:03 --> Helper loaded: util_helper
+INFO - 2017-06-19 19:23:03 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 19:23:03 --> User Agent Class Initialized
+INFO - 2017-06-19 19:23:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 19:23:03 --> Pagination Class Initialized
+INFO - 2017-06-19 19:23:03 --> Form Validation Class Initialized
+INFO - 2017-06-19 19:23:03 --> Model Class Initialized
+INFO - 2017-06-19 19:23:03 --> Database Driver Class Initialized
+INFO - 2017-06-19 19:23:03 --> Controller Class Initialized
+INFO - 2017-06-19 19:23:03 --> Model Class Initialized
+INFO - 2017-06-19 19:23:03 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 19:23:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 12:23:03 --> Final output sent to browser
+DEBUG - 2017-06-19 12:23:03 --> Total execution time: 0.0913
+INFO - 2017-06-19 19:23:03 --> Config Class Initialized
+INFO - 2017-06-19 19:23:03 --> Hooks Class Initialized
+DEBUG - 2017-06-19 19:23:03 --> UTF-8 Support Enabled
+INFO - 2017-06-19 19:23:03 --> Utf8 Class Initialized
+INFO - 2017-06-19 19:23:03 --> URI Class Initialized
+INFO - 2017-06-19 19:23:03 --> Router Class Initialized
+INFO - 2017-06-19 19:23:03 --> Output Class Initialized
+INFO - 2017-06-19 19:23:03 --> Security Class Initialized
+DEBUG - 2017-06-19 19:23:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 19:23:03 --> Input Class Initialized
+INFO - 2017-06-19 19:23:03 --> Language Class Initialized
+INFO - 2017-06-19 19:23:03 --> Loader Class Initialized
+INFO - 2017-06-19 19:23:03 --> Helper loaded: language_helper
+INFO - 2017-06-19 19:23:03 --> Helper loaded: url_helper
+INFO - 2017-06-19 19:23:03 --> Helper loaded: form_helper
+INFO - 2017-06-19 19:23:03 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 19:23:03 --> Helper loaded: util_helper
+INFO - 2017-06-19 19:23:03 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 19:23:03 --> User Agent Class Initialized
+INFO - 2017-06-19 19:23:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 19:23:03 --> Pagination Class Initialized
+INFO - 2017-06-19 19:23:03 --> Form Validation Class Initialized
+INFO - 2017-06-19 19:23:03 --> Model Class Initialized
+INFO - 2017-06-19 19:23:03 --> Database Driver Class Initialized
+INFO - 2017-06-19 19:23:03 --> Controller Class Initialized
+INFO - 2017-06-19 19:23:03 --> Model Class Initialized
+INFO - 2017-06-19 19:23:03 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 19:23:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 12:23:03 --> Final output sent to browser
+DEBUG - 2017-06-19 12:23:03 --> Total execution time: 0.0918
+INFO - 2017-06-19 21:06:25 --> Config Class Initialized
+INFO - 2017-06-19 21:06:25 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:06:25 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:06:25 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:06:25 --> URI Class Initialized
+DEBUG - 2017-06-19 21:06:25 --> No URI present. Default controller set.
+INFO - 2017-06-19 21:06:25 --> Router Class Initialized
+INFO - 2017-06-19 21:06:25 --> Output Class Initialized
+INFO - 2017-06-19 21:06:25 --> Security Class Initialized
+DEBUG - 2017-06-19 21:06:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:06:25 --> Input Class Initialized
+INFO - 2017-06-19 21:06:25 --> Language Class Initialized
+INFO - 2017-06-19 21:06:25 --> Loader Class Initialized
+INFO - 2017-06-19 21:06:25 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:06:25 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:06:25 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:06:26 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:06:26 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:06:26 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:06:26 --> User Agent Class Initialized
+INFO - 2017-06-19 21:06:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:06:26 --> Pagination Class Initialized
+INFO - 2017-06-19 21:06:26 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:06:26 --> Model Class Initialized
+INFO - 2017-06-19 21:06:26 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:06:26 --> Controller Class Initialized
+INFO - 2017-06-19 21:06:26 --> Model Class Initialized
+INFO - 2017-06-19 21:06:26 --> Email Class Initialized
+DEBUG - 2017-06-19 21:06:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:06:26 --> Model Class Initialized
+INFO - 2017-06-19 14:06:26 --> Model Class Initialized
+INFO - 2017-06-19 14:06:26 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-06-19 14:06:28 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 14:06:28 --> Final output sent to browser
+DEBUG - 2017-06-19 14:06:28 --> Total execution time: 2.2945
+INFO - 2017-06-19 21:06:28 --> Config Class Initialized
+INFO - 2017-06-19 21:06:28 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:06:28 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:06:28 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:06:28 --> URI Class Initialized
+INFO - 2017-06-19 21:06:28 --> Router Class Initialized
+INFO - 2017-06-19 21:06:28 --> Output Class Initialized
+INFO - 2017-06-19 21:06:28 --> Security Class Initialized
+DEBUG - 2017-06-19 21:06:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:06:28 --> Input Class Initialized
+INFO - 2017-06-19 21:06:28 --> Language Class Initialized
+ERROR - 2017-06-19 21:06:28 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 21:06:28 --> Config Class Initialized
+INFO - 2017-06-19 21:06:28 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:06:28 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:06:28 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:06:28 --> URI Class Initialized
+INFO - 2017-06-19 21:06:28 --> Router Class Initialized
+INFO - 2017-06-19 21:06:28 --> Output Class Initialized
+INFO - 2017-06-19 21:06:28 --> Security Class Initialized
+DEBUG - 2017-06-19 21:06:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:06:28 --> Input Class Initialized
+INFO - 2017-06-19 21:06:28 --> Language Class Initialized
+ERROR - 2017-06-19 21:06:28 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 21:06:34 --> Config Class Initialized
+INFO - 2017-06-19 21:06:34 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:06:34 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:06:34 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:06:34 --> URI Class Initialized
+INFO - 2017-06-19 21:06:34 --> Router Class Initialized
+INFO - 2017-06-19 21:06:34 --> Output Class Initialized
+INFO - 2017-06-19 21:06:34 --> Security Class Initialized
+DEBUG - 2017-06-19 21:06:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:06:34 --> Input Class Initialized
+INFO - 2017-06-19 21:06:34 --> Language Class Initialized
+INFO - 2017-06-19 21:06:34 --> Loader Class Initialized
+INFO - 2017-06-19 21:06:34 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:06:34 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:06:34 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:06:34 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:06:34 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:06:35 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:06:35 --> User Agent Class Initialized
+INFO - 2017-06-19 21:06:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:06:35 --> Pagination Class Initialized
+INFO - 2017-06-19 21:06:35 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:06:35 --> Model Class Initialized
+INFO - 2017-06-19 21:06:35 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:06:35 --> Controller Class Initialized
+INFO - 2017-06-19 21:06:35 --> Model Class Initialized
+INFO - 2017-06-19 21:06:35 --> Model Class Initialized
+INFO - 2017-06-19 21:06:36 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:06:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:06:36 --> File loaded: C:\xampp\htdocs\dra\application\views\comision/search.php
+INFO - 2017-06-19 14:06:37 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 14:06:37 --> Final output sent to browser
+DEBUG - 2017-06-19 14:06:37 --> Total execution time: 2.4349
+INFO - 2017-06-19 21:06:41 --> Config Class Initialized
+INFO - 2017-06-19 21:06:41 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:06:41 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:06:41 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:06:41 --> URI Class Initialized
+INFO - 2017-06-19 21:06:41 --> Router Class Initialized
+INFO - 2017-06-19 21:06:41 --> Output Class Initialized
+INFO - 2017-06-19 21:06:41 --> Security Class Initialized
+DEBUG - 2017-06-19 21:06:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:06:41 --> Input Class Initialized
+INFO - 2017-06-19 21:06:41 --> Language Class Initialized
+INFO - 2017-06-19 21:06:41 --> Loader Class Initialized
+INFO - 2017-06-19 21:06:41 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:06:41 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:06:41 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:06:41 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:06:41 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:06:41 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:06:41 --> User Agent Class Initialized
+INFO - 2017-06-19 21:06:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:06:41 --> Pagination Class Initialized
+INFO - 2017-06-19 21:06:41 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:06:41 --> Model Class Initialized
+INFO - 2017-06-19 21:06:41 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:06:41 --> Controller Class Initialized
+INFO - 2017-06-19 21:06:41 --> Model Class Initialized
+INFO - 2017-06-19 21:06:41 --> Model Class Initialized
+INFO - 2017-06-19 21:06:41 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:06:41 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:06:42 --> Query error: Table 'dral_db.v_comision' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_comision`
+WHERE `esta_com` > '-1'
+AND `fech_com` = '2017-06-19'
+AND (`codi_com` LIKE '%%' OR 
+                            `nomb_emp` LIKE '%%' OR
+                            `apel_emp` LIKE '%%' OR
+                            `docu_emp` LIKE '%%' OR
+                            `ofic_emp` LIKE '%%' OR
+                            `tipo_com` LIKE '%%')
+INFO - 2017-06-19 14:06:42 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 21:07:09 --> Config Class Initialized
+INFO - 2017-06-19 21:07:09 --> Hooks Class Initialized
+INFO - 2017-06-19 21:07:09 --> Config Class Initialized
+INFO - 2017-06-19 21:07:09 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:07:09 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:07:09 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:07:09 --> URI Class Initialized
+INFO - 2017-06-19 21:07:09 --> Router Class Initialized
+INFO - 2017-06-19 21:07:09 --> Output Class Initialized
+INFO - 2017-06-19 21:07:09 --> Security Class Initialized
+DEBUG - 2017-06-19 21:07:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:07:09 --> Input Class Initialized
+INFO - 2017-06-19 21:07:09 --> Language Class Initialized
+INFO - 2017-06-19 21:07:09 --> Loader Class Initialized
+INFO - 2017-06-19 21:07:09 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:07:09 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:07:09 --> Helper loaded: form_helper
+DEBUG - 2017-06-19 21:07:09 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:07:09 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:07:09 --> URI Class Initialized
+INFO - 2017-06-19 21:07:09 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:07:09 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:07:09 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:07:09 --> User Agent Class Initialized
+INFO - 2017-06-19 21:07:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:07:09 --> Pagination Class Initialized
+INFO - 2017-06-19 21:07:09 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:07:09 --> Model Class Initialized
+INFO - 2017-06-19 21:07:09 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:07:09 --> Controller Class Initialized
+INFO - 2017-06-19 21:07:09 --> Model Class Initialized
+INFO - 2017-06-19 21:07:09 --> Model Class Initialized
+INFO - 2017-06-19 21:07:09 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:07:09 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:07:09 --> Query error: Table 'dral_db.v_comision' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_comision`
+WHERE `esta_com` > '-1'
+AND `fech_com` = '2017-06-19'
+AND (`codi_com` LIKE '%%' OR 
+                            `nomb_emp` LIKE '%%' OR
+                            `apel_emp` LIKE '%%' OR
+                            `docu_emp` LIKE '%%' OR
+                            `ofic_emp` LIKE '%%' OR
+                            `tipo_com` LIKE '%%')
+INFO - 2017-06-19 14:07:09 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 21:07:09 --> Router Class Initialized
+INFO - 2017-06-19 21:07:09 --> Output Class Initialized
+INFO - 2017-06-19 21:07:09 --> Security Class Initialized
+DEBUG - 2017-06-19 21:07:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:07:09 --> Input Class Initialized
+INFO - 2017-06-19 21:07:09 --> Language Class Initialized
+INFO - 2017-06-19 21:07:09 --> Loader Class Initialized
+INFO - 2017-06-19 21:07:09 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:07:09 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:07:09 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:07:09 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:07:09 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:07:09 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:07:10 --> User Agent Class Initialized
+INFO - 2017-06-19 21:07:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:07:10 --> Pagination Class Initialized
+INFO - 2017-06-19 21:07:10 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:07:10 --> Model Class Initialized
+INFO - 2017-06-19 21:07:10 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:07:10 --> Controller Class Initialized
+INFO - 2017-06-19 21:07:10 --> Model Class Initialized
+INFO - 2017-06-19 21:07:10 --> Model Class Initialized
+INFO - 2017-06-19 21:07:10 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:07:10 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:07:10 --> Query error: Table 'dral_db.v_comision' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_comision`
+WHERE `esta_com` > '-1'
+AND `fech_com` = '2017-06-19'
+AND (`codi_com` LIKE '%d%' OR 
+                            `nomb_emp` LIKE '%d%' OR
+                            `apel_emp` LIKE '%d%' OR
+                            `docu_emp` LIKE '%d%' OR
+                            `ofic_emp` LIKE '%d%' OR
+                            `tipo_com` LIKE '%d%')
+INFO - 2017-06-19 14:07:10 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 21:08:51 --> Config Class Initialized
+INFO - 2017-06-19 21:08:51 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:08:51 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:08:51 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:08:51 --> URI Class Initialized
+INFO - 2017-06-19 21:08:51 --> Router Class Initialized
+INFO - 2017-06-19 21:08:51 --> Output Class Initialized
+INFO - 2017-06-19 21:08:51 --> Security Class Initialized
+DEBUG - 2017-06-19 21:08:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:08:51 --> Input Class Initialized
+INFO - 2017-06-19 21:08:51 --> Language Class Initialized
+INFO - 2017-06-19 21:08:51 --> Loader Class Initialized
+INFO - 2017-06-19 21:08:51 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:08:51 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:08:51 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:08:51 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:08:51 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:08:51 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:08:51 --> User Agent Class Initialized
+INFO - 2017-06-19 21:08:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:08:51 --> Pagination Class Initialized
+INFO - 2017-06-19 21:08:51 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:08:51 --> Model Class Initialized
+INFO - 2017-06-19 21:08:51 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:08:51 --> Controller Class Initialized
+INFO - 2017-06-19 21:08:51 --> Model Class Initialized
+INFO - 2017-06-19 21:08:51 --> Model Class Initialized
+INFO - 2017-06-19 21:08:51 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:08:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:08:51 --> File loaded: C:\xampp\htdocs\dra\application\views\comision/search.php
+INFO - 2017-06-19 14:08:52 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 14:08:52 --> Final output sent to browser
+DEBUG - 2017-06-19 14:08:52 --> Total execution time: 0.8444
+INFO - 2017-06-19 21:08:53 --> Config Class Initialized
+INFO - 2017-06-19 21:08:53 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:08:53 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:08:53 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:08:53 --> URI Class Initialized
+INFO - 2017-06-19 21:08:53 --> Router Class Initialized
+INFO - 2017-06-19 21:08:53 --> Output Class Initialized
+INFO - 2017-06-19 21:08:53 --> Security Class Initialized
+DEBUG - 2017-06-19 21:08:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:08:53 --> Input Class Initialized
+INFO - 2017-06-19 21:08:53 --> Language Class Initialized
+INFO - 2017-06-19 21:08:53 --> Loader Class Initialized
+INFO - 2017-06-19 21:08:53 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:08:53 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:08:53 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:08:53 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:08:53 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:08:53 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:08:53 --> User Agent Class Initialized
+INFO - 2017-06-19 21:08:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:08:53 --> Pagination Class Initialized
+INFO - 2017-06-19 21:08:53 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:08:53 --> Model Class Initialized
+INFO - 2017-06-19 21:08:53 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:08:53 --> Controller Class Initialized
+INFO - 2017-06-19 21:08:53 --> Model Class Initialized
+INFO - 2017-06-19 21:08:53 --> Model Class Initialized
+INFO - 2017-06-19 21:08:53 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:08:53 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:08:53 --> Query error: Table 'dral_db.v_comision' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_comision`
+WHERE `esta_com` > '-1'
+AND `fech_com` = '2017-06-19'
+AND (`codi_com` LIKE '%%' OR 
+                            `nomb_emp` LIKE '%%' OR
+                            `apel_emp` LIKE '%%' OR
+                            `docu_emp` LIKE '%%' OR
+                            `ofic_emp` LIKE '%%' OR
+                            `tipo_com` LIKE '%%')
+INFO - 2017-06-19 14:08:53 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 21:45:18 --> Config Class Initialized
+INFO - 2017-06-19 21:45:18 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:45:18 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:45:18 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:45:18 --> URI Class Initialized
+DEBUG - 2017-06-19 21:45:18 --> No URI present. Default controller set.
+INFO - 2017-06-19 21:45:18 --> Router Class Initialized
+INFO - 2017-06-19 21:45:18 --> Output Class Initialized
+INFO - 2017-06-19 21:45:18 --> Security Class Initialized
+DEBUG - 2017-06-19 21:45:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:45:18 --> Input Class Initialized
+INFO - 2017-06-19 21:45:18 --> Language Class Initialized
+INFO - 2017-06-19 21:45:18 --> Loader Class Initialized
+INFO - 2017-06-19 21:45:18 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:45:18 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:45:18 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:45:18 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:45:18 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:45:18 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:45:18 --> User Agent Class Initialized
+INFO - 2017-06-19 21:45:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:45:18 --> Pagination Class Initialized
+INFO - 2017-06-19 21:45:18 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:45:18 --> Model Class Initialized
+INFO - 2017-06-19 21:45:18 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:45:18 --> Controller Class Initialized
+INFO - 2017-06-19 21:45:18 --> Model Class Initialized
+INFO - 2017-06-19 21:45:18 --> Email Class Initialized
+DEBUG - 2017-06-19 21:45:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:45:18 --> Model Class Initialized
+INFO - 2017-06-19 14:45:18 --> Model Class Initialized
+INFO - 2017-06-19 14:45:18 --> File loaded: C:\xampp\htdocs\dra\application\views\public/home.php
+INFO - 2017-06-19 14:45:18 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 14:45:18 --> Final output sent to browser
+DEBUG - 2017-06-19 14:45:18 --> Total execution time: 0.7954
+INFO - 2017-06-19 21:45:18 --> Config Class Initialized
+INFO - 2017-06-19 21:45:18 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:45:18 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:45:18 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:45:18 --> URI Class Initialized
+INFO - 2017-06-19 21:45:18 --> Router Class Initialized
+INFO - 2017-06-19 21:45:18 --> Output Class Initialized
+INFO - 2017-06-19 21:45:18 --> Security Class Initialized
+DEBUG - 2017-06-19 21:45:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:45:18 --> Input Class Initialized
+INFO - 2017-06-19 21:45:18 --> Language Class Initialized
+ERROR - 2017-06-19 21:45:18 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 21:45:19 --> Config Class Initialized
+INFO - 2017-06-19 21:45:19 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:45:19 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:45:19 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:45:19 --> URI Class Initialized
+INFO - 2017-06-19 21:45:19 --> Router Class Initialized
+INFO - 2017-06-19 21:45:19 --> Output Class Initialized
+INFO - 2017-06-19 21:45:19 --> Security Class Initialized
+DEBUG - 2017-06-19 21:45:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:45:19 --> Input Class Initialized
+INFO - 2017-06-19 21:45:19 --> Language Class Initialized
+ERROR - 2017-06-19 21:45:19 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 21:45:19 --> Config Class Initialized
+INFO - 2017-06-19 21:45:19 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:45:19 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:45:19 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:45:19 --> URI Class Initialized
+INFO - 2017-06-19 21:45:19 --> Router Class Initialized
+INFO - 2017-06-19 21:45:19 --> Output Class Initialized
+INFO - 2017-06-19 21:45:19 --> Security Class Initialized
+DEBUG - 2017-06-19 21:45:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:45:19 --> Input Class Initialized
+INFO - 2017-06-19 21:45:19 --> Language Class Initialized
+ERROR - 2017-06-19 21:45:19 --> 404 Page Not Found: Assets/noticia
+INFO - 2017-06-19 21:45:22 --> Config Class Initialized
+INFO - 2017-06-19 21:45:22 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:45:22 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:45:22 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:45:22 --> URI Class Initialized
+INFO - 2017-06-19 21:45:22 --> Router Class Initialized
+INFO - 2017-06-19 21:45:22 --> Output Class Initialized
+INFO - 2017-06-19 21:45:22 --> Security Class Initialized
+DEBUG - 2017-06-19 21:45:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:45:22 --> Input Class Initialized
+INFO - 2017-06-19 21:45:22 --> Language Class Initialized
+INFO - 2017-06-19 21:45:22 --> Loader Class Initialized
+INFO - 2017-06-19 21:45:22 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:45:22 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:45:22 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:45:22 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:45:22 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:45:22 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:45:22 --> User Agent Class Initialized
+INFO - 2017-06-19 21:45:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:45:22 --> Pagination Class Initialized
+INFO - 2017-06-19 21:45:22 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:45:22 --> Model Class Initialized
+INFO - 2017-06-19 21:45:22 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:45:22 --> Controller Class Initialized
+INFO - 2017-06-19 21:45:22 --> Model Class Initialized
+INFO - 2017-06-19 21:45:22 --> Model Class Initialized
+INFO - 2017-06-19 21:45:22 --> Model Class Initialized
+INFO - 2017-06-19 21:45:22 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:45:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:45:22 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/search.php
+INFO - 2017-06-19 14:45:23 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 14:45:23 --> Final output sent to browser
+DEBUG - 2017-06-19 14:45:23 --> Total execution time: 0.7594
+INFO - 2017-06-19 21:45:23 --> Config Class Initialized
+INFO - 2017-06-19 21:45:23 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:45:23 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:45:23 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:45:23 --> URI Class Initialized
+INFO - 2017-06-19 21:45:23 --> Router Class Initialized
+INFO - 2017-06-19 21:45:23 --> Output Class Initialized
+INFO - 2017-06-19 21:45:23 --> Security Class Initialized
+DEBUG - 2017-06-19 21:45:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:45:23 --> Input Class Initialized
+INFO - 2017-06-19 21:45:23 --> Language Class Initialized
+INFO - 2017-06-19 21:45:23 --> Loader Class Initialized
+INFO - 2017-06-19 21:45:23 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:45:23 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:45:23 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:45:23 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:45:23 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:45:23 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:45:23 --> User Agent Class Initialized
+INFO - 2017-06-19 21:45:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:45:23 --> Pagination Class Initialized
+INFO - 2017-06-19 21:45:23 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:45:23 --> Model Class Initialized
+INFO - 2017-06-19 21:45:23 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:45:23 --> Controller Class Initialized
+INFO - 2017-06-19 21:45:23 --> Model Class Initialized
+INFO - 2017-06-19 21:45:23 --> Model Class Initialized
+INFO - 2017-06-19 21:45:23 --> Model Class Initialized
+INFO - 2017-06-19 21:45:23 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:45:23 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:45:23 --> Query error: Table 'dral_db.v_asistencia' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_asistencia`
+WHERE `esta_asi` > '-1'
+AND `fech_asi` = '2017-06-19'
+AND (`codi_asi` LIKE '%%' OR 
+                            `nomb_emp` LIKE '%%' OR
+                            `apel_emp` LIKE '%%' OR
+                            `docu_emp` LIKE '%%' OR
+                            `obsv_emp` LIKE '%%' OR
+                            `ofic_emp` LIKE '%%' OR
+                            `ingr_asi` LIKE '%%' OR
+                            `sali_asi` LIKE '%%' OR
+                            `inre_asi` LIKE '%%' OR
+                            `sare_asi` LIKE '%%')
+INFO - 2017-06-19 14:45:23 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 21:52:09 --> Config Class Initialized
+INFO - 2017-06-19 21:52:09 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:52:09 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:52:09 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:52:09 --> URI Class Initialized
+INFO - 2017-06-19 21:52:09 --> Router Class Initialized
+INFO - 2017-06-19 21:52:09 --> Output Class Initialized
+INFO - 2017-06-19 21:52:09 --> Security Class Initialized
+DEBUG - 2017-06-19 21:52:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:52:09 --> Input Class Initialized
+INFO - 2017-06-19 21:52:09 --> Language Class Initialized
+INFO - 2017-06-19 21:52:09 --> Loader Class Initialized
+INFO - 2017-06-19 21:52:09 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:52:09 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:52:09 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:52:09 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:52:09 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:52:09 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:52:09 --> User Agent Class Initialized
+INFO - 2017-06-19 21:52:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:52:09 --> Pagination Class Initialized
+INFO - 2017-06-19 21:52:09 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:52:09 --> Model Class Initialized
+INFO - 2017-06-19 21:52:09 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:52:09 --> Controller Class Initialized
+INFO - 2017-06-19 21:52:09 --> Model Class Initialized
+INFO - 2017-06-19 21:52:09 --> Model Class Initialized
+INFO - 2017-06-19 21:52:09 --> Model Class Initialized
+INFO - 2017-06-19 21:52:09 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:52:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:52:09 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/search.php
+INFO - 2017-06-19 14:52:10 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 14:52:10 --> Final output sent to browser
+DEBUG - 2017-06-19 14:52:10 --> Total execution time: 1.0584
+INFO - 2017-06-19 21:52:11 --> Config Class Initialized
+INFO - 2017-06-19 21:52:11 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:52:11 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:52:11 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:52:11 --> URI Class Initialized
+INFO - 2017-06-19 21:52:11 --> Router Class Initialized
+INFO - 2017-06-19 21:52:11 --> Output Class Initialized
+INFO - 2017-06-19 21:52:11 --> Security Class Initialized
+DEBUG - 2017-06-19 21:52:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:52:11 --> Input Class Initialized
+INFO - 2017-06-19 21:52:11 --> Language Class Initialized
+INFO - 2017-06-19 21:52:11 --> Loader Class Initialized
+INFO - 2017-06-19 21:52:11 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:52:11 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:52:11 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:52:11 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:52:11 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:52:11 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:52:11 --> User Agent Class Initialized
+INFO - 2017-06-19 21:52:11 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:52:11 --> Pagination Class Initialized
+INFO - 2017-06-19 21:52:11 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:52:11 --> Model Class Initialized
+INFO - 2017-06-19 21:52:11 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:52:11 --> Controller Class Initialized
+INFO - 2017-06-19 21:52:11 --> Model Class Initialized
+INFO - 2017-06-19 21:52:11 --> Model Class Initialized
+INFO - 2017-06-19 21:52:11 --> Model Class Initialized
+INFO - 2017-06-19 21:52:11 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:52:11 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:52:11 --> Query error: Table 'dral_db.v_asistencia' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_asistencia`
+WHERE `esta_asi` > '-1'
+AND `fech_asi` = '2017-06-19'
+AND (`codi_asi` LIKE '%%' OR 
+                            `nomb_emp` LIKE '%%' OR
+                            `apel_emp` LIKE '%%' OR
+                            `docu_emp` LIKE '%%' OR
+                            `obsv_emp` LIKE '%%' OR
+                            `ofic_emp` LIKE '%%' OR
+                            `ingr_asi` LIKE '%%' OR
+                            `sali_asi` LIKE '%%' OR
+                            `inre_asi` LIKE '%%' OR
+                            `sare_asi` LIKE '%%')
+INFO - 2017-06-19 14:52:11 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 21:52:13 --> Config Class Initialized
+INFO - 2017-06-19 21:52:13 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:52:13 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:52:13 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:52:13 --> URI Class Initialized
+INFO - 2017-06-19 21:52:13 --> Router Class Initialized
+INFO - 2017-06-19 21:52:13 --> Output Class Initialized
+INFO - 2017-06-19 21:52:13 --> Security Class Initialized
+DEBUG - 2017-06-19 21:52:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:52:13 --> Input Class Initialized
+INFO - 2017-06-19 21:52:13 --> Language Class Initialized
+INFO - 2017-06-19 21:52:13 --> Loader Class Initialized
+INFO - 2017-06-19 21:52:13 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:52:13 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:52:13 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:52:13 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:52:13 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:52:13 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:52:13 --> User Agent Class Initialized
+INFO - 2017-06-19 21:52:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:52:13 --> Pagination Class Initialized
+INFO - 2017-06-19 21:52:13 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:52:13 --> Model Class Initialized
+INFO - 2017-06-19 21:52:13 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:52:13 --> Controller Class Initialized
+INFO - 2017-06-19 21:52:13 --> Model Class Initialized
+INFO - 2017-06-19 21:52:13 --> Model Class Initialized
+INFO - 2017-06-19 21:52:13 --> Model Class Initialized
+INFO - 2017-06-19 21:52:13 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:52:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:52:14 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/format.php
+INFO - 2017-06-19 14:52:17 --> Final output sent to browser
+DEBUG - 2017-06-19 14:52:17 --> Total execution time: 3.8573
+INFO - 2017-06-19 21:58:52 --> Config Class Initialized
+INFO - 2017-06-19 21:58:52 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:58:52 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:58:52 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:58:52 --> URI Class Initialized
+INFO - 2017-06-19 21:58:52 --> Router Class Initialized
+INFO - 2017-06-19 21:58:52 --> Output Class Initialized
+INFO - 2017-06-19 21:58:52 --> Security Class Initialized
+DEBUG - 2017-06-19 21:58:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:58:52 --> Input Class Initialized
+INFO - 2017-06-19 21:58:52 --> Language Class Initialized
+INFO - 2017-06-19 21:58:52 --> Loader Class Initialized
+INFO - 2017-06-19 21:58:52 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:58:52 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:58:52 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:58:52 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:58:52 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:58:52 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:58:52 --> User Agent Class Initialized
+INFO - 2017-06-19 21:58:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:58:52 --> Pagination Class Initialized
+INFO - 2017-06-19 21:58:52 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:58:52 --> Model Class Initialized
+INFO - 2017-06-19 21:58:52 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:58:52 --> Controller Class Initialized
+INFO - 2017-06-19 21:58:52 --> Model Class Initialized
+INFO - 2017-06-19 21:58:52 --> Model Class Initialized
+INFO - 2017-06-19 21:58:52 --> Model Class Initialized
+INFO - 2017-06-19 21:58:52 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:58:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:58:52 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/search.php
+INFO - 2017-06-19 14:58:52 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 14:58:52 --> Final output sent to browser
+DEBUG - 2017-06-19 14:58:52 --> Total execution time: 0.7572
+INFO - 2017-06-19 21:58:53 --> Config Class Initialized
+INFO - 2017-06-19 21:58:53 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:58:53 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:58:53 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:58:53 --> URI Class Initialized
+INFO - 2017-06-19 21:58:53 --> Router Class Initialized
+INFO - 2017-06-19 21:58:53 --> Output Class Initialized
+INFO - 2017-06-19 21:58:53 --> Security Class Initialized
+DEBUG - 2017-06-19 21:58:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:58:53 --> Input Class Initialized
+INFO - 2017-06-19 21:58:53 --> Language Class Initialized
+INFO - 2017-06-19 21:58:53 --> Loader Class Initialized
+INFO - 2017-06-19 21:58:53 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:58:53 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:58:53 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:58:53 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:58:53 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:58:53 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:58:53 --> User Agent Class Initialized
+INFO - 2017-06-19 21:58:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:58:53 --> Pagination Class Initialized
+INFO - 2017-06-19 21:58:53 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:58:53 --> Model Class Initialized
+INFO - 2017-06-19 21:58:53 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:58:53 --> Controller Class Initialized
+INFO - 2017-06-19 21:58:53 --> Model Class Initialized
+INFO - 2017-06-19 21:58:53 --> Model Class Initialized
+INFO - 2017-06-19 21:58:53 --> Model Class Initialized
+INFO - 2017-06-19 21:58:53 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:58:53 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:58:53 --> Query error: Table 'dral_db.v_asistencia' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_asistencia`
+WHERE `esta_asi` > '-1'
+AND `fech_asi` = '2017-06-19'
+AND (`codi_asi` LIKE '%%' OR 
+                            `nomb_emp` LIKE '%%' OR
+                            `apel_emp` LIKE '%%' OR
+                            `docu_emp` LIKE '%%' OR
+                            `obsv_emp` LIKE '%%' OR
+                            `ofic_emp` LIKE '%%' OR
+                            `ingr_asi` LIKE '%%' OR
+                            `sali_asi` LIKE '%%' OR
+                            `inre_asi` LIKE '%%' OR
+                            `sare_asi` LIKE '%%')
+INFO - 2017-06-19 14:58:53 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 21:58:54 --> Config Class Initialized
+INFO - 2017-06-19 21:58:54 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:58:54 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:58:54 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:58:54 --> URI Class Initialized
+INFO - 2017-06-19 21:58:54 --> Router Class Initialized
+INFO - 2017-06-19 21:58:54 --> Output Class Initialized
+INFO - 2017-06-19 21:58:54 --> Security Class Initialized
+DEBUG - 2017-06-19 21:58:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:58:54 --> Input Class Initialized
+INFO - 2017-06-19 21:58:54 --> Language Class Initialized
+INFO - 2017-06-19 21:58:54 --> Loader Class Initialized
+INFO - 2017-06-19 21:58:54 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:58:54 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:58:54 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:58:54 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:58:54 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:58:54 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:58:54 --> User Agent Class Initialized
+INFO - 2017-06-19 21:58:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:58:54 --> Pagination Class Initialized
+INFO - 2017-06-19 21:58:54 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:58:54 --> Model Class Initialized
+INFO - 2017-06-19 21:58:54 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:58:54 --> Controller Class Initialized
+INFO - 2017-06-19 21:58:54 --> Model Class Initialized
+INFO - 2017-06-19 21:58:54 --> Model Class Initialized
+INFO - 2017-06-19 21:58:54 --> Model Class Initialized
+INFO - 2017-06-19 21:58:54 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:58:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:58:54 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/search.php
+INFO - 2017-06-19 14:58:54 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 14:58:54 --> Final output sent to browser
+DEBUG - 2017-06-19 14:58:54 --> Total execution time: 0.6868
+INFO - 2017-06-19 21:58:55 --> Config Class Initialized
+INFO - 2017-06-19 21:58:55 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:58:55 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:58:55 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:58:55 --> URI Class Initialized
+INFO - 2017-06-19 21:58:55 --> Router Class Initialized
+INFO - 2017-06-19 21:58:55 --> Output Class Initialized
+INFO - 2017-06-19 21:58:55 --> Security Class Initialized
+DEBUG - 2017-06-19 21:58:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:58:55 --> Input Class Initialized
+INFO - 2017-06-19 21:58:55 --> Language Class Initialized
+INFO - 2017-06-19 21:58:55 --> Loader Class Initialized
+INFO - 2017-06-19 21:58:55 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:58:55 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:58:55 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:58:55 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:58:55 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:58:55 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:58:55 --> User Agent Class Initialized
+INFO - 2017-06-19 21:58:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:58:55 --> Pagination Class Initialized
+INFO - 2017-06-19 21:58:55 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:58:55 --> Model Class Initialized
+INFO - 2017-06-19 21:58:55 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:58:55 --> Controller Class Initialized
+INFO - 2017-06-19 21:58:55 --> Model Class Initialized
+INFO - 2017-06-19 21:58:55 --> Model Class Initialized
+INFO - 2017-06-19 21:58:55 --> Model Class Initialized
+INFO - 2017-06-19 21:58:55 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:58:55 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:58:55 --> Query error: Table 'dral_db.v_asistencia' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_asistencia`
+WHERE `esta_asi` > '-1'
+AND `fech_asi` = '2017-06-19'
+AND (`codi_asi` LIKE '%%' OR 
+                            `nomb_emp` LIKE '%%' OR
+                            `apel_emp` LIKE '%%' OR
+                            `docu_emp` LIKE '%%' OR
+                            `obsv_emp` LIKE '%%' OR
+                            `ofic_emp` LIKE '%%' OR
+                            `ingr_asi` LIKE '%%' OR
+                            `sali_asi` LIKE '%%' OR
+                            `inre_asi` LIKE '%%' OR
+                            `sare_asi` LIKE '%%')
+INFO - 2017-06-19 14:58:55 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 21:59:00 --> Config Class Initialized
+INFO - 2017-06-19 21:59:00 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:59:00 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:59:00 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:59:00 --> URI Class Initialized
+INFO - 2017-06-19 21:59:00 --> Router Class Initialized
+INFO - 2017-06-19 21:59:00 --> Output Class Initialized
+INFO - 2017-06-19 21:59:00 --> Security Class Initialized
+DEBUG - 2017-06-19 21:59:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:59:00 --> Input Class Initialized
+INFO - 2017-06-19 21:59:00 --> Language Class Initialized
+INFO - 2017-06-19 21:59:00 --> Loader Class Initialized
+INFO - 2017-06-19 21:59:00 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:59:00 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:59:00 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:59:00 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:59:00 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:59:00 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:59:00 --> User Agent Class Initialized
+INFO - 2017-06-19 21:59:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:59:00 --> Pagination Class Initialized
+INFO - 2017-06-19 21:59:00 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:59:00 --> Model Class Initialized
+INFO - 2017-06-19 21:59:00 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:59:00 --> Controller Class Initialized
+INFO - 2017-06-19 21:59:00 --> Model Class Initialized
+INFO - 2017-06-19 21:59:00 --> Model Class Initialized
+INFO - 2017-06-19 21:59:00 --> Model Class Initialized
+INFO - 2017-06-19 21:59:00 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:59:00 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:59:00 --> Severity: Warning --> Attempt to assign property of non-object C:\xampp\htdocs\dra\application\controllers\AsistenciaController.php 329
+ERROR - 2017-06-19 14:59:00 --> Severity: Notice --> Undefined variable: date C:\xampp\htdocs\dra\application\views\asistencia\format.php 36
+ERROR - 2017-06-19 14:59:00 --> Severity: Notice --> Undefined property: stdClass::$full_emp C:\xampp\htdocs\dra\application\views\asistencia\format.php 56
+INFO - 2017-06-19 14:59:00 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/format.php
+INFO - 2017-06-19 14:59:06 --> Final output sent to browser
+DEBUG - 2017-06-19 14:59:06 --> Total execution time: 5.8193
+INFO - 2017-06-19 21:59:29 --> Config Class Initialized
+INFO - 2017-06-19 21:59:29 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:59:30 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:59:30 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:59:30 --> URI Class Initialized
+INFO - 2017-06-19 21:59:30 --> Router Class Initialized
+INFO - 2017-06-19 21:59:30 --> Output Class Initialized
+INFO - 2017-06-19 21:59:30 --> Security Class Initialized
+DEBUG - 2017-06-19 21:59:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:59:30 --> Input Class Initialized
+INFO - 2017-06-19 21:59:30 --> Language Class Initialized
+INFO - 2017-06-19 21:59:30 --> Loader Class Initialized
+INFO - 2017-06-19 21:59:30 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:59:30 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:59:30 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:59:30 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:59:30 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:59:30 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:59:30 --> User Agent Class Initialized
+INFO - 2017-06-19 21:59:30 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:59:30 --> Pagination Class Initialized
+INFO - 2017-06-19 21:59:30 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:59:30 --> Model Class Initialized
+INFO - 2017-06-19 21:59:30 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:59:30 --> Controller Class Initialized
+INFO - 2017-06-19 21:59:30 --> Model Class Initialized
+INFO - 2017-06-19 21:59:30 --> Model Class Initialized
+INFO - 2017-06-19 21:59:30 --> Model Class Initialized
+INFO - 2017-06-19 21:59:30 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:59:30 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:59:30 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/search.php
+INFO - 2017-06-19 14:59:30 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 14:59:30 --> Final output sent to browser
+DEBUG - 2017-06-19 14:59:30 --> Total execution time: 0.6688
+INFO - 2017-06-19 21:59:31 --> Config Class Initialized
+INFO - 2017-06-19 21:59:31 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:59:31 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:59:31 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:59:31 --> URI Class Initialized
+INFO - 2017-06-19 21:59:31 --> Router Class Initialized
+INFO - 2017-06-19 21:59:31 --> Output Class Initialized
+INFO - 2017-06-19 21:59:31 --> Security Class Initialized
+DEBUG - 2017-06-19 21:59:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:59:31 --> Input Class Initialized
+INFO - 2017-06-19 21:59:31 --> Language Class Initialized
+INFO - 2017-06-19 21:59:31 --> Loader Class Initialized
+INFO - 2017-06-19 21:59:31 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:59:31 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:59:31 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:59:31 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:59:31 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:59:31 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:59:31 --> User Agent Class Initialized
+INFO - 2017-06-19 21:59:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:59:31 --> Pagination Class Initialized
+INFO - 2017-06-19 21:59:31 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:59:31 --> Model Class Initialized
+INFO - 2017-06-19 21:59:31 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:59:31 --> Controller Class Initialized
+INFO - 2017-06-19 21:59:31 --> Model Class Initialized
+INFO - 2017-06-19 21:59:31 --> Model Class Initialized
+INFO - 2017-06-19 21:59:31 --> Model Class Initialized
+INFO - 2017-06-19 21:59:31 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:59:31 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:59:31 --> Query error: Table 'dral_db.v_asistencia' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_asistencia`
+WHERE `esta_asi` > '-1'
+AND `fech_asi` = '2017-06-19'
+AND (`codi_asi` LIKE '%%' OR 
+                            `nomb_emp` LIKE '%%' OR
+                            `apel_emp` LIKE '%%' OR
+                            `docu_emp` LIKE '%%' OR
+                            `obsv_emp` LIKE '%%' OR
+                            `ofic_emp` LIKE '%%' OR
+                            `ingr_asi` LIKE '%%' OR
+                            `sali_asi` LIKE '%%' OR
+                            `inre_asi` LIKE '%%' OR
+                            `sare_asi` LIKE '%%')
+INFO - 2017-06-19 14:59:31 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 21:59:34 --> Config Class Initialized
+INFO - 2017-06-19 21:59:34 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:59:34 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:59:34 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:59:34 --> URI Class Initialized
+INFO - 2017-06-19 21:59:34 --> Router Class Initialized
+INFO - 2017-06-19 21:59:34 --> Output Class Initialized
+INFO - 2017-06-19 21:59:34 --> Security Class Initialized
+DEBUG - 2017-06-19 21:59:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:59:34 --> Input Class Initialized
+INFO - 2017-06-19 21:59:34 --> Language Class Initialized
+INFO - 2017-06-19 21:59:34 --> Loader Class Initialized
+INFO - 2017-06-19 21:59:34 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:59:34 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:59:34 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:59:34 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:59:34 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:59:34 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:59:34 --> User Agent Class Initialized
+INFO - 2017-06-19 21:59:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:59:34 --> Pagination Class Initialized
+INFO - 2017-06-19 21:59:34 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:59:34 --> Model Class Initialized
+INFO - 2017-06-19 21:59:34 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:59:34 --> Controller Class Initialized
+INFO - 2017-06-19 21:59:34 --> Model Class Initialized
+INFO - 2017-06-19 21:59:34 --> Model Class Initialized
+INFO - 2017-06-19 21:59:34 --> Model Class Initialized
+INFO - 2017-06-19 21:59:34 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:59:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:59:34 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/format.php
+INFO - 2017-06-19 14:59:37 --> Final output sent to browser
+DEBUG - 2017-06-19 14:59:37 --> Total execution time: 3.2248
+INFO - 2017-06-19 21:59:56 --> Config Class Initialized
+INFO - 2017-06-19 21:59:56 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:59:56 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:59:56 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:59:56 --> URI Class Initialized
+INFO - 2017-06-19 21:59:56 --> Router Class Initialized
+INFO - 2017-06-19 21:59:56 --> Output Class Initialized
+INFO - 2017-06-19 21:59:56 --> Security Class Initialized
+DEBUG - 2017-06-19 21:59:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:59:56 --> Input Class Initialized
+INFO - 2017-06-19 21:59:56 --> Language Class Initialized
+INFO - 2017-06-19 21:59:56 --> Loader Class Initialized
+INFO - 2017-06-19 21:59:56 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:59:56 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:59:56 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:59:56 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:59:56 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:59:56 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:59:56 --> User Agent Class Initialized
+INFO - 2017-06-19 21:59:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:59:56 --> Pagination Class Initialized
+INFO - 2017-06-19 21:59:56 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:59:56 --> Model Class Initialized
+INFO - 2017-06-19 21:59:56 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:59:56 --> Controller Class Initialized
+INFO - 2017-06-19 21:59:56 --> Model Class Initialized
+INFO - 2017-06-19 21:59:56 --> Model Class Initialized
+INFO - 2017-06-19 21:59:56 --> Model Class Initialized
+INFO - 2017-06-19 21:59:56 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:59:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 14:59:56 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/search.php
+INFO - 2017-06-19 14:59:57 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 14:59:57 --> Final output sent to browser
+DEBUG - 2017-06-19 14:59:57 --> Total execution time: 0.8618
+INFO - 2017-06-19 21:59:58 --> Config Class Initialized
+INFO - 2017-06-19 21:59:58 --> Hooks Class Initialized
+DEBUG - 2017-06-19 21:59:58 --> UTF-8 Support Enabled
+INFO - 2017-06-19 21:59:58 --> Utf8 Class Initialized
+INFO - 2017-06-19 21:59:58 --> URI Class Initialized
+INFO - 2017-06-19 21:59:58 --> Router Class Initialized
+INFO - 2017-06-19 21:59:58 --> Output Class Initialized
+INFO - 2017-06-19 21:59:58 --> Security Class Initialized
+DEBUG - 2017-06-19 21:59:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 21:59:58 --> Input Class Initialized
+INFO - 2017-06-19 21:59:58 --> Language Class Initialized
+INFO - 2017-06-19 21:59:58 --> Loader Class Initialized
+INFO - 2017-06-19 21:59:58 --> Helper loaded: language_helper
+INFO - 2017-06-19 21:59:58 --> Helper loaded: url_helper
+INFO - 2017-06-19 21:59:58 --> Helper loaded: form_helper
+INFO - 2017-06-19 21:59:58 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 21:59:58 --> Helper loaded: util_helper
+INFO - 2017-06-19 21:59:58 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 21:59:58 --> User Agent Class Initialized
+INFO - 2017-06-19 21:59:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 21:59:58 --> Pagination Class Initialized
+INFO - 2017-06-19 21:59:58 --> Form Validation Class Initialized
+INFO - 2017-06-19 21:59:58 --> Model Class Initialized
+INFO - 2017-06-19 21:59:58 --> Database Driver Class Initialized
+INFO - 2017-06-19 21:59:58 --> Controller Class Initialized
+INFO - 2017-06-19 21:59:58 --> Model Class Initialized
+INFO - 2017-06-19 21:59:58 --> Model Class Initialized
+INFO - 2017-06-19 21:59:58 --> Model Class Initialized
+INFO - 2017-06-19 21:59:58 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 21:59:58 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 14:59:58 --> Query error: Table 'dral_db.v_asistencia' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_asistencia`
+WHERE `esta_asi` > '-1'
+AND `fech_asi` = '2017-06-19'
+AND (`codi_asi` LIKE '%%' OR 
+                            `nomb_emp` LIKE '%%' OR
+                            `apel_emp` LIKE '%%' OR
+                            `docu_emp` LIKE '%%' OR
+                            `obsv_emp` LIKE '%%' OR
+                            `ofic_emp` LIKE '%%' OR
+                            `ingr_asi` LIKE '%%' OR
+                            `sali_asi` LIKE '%%' OR
+                            `inre_asi` LIKE '%%' OR
+                            `sare_asi` LIKE '%%')
+INFO - 2017-06-19 14:59:58 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 22:00:01 --> Config Class Initialized
+INFO - 2017-06-19 22:00:01 --> Hooks Class Initialized
+DEBUG - 2017-06-19 22:00:01 --> UTF-8 Support Enabled
+INFO - 2017-06-19 22:00:01 --> Utf8 Class Initialized
+INFO - 2017-06-19 22:00:01 --> URI Class Initialized
+INFO - 2017-06-19 22:00:01 --> Router Class Initialized
+INFO - 2017-06-19 22:00:01 --> Output Class Initialized
+INFO - 2017-06-19 22:00:01 --> Security Class Initialized
+DEBUG - 2017-06-19 22:00:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 22:00:01 --> Input Class Initialized
+INFO - 2017-06-19 22:00:01 --> Language Class Initialized
+INFO - 2017-06-19 22:00:01 --> Loader Class Initialized
+INFO - 2017-06-19 22:00:01 --> Helper loaded: language_helper
+INFO - 2017-06-19 22:00:01 --> Helper loaded: url_helper
+INFO - 2017-06-19 22:00:01 --> Helper loaded: form_helper
+INFO - 2017-06-19 22:00:01 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 22:00:01 --> Helper loaded: util_helper
+INFO - 2017-06-19 22:00:01 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 22:00:01 --> User Agent Class Initialized
+INFO - 2017-06-19 22:00:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 22:00:01 --> Pagination Class Initialized
+INFO - 2017-06-19 22:00:01 --> Form Validation Class Initialized
+INFO - 2017-06-19 22:00:01 --> Model Class Initialized
+INFO - 2017-06-19 22:00:01 --> Database Driver Class Initialized
+INFO - 2017-06-19 22:00:01 --> Controller Class Initialized
+INFO - 2017-06-19 22:00:01 --> Model Class Initialized
+INFO - 2017-06-19 22:00:01 --> Model Class Initialized
+INFO - 2017-06-19 22:00:01 --> Model Class Initialized
+INFO - 2017-06-19 22:00:01 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 22:00:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 15:00:01 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/format.php
+INFO - 2017-06-19 15:00:05 --> Final output sent to browser
+DEBUG - 2017-06-19 15:00:05 --> Total execution time: 3.6102
+INFO - 2017-06-19 22:00:14 --> Config Class Initialized
+INFO - 2017-06-19 22:00:14 --> Hooks Class Initialized
+DEBUG - 2017-06-19 22:00:14 --> UTF-8 Support Enabled
+INFO - 2017-06-19 22:00:14 --> Utf8 Class Initialized
+INFO - 2017-06-19 22:00:14 --> URI Class Initialized
+INFO - 2017-06-19 22:00:14 --> Router Class Initialized
+INFO - 2017-06-19 22:00:14 --> Output Class Initialized
+INFO - 2017-06-19 22:00:14 --> Security Class Initialized
+DEBUG - 2017-06-19 22:00:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 22:00:14 --> Input Class Initialized
+INFO - 2017-06-19 22:00:14 --> Language Class Initialized
+INFO - 2017-06-19 22:00:14 --> Loader Class Initialized
+INFO - 2017-06-19 22:00:14 --> Helper loaded: language_helper
+INFO - 2017-06-19 22:00:14 --> Helper loaded: url_helper
+INFO - 2017-06-19 22:00:14 --> Helper loaded: form_helper
+INFO - 2017-06-19 22:00:14 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 22:00:14 --> Helper loaded: util_helper
+INFO - 2017-06-19 22:00:14 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 22:00:14 --> User Agent Class Initialized
+INFO - 2017-06-19 22:00:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 22:00:14 --> Pagination Class Initialized
+INFO - 2017-06-19 22:00:14 --> Form Validation Class Initialized
+INFO - 2017-06-19 22:00:14 --> Model Class Initialized
+INFO - 2017-06-19 22:00:14 --> Database Driver Class Initialized
+INFO - 2017-06-19 22:00:14 --> Controller Class Initialized
+INFO - 2017-06-19 22:00:14 --> Model Class Initialized
+INFO - 2017-06-19 22:00:14 --> Model Class Initialized
+INFO - 2017-06-19 22:00:14 --> Model Class Initialized
+INFO - 2017-06-19 22:00:14 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 22:00:14 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 15:00:14 --> Severity: Warning --> Attempt to assign property of non-object C:\xampp\htdocs\dra\application\controllers\AsistenciaController.php 330
+ERROR - 2017-06-19 15:00:15 --> Severity: Notice --> Undefined property: stdClass::$full_emp C:\xampp\htdocs\dra\application\views\asistencia\format.php 56
+INFO - 2017-06-19 15:00:15 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/format.php
+INFO - 2017-06-19 15:00:19 --> Final output sent to browser
+DEBUG - 2017-06-19 15:00:19 --> Total execution time: 4.6714
+INFO - 2017-06-19 22:00:26 --> Config Class Initialized
+INFO - 2017-06-19 22:00:26 --> Hooks Class Initialized
+DEBUG - 2017-06-19 22:00:26 --> UTF-8 Support Enabled
+INFO - 2017-06-19 22:00:26 --> Utf8 Class Initialized
+INFO - 2017-06-19 22:00:26 --> URI Class Initialized
+INFO - 2017-06-19 22:00:26 --> Router Class Initialized
+INFO - 2017-06-19 22:00:26 --> Output Class Initialized
+INFO - 2017-06-19 22:00:26 --> Security Class Initialized
+DEBUG - 2017-06-19 22:00:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 22:00:26 --> Input Class Initialized
+INFO - 2017-06-19 22:00:26 --> Language Class Initialized
+INFO - 2017-06-19 22:00:26 --> Loader Class Initialized
+INFO - 2017-06-19 22:00:26 --> Helper loaded: language_helper
+INFO - 2017-06-19 22:00:26 --> Helper loaded: url_helper
+INFO - 2017-06-19 22:00:26 --> Helper loaded: form_helper
+INFO - 2017-06-19 22:00:26 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 22:00:26 --> Helper loaded: util_helper
+INFO - 2017-06-19 22:00:26 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 22:00:26 --> User Agent Class Initialized
+INFO - 2017-06-19 22:00:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 22:00:26 --> Pagination Class Initialized
+INFO - 2017-06-19 22:00:26 --> Form Validation Class Initialized
+INFO - 2017-06-19 22:00:26 --> Model Class Initialized
+INFO - 2017-06-19 22:00:26 --> Database Driver Class Initialized
+INFO - 2017-06-19 22:00:26 --> Controller Class Initialized
+INFO - 2017-06-19 22:00:26 --> Model Class Initialized
+INFO - 2017-06-19 22:00:26 --> Model Class Initialized
+INFO - 2017-06-19 22:00:26 --> Model Class Initialized
+INFO - 2017-06-19 22:00:26 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 22:00:26 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 15:00:26 --> Severity: Warning --> Attempt to assign property of non-object C:\xampp\htdocs\dra\application\controllers\AsistenciaController.php 330
+ERROR - 2017-06-19 15:00:26 --> Severity: Notice --> Undefined property: stdClass::$full_emp C:\xampp\htdocs\dra\application\views\asistencia\format.php 56
+INFO - 2017-06-19 15:00:26 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/format.php
+INFO - 2017-06-19 15:00:31 --> Final output sent to browser
+DEBUG - 2017-06-19 15:00:31 --> Total execution time: 4.6399
+INFO - 2017-06-19 22:01:27 --> Config Class Initialized
+INFO - 2017-06-19 22:01:27 --> Hooks Class Initialized
+DEBUG - 2017-06-19 22:01:27 --> UTF-8 Support Enabled
+INFO - 2017-06-19 22:01:27 --> Utf8 Class Initialized
+INFO - 2017-06-19 22:01:27 --> URI Class Initialized
+INFO - 2017-06-19 22:01:27 --> Router Class Initialized
+INFO - 2017-06-19 22:01:27 --> Output Class Initialized
+INFO - 2017-06-19 22:01:27 --> Security Class Initialized
+DEBUG - 2017-06-19 22:01:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 22:01:27 --> Input Class Initialized
+INFO - 2017-06-19 22:01:27 --> Language Class Initialized
+INFO - 2017-06-19 22:01:27 --> Loader Class Initialized
+INFO - 2017-06-19 22:01:27 --> Helper loaded: language_helper
+INFO - 2017-06-19 22:01:27 --> Helper loaded: url_helper
+INFO - 2017-06-19 22:01:27 --> Helper loaded: form_helper
+INFO - 2017-06-19 22:01:27 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 22:01:27 --> Helper loaded: util_helper
+INFO - 2017-06-19 22:01:27 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 22:01:27 --> User Agent Class Initialized
+INFO - 2017-06-19 22:01:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 22:01:27 --> Pagination Class Initialized
+INFO - 2017-06-19 22:01:27 --> Form Validation Class Initialized
+INFO - 2017-06-19 22:01:27 --> Model Class Initialized
+INFO - 2017-06-19 22:01:27 --> Database Driver Class Initialized
+INFO - 2017-06-19 22:01:27 --> Controller Class Initialized
+INFO - 2017-06-19 22:01:27 --> Model Class Initialized
+INFO - 2017-06-19 22:01:27 --> Model Class Initialized
+INFO - 2017-06-19 22:01:27 --> Model Class Initialized
+INFO - 2017-06-19 22:01:27 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 22:01:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 15:01:27 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/search.php
+INFO - 2017-06-19 15:01:28 --> File loaded: C:\xampp\htdocs\dra\application\views\template/body_main.php
+INFO - 2017-06-19 15:01:28 --> Final output sent to browser
+DEBUG - 2017-06-19 15:01:28 --> Total execution time: 0.7756
+INFO - 2017-06-19 22:01:28 --> Config Class Initialized
+INFO - 2017-06-19 22:01:28 --> Hooks Class Initialized
+DEBUG - 2017-06-19 22:01:28 --> UTF-8 Support Enabled
+INFO - 2017-06-19 22:01:28 --> Utf8 Class Initialized
+INFO - 2017-06-19 22:01:28 --> URI Class Initialized
+INFO - 2017-06-19 22:01:29 --> Router Class Initialized
+INFO - 2017-06-19 22:01:29 --> Output Class Initialized
+INFO - 2017-06-19 22:01:29 --> Security Class Initialized
+DEBUG - 2017-06-19 22:01:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 22:01:29 --> Input Class Initialized
+INFO - 2017-06-19 22:01:29 --> Language Class Initialized
+INFO - 2017-06-19 22:01:29 --> Loader Class Initialized
+INFO - 2017-06-19 22:01:29 --> Helper loaded: language_helper
+INFO - 2017-06-19 22:01:29 --> Helper loaded: url_helper
+INFO - 2017-06-19 22:01:29 --> Helper loaded: form_helper
+INFO - 2017-06-19 22:01:29 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 22:01:29 --> Helper loaded: util_helper
+INFO - 2017-06-19 22:01:29 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 22:01:29 --> User Agent Class Initialized
+INFO - 2017-06-19 22:01:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 22:01:29 --> Pagination Class Initialized
+INFO - 2017-06-19 22:01:29 --> Form Validation Class Initialized
+INFO - 2017-06-19 22:01:29 --> Model Class Initialized
+INFO - 2017-06-19 22:01:29 --> Database Driver Class Initialized
+INFO - 2017-06-19 22:01:29 --> Controller Class Initialized
+INFO - 2017-06-19 22:01:29 --> Model Class Initialized
+INFO - 2017-06-19 22:01:29 --> Model Class Initialized
+INFO - 2017-06-19 22:01:29 --> Model Class Initialized
+INFO - 2017-06-19 22:01:29 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 22:01:29 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 15:01:29 --> Query error: Table 'dral_db.v_asistencia' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `v_asistencia`
+WHERE `esta_asi` > '-1'
+AND `fech_asi` = '2017-06-19'
+AND (`codi_asi` LIKE '%%' OR 
+                            `nomb_emp` LIKE '%%' OR
+                            `apel_emp` LIKE '%%' OR
+                            `docu_emp` LIKE '%%' OR
+                            `obsv_emp` LIKE '%%' OR
+                            `ofic_emp` LIKE '%%' OR
+                            `ingr_asi` LIKE '%%' OR
+                            `sali_asi` LIKE '%%' OR
+                            `inre_asi` LIKE '%%' OR
+                            `sare_asi` LIKE '%%')
+INFO - 2017-06-19 15:01:29 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-06-19 22:01:33 --> Config Class Initialized
+INFO - 2017-06-19 22:01:33 --> Hooks Class Initialized
+DEBUG - 2017-06-19 22:01:33 --> UTF-8 Support Enabled
+INFO - 2017-06-19 22:01:33 --> Utf8 Class Initialized
+INFO - 2017-06-19 22:01:33 --> URI Class Initialized
+INFO - 2017-06-19 22:01:33 --> Router Class Initialized
+INFO - 2017-06-19 22:01:33 --> Output Class Initialized
+INFO - 2017-06-19 22:01:33 --> Security Class Initialized
+DEBUG - 2017-06-19 22:01:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 22:01:33 --> Input Class Initialized
+INFO - 2017-06-19 22:01:33 --> Language Class Initialized
+INFO - 2017-06-19 22:01:33 --> Loader Class Initialized
+INFO - 2017-06-19 22:01:33 --> Helper loaded: language_helper
+INFO - 2017-06-19 22:01:33 --> Helper loaded: url_helper
+INFO - 2017-06-19 22:01:33 --> Helper loaded: form_helper
+INFO - 2017-06-19 22:01:33 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 22:01:33 --> Helper loaded: util_helper
+INFO - 2017-06-19 22:01:33 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 22:01:33 --> User Agent Class Initialized
+INFO - 2017-06-19 22:01:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 22:01:33 --> Pagination Class Initialized
+INFO - 2017-06-19 22:01:33 --> Form Validation Class Initialized
+INFO - 2017-06-19 22:01:33 --> Model Class Initialized
+INFO - 2017-06-19 22:01:33 --> Database Driver Class Initialized
+INFO - 2017-06-19 22:01:33 --> Controller Class Initialized
+INFO - 2017-06-19 22:01:33 --> Model Class Initialized
+INFO - 2017-06-19 22:01:33 --> Model Class Initialized
+INFO - 2017-06-19 22:01:33 --> Model Class Initialized
+INFO - 2017-06-19 22:01:33 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 22:01:33 --> Session class already loaded. Second attempt ignored.
+ERROR - 2017-06-19 15:01:33 --> Severity: Warning --> Attempt to assign property of non-object C:\xampp\htdocs\dra\application\controllers\AsistenciaController.php 330
+ERROR - 2017-06-19 15:01:33 --> Severity: Notice --> Undefined property: stdClass::$full_emp C:\xampp\htdocs\dra\application\views\asistencia\format.php 56
+INFO - 2017-06-19 15:01:33 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/format.php
+INFO - 2017-06-19 15:01:38 --> Final output sent to browser
+DEBUG - 2017-06-19 15:01:38 --> Total execution time: 5.4409
+INFO - 2017-06-19 22:03:02 --> Config Class Initialized
+INFO - 2017-06-19 22:03:02 --> Hooks Class Initialized
+DEBUG - 2017-06-19 22:03:02 --> UTF-8 Support Enabled
+INFO - 2017-06-19 22:03:02 --> Utf8 Class Initialized
+INFO - 2017-06-19 22:03:02 --> URI Class Initialized
+INFO - 2017-06-19 22:03:02 --> Router Class Initialized
+INFO - 2017-06-19 22:03:02 --> Output Class Initialized
+INFO - 2017-06-19 22:03:02 --> Security Class Initialized
+DEBUG - 2017-06-19 22:03:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-06-19 22:03:02 --> Input Class Initialized
+INFO - 2017-06-19 22:03:02 --> Language Class Initialized
+INFO - 2017-06-19 22:03:02 --> Loader Class Initialized
+INFO - 2017-06-19 22:03:02 --> Helper loaded: language_helper
+INFO - 2017-06-19 22:03:02 --> Helper loaded: url_helper
+INFO - 2017-06-19 22:03:02 --> Helper loaded: form_helper
+INFO - 2017-06-19 22:03:02 --> Helper loaded: captcha_helper
+INFO - 2017-06-19 22:03:02 --> Helper loaded: util_helper
+INFO - 2017-06-19 22:03:02 --> Session: Class initialized using 'files' driver.
+INFO - 2017-06-19 22:03:02 --> User Agent Class Initialized
+INFO - 2017-06-19 22:03:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-06-19 22:03:02 --> Pagination Class Initialized
+INFO - 2017-06-19 22:03:02 --> Form Validation Class Initialized
+INFO - 2017-06-19 22:03:02 --> Model Class Initialized
+INFO - 2017-06-19 22:03:02 --> Database Driver Class Initialized
+INFO - 2017-06-19 22:03:02 --> Controller Class Initialized
+INFO - 2017-06-19 22:03:02 --> Model Class Initialized
+INFO - 2017-06-19 22:03:02 --> Model Class Initialized
+INFO - 2017-06-19 22:03:02 --> Model Class Initialized
+INFO - 2017-06-19 22:03:02 --> Helper loaded: cookie_helper
+DEBUG - 2017-06-19 22:03:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-06-19 15:03:02 --> File loaded: C:\xampp\htdocs\dra\application\views\asistencia/format.php
+INFO - 2017-06-19 15:03:06 --> Final output sent to browser
+DEBUG - 2017-06-19 15:03:06 --> Total execution time: 3.9173
