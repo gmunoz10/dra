@@ -300,7 +300,7 @@ class AsistenciaController extends CI_Controller {
         $this->load->library('pdf');
         $this->pdf->load_view('asistencia/export', $data);
         $this->pdf->render();
-        $this->pdf->stream($date.".pdf");
+        $this->pdf->stream($tipo.'_'.$date.".pdf");
     }
 
 
