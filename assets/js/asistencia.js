@@ -224,4 +224,15 @@ $(function() {
         $('[name="ofic_emp"]').val($('[name="codi_emp"] option:selected').data("ofic"));
         $('[name="docu_emp"]').val($('[name="codi_emp"] option:selected').data("docu"));
     });
+
+    $("#btn_export").click(function() {
+        $("#modal_export").modal('show');
+    });
+
+    $("#btn_select").click(function () {
+        $('#form_export [name="date"]').val($("#fech_asi_search").val());
+        $('#form_export [name="tipo"]').val($("#tipo_emp_export").val());
+        $('#form_export').submit();
+    });
+
 });

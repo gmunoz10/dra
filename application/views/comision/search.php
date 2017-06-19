@@ -10,10 +10,10 @@
                               <span class="glyphicon glyphicon-calendar">
                               </span>
                           </span>
-                          <?php if(check_permission(REGISTRAR_COMISION)) { ?>
                             <span class="input-group-btn">
                               <button id="btn_search" class="btn btn-default" style="color: black !important; font-weight: bold; border-radius: 0px !important;">Buscar</button>
                             </span>
+                          <?php if(check_permission(REGISTRAR_COMISION)) { ?>
                             <span class="input-group-btn">
                               <button id="btn_comision" class="btn btn-orange" style="color: black !important; font-weight: bold;">Nueva comisión</button>
                             </span>
@@ -102,14 +102,48 @@
                             <option value="5">5</option>
                           </select>
                       </div>
-                      <table id="tbl_comision" class="table table-bordered table-condensed table-striped">
+                      <table id="tbl_comision_con" class="table table-bordered table-condensed table-striped">
                         <thead>
                           <tr>
-                            <th>Ingreso</th>
                             <th>Salida</th>
+                            <th>Ingreso</th>
                             <th>Obsv.</th>
                           </tr>
                           <tbody>
+                          </tbody>
+                        </thead>
+                      </table>
+                    </div>
+                    <div id="box_sin_retorno">
+                      <table id="tbl_comision_sin" class="table table-bordered table-condensed table-striped">
+                        <thead>
+                          <tr>
+                            <th>Salida</th>
+                            <th>Ingreso</th>
+                            <th>Obsv.</th>
+                          </tr>
+                          <tbody>
+                            <tr>
+                              <td>  
+                                <div class="input-group date box-date">
+                                  <input type="text" class="form-control" name="sali_com" value="06:00 PM" />
+                                  <span class="input-group-addon"> 
+                                    <span class="glyphicon glyphicon-time"> 
+                                    </span> 
+                                  </span> 
+                                </div>
+                              </td>
+                              <td> 
+                                <div class="input-group date box-date"> 
+                                  <input type="text" class="form-control" name="ingr_com" value="09:00 AM" /> 
+                                  <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-time"></span> 
+                                  </span> 
+                                </div>
+                              </td>
+                              <td>
+                                <input class="form-control" name="obsv_com"> </td> 
+                              </tr>
                           </tbody>
                         </thead>
                       </table>

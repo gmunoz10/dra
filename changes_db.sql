@@ -317,3 +317,9 @@ AS
 SELECT c.*, CONCAT(e.apel_emp, ', ', e.nomb_emp) as full_asi, e.ofic_emp, e.docu_emp, e.nomb_emp, e.apel_emp
 FROM empleado e, comision c
 WHERE e.codi_emp = c.codi_emp
+
+CREATE VIEW v_detalle_comision
+AS
+SELECT c.*, d.num_dco, d.ingr_dco, d.sali_dco, d.obsv_dco
+FROM v_comision c, detalle_comision d
+WHERE c.codi_com = d.codi_com

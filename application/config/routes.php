@@ -246,6 +246,7 @@ $route['asistencia/update'] = "AsistenciaController/update";
 $route['asistencia/habilitar'] = "AsistenciaController/habilitar";
 $route['asistencia/deshabilitar'] = "AsistenciaController/deshabilitar";
 $route['asistencia/eliminar'] = "AsistenciaController/eliminar";
+$route['asistencia/export'] = "AsistenciaController/export_pdf";
 
 $route['comision'] = "ComisionController/index";
 $route['comision/paginate'] = "ComisionController/paginate";

@@ -124,6 +124,13 @@ class ComisionController extends CI_Controller {
                 $observacion = $this->input->post('obsv_com_'.$i);
                 $this->mod_comision->save_detalle(array('codi_com' => $codi_com, 'num_dco' => $i, 'ingr_dco' => $ingreso, 'sali_dco' => $salida, 'obsv_dco' => $observacion));
             }
+        } else {
+            if ($this->input->post('ingr_com') != "" && $this->input->post('sali_com') != "") {
+                $ingreso = date("H:i", strtotime($this->input->post('ingr_com')));
+                $salida = date("H:i", strtotime($this->input->post('sali_com')));
+                $observacion = $this->input->post('obsv_com');
+                $this->mod_comision->save_detalle(array('codi_com' => $codi_com, 'num_dco' => '0', 'ingr_dco' => $ingreso, 'sali_dco' => $salida, 'obsv_dco' => $observacion));
+            }
         }
 
         $type_system = "success";
@@ -162,6 +169,18 @@ class ComisionController extends CI_Controller {
                     $this->mod_comision->update_detalle($detalle_comision->codi_dco, array('codi_com' => $codi_com, 'num_dco' => $i, 'ingr_dco' => $ingreso, 'sali_dco' => $salida, 'obsv_dco' => $observacion));
                 } else {
                     $this->mod_comision->save_detalle(array('codi_com' => $codi_com, 'num_dco' => $i, 'ingr_dco' => $ingreso, 'sali_dco' => $salida, 'obsv_dco' => $observacion));
+                }
+            }
+        } else {
+            if ($this->input->post('ingr_com') != "" && $this->input->post('sali_com') != "") {
+                $ingreso = date("H:i", strtotime($this->input->post('ingr_com')));
+                $salida = date("H:i", strtotime($this->input->post('sali_com')));
+                $observacion = $this->input->post('obsv_com');
+                $detalle_comision = $this->mod_comision->get_detalle_ByNum($codi_com, 0);
+                if (!empty($detalle_comision)) {
+                    $this->mod_comision->update_detalle($detalle_comision->codi_dco, array('codi_com' => $codi_com, 'num_dco' => 0, 'ingr_dco' => $ingreso, 'sali_dco' => $salida, 'obsv_dco' => $observacion));
+                } else {
+                    $this->mod_comision->save_detalle(array('codi_com' => $codi_com, 'num_dco' => 0, 'ingr_dco' => $ingreso, 'sali_dco' => $salida, 'obsv_dco' => $observacion));
                 }
             }
         }

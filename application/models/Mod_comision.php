@@ -23,6 +23,14 @@ class Mod_comision extends CI_Model {
         }
     }
 
+    function get_detalle_comision($where) {
+        $this->db->where("esta_com", "1");
+        $this->db->where($where);
+        $this->db->order_by("num_dco", "asc");
+        $query = $this->db->get('v_detalle_comision');
+        return $query->result();
+    }
+
     function count_all() {
         $this->db->where("esta_com >", "-1");
         return $this->db->count_all_results('v_comision');

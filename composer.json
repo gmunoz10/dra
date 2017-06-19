@@ -12,7 +12,8 @@
 	},
 	"require": {
 		"php": ">=5.2.4",
-		"facebook/graph-sdk" : "~5.0"
+		"facebook/graph-sdk" : "~5.0",
+		"composer require dompdf/dompdf"
 	},
 	"require-dev": {
 		"mikey179/vfsStream": "1.1.*"

@@ -23,8 +23,12 @@ class Mod_empleado extends CI_Model {
         }
     }
 
-    function get_empleado() {
+    function get_empleado($where = false)  {
         $this->db->where("esta_emp", "1");
+        if ($where) {
+            $this->db->where($where);
+        }
+        $this->db->order_by('apel_emp asc, nomb_emp asc');
         $query = $this->db->get('empleado');
         return $query->result();
     }
@@ -32,7 +36,7 @@ class Mod_empleado extends CI_Model {
     function get_empleado_asistencia() {
         $this->db->where("esta_emp", "1");
         $this->db->where("`tipo_emp` = 'TERCERO' OR `tipo_emp` = 'CARGO DE CONFIANZA' OR `tipo_emp` = 'CAS'");
-        $this->db->order_by("apel_emp", "asc");
+        $this->db->order_by('apel_emp asc, nomb_emp asc');
         $query = $this->db->get('empleado');
         return $query->result();
     }

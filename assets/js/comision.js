@@ -1,5 +1,15 @@
 $(function() {
 
+    $('input[name="ingr_com"]').parent().datetimepicker({
+        locale: 'es',
+        format: 'hh:mm A'
+    });
+
+    $('input[name="sali_com"]').parent().datetimepicker({
+        locale: 'es',
+        format: 'hh:mm A'
+    });
+
     var detalle = [];
 
     function validarRetornos() {
@@ -7,12 +17,12 @@ $(function() {
         var bool = true;
         for (var i = 0; i < size; i++) {
             if ($('input[name="ingr_com_'+i+'"]').val()=="" || $('input[name="sali_com_'+i+'"]').val()=="") {
-                if ($('input[name="ingr_com_'+i+'"]').val()=="") {
-                    $('input[name="ingr_com_'+i+'"]').parent().removeClass('has-success').addClass('has-error');
-                    $('input[name="ingr_com_'+i+'"]').focus();
-                } else if ($('input[name="sali_com_'+i+'"]').val()=="") {
+                if ($('input[name="sali_com_'+i+'"]').val()=="") {
                     $('input[name="sali_com_'+i+'"]').parent().removeClass('has-success').addClass('has-error');
                     $('input[name="sali_com_'+i+'"]').focus();
+                } else if ($('input[name="ingr_com_'+i+'"]').val()=="") {
+                    $('input[name="ingr_com_'+i+'"]').parent().removeClass('has-success').addClass('has-error');
+                    $('input[name="ingr_com_'+i+'"]').focus();
                 }
                 bool = false;
                 break;
@@ -23,11 +33,11 @@ $(function() {
     }
 
     function add_row_detalle() {
-        var name = "_" + $('#tbl_comision tbody tr').length;
+        var name = "_" + $('#tbl_comision_con tbody tr').length;
 
-        var row = '<tr> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="ingr_com'+name+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="sali_com'+name+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <input class="form-control" name="obsv_com'+name+'"> </td> </tr>';
+        var row = '<tr> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="sali_com'+name+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="ingr_com'+name+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <input class="form-control" name="obsv_com'+name+'"> </td> </tr>';
 
-        $('#tbl_comision tbody').append(row);
+        $('#tbl_comision_con tbody').append(row);
 
         $('input[name="ingr_com'+name+'"]').parent().datetimepicker({
             locale: 'es',
@@ -43,9 +53,9 @@ $(function() {
     function put_row_detalle(index, ingreso, salida, observacion) {
         var name = "_" + index;
 
-        var row = '<tr> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="ingr_com'+name+'" value="'+ingreso+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="sali_com'+name+'" value="'+salida+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <input class="form-control" name="obsv_com'+name+'"  value="'+observacion+'"> </td> </tr>';
+        var row = '<tr> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="sali_com'+name+'" value="'+salida+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <div class="input-group date box-date"> <input type="text" class="form-control" name="ingr_com'+name+'" value="'+ingreso+'" /> <span class="input-group-addon"> <span class="glyphicon glyphicon-time"> </span> </span> </div> </td> <td> <input class="form-control" name="obsv_com'+name+'"  value="'+observacion+'"> </td> </tr>';
 
-        $('#tbl_comision tbody').append(row);
+        $('#tbl_comision_con tbody').append(row);
 
         $('input[name="ingr_com'+name+'"]').parent().datetimepicker({
             locale: 'es',
@@ -60,12 +70,12 @@ $(function() {
 
     function updateRows(number) {
         // CLEAR
-        if ($('#tbl_comision tbody tr').length > number) {
-            for (var i = $('#tbl_comision tbody tr').length; i > number; i--) {
-                $('#tbl_comision tbody tr:nth-child('+i+')').remove();
+        if ($('#tbl_comision_con tbody tr').length > number) {
+            for (var i = $('#tbl_comision_con tbody tr').length; i > number; i--) {
+                $('#tbl_comision_con tbody tr:nth-child('+i+')').remove();
             }
-        } else if ($('#tbl_comision tbody tr').length < number) {
-            for (var i = $('#tbl_comision tbody tr').length; i < number; i++) {
+        } else if ($('#tbl_comision_con tbody tr').length < number) {
+            for (var i = $('#tbl_comision_con tbody tr').length; i < number; i++) {
                 add_row_detalle();
             }
         }
@@ -78,11 +88,13 @@ $(function() {
     function check_tipo() {
         if ($('[name="tipo_com"]').val() == "0") {
             $("#box_retorno").hide();
+            $("#box_sin_retorno").show();
         } else if ($('[name="tipo_com"]').val() == "1") {
+            $("#box_sin_retorno").hide();
             $("#box_retorno").show();
 
             $('#form_com select[name="retornos"] option[value="1"]').prop("selected", true);  
-            $('#tbl_comision tbody').html("");
+            $('#tbl_comision_con tbody').html("");
                 
             updateRows($('select[name="retornos"]').val());
         }
@@ -176,9 +188,6 @@ $(function() {
                             return false;
                         }
                     } else {
-                        $("#submit_com").html('Guardar');
-                        $("#submit_com").prop('disabled', false);
-                        return false;
                     }
                 }
         });
@@ -243,8 +252,15 @@ $(function() {
                 $('#form_com select[name="retornos"] option[value="'+data.detalle.length+'"]').prop("selected", true);  
                 $('#tbl_comision tbody').html("");
                 for (var i = 0; i < data.detalle.length; i++) {
-                    put_row_detalle(i, data.detalle[i].ingr_dco, data.detalle[i].sali_dco, data.detalle[i].obsv_dco);
+                    put_row_detalle(i, moment(data.detalle[i].ingr_dco, "HH:mm").format('hh:mm A'), moment(data.detalle[i].sali_dco, "HH:mm").format('hh:mm A'), data.detalle[i].obsv_dco);
                 }
+            }
+        } else if (data.tipo_com == "0") {
+            if (data.detalle.length > 0) {
+                $('input[name="ingr_com"]').val(moment(data.detalle[0].ingr_dco, "HH:mm").format('hh:mm A'));
+                $('input[name="sali_com"]').val(moment(data.detalle[0].sali_dco, "HH:mm").format('hh:mm A'));
+                $('input[name="obsv_com"]').val(data.detalle[0].obsv_dco);
+
             }
         }
 
@@ -269,9 +285,6 @@ $(function() {
                         return false;
                     }
                 } else {
-                    $("#submit_com").html('Guardar');
-                    $("#submit_com").prop('disabled', false);
-                    return false;
                 }
             }
         });

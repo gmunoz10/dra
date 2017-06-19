@@ -9,7 +9,7 @@ class AsistenciaController extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        $this->load->model(array("mod_asistencia", "mod_empleado"));
+        $this->load->model(array("mod_asistencia", "mod_empleado", "mod_comision"));
         $this->load->helper('cookie');
     }
 
@@ -211,6 +211,96 @@ class AsistenciaController extends CI_Controller {
         set_message_system($type_system, $message_system);
 
         header('Location: ' . base_url('asistencia'));
+    }
+
+    public function export_pdf() {
+        $date = $this->input->post('date');
+        $tipo = $this->input->post('tipo');
+
+        $data['date'] = $date;
+        $data['tipo'] = $tipo;
+
+        $empleados = $this->mod_empleado->get_empleado(array('tipo_emp' => $tipo));
+
+        $asistencias = [];
+        $faltas = [];
+
+        foreach ($empleados as $row) {
+            $data_where = array(
+                'codi_emp' => $row->codi_emp,
+                'fech_asi' => $date,
+                'esta_asi' => "1"
+            );
+            $asistencia = $this->mod_asistencia->get_asistencia_row($data_where);
+            if (!empty($asistencia)) {
+                $ingreso = $asistencia->ingr_asi;
+                $salida_refri = ($asistencia->sare_asi == "") ? '-' : $asistencia->sare_asi;
+                $ingreso_refri = ($asistencia->inre_asi == "") ? '-' : $asistencia->inre_asi;
+                $salida = ($asistencia->sali_asi == "") ? 'FALTA' : $asistencia->sali_asi;
+
+                if ($asistencia->sali_asi == "") {
+                    $data_where = array(
+                        'codi_emp' => $row->codi_emp,
+                        'fech_com' => $date
+                    );
+                    $comisiones = $this->mod_comision->get_detalle_comision($data_where);
+                    if (count($comisiones) > 0) {
+                        foreach ($comisiones as $com) {
+                            if (strtotime('18:00') <= strtotime($com->sali_dco)) {
+                                $salida = 'COMISIÓN';
+                            }
+                        }
+                    }
+                }
+                
+                $asistencias[] = array(
+                    "full_emp" => $row->apel_emp . (($row->apel_emp != "") ? ', ' : "") . $row->nomb_emp,
+                    "ingreso" => $ingreso,
+                    "salida_refri" => $salida_refri,
+                    "ingreso_refri" => $ingreso_refri,
+                    "salida" => $salida
+                );
+            } else {
+                $data_where = array(
+                    'codi_emp' => $row->codi_emp,
+                    'fech_com' => $date
+                );
+                $comisiones = $this->mod_comision->get_detalle_comision($data_where);
+                if (count($comisiones) > 0) {
+                    $ingreso = 'FALTA';
+                    $salida_refri = '-';
+                    $ingreso_refri = '-';
+                    $salida = 'FALTA';
+
+                    foreach ($comisiones as $com) {
+                        if (strtotime($com->ingr_dco) <= strtotime('09:00') && strtotime('13:00') <= strtotime($com->sali_dco)) {
+                            $ingreso = 'COMISIÓN';
+                        }
+                        if (strtotime($com->ingr_dco) <= strtotime('14:00') && strtotime('18:00') <= strtotime($com->sali_dco)) {
+                            $salida = 'COMISIÓN';
+                        }
+                    }
+
+                    $asistencias[] = array(
+                        "full_emp" => $row->apel_emp . (($row->apel_emp != "") ? ', ' : "") . $row->nomb_emp,
+                        "ingreso" => $ingreso,
+                        "salida_refri" => $salida_refri,
+                        "ingreso_refri" => $ingreso_refri,
+                        "salida" => $salida
+                    );
+                } else {
+                    $faltas[] = $row->apel_emp . (($row->apel_emp != "") ? ', ' : "") . $row->nomb_emp;
+                }        
+            }
+        }
+
+        $data['asistencias'] = $asistencias;
+        $data['faltas'] = $faltas;
+
+        $this->load->library('pdf');
+        $this->pdf->load_view('asistencia/export', $data);
+        $this->pdf->render();
+        $this->pdf->stream($date.".pdf");
     }
 
 

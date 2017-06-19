@@ -3,21 +3,24 @@
 		<div class="row">
 			<div class="box-content col-md-12" style="line-height: 1.42857143; margin: 30px; width: 95%;">
 			    <h2 class="title-sisgedo">Asistencias</h2>
-                  <div class="form-group no-margin" style="width: 440px;">
+                  <div class="form-group no-margin" style="width: 510px;">
                       <div class='input-group date box-date'>
                           <input type='text' class="form-control" id='fech_asi_search' value="<?= date("Y-m-d") ?>"/>
                           <span class="input-group-addon">
                               <span class="glyphicon glyphicon-calendar">
                               </span>
                           </span>
+                          <span class="input-group-btn">
+                            <button id="btn_search" class="btn btn-default" style="color: black !important; font-weight: bold; border-radius: 0px !important;">Buscar</button>
+                          </span>
                           <?php if(check_permission(REGISTRAR_ASISTENCIA)) { ?>
-                            <span class="input-group-btn">
-                              <button id="btn_search" class="btn btn-default" style="color: black !important; font-weight: bold; border-radius: 0px !important;">Buscar</button>
-                            </span>
                             <span class="input-group-btn">
                               <button id="btn_asistencia" class="btn btn-orange" style="color: black !important; font-weight: bold;">Nueva asistencia</button>
                             </span>
                           <?php } ?>
+                          <span class="input-group-btn">
+                            <button id="btn_export" class="btn btn-danger" style="font-weight: bold;">Generar reporte</button>
+                          </span>
                       </div>
                   </div>
                 
@@ -143,6 +146,40 @@
                 <button id="submit_asi" type="submit" class="btn btn-success" style="margin-top: 20px;">Guardar</button>
             </div>
         </form>
+    </div>
+  </div>
+</div>
+
+<form id="form_export" action="<?= base_url('asistencia/export') ?>" method="post">
+  <input type="hidden" name="date">
+  <input type="hidden" name="tipo">
+</form>
+
+
+<div class="modal fade" id="modal_export" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog">
+  <div class="modal-dialog" role="document" style="width: 350px;">
+    <div class="modal-content box-content box-bold">
+      <div class="modal-header">
+          <h4 class="modal-title" id="modal_exp_lbl">Seleccione tipo de empleado</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                  <label>Tipo de empleado: </label>
+                  <select class="form-control" id="tipo_emp_export">
+                    <option value="CAS">CAS</option>
+                    <option value="TERCERO">TERCERO</option>
+                    <option value="CARGO DE CONFIANZA">CARGO DE CONFIANZA</option>
+                  </select>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+          <button id="btn_select" type="button" class="btn btn-danger">Generar reporte</button>
+      </div>
     </div>
   </div>
 </div>
